@@ -7,6 +7,7 @@ Continuum Engine powers the narrative development of AI characters through tempo
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Node Version](https://img.shields.io/badge/node-%3E%3D%2016.0.0-brightgreen)
 ![Stage](https://img.shields.io/badge/stage-experimental-orange)
+![Coverage](https://img.shields.io/badge/coverage-0%25-red)
 
 ## 🎭 Character Development
 
@@ -22,10 +23,28 @@ Continuum Engine was built to solve a specific challenge: How do you create AI c
 
 ## 🚀 Quick Start
 
+### Prerequisites
+
+- Node.js >= 16.0.0
+- Neo4j Database (local or remote)
+- OpenAI API key
+
+### Installation
+
 ```bash
 # Install globally
 npm install -g continuum-engine
 
+# Set up environment variables
+echo "OPENAI_API_KEY=your_key_here" > .env
+echo "NEO4J_URI=neo4j://localhost" >> .env
+echo "NEO4J_USER=neo4j" >> .env
+echo "NEO4J_PASSWORD=your_password" >> .env
+```
+
+### Basic Usage
+
+```bash
 # Initialize a new character
 continuum init "Zara is a quantum physicist from 2045 who discovered 
                that consciousness exists in quantum superposition. 
@@ -38,6 +57,23 @@ continuum run
 continuum query "How did Zara's discovery change her view of reality?"
 continuum explore "Tell me about her first contact with quantum consciousness"
 continuum focus "What ethical principles guide her research?"
+```
+
+### Development Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/neuraleth/continuum-engine.git
+cd continuum-engine
+
+# Install dependencies
+npm install
+
+# Build the project
+npm run build
+
+# Run in development mode
+npm run dev
 ```
 
 ## 📖 Live Example: Hustle & FlowState
@@ -67,58 +103,41 @@ Continuum Engine is being integrated with ai16z's Eliza framework to power the n
 - Enhanced temporal reasoning
 - Cross-character narrative coherence
 
-## 📝 Todo
+## 📝 Project Status
 
-- [ ] **Initial Setup**
-  - [x] Configure TypeScript and basic project structure
-  - [x] Set up dependency management
-  - [x] Create basic documentation
-  - [ ] Set up development environment guides
+### Completed
+- ✅ Basic project structure and TypeScript configuration
+- ✅ Neo4j connection management
+- ✅ Initial CLI framework
+- ✅ Basic character initialization
 
-- [ ] **Core Engine Development**
-  - [ ] Implement Neo4j embedded database integration
-  - [ ] Build temporal knowledge graph schema
-  - [ ] Create character state management system
-  - [ ] Develop narrative consistency validators
+### In Progress
+- 🔄 Temporal knowledge graph schema
+- 🔄 Character state management
+- 🔄 OpenAI integration for narrative expansion
+- 🔄 Command handlers for core operations
 
-- [ ] **CLI Implementation**
-  - [ ] Complete command handlers for all core operations
-  - [ ] Add interactive exploration mode
-  - [ ] Implement timeline visualization
-  - [ ] Add character development metrics
-
-- [ ] **OpenAI Integration**
-  - [ ] Build prompt engineering system
-  - [ ] Implement context windowing
-  - [ ] Create narrative expansion pipeline
-  - [ ] Add safety filters and content moderation
-
-- [ ] **Testing & Documentation**
-  - [ ] Write unit tests for core components
-  - [ ] Create integration tests for graph operations
-  - [ ] Complete API documentation
-  - [ ] Add usage examples and tutorials
-
-- [ ] **Performance Optimization**
-  - [ ] Implement graph caching
-  - [ ] Optimize query patterns
-  - [ ] Add batch processing for large operations
-  - [ ] Profile and optimize memory usage
-
-- [ ] **Eliza Framework Integration**
-  - [ ] Build adapter for Eliza compatibility
-  - [ ] Implement multi-agent interaction system
-  - [ ] Create cross-character narrative handlers
-  - [ ] Add temporal reasoning enhancements
+### Upcoming
+- 📅 Interactive exploration mode
+- 📅 Timeline visualization
+- 📅 Character development metrics
+- 📅 Safety filters and content moderation
 
 ## 🛠️ Technical Architecture
+
 ```
 ./
 ├── src/              # Core engine
 │   ├── cli.ts        # Character interface
 │   ├── commands/     # Interaction handlers
+│   │   ├── init.ts   # Character initialization
+│   │   ├── query.ts  # Timeline queries
+│   │   └── run.ts    # Engine execution
 │   ├── core/         # Narrative logic
+│   │   ├── engine.ts # Main engine class
+│   │   └── types.ts  # Type definitions
 │   └── db/          # Knowledge store
+│       └── neo4j.ts  # Database connection
 ├── package.json      # Dependencies
 └── tsconfig.json     # Configuration
 ```
@@ -128,10 +147,18 @@ Continuum Engine is being integrated with ai16z's Eliza framework to power the n
 - **Neo4j**: Embedded narrative graph database
 - **OpenAI**: Character expansion and interaction
 - **TypeScript**: Type-safe development
+- **Commander.js**: CLI framework
 
 ## 🤝 Contributing
 
-We welcome contributions! This is an experimental project pushing the boundaries of AI character development. Please open an issue to discuss major changes.
+We welcome contributions! This is an experimental project pushing the boundaries of AI character development. Please check our [Contributing Guide](CONTRIBUTING.md) for details.
+
+### Development Process
+1. Fork the repository
+2. Create a feature branch
+3. Implement your changes
+4. Add tests if applicable
+5. Submit a pull request
 
 ## 📄 License
 
@@ -139,8 +166,10 @@ MIT Licensed - see [LICENSE](LICENSE)
 
 ## 📚 Documentation
 
-- [Technical Specification](plan.md)
-- [API Documentation](docs/api.md)
+- [Technical Specification](docs/SPEC.md)
+- [API Documentation](docs/API.md)
+- [Development Guide](docs/DEVELOPMENT.md)
+- [Contributing Guide](CONTRIBUTING.md)
 
 ---
 
