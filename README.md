@@ -26,22 +26,54 @@ Continuum Engine was built to solve a specific challenge: How do you create AI c
 ### Prerequisites
 
 - Node.js >= 16.0.0
-- Neo4j Database 5.x (local or remote)
+- Docker (recommended) or Neo4j Desktop
 - OpenAI API key with GPT-4 access
 
-### Installation
+### Neo4j Setup
+
+#### Option 1: Using Docker (Recommended)
+```bash
+# Pull Neo4j image
+docker pull neo4j:5.13.0
+
+# Start Neo4j container
+docker run \
+    --name continuum-neo4j \
+    -p7474:7474 -p7687:7687 \
+    -e NEO4J_AUTH=neo4j/your_password \
+    -e NEO4J_PLUGINS='["apoc"]' \
+    -d neo4j:5.13.0
+
+# Verify Neo4j is running
+docker logs continuum-neo4j
+```
+
+#### Option 2: Using Neo4j Desktop
+1. Download [Neo4j Desktop](https://neo4j.com/download/)
+2. Create a new project
+3. Add a new database (version 5.x)
+4. Set password and start the database
+
+### Installation & Setup
 
 ```bash
 # Install globally
 npm install -g continuum-engine
 
-# Set up environment variables
+# Create project directory
+mkdir my-continuum-project
+cd my-continuum-project
+
+# Initialize environment
 cat << EOF > .env
 OPENAI_API_KEY=your_key_here
-NEO4J_URI=neo4j://localhost
+NEO4J_URI=neo4j://localhost:7687
 NEO4J_USER=neo4j
 NEO4J_PASSWORD=your_password
 EOF
+
+# Verify Neo4j connection
+continuum verify-db
 ```
 
 ### Basic Usage

@@ -13,10 +13,12 @@
     "prepare": "npm run build"
   },
   "dependencies": {
+    "graphology": "^0.25.4",
+    "graphology-types": "^0.24.7",
+    "graphology-serialization": "^0.5.2",
+    "openai": "^4.72.0",
     "commander": "^9.0.0",
-    "dotenv": "^16.0.0",
-    "neo4j-driver": "^5.0.0",
-    "openai": "^4.72.0"
+    "dotenv": "^16.0.0"
   },
   "devDependencies": {
     "@types/node": "^16.0.0",

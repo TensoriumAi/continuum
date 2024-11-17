@@ -1,0 +1,21 @@
+{
+  "options": {
+    "type": "mixed",
+    "multi": false,
+    "allowSelfLoops": true
+  },
+  "attributes": {},
+  "nodes": [
+    {
+      "key": "initial_event",
+      "attributes": {
+        "id": "initial_event",
+        "name": "Narrative Start",
+        "description": "pepe",
+        "timestamp": "2024-11-17T10:11:25.112Z",
+        "timelineId": "main"
+      }
+    }
+  ],
+  "edges": []
+}

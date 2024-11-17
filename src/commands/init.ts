@@ -9,6 +9,8 @@ export function registerInitCommand(program: Command): void {
     .action(async (narrative: string) => {
       try {
         const engine = new ContinuumEngine(process.env.OPENAI_API_KEY!)
+        
+        // Initialize character
         await engine.initialize(narrative)
         console.log('✨ Character initialized successfully')
       } catch (error) {

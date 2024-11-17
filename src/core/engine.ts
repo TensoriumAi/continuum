@@ -1,14 +1,14 @@
-import { Neo4jConnection } from '../db/neo4j'
 import OpenAI from 'openai'
 import { EngineEvent, EngineState, QueryResult } from './types'
+import { GraphDatabase } from '../db/graph'
 
 export class ContinuumEngine {
-  private db: Neo4jConnection
+  private db: GraphDatabase
   private state: EngineState
   private openai: OpenAI
 
   constructor(openaiApiKey: string) {
-    this.db = Neo4jConnection.getInstance()
+    this.db = GraphDatabase.getInstance()
     this.openai = new OpenAI({
       apiKey: openaiApiKey,
     })
@@ -18,29 +18,20 @@ export class ContinuumEngine {
     }
   }
 
-  async initialize(seedNarrative: string): Promise<void> {
-    const session = await this.db.getSession()
-    try {
-      // Parse the narrative and create initial graph structure
-      const initialEvents = await this.parseNarrative(seedNarrative)
-      
-      // Create events in Neo4j
-      await session.executeWrite(async tx => {
-        for (const event of initialEvents) {
-          await tx.run(`
-            CREATE (e:Event {
-              id: $id,
-              name: $name,
-              description: $description,
-              timestamp: datetime($timestamp),
-              timeline_id: $timelineId
-            })
-          `, event)
-        }
-      })
-    } finally {
-      await session.close()
+  async initialize(narrative: string): Promise<void> {
+    // Initialize the graph database
+    await this.db.initialize()
+
+    // Parse the narrative and create initial graph structure
+    const initialEvents = await this.parseNarrative(narrative)
+    
+    // Add events to the graph
+    for (const event of initialEvents) {
+      this.db.addEvent(event)
     }
+
+    // Save the graph to disk
+    await this.db.save()
   }
 
   private async parseNarrative(narrative: string) {
@@ -68,44 +59,20 @@ export class ContinuumEngine {
   }
 
   async query(question: string, options: { timeline?: string; depth?: number } = {}): Promise<QueryResult> {
-    const session = await this.db.getSession()
-    try {
-      // Get relevant events based on the query
-      const events = await this.getRelevantEvents(session, question, options)
-      
-      // Generate response using OpenAI
-      const response = await this.generateResponse(question, events)
-      
-      // Update character state based on the interaction
-      await this.updateCharacterState(session, question, response)
-      
-      return {
-        events: events as any[],
-        context: response.context,
-        explorationPaths: response.explorationPaths
-      }
-    } finally {
-      await session.close()
-    }
-  }
-
-  private async getRelevantEvents(session: any, question: string, options: any): Promise<EngineEvent[]> {
-    const depth = options.depth || 3
-    const timelineClause = options.timeline ? 'AND e.timeline_id = $timelineId' : ''
+    // Get relevant events based on the query
+    const events = this.db.query(options.timeline, options.depth);
     
-    const result = await session.run(`
-      MATCH (e:Event)
-      WHERE e.timestamp <= datetime() ${timelineClause}
-      WITH e
-      ORDER BY e.importance DESC
-      LIMIT $depth
-      RETURN e
-    `, { 
-      depth,
-      timelineId: options.timeline 
-    })
-
-    return result.records.map((record: any) => record.get('e').properties)
+    // Generate response using OpenAI
+    const response = await this.generateResponse(question, events);
+    
+    // Update character state based on the interaction
+    await this.updateCharacterState(question, response);
+    
+    return {
+      events,
+      context: response.context,
+      explorationPaths: response.explorationPaths
+    };
   }
 
   private async generateResponse(question: string, events: EngineEvent[]): Promise<any> {
@@ -159,24 +126,12 @@ Analyze the timeline and provide:
     return { context, explorationPaths }
   }
 
-  private async updateCharacterState(session: any, question: string, response: any): Promise<void> {
+  private async updateCharacterState(question: string, response: any): Promise<void> {
     // Update character state based on the interaction
-    this.state.lastQuery = question
-    this.state.lastResponse = response.context
+    this.state.lastQuery = question;
+    this.state.lastResponse = response.context;
     
-    // Store the interaction in Neo4j
-    await session.run(`
-      MATCH (c:Character {id: $characterId})
-      CREATE (i:Interaction {
-        timestamp: datetime(),
-        query: $question,
-        response: $response
-      })
-      CREATE (c)-[:HAD_INTERACTION]->(i)
-    `, {
-      characterId: this.state.character.id,
-      question,
-      response: response.context
-    })
+    // Save state to disk
+    await this.db.save();
   }
 } 

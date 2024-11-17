@@ -30,7 +30,7 @@ export interface Character {
 }
 
 export interface QueryResult {
-  events: Event[];
+  events: EngineEvent[];
   context: string;
   explorationPaths: string[];
 }
