@@ -7,7 +7,7 @@ Continuum Engine powers the narrative development of AI characters through tempo
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Node Version](https://img.shields.io/badge/node-%3E%3D%2016.0.0-brightgreen)
 ![Stage](https://img.shields.io/badge/stage-experimental-orange)
-![Coverage](https://img.shields.io/badge/coverage-0%25-red)
+![Coverage](https://img.shields.io/badge/coverage-15%25-red)
 
 ## 🎭 Character Development
 
@@ -26,8 +26,8 @@ Continuum Engine was built to solve a specific challenge: How do you create AI c
 ### Prerequisites
 
 - Node.js >= 16.0.0
-- Neo4j Database (local or remote)
-- OpenAI API key
+- Neo4j Database 5.x (local or remote)
+- OpenAI API key with GPT-4 access
 
 ### Installation
 
@@ -36,10 +36,12 @@ Continuum Engine was built to solve a specific challenge: How do you create AI c
 npm install -g continuum-engine
 
 # Set up environment variables
-echo "OPENAI_API_KEY=your_key_here" > .env
-echo "NEO4J_URI=neo4j://localhost" >> .env
-echo "NEO4J_USER=neo4j" >> .env
-echo "NEO4J_PASSWORD=your_password" >> .env
+cat << EOF > .env
+OPENAI_API_KEY=your_key_here
+NEO4J_URI=neo4j://localhost
+NEO4J_USER=neo4j
+NEO4J_PASSWORD=your_password
+EOF
 ```
 
 ### Basic Usage
@@ -50,13 +52,26 @@ continuum init "Zara is a quantum physicist from 2045 who discovered
                that consciousness exists in quantum superposition. 
                She believes this proves the multiverse is conscious."
 
-# Start the character development
+# Start interactive development session
 continuum run
 
-# Shape the character through interaction
-continuum query "How did Zara's discovery change her view of reality?"
+# Query specific aspects
+continuum query "How did Zara's discovery change her view of reality?" --depth 5
 continuum explore "Tell me about her first contact with quantum consciousness"
 continuum focus "What ethical principles guide her research?"
+```
+
+### Advanced Usage
+
+```bash
+# Query specific timeline
+continuum query "What happened in Timeline A?" --timeline timeline_A
+
+# Deep exploration with context
+continuum explore "Quantum consciousness research" --context-window 10
+
+# Focus on character development
+continuum focus "Ethical principles" --trait ethics --weight 0.8
 ```
 
 ### Development Setup
@@ -71,6 +86,9 @@ npm install
 
 # Build the project
 npm run build
+
+# Run tests
+npm test
 
 # Run in development mode
 npm run dev
@@ -98,56 +116,70 @@ $ continuum query "How did Hustle's views on AI alignment evolve in 2024?"
 ## 🔮 Upcoming: ai16z Eliza Integration
 
 Continuum Engine is being integrated with ai16z's Eliza framework to power the next generation of Hustle's character development, enabling:
-- Deeper narrative consistency
-- Multi-agent interaction modeling
-- Enhanced temporal reasoning
-- Cross-character narrative coherence
+- Deeper narrative consistency through graph-based memory
+- Multi-agent interaction modeling with temporal awareness
+- Enhanced temporal reasoning across parallel timelines
+- Cross-character narrative coherence with convergence points
 
 ## 📝 Project Status
 
 ### Completed
-- ✅ Basic project structure and TypeScript configuration
 - ✅ Neo4j connection management
-- ✅ Initial CLI framework
-- ✅ Basic character initialization
+- ✅ Basic TypeScript project structure
+- ✅ Core CLI framework with commander.js
+- ✅ Basic init command implementation
 
 ### In Progress
-- 🔄 Temporal knowledge graph schema
+- 🔄 Query command implementation
+- 🔄 Run command for interactive mode
 - 🔄 Character state management
-- 🔄 OpenAI integration for narrative expansion
-- 🔄 Command handlers for core operations
+- 🔄 Basic event storage and retrieval
 
 ### Upcoming
-- 📅 Interactive exploration mode
-- 📅 Timeline visualization
+- 📅 Explore command for deep narrative exploration
+- 📅 Focus command for character trait development
+- 📅 Timeline branching and convergence
+- 📅 Advanced temporal knowledge graph schema
+- 📅 Enhanced OpenAI prompt engineering
 - 📅 Character development metrics
+- 📅 Timeline visualization
 - 📅 Safety filters and content moderation
+- 📅 Multi-character interaction support
+- 📅 Test suite implementation
 
 ## 🛠️ Technical Architecture
 
 ```
 ./
-├── src/              # Core engine
-│   ├── cli.ts        # Character interface
-│   ├── commands/     # Interaction handlers
-│   │   ├── init.ts   # Character initialization
-│   │   ├── query.ts  # Timeline queries
-│   │   └── run.ts    # Engine execution
-│   ├── core/         # Narrative logic
-│   │   ├── engine.ts # Main engine class
-│   │   └── types.ts  # Type definitions
-│   └── db/          # Knowledge store
-│       └── neo4j.ts  # Database connection
-├── package.json      # Dependencies
-└── tsconfig.json     # Configuration
+├── src/                    # Core engine
+│   ├── cli.ts             # Command interface
+│   ├── commands/          # Command handlers
+│   │   ├── init.ts        # Initialization
+│   │   ├── query.ts       # Timeline queries
+│   │   ├── explore.ts     # Deep exploration
+│   │   ├── focus.ts       # Character focus
+│   │   └── run.ts         # Interactive mode
+│   ├── core/              # Core logic
+│   │   ├── engine.ts      # Main engine
+│   │   ├── character.ts   # Character management
+│   │   ├── timeline.ts    # Timeline handling
+│   │   └── types.ts       # Type definitions
+│   └── db/                # Data layer
+│       ├── neo4j.ts       # Graph database
+│       └── schema.ts      # Database schema
+├── test/                  # Test suite
+├── docs/                  # Documentation
+├── package.json           # Dependencies
+└── tsconfig.json          # TS config
 ```
 
 ## 🧩 Stack
 
-- **Neo4j**: Embedded narrative graph database
-- **OpenAI**: Character expansion and interaction
+- **Neo4j**: Graph database for narrative storage
+- **OpenAI GPT-4**: Character interaction and development
 - **TypeScript**: Type-safe development
 - **Commander.js**: CLI framework
+- **Jest**: Testing framework
 
 ## 🤝 Contributing
 
@@ -157,7 +189,7 @@ We welcome contributions! This is an experimental project pushing the boundaries
 1. Fork the repository
 2. Create a feature branch
 3. Implement your changes
-4. Add tests if applicable
+4. Add tests (coverage target: 80%)
 5. Submit a pull request
 
 ## 📄 License

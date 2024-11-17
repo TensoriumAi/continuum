@@ -2,7 +2,7 @@
   "name": "continuum-engine",
   "version": "1.0.0",
   "description": "AI Character Evolution Engine",
-  "main": "dist/cli.js",
+  "main": "./dist/cli.js",
   "bin": {
     "continuum": "./dist/cli.js"
   },
