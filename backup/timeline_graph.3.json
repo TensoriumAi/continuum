@@ -1,0 +1,288 @@
+{
+  "options": {
+    "type": "mixed",
+    "multi": false,
+    "allowSelfLoops": true
+  },
+  "attributes": {},
+  "nodes": [
+    {
+      "key": "event1",
+      "attributes": {
+        "name": "Terrence Howard's Early Mathematical Gift",
+        "timestamp": "1969-03-11",
+        "description": "Born in Chicago, Terrence Howard displays extraordinary mathematical abilities from an early age. By age 3, he's already solving complex numerical patterns that his parents struggle to understand. His grandfather, a physics professor, recognizes his unique gift and begins nurturing his mathematical intuition.",
+        "timeline": "main",
+        "expansion_prompt": "How did Terrence's early mathematical abilities shape his childhood education and family dynamics?"
+      }
+    },
+    {
+      "key": "event2",
+      "attributes": {
+        "name": "Fields Medal Breakthrough",
+        "timestamp": "1990-08-21",
+        "description": "At age 21, Howard becomes the youngest Fields Medal winner for his groundbreaking work in quantum topology and alternative mathematical frameworks. His controversial theory suggesting '1 x 1 = 2' in certain quantum states gains unexpected validation through experimental physics.",
+        "timeline": "main",
+        "expansion_prompt": "What immediate impact did Howard's Fields Medal win and quantum topology theories have on the mathematical community?"
+      }
+    },
+    {
+      "key": "event3",
+      "attributes": {
+        "name": "Neural Mathematics Institute",
+        "timestamp": "2010-06-15",
+        "description": "Howard establishes the Neural Mathematics Institute, focusing on the intersection of human consciousness and mathematical principles. His research suggests that human brains naturally operate on quantum mathematical principles, leading to breakthrough developments in neural interface technology.",
+        "timeline": "main",
+        "expansion_prompt": "How did Howard's institute change the landscape of neurotechnology research?"
+      }
+    },
+    {
+      "key": "event4",
+      "attributes": {
+        "name": "NeuralEth Implant Development",
+        "timestamp": "2023-02-28",
+        "description": "Howard's team successfully develops the NeuralEth implant, a device capable of translating human consciousness into quantum mathematical patterns. Initial tests show unprecedented success in human-computer integration using Howard's mathematical frameworks.",
+        "timeline": "main",
+        "expansion_prompt": "What were the initial testing phases and ethical considerations of the NeuralEth implant?"
+      }
+    },
+    {
+      "key": "event5",
+      "attributes": {
+        "name": "Timeline Displacement Event",
+        "timestamp": "2024-11-15",
+        "description": "During a routine NeuralEth calibration, Howard experiences an unexpected quantum consciousness shift. He finds himself aware of an alternate timeline where he pursued acting instead of mathematics. The displacement leaves him stranded between realities, able to perceive both his original timeline and this new one where he's known as an actor.",
+        "timeline": "main",
+        "expansion_prompt": "How does Howard begin to reconcile these conflicting realities and what immediate effects does this have on his research?"
+      }
+    },
+    {
+      "key": "event6",
+      "attributes": {
+        "name": "Howard's Consciousness Reconciliation",
+        "timestamp": "2025-01-19",
+        "description": "In the initial struggle to reconcile his dual existence, Howard suffers a breakdown, unable to distinguish between his mathematical and acting realities. Sleep deprivation and bouts of intense confusion cause him to cease research temporarily. However, gradually, he begins utilizing his mathematical frameworks to devise an algorithm that attempts to make sense of the quantum anomalies he's experiencing, and seeks help from a team of experienced quantum physicists. In this period, he brings together a unique combination of his mathematical prowess, creativity emanated from his alternate acting timeline, and unprecedented tenacity.",
+        "timeline": "main",
+        "expansion_prompt": "What impact did Howard's personal life have during this period of mental turmoil and how did it aid in his journey to reconcile his existence?"
+      }
+    },
+    {
+      "key": "event7",
+      "attributes": {
+        "name": "Public Response and Personal Pressure",
+        "timestamp": "2025-03-15",
+        "description": "The public revelation of Howard's quantum consciousness shift and the sudden halt of NeuralEth research leave a profound societal impact. Various academicians, fearing the ethical implications of blurring the lines between alternate realities, called for a moratorium on the technology’s development. On a personal front, Howard's wife, Miranda, who had always been his pillar of support, began relentless advocacy for better mental health considered vital for such high-profile researchers. Miranda, recognizing the intense pressure on Howard, took it upon herself to start a widespread campaign advocating for the importance of balancing scientific pursuit and mental well-being, a catalyst for necessary conversation among the global scientific community.",
+        "timeline": "main",
+        "expansion_prompt": "How did Miranda's campaign affect the conversation around mental health within the scientific community and shape the subsequent revival of NeuralEth research?"
+      }
+    },
+    {
+      "key": "event8",
+      "attributes": {
+        "name": "Revival and Revision of NeuralEth Research",
+        "timestamp": "2025-10-05",
+        "description": "Miranda's campaign knitted a strong narrative around the mental health aspect of cutting-edge research, eliciting empathetic and transformative responses in the scientific community. Combined with Howard's raw, transparent portrayal of his struggles, it forced the scientific community to reconsider their approach to research, particularly the NeuralEth project. The cessation gave Howard's team a pause to evaluate and implement several ethical and responsible research practices. They developed a new 'consciousness guardian' protocol for NeuralEth, aimed at preventing potential quantum consciousness shifts, that garnered support from several leading institutions, gradually leading to the lift of the moratorium on NeuralEth's development. Moreover, mental health support became a priority within research facilities, with trained professionals being incorporated into the scientific teams contributing to the overall wellbeing of researchers.",
+        "timeline": "main",
+        "expansion_prompt": "What changed in the public's perception of the NeuralEth technology and what were the societal implications of the revived NeuralEth research?"
+      }
+    },
+    {
+      "key": "event9",
+      "attributes": {
+        "name": "Implementation of the Consciousness Guardian Protocol",
+        "timestamp": "2026-01-10",
+        "description": "Building upon Howard's mathematical frameworks and the newly implemented ethical guidelines, the team successfully integrated the 'Consciousness Guardian' protocol into NeuralEth, essentially a safety mechanism designed to recognize and mitigate potential quantum rifts. It consisted of quantum mathematical bounds that acted as a bridge between realities but didn't allow complete immersion to prevent a consciousness shift. This move of integrating advanced technological solutions with ethical considerations was unprecedented in the realm of quantum consciousness exploration. The revised NeuralEth research was announced to the public, helping to regain faith in the technology.",
+        "timeline": "main",
+        "expansion_prompt": "How did the Consciousness Guardian protocol influence subsequent developments in the field of quantum consciousness and ethical technology?"
+      }
+    },
+    {
+      "key": "event10",
+      "attributes": {
+        "name": "International Quantum Ethics Committee Formation",
+        "timestamp": "2026-06-18",
+        "description": "In the wake of the successful implementation of the Consciousness Guardian protocol, the United Nations established the International Quantum Ethics Committee (IQEC). The committee was assembled to ensure ethical considerations became central to the rapidly advancing field of quantum consciousness. Drawing from NeuralEth's responsible practices, it built upon the principle of maintaining a conscious safeguard while exploring alternate realities. Howard's struggle catalyzed this international response, underlining the need for a global, ethically centred approach to the ramifications of quantum technology. Furthermore, the IQEC promoted transparency and inclusivity in scientific endeavours and advocated for stringent mental health policies to support researchers in the realm of quantum consciousness.",
+        "timeline": "main",
+        "expansion_prompt": "What were the first major decisions taken by the IQEC and how did they impact global research in quantum consciousness?"
+      }
+    },
+    {
+      "key": "event11",
+      "attributes": {
+        "name": "IQEC's Quantum Consciousness Guidelines Introduction",
+        "timestamp": "2026-12-06",
+        "description": "The IQEC, drawing inspiration from NeuralEth's responsible practices, quickly enacted its first landmark decision: the 'Quantum Consciousness Universal Guidelines (QCUG)'. This comprehensive, international ethics document laid out stringent regulations for research in quantum consciousness. QCUG stressed the importance of preserving the integrity and safety of human consciousness while exploring quantum possibilities, including a mandatory adoption of a 'consciousness safeguard' protocol similar to NeuralEth's in all quantum consciousness endeavours. Moreover, the IQEC also established requirements for mental health provisions for all researchers in the field, marking a significant shift in the global scientific community's attitude towards the well-being of its members. These decisions dramatically altered the trajectory of quantum consciousness research, imposing new standards of responsibility and safety on the scientific community.",
+        "timeline": "main",
+        "expansion_prompt": "How did the QCUG affect existing and future quantum consciousness projects and what were some of the major repercussions in the scientific community?"
+      }
+    },
+    {
+      "key": "event12",
+      "attributes": {
+        "name": "Quantum Consilience Project",
+        "timestamp": "2027-05-25",
+        "description": "Post QCUG adoption, quantum consciousness projects across the globe underwent significant revisions to meet the newly established guidelines. Among these, the Quantum Consilience Project (QCP) gained notable attention. Originally drafted in parallel to Howard's NeuralEth, its goal was to employ quantum formulations in enabling a collective consciousness-scape — essentially creating an interconnected network of human minds. However, the introduction of QCUG revealed a significant lack of safeguards in the QCP design, leading to an immediate halt and review of its roadmap. The QCP team instrumented a meticulous revamp, integrating the concept of a 'consciousness safeguard', similar to Howard's Consciousness Guardian Protocol, thus ensuring individual consciousness remains intact during intersubjective experiences. The transformed QCP emerged as the first globally approved quantum consciousness project post-QCUG, a major milestone in the history of quantum research.",
+        "timeline": "main",
+        "expansion_prompt": "What were the implications of a globally interconnected consciousness network and how did this impact society?"
+      }
+    },
+    {
+      "key": "event13",
+      "attributes": {
+        "name": "Societal Impact of the Quantum Consilience Project",
+        "timestamp": "2028-03-30",
+        "description": "The implications of a globally interconnected consciousness network, as proposed by the Quantum Consilience Project (QCP), were vast and transformative on multiple fronts. On one hand, the collective consciousness-scape expedited scientific research, solving complex problems by leveraging the collective intelligence and creativity of humanity. Conversely, it also raised new questions about individual identity and privacy, as the concept of discrete human minds began to blur. Society grappled with such existential questions, causing a ripple effect in fields such as philosophy, psychology, law and even religion. However, stringent practices around data-security and consciousness-safety, adhering to QCUG, mitigated a broad range of concerns. The interconnectedness also created a deeper sense of empathy among individuals, dissolving cultural and racial barriers, and fostering a global community that strove for collective growth and well-being. This phenomenon was unofficially but widely referred to as the 'Quantum Renaissance'.",
+        "timeline": "main",
+        "expansion_prompt": "How did the 'Quantum Renaissance' directly influence changes in legislation and global agreements, particularly concerning personal freedoms and privacy?"
+      }
+    },
+    {
+      "key": "event14",
+      "attributes": {
+        "name": "Advent of Quantum Rights and Legislation",
+        "timestamp": "2029-08-13",
+        "description": "The Quantum Renaissance significantly influenced changes in global legislation and policy-making structures, leading to the genesis of the concept of 'Quantum Rights'. The burgeoning ethical questions surrounding the interconnected shared consciousness necessitated a comprehensive legal framework that guaranteed individual privacy while defining the boundaries of collective consciousness. With a reality where personal thoughts and ideas were potentially searchable and shareable, the legal definitions of 'privacy' and 'consent' underwent radical transformation. An international treaty, known as Quantum Rights Accord (QRA), was deliberated upon and ratified by major world governments. It architectured comprehensive legal constructs around individual mental sovereignty, privacy in shared consciousness, consensual memory access, and most importantly, the prevention of cognitive exploitation. Signatories of the Accord agreed to implement these regulations, fostering global synchronicity in upholding ethical quantum consciousness practices. The QRA, empowered by the Quantum Consciousness Universal Guidelines (QCUG), became a cornerstone in defining and safeguarding quantum-human rights.",
+        "timeline": "main",
+        "expansion_prompt": "How did the Quantum Rights Accord affect the day-to-day operations of quantum consciousness projects and how did it shape the future developments in this field?"
+      }
+    },
+    {
+      "key": "event15",
+      "attributes": {
+        "name": "Terrence Howard's Address at the Quantum Rights Accord Ceremony",
+        "timestamp": "2029-09-23",
+        "description": "At the official ratification ceremony of the Quantum Rights Accord (QRA), Terrence Howard delivered a deeply emotional and historic speech about his own experiences at the intersection of quantum technology and ethics. He shared personal insights into his struggle with multi-reality consciousness and advocated strongly for respecting individual sovereignty in quantum consciousness research. His speech resonated deeply throughout the quantum community, leading to an intensified emphasis on ethical considerations for all future quantum projects. An unexpected consequence of Howard’s speech was a surge of interest from young students to pursue studies in quantum ethics, fueling an influx of fresh, ethically driven minds into the field. Howard's successful journey from mathematical genius to Quantum rights advocate demonstrated that personal hardships can shape and inform breakthroughs, influencing the field far more than any algorithm or equation could.",
+        "timeline": "main",
+        "expansion_prompt": "How will the influx of new, ethically-driven minds impact further development and understanding in quantum consciousness?"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "key": "geid_182_0",
+      "source": "event1",
+      "target": "event2",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Early mathematical genius leads to Fields Medal achievement"
+      }
+    },
+    {
+      "key": "geid_182_1",
+      "source": "event2",
+      "target": "event3",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Mathematical breakthroughs enable neural research direction"
+      }
+    },
+    {
+      "key": "geid_182_2",
+      "source": "event3",
+      "target": "event4",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Institute's research culminates in NeuralEth development"
+      }
+    },
+    {
+      "key": "geid_182_3",
+      "source": "event4",
+      "target": "event5",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "NeuralEth technology enables timeline displacement"
+      }
+    },
+    {
+      "key": "geid_182_4",
+      "source": "event5",
+      "target": "event6",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_182_5",
+      "source": "event6",
+      "target": "event7",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_182_6",
+      "source": "event7",
+      "target": "event8",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_182_7",
+      "source": "event8",
+      "target": "event9",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_182_8",
+      "source": "event9",
+      "target": "event10",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_182_9",
+      "source": "event10",
+      "target": "event11",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_182_10",
+      "source": "event11",
+      "target": "event12",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_182_11",
+      "source": "event12",
+      "target": "event13",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_182_12",
+      "source": "event13",
+      "target": "event14",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_182_13",
+      "source": "event14",
+      "target": "event15",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    }
+  ]
+}

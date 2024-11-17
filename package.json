@@ -1,28 +1,10 @@
 {
-  "name": "continuum-engine",
+  "name": "continuum",
   "version": "1.0.0",
-  "description": "AI Character Evolution Engine",
-  "main": "./dist/cli.js",
-  "bin": {
-    "continuum": "./dist/cli.js"
-  },
-  "scripts": {
-    "build": "tsc",
-    "start": "node dist/cli.js",
-    "dev": "ts-node src/cli.ts",
-    "prepare": "npm run build"
-  },
+  "type": "module",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "graphology": "^0.25.4",
-    "graphology-types": "^0.24.7",
-    "graphology-serialization": "^0.5.2",
-    "openai": "^4.72.0",
-    "commander": "^9.0.0",
-    "dotenv": "^16.0.0"
-  },
-  "devDependencies": {
-    "@types/node": "^16.0.0",
-    "ts-node": "^10.0.0",
-    "typescript": "^4.5.0"
+    "openai": "^4.28.0"
   }
 }

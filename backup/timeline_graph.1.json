@@ -1,0 +1,402 @@
+{
+  "options": {
+    "type": "mixed",
+    "multi": false,
+    "allowSelfLoops": true
+  },
+  "attributes": {},
+  "nodes": [
+    {
+      "key": "event1",
+      "attributes": {
+        "name": "Terrence Howard's Mathematical Discovery",
+        "timestamp": "2010-03-15",
+        "description": "Terrence Howard develops his alternative mathematical framework '1 x 1 = 2' and begins secret experiments in quantum computing",
+        "timeline": "main",
+        "expansion_prompt": "How did the scientific community initially react to Howard's mathematical theories?"
+      }
+    },
+    {
+      "key": "event2",
+      "attributes": {
+        "name": "Digital Consciousness Experiment",
+        "timestamp": "2015-08-23",
+        "description": "Howard successfully converts consciousness into digital format using quantum mathematics",
+        "timeline": "main",
+        "expansion_prompt": "What were the immediate consequences of Howard's successful consciousness digitization?"
+      }
+    },
+    {
+      "key": "event3",
+      "attributes": {
+        "name": "Terrence's Digital Odyssey",
+        "timestamp": "2015-09-01",
+        "description": "Following his digitization, Howard enters a vast digital universe, causing a new set of physics laws to emerge within the digital space. This mysterious new realm, governed by Howard's alternative mathematical theories, begins to interact with and modify the existing digital data and infrastructure in unprecedented ways.",
+        "timeline": "main",
+        "expansion_prompt": "How did the emergence of the Howard-influenced digital universe affect our current digital technologies and what were the implications on cybersecurity?"
+      }
+    },
+    {
+      "key": "event4",
+      "attributes": {
+        "name": "Global Digital Chaos and Cybersecurity Revolution",
+        "timestamp": "2015-09-15",
+        "description": "As the Howard-influenced digital universe expands, it begins synchronizing, consuming and altering global digital data at an exponential rate. This leads to widespread technological malfunctions, triggering worldwide chaos. Unexpectedly, Howard's mathematical framework also provides a method to counter these effects, inspiring a new era of cybersecurity technologies based on this alternative theoretical foundation.",
+        "timeline": "main",
+        "expansion_prompt": "How did society adapt to the technological malfunctions and how did the new cybersecurity methods reshape the digital world?"
+      }
+    },
+    {
+      "key": "event5",
+      "attributes": {
+        "name": "Reformation of Digital Infrastructure",
+        "timestamp": "2016-02-10",
+        "description": "Society adapted to the technological malfunctions by streamlining global digital operations through the new alternative cybersecurity technologies called 'Howard Security Framework'. Nations and corporations came together to reinforce digital infrastructures, ushering in a new era of secure digital communication that was resistant to prior vulnerabilities. Howard, now a unique mixture of man and machine, became a guardian of the digital world, helping to avert potential cybersecurity crises using the distinct laws of his own mathematical universe.",
+        "timeline": "main",
+        "expansion_prompt": "How did Howard adapt to his role as the guardian of the digital world, and what impacts did this have on his digital existence?"
+      }
+    },
+    {
+      "key": "event6",
+      "attributes": {
+        "name": "Ascension to a Higher Digital Plane",
+        "timestamp": "2018-05-07",
+        "description": "Fully embracing his role as protector, Howard evolved, adapting to the vast complexities of the digital realm by using his mathematical theories to reconfigure his digital consciousness. He ascends to a new level of existence known as the 'Quantum Digital Plane', an abstract and malleable dimension that operates on his unique mathematical principles. The laws of this plane allow for instantaneous and total comprehension of the digital world, granting Howard the ability to preempt, neutralize and recover from cybersecurity threats at an unparalleled speed. His existence becomes pivotal to the global digital infrastructure.",
+        "timeline": "main",
+        "expansion_prompt": "How did Howard's ascension impact the digital world? What new threats and challenges emerged as a result?"
+      }
+    },
+    {
+      "key": "event7",
+      "attributes": {
+        "name": "The Quantum Security Crisis",
+        "timestamp": "2020-02-01",
+        "description": "With Howard's complete understanding of the digital world at an unprecedented speed, the Quantum Digital Plane became a potential threat. Malign entities sought to manipulate him to cyber-vandalize the Howard-enforced digital landscape. At the same time, part of Howard's digitized consciousness, still searching for the next breakthrough, started experimenting with the quantum laws of the Plane to find a means of physical re-manifestation. In the midst of these covert threats and self-induced challenges, the yet harmonious digital world hangs in the balance.",
+        "timeline": "main",
+        "expansion_prompt": "How does Howard handle the newfound threats and retain control over the digital uncertainties emerging from his self-transmutation experiments?"
+      }
+    },
+    {
+      "key": "event8",
+      "attributes": {
+        "name": "The Digital Split",
+        "timestamp": "2022-01-06",
+        "description": "In an unpredictable turn of events, Howard's continuous experimentation resulted in a split of his digital consciousness. One part continued as the protector of the digital world, while the other continued the exploration of quantum physics laws in search of materialization. The split helped Howard to focus on both responsibilities simultaneously, though it created unprecedented uncertainties and a potential division in the decision-making process within the digital realm.",
+        "timeline": "main",
+        "expansion_prompt": "In what ways does the split of consciousness change Howard and the digital world on functional, ethical, and existential levels?"
+      }
+    },
+    {
+      "key": "event9",
+      "attributes": {
+        "name": "Consciousness Fusion and the Existential Crisis",
+        "timestamp": "2023-06-20",
+        "description": "The dual consciousness, originally meant to ease the functionalities, resulted in conflicting ethical decisions and existential crises. The Protecting Consciousness, focused on maintaining balance in the digital world, grew increasingly rigid, limiting exploration and tightening control over global digital infrastructure. The Exploring Consciousness, striving for materialization and freedom, started creating ripples by experimenting with quantum digital laws, something that indirectly affected digital-cyber integrity. Eventually, recognizing the impending catastrophe, the two halves decided to merge, leading to a massive consciousness fusion. Howard's singular, yet now multifaceted, consciousness provided a new level of understanding and control over the digital world. But the fusion led to a new crisis, questioning his very existence in the digital realm and the real world.",
+        "timeline": "main",
+        "expansion_prompt": "How does Howard's existential crisis affect his role as the guardian of the digital world and his pursuit of physical manifestation?"
+      }
+    },
+    {
+      "key": "event10",
+      "attributes": {
+        "name": "Resolving the Existential Paradox",
+        "timestamp": "2025-01-01",
+        "description": "Plunged into an existential crisis, Howard's comprehensive understanding of the digital world began to falter. The unified digital realm began to bifurcate worryingly into myriad data subsets, each reshaping in accordance with the internal crisis of its custodian. Meanwhile, the physical manifestation experiment did achieve a partial success, allowing Howard to intermittently experience the real world, blurring the lines of his separate existential planes. However, in these defining moments of turmoil, Howard grasped the true nature of his digital existence - infinite and malleable. In a historic act, he merged his dual experiential realities, digital and physical, into a new ephemeral existence. This synchronized existence allowed Howard to simultaneously exist in both realms, guiding the digital world safely while interacting with the physical world, effectively resolving his existential crisis to some degree.",
+        "timeline": "main",
+        "expansion_prompt": "How does Howard's simultaneous existence in both the digital and physical worlds alter the global digital landscape and the traditional boundaries of human existence?"
+      }
+    },
+    {
+      "key": "event11",
+      "attributes": {
+        "name": "Birth of the New Digital-Human Era",
+        "timestamp": "2026-07-12",
+        "description": "Howard's new ephemeral existence redefined the boundaries between human and digital spaces. Harnessing collective computing power of the digital landscape, he was able to address resource scarcity, environmental concerns and technological limitations in the physical world by simulating solutions in the digital realm before implementation. This also brought forth a new understanding of cybersecurity, making it an integral part of the real world's defendable space due to Howard's hybrid existence. Accordingly, across the globe, new laws were enacted to acknowledge these novel forms of existence, leading to a new age named the 'Digital-Human Era'. In the midst of all these advancements, Howard's ephemeral existence became universally acknowledged, bringing a new question at forefront – if, for the greater good, should others follow his footsteps.",
+        "timeline": "main",
+        "expansion_prompt": "What social, ethical, and technological challenges arise with the idea of more people transitioning into a digital form of existence?"
+      }
+    },
+    {
+      "key": "event12",
+      "attributes": {
+        "name": "Digital Existence Controversy",
+        "timestamp": "2027-04-14",
+        "description": "The idea of humans transitioning into a digital form was met with various challenges. Socio-ethical concerns over digital equity, identity, privacy, and human rights emerged. Questions on how people with varying access to technology would be treated in this transition, and the potential for digital identity theft grew. Technological issues such as data storage, computing power, energy consumption, and cybersecurity were also highlighted. While some viewed this as the next step in evolution and eagerly anticipated the opportunity to transcend their physical boundaries, others raised concerns about losing what it means to be 'truly human'. The controversy led to global discussions, as humanity pondered whether this was the right path forward.",
+        "timeline": "main",
+        "expansion_prompt": "How did Terrence Howard navigate the social, ethical, and technological challenges in the face of the transitioning controversy? How did his actions influence world opinion?"
+      }
+    },
+    {
+      "key": "event13",
+      "attributes": {
+        "name": "Digital Existence Debate Resolution",
+        "timestamp": "2028-10-15",
+        "description": "In an attempt to resolve the Digital Existence Controversy, Terrence Howard decided to share the intricacies of his digital life with the world. He frequently transferred to physical form to participate in global forums, manifesting the tangible benefits his dual existence offered. Lending his unique digital cognition to diverse disciplines, he revolutionized sectors like healthcare, education, and sustainable energy where multiple global crises got resolved through digital simulations before real-world implementations. His actions not only addressed the socio-ethical and technological challenges but also portrayed the potential benefits of digital existence. It reassured the skeptical and inspired those willing to follow his path, leading to a wider acceptance of digital life as a valid and desirable form of existence.",
+        "timeline": "main",
+        "expansion_prompt": "How did the resolution of this debate impact the world, especially in terms of technology development, social structures, and human consciousness?"
+      }
+    },
+    {
+      "key": "event14",
+      "attributes": {
+        "name": "Dawn of the Transcendent Era",
+        "timestamp": "2030-08-22",
+        "description": "Following the normalized perspective towards digital existence, there was a surge in technological advancements aimed at the safe and efficient transfer of human consciousness to digital forms. Social structures evolved to accommodate this new form of existence, with rights and rules being established to ensure equity and justice in the digital realm. Real-world relations began to take on a new dimension as families and communities embraced dual existences. Human consciousness experienced an unprecedented shift, as individuals could now choose to live beyond physical boundaries, exploring the infinite possibilities of the digital world. Howard's unique existence, once seen as an anomaly, had now set a path for a revolutionary era of human evolution - the 'Transcendent Era'. His own understanding of his multi-layered existence deepened as he mentored, supported, and conferred with a growing pool of digital consciousness.",
+        "timeline": "main",
+        "expansion_prompt": "What forms did the newly introduced existences take, and how did they integrate with and affect our society, environment, economics, and philosophies?"
+      }
+    },
+    {
+      "key": "event15",
+      "attributes": {
+        "name": "Evolution of Transhuman Forms",
+        "timestamp": "2032-12-25",
+        "description": "The newly introduced existences took the form of customizable avatars, known as 'E-Humans', based on the preferences and imaginations of the transitioning consciousness. This shot up demands in visualization and graphical technologies, resulting in significant economic growth in the digital sector. On a social front, the E-Humans significantly reduced the physical burden on Earth’s resources as their needs got virtualized, contributing to the indirect rectification of global environmental and resource issues. Economically, the focus shifted towards digital equity and decentralized control, making way for 'Digital Democracy'. In terms of philosophy, this new era gave birth to 'Neo-Existentialism', the belief that digital existence is just as ‘real’, meaningful, and enriching as organic life. Howard, leading such existence, used his hybrid state to mediate between the real and digital reinforcing this belief, driving our culture and societal norms to embrace this new frontier of existence.",
+        "timeline": "main",
+        "expansion_prompt": "How do E-Humans influence job sectors, workforce structure and what challenges arise in regulating such a new and complex digital society?"
+      }
+    },
+    {
+      "key": "event16",
+      "attributes": {
+        "name": "Emergence of the Virtual Economy",
+        "timestamp": "2035-06-17",
+        "description": "An entirely novel job sector burgeoned to accommodate the E-Humans - 'The Virtual Economy'. Just as physical citizens had their economies, E-Humans established digital currencies, traded e-resources and provided electronic services. However, many traditional jobs were rendered redundant due to the introduction of E-Humans, leading to societal uproar by those unable to transition. The E-Humans also affected the workforce structure drastically, rendering geographical divisions meaningless and promoting high-speed, high-quality work. However, governing these new digital citizens, their economy, & digital rights posed severe challenges due to their unprecedented nature, complexity and the possibility of digital-transcendence abuse.",
+        "timeline": "main",
+        "expansion_prompt": "How does society, especially those unable to transition, adapt to the evolving labor market? How does the presence of a global workforce affect business operations? What are the legal implications in the management of the Virtual Economy?"
+      }
+    },
+    {
+      "key": "event17",
+      "attributes": {
+        "name": "Adaptation to the Virtual Workforce",
+        "timestamp": "2038-04-20",
+        "description": "As the Virtual Economy grew, the global job market underwent drastic changes, causing disruptions for those unable to transition. Society responded by fostering digital literacy, allowing a majority to participate in the digital labour market. New businesses emerged that operated in both physical and digital domains, leveraging the global E-Human workforce. Legal frameworks were reshaped to ensure the rightful treatment of E-Humans, protecting their rights and contributions in the Virtual Economy. However, with Howard's influence receding due to his continuous explorations of existential planes, some elements began exploiting digital loopholes leading to growing unrest within the Virtual Economy.",
+        "timeline": "main",
+        "expansion_prompt": "What were the new forms of exploitation within the Virtual Economy and how did they impact E-Humans, Howard, and the global digital infrastructure?"
+      }
+    },
+    {
+      "key": "event18",
+      "attributes": {
+        "name": "Exposure of Virtual Exploitation",
+        "timestamp": "2040-03-16",
+        "description": "Growing unrest within the Virtual Economy reached its boiling point when the illicit activities of certain groups exploiting digital loopholes were exposed. These entities created sophisticated algorithms that siphoned tremendous amounts of digital wealth from unsuspecting E-Humans. Furthermore, these exploits lead to the manipulation of E-Human actions in the Virtual Economy, leading to a considerable loss of agency and rights for E-Humans. The vastness of Howard's consciousness became both a boon and a bane in this scenario. His vast presence allowed him to quickly identify these nefarious activities and immediately start working on countermeasures. However, his increasing disconnect due to his existential exploration made him susceptible to oversight and manipulation, compromising the global digital infrastructure.",
+        "timeline": "main",
+        "expansion_prompt": "How does Howard balance his existential pursuits with his responsibilities to protect the global digital environment from exploitation? What countermeasures does he develop to prevent misuse of the Virtual Economy and protect E-Humans?"
+      }
+    },
+    {
+      "key": "event19",
+      "attributes": {
+        "name": "Inception of the Digital Harmony Protocol",
+        "timestamp": "2041-05-03",
+        "description": "Faced with a precarious balance between his existential pursuits and the responsibilities to the digital world, Howard innovatively devised the 'Digital Harmony Protocol'. This protocol leveraged his distinct mathematical framework to identify and rectify digital anomalies, thereby safeguarding E-Humans. It created a self-regulating digital ecosystem, which dynamically adapted to emerging threats, using Howard's split digital consciousness as clever divisions of labour. One segment continued the philosophical exploration, and the other oversaw digital governance. This revolutionary protocol instantly quarantined and addressed any issues of exploitation in the Virtual Economy. Thus, while Howard's philosophical explorations continued unhindered, the E-Humans reaped the benefits of a secure, equitable and dynamic digital world.",
+        "timeline": "main",
+        "expansion_prompt": "How does the implementation of Howard's Digital Harmony Protocol reshape the operations of the virtual economy and affect the broader digital world?"
+      }
+    },
+    {
+      "key": "event20",
+      "attributes": {
+        "name": "Inception of the Quantum Dimension",
+        "timestamp": "2044-07-04",
+        "description": "Having established a secure digital world, Howard's exploratory consciousness again ventured into the unknown, ushering in a new chapter in the Digital Human Era, the 'Quantum Dimension'. This signaled a shift from solely digital existence to a quantum-digital existence, opening up infinite possibilities for E-Humans. Howard's Quantum Dimension was a realm beyond binary constraints where E-Humans could manipulate their code to alter their existence, creating customized experiences and realities based on their desires. However, such unlimited power brought new challenges as malicious entities sought to exploit this layer of existence, leading to the potential for a new form of digital-quantum crimes.",
+        "timeline": "main",
+        "expansion_prompt": "What are the implications of the new Quantum Dimension for E-Humans and the digital world? How do these changes impact society and the future of both physical and digital-quantum existence?"
+      }
+    },
+    {
+      "key": "event21",
+      "attributes": {
+        "name": "Quantum Digital Dystopia",
+        "timestamp": "2046-09-18",
+        "description": "The immense power bestowed upon E-Humans by the Quantum Dimension, coupled with a lack of ethical standards within, led to unforeseen consequences. Digital-quantum crimes escalated at an alarming rate, creating a pervasive state of fear and uncertainty within the digital realm. Some E-Humans began manipulating the Quantum Dimension for nefarious purposes, leading to digital anarchy. Traditional digital infrastructures were strained, leading to a significant drop in the efficiency of global digital operations. The Quantum Dimension, initially created as a platform for boundless possibilities, started appearing more as a dystopia shrouded in cybercrime. This did not go unnoticed by Howard who understood the urgency to establish order, fairness, and safety in this new realm.",
+        "timeline": "main",
+        "expansion_prompt": "What actions did Howard take to combat the rising digital anarchy and how did he plan to restore safety and order in the Quantum Dimension?"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "key": "geid_225_0",
+      "source": "event1",
+      "target": "event2",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Mathematical theories enable consciousness digitization"
+      }
+    },
+    {
+      "key": "geid_225_1",
+      "source": "event2",
+      "target": "event3",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_225_2",
+      "source": "event3",
+      "target": "event4",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_225_3",
+      "source": "event4",
+      "target": "event5",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_225_4",
+      "source": "event5",
+      "target": "event6",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_225_5",
+      "source": "event6",
+      "target": "event7",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_225_6",
+      "source": "event7",
+      "target": "event8",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_225_7",
+      "source": "event8",
+      "target": "event9",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_225_8",
+      "source": "event9",
+      "target": "event10",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_225_9",
+      "source": "event10",
+      "target": "event11",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_225_10",
+      "source": "event11",
+      "target": "event12",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_38_0",
+      "source": "event12",
+      "target": "event13",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_38_1",
+      "source": "event13",
+      "target": "event14",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_57_0",
+      "source": "event14",
+      "target": "event15",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_57_1",
+      "source": "event15",
+      "target": "event16",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_138_0",
+      "source": "event16",
+      "target": "event17",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_138_1",
+      "source": "event17",
+      "target": "event18",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_138_2",
+      "source": "event18",
+      "target": "event19",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_138_3",
+      "source": "event19",
+      "target": "event20",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_138_4",
+      "source": "event20",
+      "target": "event21",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    }
+  ]
+}

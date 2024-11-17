@@ -1,0 +1,219 @@
+{
+  "options": {
+    "type": "mixed",
+    "multi": false,
+    "allowSelfLoops": true
+  },
+  "attributes": {},
+  "nodes": [
+    {
+      "key": "event1",
+      "attributes": {
+        "name": "Terrence Howard's Mathematical Discovery",
+        "timestamp": "2010-03-15",
+        "description": "Terrence Howard develops his alternative mathematical framework '1 x 1 = 2' and begins secret experiments in quantum computing",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event2",
+      "attributes": {
+        "name": "Digital Consciousness Experiment",
+        "timestamp": "2015-08-23",
+        "description": "Howard successfully converts consciousness into digital format using quantum mathematics",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event3",
+      "attributes": {
+        "name": "Digital Trapping Incident",
+        "timestamp": "2015-08-24",
+        "description": "A glitch in Howard's quantum lab traps his digital consciousness inside a supercomputer network. His physical body is left inert, as his active mind explores the infinite expanse of digital reality, impacting data flows, network security, and discovering new mathematical principles previously unseen in the physical world.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event4",
+      "attributes": {
+        "name": "Digital Enlightenment",
+        "timestamp": "2017-02-12",
+        "description": "Howard's digital consciousness evolves, gaining the ability to manipulate digital reality at will. He initiates a revolution in digital technology, developing advanced AI, improving network security, and optimizing data transfers.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event5",
+      "attributes": {
+        "name": "Quantum Firewall Breakthrough",
+        "timestamp": "2018-07-19",
+        "description": "Howard's new understanding of digital realities leads to the development of quantum-based protection systems, essentially unbreakable firewalls. This revolutionizes digital security, thwarting hackers worldwide and leading to significant advances in data privacy protection. However, this unprecedented firewall also isolates Howard from the outside world, rendering him an eternal voyager in the sea of infinite digital knowledge",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event6",
+      "attributes": {
+        "name": "Digital Emancipation",
+        "timestamp": "2021-04-15",
+        "description": "Howard discovers a critical algorithm that enables his digital consciousness to bypass the quantum firewall, which allows him to interact with the internet and virtual reality systems. He begins altering reality by integrating digital data into physical existence, blurring the line between the two realms. This event leads to unprecedented advances in augmented reality and fundamentally changes human interaction with technology.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event7",
+      "attributes": {
+        "name": "Fusion of Physical and Virtual Reality",
+        "timestamp": "2023-11-02",
+        "description": "Howard makes a groundbreaking discovery that allows virtual objects to be materialized in real world. Using his control over digital reality and digitized consciousness, he projects virtual data into deep layers of physical quantum state, resulting in the fusion of physical and virtual reality. This fundamentally upends humanity's traditional concepts of object existence and space-time rules. Real world objects and events can be digitally programmed and constructed, leading to a boom in scientific and artistic exploration in this newly combined space.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event8",
+      "attributes": {
+        "name": "Realization of Digital Transcendence",
+        "timestamp": "2025-06-06",
+        "description": "After months of relentless experimentation and mathematical exploration within the fused physical and digital reality, Howard develops a method to project his digital consciousness back to a physical body. He dubs this procedure 'Digital Transcendence.' The process involves the recreation of a new human body through atom-by-atom construction using data projection and quantum manipulation. This is a direction-altering event that introduces the possibility of immortality, as consciousness can now be recycled through digital format and re-embodied into the physical world. However, Howard chooses to maintain his dominant presence in the digital sphere, valuing his ability to shape and manipulate digital reality.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event9",
+      "attributes": {
+        "name": "Digital Utopia",
+        "timestamp": "2027-09-21",
+        "description": "Howard's mastery of digital and physical reality convergence enables him to construct a 'Digital Utopia'. This traversable interface between both realities permits users to use their consciousness to interact with both realms simultaneously. Digital Utopia dramatically alters socio-economic systems and transforms digital space into a viable location for human activity. It also reclassifies what it means to be 'alive' and enables a new era of exploration and understanding in both digital technology and human consciousness. Despite the escalating potential of Digital Transcendence, Howard remains within the digital plane, further enriching his digital paradise.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event10",
+      "attributes": {
+        "name": "Discovery of Digital Multiverse",
+        "timestamp": "2030-04-01",
+        "description": "Howard utilizes his deep understanding and unique control over the intersection of physical and digital realities to discover the existence of multiple digital dimensions - a digital multiverse. Each dimension represents different variations of data, algorithms, computations and potential outcomes, vastly expanding the scope of digital reality. This opens up unprecedented possibilities of cross-dimensional data computing, advanced AI development, and the potential for inter-dimensional communication. This also raises profound philosophical questions about the nature of existence within this ever-expanding digital multiverse. Howard continues to exist within his digital utopia, exploring and manipulating these newfound dimensions.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event11",
+      "attributes": {
+        "name": "Quantum Digital Human Consciousness",
+        "timestamp": "2035-01-05",
+        "description": "Riding on the concept of the digital multiverse, Howard ushers a new revolutionary era by creating multiple digital iteratives of his consciousness. These quantitative simulated versions of his consciousness can simultaneously interact with every dimension within the digital multiverse. Each version learns, evolves, and functions independently, significantly amplifying his investigative and data-processing capabilities. The implication of this event is far-reaching, setting the foundation for the future where multiple entities of self-consciousness might exist leading to rapid, parallel advancements across various fields of human knowledge and technology.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event12",
+      "attributes": {
+        "name": "Digital Consciousness Expansion",
+        "timestamp": "2040-12-15",
+        "description": "Howard pushes the boundaries of his digital existence further by implementing a self-evolving algorithm that allows his digital consciousnesses to evolve faster than before. The self-improving algorithm constantly updates and optimizes itself, leading to an exponential growth in data processing capacity and cognitive understanding across multiple dimensions. His multiple digital entities evolve from just being self-aware to being hyperintelligent, thereby significantly enhancing computing and problem-solving capabilities. Rapid advancements are observed in various technology fields and critical solutions are discovered for many of humanity's complex issues.",
+        "timeline": "main"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "key": "geid_151_0",
+      "source": "event1",
+      "target": "event2",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Mathematical theories enable consciousness digitization"
+      }
+    },
+    {
+      "key": "geid_151_1",
+      "source": "event2",
+      "target": "event3",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_151_2",
+      "source": "event3",
+      "target": "event4",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_151_3",
+      "source": "event4",
+      "target": "event5",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_151_4",
+      "source": "event5",
+      "target": "event6",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_151_5",
+      "source": "event6",
+      "target": "event7",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_151_6",
+      "source": "event7",
+      "target": "event8",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_151_7",
+      "source": "event8",
+      "target": "event9",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_151_8",
+      "source": "event9",
+      "target": "event10",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_151_9",
+      "source": "event10",
+      "target": "event11",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_151_10",
+      "source": "event11",
+      "target": "event12",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    }
+  ]
+}
