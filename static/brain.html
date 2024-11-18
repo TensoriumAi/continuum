@@ -1,0 +1,1453 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Neural Timeline Explorer</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://unpkg.com/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/tween.umd.js"></script>
+    <script src="https://unpkg.com/three-spritetext"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+
+        #canvas-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .node-label {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            pointer-events: none;
+            display: none;
+        }
+
+        .controls {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 100;
+        }
+
+        .controls button {
+            background: rgba(0, 170, 255, 0.2);
+            border: 1px solid rgba(0, 170, 255, 0.5);
+            color: #fff;
+            padding: 8px 15px;
+            margin: 0 5px;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.2s ease;
+        }
+
+        .controls button:hover {
+            background: rgba(0, 170, 255, 0.3);
+        }
+
+        .layout-buttons {
+            margin-top: 10px;
+            display: flex;
+            gap: 5px;
+            justify-content: center;
+        }
+
+        .info-panel {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            width: 400px;
+            background: rgba(0, 10, 20, 0.85);
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid rgba(0, 170, 255, 0.3);
+            box-shadow: 0 0 20px rgba(0, 170, 255, 0.2);
+            display: none;
+            backdrop-filter: blur(5px);
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 11px;
+            line-height: 1.2;
+            transition: opacity 0.3s ease;
+        }
+
+        .info-panel h3 {
+            color: #00aaff;
+            margin-bottom: 6px;
+            font-size: 14px;
+            line-height: 1.1;
+        }
+
+        .info-panel .date {
+            color: #0088cc;
+            font-size: 10px;
+            margin-bottom: 8px;
+        }
+
+        .info-panel .description {
+            color: #fff;
+            font-size: 11px;
+            line-height: 1.2;
+            margin-bottom: 12px;
+        }
+
+        .floating-data {
+            position: absolute;
+            pointer-events: none;
+            color: rgba(0, 170, 255, 0.7);
+            font-size: 12px;
+            text-shadow: 0 0 5px rgba(0, 170, 255, 0.5);
+        }
+
+        .expansion-prompt {
+            margin-top: 8px;
+            padding: 8px;
+            background: rgba(255, 170, 0, 0.1);
+            border-radius: 8px;
+            border: 1px solid rgba(255, 170, 0, 0.3);
+        }
+
+        .prompt-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .prompt-icon {
+            font-size: 14px;
+        }
+
+        .prompt-text {
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 10px;
+        }
+
+        .generated-count {
+            margin-top: 6px;
+            font-size: 9px;
+            color: #ffaa00;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .view-generated {
+            color: #ffaa00;
+            font-weight: bold;
+        }
+
+        .generated-events {
+            margin-top: 15px;
+            padding: 10px;
+            background: rgba(136, 255, 0, 0.1);
+            border-radius: 8px;
+            border: 1px solid rgba(136, 255, 0, 0.3);
+        }
+
+        .generated-events h4 {
+            color: #88ff00;
+            font-size: 11px;
+            margin-bottom: 6px;
+        }
+
+        .generated-event {
+            padding: 4px;
+            margin: 4px 0;
+            border-left: 2px solid #88ff00;
+            background: rgba(136, 255, 0, 0.05);
+            transition: background-color 0.2s ease;
+        }
+
+        .generated-event:hover {
+            background: rgba(136, 255, 0, 0.1);
+        }
+
+        .source-prompt {
+            margin-bottom: 12px;
+            padding: 8px;
+            background: rgba(255, 170, 0, 0.1);
+            border-radius: 8px;
+            border: 1px solid rgba(255, 170, 0, 0.3);
+            transition: background-color 0.2s ease;
+        }
+
+        .source-prompt:hover {
+            background: rgba(255, 170, 0, 0.15);
+        }
+
+        .source-prompt h4 {
+            color: #ffaa00;
+            font-size: 11px;
+            margin-bottom: 4px;
+        }
+
+        .prompt-source .source-node {
+            color: #ffaa00;
+            font-weight: bold;
+        }
+
+        .connections {
+            margin-top: 15px;
+        }
+
+        .connections h4 {
+            color: #00aaff;
+            margin-bottom: 6px;
+            font-size: 11px;
+        }
+
+        .connection {
+            padding: 6px 8px;
+            margin: 4px 0;
+            font-size: 10px;
+            border-radius: 4px;
+            transition: background-color 0.2s ease;
+            cursor: pointer;
+            border-left: 2px solid transparent;
+        }
+
+        .connection:hover {
+            background: rgba(0, 170, 255, 0.2) !important;
+            border-left-color: #00aaff;
+        }
+
+        .connection-title {
+            flex: 1;
+            font-weight: bold;
+            color: #00aaff;
+        }
+
+        .connection-desc {
+            font-size: 9px;
+            opacity: 0.8;
+            margin-left: 22px;  /* Align with title after indicator */
+        }
+
+        .connection-header {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin-bottom: 2px;
+        }
+
+        .temporal-indicator {
+            font-family: monospace;
+            font-weight: bold;
+            font-size: 12px;
+            width: 16px;
+            height: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 3px;
+        }
+
+        .temporal-indicator.later {
+            color: #88ff00;
+            background: rgba(136, 255, 0, 0.1);
+        }
+
+        .temporal-indicator.earlier {
+            color: #ff8800;
+            background: rgba(255, 136, 0, 0.1);
+        }
+
+        .time-diff {
+            font-size: 9px;
+            opacity: 0.7;
+            font-family: monospace;
+        }
+
+        .time-diff.later {
+            color: #88ff00;
+        }
+
+        .time-diff.earlier {
+            color: #ff8800;
+        }
+
+        #layout-temporal {
+            border-color: rgba(136, 255, 0, 0.5);
+            background: rgba(136, 255, 0, 0.2);
+        }
+
+        #layout-temporal:hover {
+            background: rgba(136, 255, 0, 0.3);
+        }
+
+        .performance-monitor {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid rgba(0, 170, 255, 0.3);
+            font-family: monospace;
+            font-size: 12px;
+            color: #fff;
+            z-index: 1000;
+            min-width: 200px;
+        }
+
+        .stats-container {
+            margin-top: 10px;
+        }
+
+        .stat-row {
+            padding: 2px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .good {
+            color: #00ff00;
+        }
+
+        .caution {
+            color: #ffaa00;
+        }
+
+        .warning {
+            color: #ff4444;
+        }
+
+        canvas {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div id="canvas-container"></div>
+    <div class="controls">
+        <button id="reset-camera">Reset View</button>
+        <button id="layout-spiral">Spiral</button>
+        <button id="layout-sphere">Sphere</button>
+        <button id="layout-grid">Grid</button>
+        <button id="layout-temporal">Temporal</button>
+    </div>
+    <div class="info-panel">
+        <h3 id="event-title"></h3>
+        <div id="event-date" class="date"></div>
+        <div id="event-description" class="description"></div>
+    </div>
+
+    <script>
+        let scene, camera, renderer, nodes = [], edges = [];
+        let raycaster, mouse, controls;
+        let showLabels = false;
+        let selectedNode = null;
+        let titleSprite = null;
+        let isAnimating = false;
+
+        // Add hover state tracking
+        let hoveredNode = null;
+        let hoverLabel = null;
+
+        // Add texture cache and cleanup
+        const textureCache = new Map();
+
+        function cleanupTexture(texture) {
+            if (texture && texture.dispose) {
+                texture.dispose();
+            }
+        }
+
+        // Move animate function to global scope
+        function animate() {
+            const startTime = performance.now();
+            
+            requestAnimationFrame(animate);
+            TWEEN.update();
+            
+            // Update edges to follow nodes
+            updateEdgePositions();
+            
+            // Update floating title position if it exists
+            if (titleSprite && selectedNode) {
+                titleSprite.position.copy(selectedNode.position);
+                titleSprite.position.y += 4;
+            }
+
+            // Update floating data
+            if (nodes.length > 0) {
+                nodes.forEach(node => {
+                    if (node.particles) {
+                        node.particles.forEach(particle => {
+                            particle.userData.angle += particle.userData.speed;
+                            particle.position.x = particle.userData.basePos.x + 
+                                Math.cos(particle.userData.angle) * particle.userData.radius;
+                            particle.position.y = particle.userData.basePos.y + 
+                                Math.sin(particle.userData.angle) * particle.userData.radius;
+                            particle.position.z = particle.userData.basePos.z;
+                        });
+                    }
+                });
+            }
+            
+            // Update hover label to face camera
+            if (hoverLabel) {
+                hoverLabel.position.copy(hoveredNode.position);
+                hoverLabel.position.y += 3;
+            }
+            
+            controls.update();
+            renderer.render(scene, camera);
+            
+            const frameTime = performance.now() - startTime;
+            if (frameTime > 16.67) { // Longer than 60fps frame time
+                console.warn(`Long frame: ${Math.round(frameTime)}ms`);
+            }
+        }
+
+        async function init() {
+            // Scene setup
+            scene = new THREE.Scene();
+            camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.1, 1000);
+            camera.position.set(0, 0, 100);
+            renderer = new THREE.WebGLRenderer({ antialias: true });
+            renderer.setSize(window.innerWidth, window.innerHeight);
+            renderer.setClearColor(0x000000);
+            document.getElementById('canvas-container').appendChild(renderer.domElement);
+
+            // Lights
+            const ambientLight = new THREE.AmbientLight(0x404040);
+            scene.add(ambientLight);
+            const pointLight = new THREE.PointLight(0x00aaff, 2, 300);
+            pointLight.position.set(0, 0, 50);
+            scene.add(pointLight);
+
+            // Controls
+            controls = new THREE.OrbitControls(camera, renderer.domElement);
+            controls.enableDamping = true;
+            controls.dampingFactor = 0.05;
+            controls.minDistance = 5;
+            controls.maxDistance = 500;
+            controls.enablePan = true;
+            controls.enableZoom = true;
+            controls.zoomSpeed = 1.0;
+            
+            controls.addEventListener('change', () => {
+                if (selectedNode && !isAnimating) {
+                    controls.target.copy(selectedNode.position);
+                }
+            });
+
+            // Interaction setup
+            raycaster = new THREE.Raycaster();
+            mouse = new THREE.Vector2();
+
+            // Load and create visualization
+            await createTimelineGraph();
+
+            // Event listeners
+            window.addEventListener('resize', onWindowResize, false);
+            renderer.domElement.addEventListener('mousemove', onMouseMove);
+            renderer.domElement.addEventListener('click', onMouseClick);
+            document.getElementById('reset-camera').addEventListener('click', resetCamera);
+
+            // Add layout button listeners
+            document.getElementById('layout-spiral').addEventListener('click', () => updateLayout('spiral'));
+            document.getElementById('layout-sphere').addEventListener('click', () => updateLayout('sphere'));
+            document.getElementById('layout-grid').addEventListener('click', () => updateLayout('grid'));
+            document.getElementById('layout-temporal').addEventListener('click', () => updateLayout('temporal'));
+
+            animate();
+
+            createPerformanceMonitor();
+        }
+
+        async function createTimelineGraph() {
+            try {
+                const response = await fetch('/timeline_graph.json');
+                const data = await response.json();
+                
+                // Add edge type colors
+                const EDGE_COLORS = {
+                    'CAUSES': 0x00aaff,
+                    'INFLUENCES': 0x00ff88,
+                    'THEORETICAL_DEVELOPMENT': 0xff00aa
+                };
+
+                // Create nodes
+                data.nodes.forEach((node, i) => {
+                    const geometry = new THREE.SphereGeometry(0.5, 16, 16);
+                    const material = new THREE.MeshPhongMaterial({
+                        color: 0x00aaff,
+                        emissive: 0x003366,
+                        shininess: 50
+                    });
+
+                    const mesh = new THREE.Mesh(geometry, material);
+                    
+                    // Position nodes in a spiral
+                    const angle = i * 0.1;
+                    const radius = 30 + (i * 0.1);
+                    mesh.position.x = Math.cos(angle) * radius;
+                    mesh.position.y = Math.sin(angle) * radius;
+                    mesh.position.z = i * 0.2;
+                    
+                    mesh.userData = node;
+                    nodes.push(mesh);
+                    scene.add(mesh);
+
+                    // Add label (hidden by default)
+                    const label = new THREE.Sprite(new THREE.SpriteMaterial({
+                        map: createTextTexture(node.attributes.name)
+                    }));
+                    label.scale.set(15, 8, 1);
+                    label.position.copy(mesh.position);
+                    label.position.y += 2;
+                    label.visible = showLabels;
+                    mesh.label = label;
+                    scene.add(label);
+
+                    // Create floating data for this node
+                    createFloatingData(mesh);
+                });
+
+                // Create edges
+                data.edges.forEach(edge => {
+                    const sourceNode = nodes.find(n => n.userData.key === edge.source);
+                    const targetNode = nodes.find(n => n.userData.key === edge.target);
+                    
+                    if (sourceNode && targetNode) {
+                        // Create line geometry
+                        const geometry = new THREE.BufferGeometry();
+                        const material = new THREE.LineBasicMaterial({
+                            color: EDGE_COLORS[edge.attributes.type] || 0x0088cc,
+                            transparent: true,
+                            opacity: 0.3
+                        });
+                        
+                        // Store source and target keys in the line object
+                        const line = new THREE.Line(geometry, material);
+                        line.userData = {
+                            source: edge.source,
+                            target: edge.target,
+                            ...edge.attributes
+                        };
+                        
+                        edges.push(line);
+                        scene.add(line);
+                    }
+                });
+
+            } catch (error) {
+                console.error('Error loading timeline data:', error);
+            }
+        }
+
+        // Helper function to create floating data
+        function createFloatingData(node) {
+            const particleCount = 3;
+            const particles = [];
+            
+            for (let i = 0; i < particleCount; i++) {
+                const dataPoint = getRandomDataPoint(node.userData.attributes);
+                const sprite = new THREE.Sprite(new THREE.SpriteMaterial({
+                    map: createTextTexture(dataPoint.text),
+                    color: dataPoint.color,
+                    transparent: true,
+                    opacity: 0.9
+                }));
+                
+                const angle = (i / particleCount) * Math.PI * 2;
+                const radius = 2;
+                sprite.position.set(
+                    node.position.x + Math.cos(angle) * radius,
+                    node.position.y + Math.sin(angle) * radius,
+                    node.position.z
+                );
+                sprite.scale.set(5, 2.5, 1);
+                
+                scene.add(sprite);
+                particles.push(sprite);
+                
+                sprite.userData.angle = angle;
+                sprite.userData.speed = 0.001 + Math.random() * 0.002;
+                sprite.userData.radius = radius;
+                sprite.userData.basePos = node.position.clone();
+                sprite.userData.dataType = dataPoint.text.includes('ID:') ? 'id' : 
+                                         dataPoint.text.includes('/') ? 'date' : 'other';
+            }
+            
+            node.particles = particles;
+        }
+
+        function getRandomDataPoint(attributes) {
+            const dataPoints = [
+                {
+                    text: new Date(attributes.timestamp).toLocaleDateString('en-US', {
+                        year: 'numeric',
+                        month: 'short'
+                    }),
+                    color: 0x00ffff  // Cyan for dates
+                },
+                {
+                    text: attributes.timeline || 'main',
+                    color: 0x00aaff  // Blue for timeline
+                },
+                {
+                    text: attributes.name.split(' ')[0],
+                    color: 0x0088ff  // Light blue for names
+                },
+                {
+                    text: `Type: ${attributes.type || 'Event'}`,
+                    color: 0xff88aa  // Pink for types
+                }
+            ];
+            
+            // Add expansion prompt snippet if it exists
+            if (attributes.expansion_prompt) {
+                dataPoints.push({
+                    text: '❓', // Question mark indicator for expansion prompt
+                    color: 0xffaa00  // Orange for prompts
+                });
+            }
+            
+            return dataPoints[Math.floor(Math.random() * dataPoints.length)];
+        }
+
+        // Modify createTextTexture to use cache
+        function createTextTexture(text, fontSize = 16, color = '#ffffff') {
+            const key = `${text}-${fontSize}-${color}`;
+            
+            // Clean up old texture if it exists
+            if (textureCache.has(key)) {
+                cleanupTexture(textureCache.get(key));
+            }
+            
+            const canvas = document.createElement('canvas');
+            const ctx = canvas.getContext('2d');
+            canvas.width = 512;
+            canvas.height = 256;
+            
+            ctx.fillStyle = 'rgba(0, 0, 0, 0)';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            
+            ctx.font = `bold ${fontSize}px Consolas, Monaco`;
+            ctx.fillStyle = color;
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.shadowColor = 'rgba(0, 0, 0, 0.5)';
+            ctx.shadowBlur = 10;
+            
+            // Word wrap for long text
+            const words = text.split(' ');
+            const lineHeight = fontSize * 1.2;
+            const maxWidth = canvas.width * 0.8;
+            let line = '';
+            let lines = [];
+            let y = canvas.height/2;
+
+            words.forEach(word => {
+                const testLine = line + word + ' ';
+                const metrics = ctx.measureText(testLine);
+                if (metrics.width > maxWidth && line !== '') {
+                    lines.push(line);
+                    line = word + ' ';
+                } else {
+                    line = testLine;
+                }
+            });
+            lines.push(line);
+
+            // Center vertically
+            y -= (lines.length - 1) * lineHeight / 2;
+
+            // Draw each line
+            lines.forEach((line, i) => {
+                ctx.fillText(line.trim(), canvas.width/2, y + i * lineHeight);
+            });
+            
+            const texture = new THREE.CanvasTexture(canvas);
+            textureCache.set(key, texture);
+            
+            return texture;
+        }
+
+        // Add immediate cleanup when hover labels change
+        function onMouseMove(event) {
+            mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+            mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
+
+            raycaster.setFromCamera(mouse, camera);
+            const intersects = raycaster.intersectObjects(nodes);
+
+            // Clear previous hover state
+            if (hoveredNode && (!intersects.length || intersects[0].object !== hoveredNode)) {
+                if (hoverLabel) {
+                    if (hoverLabel.material.map) {
+                        cleanupTexture(hoverLabel.material.map);
+                    }
+                    hoverLabel.material.dispose();
+                    scene.remove(hoverLabel);
+                    hoverLabel = null;
+                }
+                hoveredNode = null;
+            }
+
+            // Set new hover state
+            if (intersects.length > 0 && intersects[0].object !== hoveredNode) {
+                hoveredNode = intersects[0].object;
+                
+                // Create hover label
+                if (hoverLabel) scene.remove(hoverLabel);
+                
+                hoverLabel = new THREE.Sprite(new THREE.SpriteMaterial({
+                    map: createTextTexture(hoveredNode.userData.attributes.name, 16, '#00aaff'),
+                    transparent: true,
+                    opacity: 0.9
+                }));
+                
+                hoverLabel.scale.set(20, 10, 1);
+                scene.add(hoverLabel);
+            }
+
+            // Update hover label position if it exists
+            if (hoverLabel && hoveredNode) {
+                hoverLabel.position.copy(hoveredNode.position);
+                hoverLabel.position.y += 3; // Offset above node
+            }
+        }
+
+        function onMouseClick(event, directNode = null) {
+            try {
+                let selectedNode;
+                
+                if (directNode) {
+                    selectedNode = directNode;
+                } else {
+                    mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+                    mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
+                    raycaster.setFromCamera(mouse, camera);
+                    const intersects = raycaster.intersectObjects(nodes);
+                    selectedNode = intersects.length > 0 ? intersects[0].object : null;
+                }
+                
+                if (selectedNode) {
+                    // Trigger hover effect for selected node
+                    hoveredNode = selectedNode;
+                    
+                    // Create hover label if it doesn't exist
+                    if (hoverLabel) scene.remove(hoverLabel);
+                    
+                    hoverLabel = new THREE.Sprite(new THREE.SpriteMaterial({
+                        map: createTextTexture(hoveredNode.userData.attributes.name, 16, '#00aaff'),
+                        transparent: true,
+                        opacity: 0.9
+                    }));
+                    
+                    hoverLabel.scale.set(20, 10, 1);
+                    scene.add(hoverLabel);
+
+                    // Remove previous floating title
+                    if (titleSprite) {
+                        scene.remove(titleSprite);
+                    }
+
+                    // Create floating title
+                    titleSprite = new THREE.Sprite(new THREE.SpriteMaterial({
+                        map: createTextTexture(selectedNode.userData.attributes.name, 24),
+                        color: 0x00aaff,
+                        transparent: true,
+                        opacity: 1
+                    }));
+                    titleSprite.scale.set(20, 10, 1);
+                    titleSprite.position.copy(selectedNode.position);
+                    titleSprite.position.y += 4;
+                    scene.add(titleSprite);
+
+                    isAnimating = true;
+
+                    // Get current camera-to-target vector
+                    const currentOffset = camera.position.clone().sub(controls.target);
+                    
+                    // Set new target
+                    const targetPosition = selectedNode.position.clone();
+                    
+                    // Calculate new camera position by adding current offset to new target
+                    const newPosition = targetPosition.clone().add(currentOffset);
+
+                    // Animate both target and camera together
+                    new TWEEN.Tween(controls.target)
+                        .to(targetPosition, 1000)
+                        .easing(TWEEN.Easing.Cubic.InOut)
+                        .start();
+
+                    new TWEEN.Tween(camera.position)
+                        .to(newPosition, 1000)
+                        .easing(TWEEN.Easing.Cubic.InOut)
+                        .onComplete(() => {
+                            isAnimating = false;
+                        })
+                        .start();
+
+                    showNodeInfo(selectedNode);
+                } else {
+                    // Clear hover state when clicking empty space
+                    if (hoverLabel) {
+                        scene.remove(hoverLabel);
+                        hoverLabel = null;
+                    }
+                    hoveredNode = null;
+                    
+                    // Click on empty space - just clear selection
+                    if (titleSprite) {
+                        scene.remove(titleSprite);
+                        titleSprite = null;
+                    }
+                    selectedNode = null;
+                    
+                    // Hide info panel with fade
+                    const panel = document.querySelector('.info-panel');
+                    panel.style.opacity = 0;
+                    setTimeout(() => {
+                        panel.style.display = 'none';
+                    }, 300);
+                    
+                    // Reset node highlights but maintain camera position
+                    nodes.forEach(n => {
+                        n.material.emissive.setHex(0x003366);
+                        n.material.opacity = 0.7;
+                        if (n.particles) {
+                            n.particles.forEach(p => p.material.opacity = 0.3);
+                        }
+                    });
+                    edges.forEach(edge => {
+                        edge.material.opacity = 0.3;
+                    });
+                }
+            } catch (error) {
+                console.error('Error in onMouseClick:', error);
+            }
+        }
+
+        function resetCamera() {
+            camera.position.set(0, 0, 100);
+            camera.lookAt(scene.position);
+            controls.reset();
+        }
+
+        function onWindowResize() {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        }
+
+        function showNodeInfo(node) {
+            const panel = document.querySelector('.info-panel');
+            const attrs = node.userData.attributes;
+            
+            document.getElementById('event-title').textContent = attrs.name;
+            document.getElementById('event-date').textContent = new Date(attrs.timestamp)
+                .toLocaleDateString('en-US', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric'
+                });
+            document.getElementById('event-description').textContent = attrs.description;
+            
+            // Add source prompt info if this node was generated from one
+            if (attrs.source_prompt) {
+                const sourceNode = nodes.find(n => n.userData.key === attrs.source_prompt.source_node);
+                if (sourceNode) {
+                    const promptEl = document.createElement('div');
+                    promptEl.className = 'source-prompt';
+                    promptEl.innerHTML = `
+                        <h4>Generated from prompt:</h4>
+                        <div class="prompt-source">
+                            <span class="source-node">${sourceNode.userData.attributes.name}</span>
+                            <div class="prompt-text">${sourceNode.userData.attributes.expansion_prompt}</div>
+                        </div>
+                    `;
+                    
+                    // Make source prompt clickable
+                    promptEl.style.cursor = 'pointer';
+                    promptEl.addEventListener('click', () => {
+                        onMouseClick(null, sourceNode);
+                    });
+                    
+                    document.getElementById('event-description').insertBefore(
+                        promptEl, 
+                        document.getElementById('event-description').firstChild
+                    );
+                }
+            }
+            
+            // Add expansion prompt if it exists
+            if (attrs.expansion_prompt) {
+                const promptEl = document.createElement('div');
+                promptEl.className = 'expansion-prompt';
+                
+                // Find any nodes generated from this prompt
+                const generatedNodes = nodes.filter(n => 
+                    n.userData.attributes.source_prompt && 
+                    n.userData.attributes.source_prompt.source_node === node.userData.key
+                );
+                
+                promptEl.innerHTML = `
+                    <div class="prompt-header">
+                        <span class="prompt-icon">🤔</span>
+                        <span class="prompt-text">${attrs.expansion_prompt}</span>
+                    </div>
+                    ${generatedNodes.length > 0 ? `
+                        <div class="generated-count">
+                            Generated ${generatedNodes.length} event${generatedNodes.length > 1 ? 's' : ''}
+                            <span class="view-generated">View →</span>
+                        </div>
+                    ` : ''}
+                `;
+                
+                // Make prompt clickable if it has generated events
+                if (generatedNodes.length > 0) {
+                    promptEl.style.cursor = 'pointer';
+                    promptEl.addEventListener('click', () => {
+                        // Toggle generated events section
+                        const existingGenerated = document.querySelector('.generated-events');
+                        if (existingGenerated) {
+                            existingGenerated.remove();
+                        } else {
+                            const generatedEl = document.createElement('div');
+                            generatedEl.className = 'generated-events';
+                            generatedEl.innerHTML = `
+                                <h4>Generated from this prompt:</h4>
+                                ${generatedNodes.map(n => `
+                                    <div class="generated-event" data-node-key="${n.userData.key}">
+                                        <span class="event-name">${n.userData.attributes.name}</span>
+                                        <div class="event-date">${new Date(n.userData.attributes.timestamp)
+                                            .toLocaleDateString('en-US', {
+                                                year: 'numeric',
+                                                month: 'short'
+                                            })}
+                                        </div>
+                                    </div>
+                                `).join('')}
+                            `;
+                            
+                            // Make generated events clickable
+                            generatedEl.querySelectorAll('.generated-event').forEach(el => {
+                                el.style.cursor = 'pointer';
+                                el.addEventListener('click', () => {
+                                    const generatedNode = nodes.find(n => n.userData.key === el.dataset.nodeKey);
+                                    if (generatedNode) {
+                                        onMouseClick(null, generatedNode);
+                                    }
+                                });
+                            });
+                            
+                            promptEl.after(generatedEl);
+                        }
+                    });
+                }
+                
+                document.getElementById('event-description').appendChild(promptEl);
+            }
+            
+            // Show connected events with click handlers
+            const connections = edges.filter(edge => 
+                edge.userData.source === node.userData.key || 
+                edge.userData.target === node.userData.key
+            );
+            
+            if (connections.length > 0) {
+                const connectionsEl = document.createElement('div');
+                connectionsEl.className = 'connections';
+                connectionsEl.innerHTML = `<h4>Connected Events:</h4>`;
+                
+                connections.forEach(edge => {
+                    const connectedNodeKey = edge.userData.source === node.userData.key ? 
+                        edge.userData.target : edge.userData.source;
+                    const connectedNode = nodes.find(n => n.userData.key === connectedNodeKey);
+                    
+                    if (connectedNode) {
+                        // Calculate time difference
+                        const currentTime = new Date(node.userData.attributes.timestamp).getTime();
+                        const connectedTime = new Date(connectedNode.userData.attributes.timestamp).getTime();
+                        const timeDiff = connectedTime - currentTime;
+                        const isLater = timeDiff > 0;
+                        
+                        // Format time difference
+                        const absDays = Math.abs(Math.round(timeDiff / (1000 * 60 * 60 * 24)));
+                        const timeStr = absDays === 0 ? 'same day' : 
+                                      absDays === 1 ? '1 day' : 
+                                      `${absDays} days`;
+                        
+                        const connectionDiv = document.createElement('div');
+                        connectionDiv.className = `connection ${edge.userData.type.toLowerCase()}`;
+                        connectionDiv.innerHTML = `
+                            <div class="connection-header">
+                                <span class="temporal-indicator ${isLater ? 'later' : 'earlier'}">
+                                    ${isLater ? '+' : '-'}
+                                </span>
+                                <span class="connection-title">${connectedNode.userData.attributes.name}</span>
+                                <span class="time-diff ${isLater ? 'later' : 'earlier'}">
+                                    ${timeStr}
+                                </span>
+                            </div>
+                            <div class="connection-desc">${edge.userData.description}</div>
+                        `;
+                        
+                        // Add hover effect
+                        connectionDiv.addEventListener('mouseenter', () => {
+                            connectionDiv.style.background = 'rgba(0, 170, 255, 0.2)';
+                        });
+                        connectionDiv.addEventListener('mouseleave', () => {
+                            connectionDiv.style.background = 'rgba(0, 170, 255, 0.1)';
+                        });
+                        
+                        // Add click handler
+                        connectionDiv.addEventListener('click', () => {
+                            // Simulate click on the connected node
+                            const fakeEvent = {
+                                clientX: 0,
+                                clientY: 0
+                            };
+                            raycaster.setFromCamera(mouse, camera);
+                            onMouseClick(fakeEvent, connectedNode);
+                        });
+                        
+                        connectionsEl.appendChild(connectionDiv);
+                    }
+                });
+                
+                document.getElementById('event-description').appendChild(connectionsEl);
+            }
+            
+            // Highlight selected node and its connections
+            nodes.forEach(n => {
+                // Reset all nodes to default state
+                n.material.emissive.setHex(0x003366);
+                n.material.opacity = 0.7;
+                if (n.particles) {
+                    n.particles.forEach(p => p.material.opacity = 0.3);
+                }
+            });
+
+            // Highlight selected node
+            node.material.emissive.setHex(0x00aaff);
+            node.material.opacity = 1;
+            if (node.particles) {
+                node.particles.forEach(p => {
+                    p.material.opacity = 1;
+                    // Enhance the glow effect for dates
+                    if (p.userData.dataType === 'date') {
+                        p.material.color.setHex(0x00ffff);
+                    }
+                });
+            }
+
+            // Highlight connected edges
+            edges.forEach(edge => {
+                const isConnected = 
+                    edge.userData.source === node.userData.key || 
+                    edge.userData.target === node.userData.key;
+                edge.material.opacity = isConnected ? 0.8 : 0.1;
+            });
+            
+            // Show the panel with a fade effect
+            panel.style.display = 'block';
+            panel.style.opacity = 0;
+            setTimeout(() => {
+                panel.style.opacity = 1;
+            }, 10);
+        }
+
+        function updateEdgePositions() {
+            edges.forEach(edge => {
+                const sourceNode = nodes.find(n => n.userData.key === edge.userData.source);
+                const targetNode = nodes.find(n => n.userData.key === edge.userData.target);
+                
+                if (sourceNode && targetNode) {
+                    const positions = new Float32Array([
+                        sourceNode.position.x, sourceNode.position.y, sourceNode.position.z,
+                        targetNode.position.x, targetNode.position.y, targetNode.position.z
+                    ]);
+                    
+                    // Completely replace the position attribute
+                    edge.geometry.setAttribute('position', 
+                        new THREE.BufferAttribute(positions, 3)
+                    );
+                    
+                    // Ensure Three.js knows to update the geometry
+                    edge.geometry.computeBoundingSphere();
+                    edge.geometry.attributes.position.needsUpdate = true;
+                }
+            });
+        }
+
+        // Add this cleanup utility function
+        function cleanupSprite(sprite) {
+            if (!sprite) return;
+            
+            try {
+                if (sprite.material) {
+                    if (sprite.material.map) {
+                        sprite.material.map.dispose();
+                    }
+                    sprite.material.dispose();
+                }
+                scene.remove(sprite);
+            } catch (e) {
+                console.error('Error cleaning up sprite:', e);
+            }
+        }
+
+        // Then our updateLayout function remains the same
+        function updateLayout(layoutType) {
+            // Clean up any existing cluster labels first
+            scene.children.forEach(child => {
+                if (child.isClusterLabel) {
+                    cleanupSprite(child);
+                }
+            });
+
+            if (layoutType === 'temporal') {
+                // Get time range of all nodes
+                const timestamps = nodes.map(node => 
+                    new Date(node.userData.attributes.timestamp).getTime()
+                );
+                const minTime = Math.min(...timestamps);
+                const maxTime = Math.max(...timestamps);
+                const timeRange = maxTime - minTime;
+                
+                // Create temporal clusters
+                const clusters = {};
+                const monthMs = 30 * 24 * 60 * 60 * 1000; // Rough month in milliseconds
+                
+                nodes.forEach(node => {
+                    const time = new Date(node.userData.attributes.timestamp).getTime();
+                    const clusterIndex = Math.floor((time - minTime) / monthMs);
+                    if (!clusters[clusterIndex]) {
+                        clusters[clusterIndex] = {
+                            nodes: [],
+                            startTime: new Date(minTime + (clusterIndex * monthMs)),
+                            endTime: new Date(minTime + ((clusterIndex + 1) * monthMs))
+                        };
+                    }
+                    clusters[clusterIndex].nodes.push(node);
+                });
+
+                // Combine small adjacent clusters
+                const combinedClusters = [];
+                let currentCluster = null;
+                const minClusterSize = 3; // Minimum nodes for a standalone cluster
+
+                Object.entries(clusters)
+                    .sort((a, b) => parseInt(a[0]) - parseInt(b[0]))
+                    .forEach(([index, cluster]) => {
+                        if (!currentCluster) {
+                            currentCluster = {
+                                nodes: [...cluster.nodes],
+                                startTime: cluster.startTime,
+                                endTime: cluster.endTime,
+                                centerProgress: (parseInt(index) + 0.5) / Object.keys(clusters).length
+                            };
+                        } else {
+                            if (cluster.nodes.length < minClusterSize || 
+                                currentCluster.nodes.length < minClusterSize) {
+                                // Combine clusters
+                                currentCluster.nodes.push(...cluster.nodes);
+                                currentCluster.endTime = cluster.endTime;
+                                currentCluster.centerProgress = 
+                                    (currentCluster.centerProgress + 
+                                     (parseInt(index) + 0.5) / Object.keys(clusters).length) / 2;
+                            } else {
+                                // Start new cluster
+                                combinedClusters.push(currentCluster);
+                                currentCluster = {
+                                    nodes: [...cluster.nodes],
+                                    startTime: cluster.startTime,
+                                    endTime: cluster.endTime,
+                                    centerProgress: (parseInt(index) + 0.5) / Object.keys(clusters).length
+                                };
+                            }
+                        }
+                    });
+                if (currentCluster) {
+                    combinedClusters.push(currentCluster);
+                }
+
+                // Position nodes and create cluster labels
+                combinedClusters.forEach((cluster, clusterIndex) => {
+                    const clusterProgress = cluster.centerProgress;
+                    const angle = clusterProgress * Math.PI * 8;
+                    const baseRadius = 50 + (clusterProgress * 20);
+                    const baseHeight = clusterProgress * 100 - 50;
+                    
+                    // Calculate cluster center position
+                    const clusterCenter = new THREE.Vector3(0, 0, 0);
+                    cluster.nodes.forEach(node => {
+                        const nodeAngle = angle + (Math.random() * 0.5 - 0.25);
+                        const nodeRadius = baseRadius + (Math.random() * 10 - 5);
+                        const nodeHeight = baseHeight + (Math.random() * 10 - 5);
+                        
+                        const targetPosition = new THREE.Vector3(
+                            Math.cos(nodeAngle) * nodeRadius,
+                            nodeHeight,
+                            Math.sin(nodeAngle) * nodeRadius
+                        );
+                        
+                        // Add to cluster center calculation
+                        clusterCenter.add(targetPosition);
+                        
+                        // Node animation
+                        new TWEEN.Tween(node.position)
+                            .to(targetPosition, 1000)
+                            .easing(TWEEN.Easing.Cubic.InOut)
+                            .onUpdate(() => {
+                                if (node.particles) {
+                                    node.particles.forEach(particle => {
+                                        particle.userData.basePos.copy(node.position);
+                                    });
+                                }
+                            })
+                            .start();
+                    });
+                    
+                    // Average the cluster center
+                    clusterCenter.divideScalar(cluster.nodes.length);
+                    
+                    // Create cluster label with date range
+                    const labelText = cluster.startTime.getTime() === cluster.endTime.getTime() ?
+                        cluster.startTime.toLocaleDateString('en-US', {
+                            month: 'short',
+                            year: 'numeric'
+                        }) :
+                        `${cluster.startTime.toLocaleDateString('en-US', {
+                            month: 'short',
+                            year: 'numeric'
+                        })} - ${cluster.endTime.toLocaleDateString('en-US', {
+                            month: 'short',
+                            year: 'numeric'
+                        })}`;
+                    
+                    // Scale based on cluster size
+                    const maxSize = Math.max(...combinedClusters.map(c => c.nodes.length));
+                    const scaleFactor = 0.5 + (cluster.nodes.length / maxSize) * 1.5;
+                    
+                    const labelSprite = new THREE.Sprite(new THREE.SpriteMaterial({
+                        map: createTextTexture(labelText, 32, '#88ff00'),
+                        transparent: true,
+                        opacity: 0.7
+                    }));
+                    
+                    // Position label at cluster center with slight offset
+                    labelSprite.scale.set(30 * scaleFactor, 15 * scaleFactor, 1);
+                    labelSprite.position.copy(clusterCenter);
+                    // Small offset to prevent overlap with nodes
+                    labelSprite.position.y += 10;
+                    labelSprite.isClusterLabel = true;
+                    
+                    scene.add(labelSprite);
+                });
+            } else {
+                nodes.forEach((node, i) => {
+                    let targetPosition;
+                    
+                    switch(layoutType) {
+                        case 'spiral':
+                            const angle = i * 0.3;
+                            const radius = 30 + (i * 0.5);
+                            targetPosition = new THREE.Vector3(
+                                Math.cos(angle) * radius,
+                                Math.sin(angle) * radius,
+                                i * 0.2
+                            );
+                            break;
+                            
+                        case 'sphere':
+                            const phi = Math.acos(-1 + (2 * i) / nodes.length);
+                            const theta = Math.sqrt(nodes.length * Math.PI) * phi;
+                            const radius2 = 50;
+                            targetPosition = new THREE.Vector3(
+                                radius2 * Math.cos(theta) * Math.sin(phi),
+                                radius2 * Math.sin(theta) * Math.sin(phi),
+                                radius2 * Math.cos(phi)
+                            );
+                            break;
+                            
+                        case 'grid':
+                            const rowLength = Math.ceil(Math.sqrt(nodes.length));
+                            const x = (i % rowLength) * 15 - (rowLength * 15) / 2;
+                            const y = Math.floor(i / rowLength) * 15 - (Math.floor(nodes.length / rowLength) * 15) / 2;
+                            targetPosition = new THREE.Vector3(x, y, 0);
+                            break;
+                            
+                        case 'timeline':
+                            // Sort nodes by timestamp
+                            const timestamp = new Date(node.userData.attributes.timestamp).getTime();
+                            const timeScale = 0.001; // Adjust this to change timeline spread
+                            targetPosition = new THREE.Vector3(
+                                timestamp * timeScale,
+                                Math.sin(i * 0.5) * 20, // Wavy pattern
+                                0
+                            );
+                            break;
+                    }
+                    
+                    // Animate node position
+                    new TWEEN.Tween(node.position)
+                        .to(targetPosition, 1000)
+                        .easing(TWEEN.Easing.Cubic.InOut)
+                        .onUpdate(() => {
+                            // Update particle base positions
+                            if (node.particles) {
+                                node.particles.forEach(particle => {
+                                    particle.userData.basePos.copy(node.position);
+                                });
+                            }
+                        })
+                        .start();
+                });
+            }
+            
+            // Update edges during animation
+            const updateEdges = () => {
+                updateEdgePositions();
+                if (TWEEN.getAll().length > 0) {
+                    requestAnimationFrame(updateEdges);
+                }
+            };
+            updateEdges();
+        }
+
+        // Add periodic global cleanup
+        setInterval(() => {
+            // Clean up texture cache
+            textureCache.forEach(cleanupTexture);
+            textureCache.clear();
+            
+            // Force garbage collection if available
+            if (window.gc) {
+                window.gc();
+            }
+        }, 10000); // Every 10 seconds
+
+        // Add performance monitoring
+        function createPerformanceMonitor() {
+            const monitor = document.createElement('div');
+            monitor.className = 'performance-monitor';
+            document.body.appendChild(monitor);
+
+            const canvas = document.createElement('canvas');
+            canvas.width = 200;
+            canvas.height = 60;
+            monitor.appendChild(canvas);
+
+            const ctx = canvas.getContext('2d');
+            const maxSamples = 100;
+            const samples = new Array(maxSamples).fill(0);
+            let currentIndex = 0;
+            let lastTime = performance.now();
+            let frames = 0;
+            let fps = 0;
+
+            // Stats container
+            const statsDiv = document.createElement('div');
+            statsDiv.className = 'stats-container';
+            monitor.appendChild(statsDiv);
+
+            function updateStats() {
+                const now = performance.now();
+                const frameTime = now - lastTime;
+                lastTime = now;
+                frames++;
+
+                // Update FPS every second
+                if (now > lastFpsUpdate + 1000) {
+                    fps = Math.round((frames * 1000) / (now - lastFpsUpdate));
+                    frames = 0;
+                    lastFpsUpdate = now;
+                }
+
+                // Get memory info
+                const memory = window.performance.memory ? {
+                    used: Math.round(window.performance.memory.usedJSHeapSize / 1048576),
+                    total: Math.round(window.performance.memory.jsHeapSizeLimit / 1048576)
+                } : null;
+
+                // Get renderer info
+                const renderInfo = renderer.info.render;
+                
+                // Update stats display
+                statsDiv.innerHTML = `
+                    <div class="stat-row ${fps < 30 ? 'warning' : fps < 55 ? 'caution' : 'good'}">
+                        FPS: ${fps}
+                    </div>
+                    <div class="stat-row ${frameTime > 16.7 ? 'warning' : frameTime > 10 ? 'caution' : 'good'}">
+                        Frame: ${Math.round(frameTime)}ms
+                    </div>
+                    <div class="stat-row">
+                        Draw Calls: ${renderInfo.calls}
+                    </div>
+                    <div class="stat-row">
+                        Triangles: ${renderInfo.triangles.toLocaleString()}
+                    </div>
+                    ${memory ? `
+                        <div class="stat-row ${memory.used/memory.total > 0.8 ? 'warning' : memory.used/memory.total > 0.6 ? 'caution' : 'good'}">
+                            Memory: ${memory.used}MB / ${memory.total}MB
+                        </div>
+                    ` : ''}
+                    <div class="stat-row">
+                        Objects: ${scene.children.length}
+                    </div>
+                `;
+
+                // Update performance graph
+                samples[currentIndex] = frameTime;
+                currentIndex = (currentIndex + 1) % maxSamples;
+
+                // Draw graph
+                ctx.fillStyle = 'rgba(0, 0, 0, 0.8)';
+                ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+                ctx.beginPath();
+                ctx.lineWidth = 2;
+                samples.forEach((sample, i) => {
+                    const x = (i / maxSamples) * canvas.width;
+                    const y = Math.min(sample, 100) / 100 * canvas.height;
+                    
+                    if (i === 0) {
+                        ctx.moveTo(x, canvas.height - y);
+                    } else {
+                        ctx.lineTo(x, canvas.height - y);
+                    }
+                    
+                    // Color based on performance
+                    const hue = 120 - (Math.min(sample, 100) / 100 * 120);
+                    ctx.strokeStyle = `hsl(${hue}, 100%, 50%)`;
+                });
+                ctx.stroke();
+            }
+
+            let lastFpsUpdate = performance.now();
+            
+            function update() {
+                updateStats();
+                requestAnimationFrame(update);
+            }
+            update();
+        }
+
+        init();
+    </script>
+</body>
+</html>

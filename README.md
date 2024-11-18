@@ -27,8 +27,8 @@ Continuum Engine is a narrative exploration system that generates and maintains 
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/continuum-engine.git
-cd continuum-engine
+git clone https://github.com/Neuraleth/continuum.git
+cd continuum
 
 # Install dependencies
 npm install

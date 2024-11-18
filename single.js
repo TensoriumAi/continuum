@@ -3,7 +3,7 @@ import Graph from 'graphology';
 import fs from 'fs/promises';
 import OpenAI from 'openai';
 
-const GRAPH_FILE = './timeline_graph.json';
+const GRAPH_FILE = './static/timeline_graph.json';
 let graph;
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY
@@ -475,12 +475,15 @@ async function initializeGraph() {
 // Save graph to disk
 async function saveGraph() {
   try {
+    // Ensure static directory exists
+    await fs.mkdir('./static', { recursive: true });
+    
     const graphData = graph.export();
     await fs.writeFile(GRAPH_FILE, JSON.stringify(graphData, null, 2));
     console.log(`Graph saved to disk with ${graph.nodes().length} nodes`);
   } catch (error) {
     console.error('Error saving graph:', error);
-    throw error; // Re-throw to handle in calling function
+    throw error;
   }
 }
 
@@ -877,10 +880,18 @@ async function generateNarrativeMarkdown(loopCount) {
     });
   });
 
-  // Save narrative to file
-  const filename = `narrative.loop${loopCount}.md`;
-  await fs.writeFile(filename, narrative);
-  console.log(`\nNarrative saved to ${filename}`);
+  // Update filename to save in /static/ folder
+  const filename = `./static/narrative.loop${loopCount}.md`;
+  
+  try {
+    // Ensure static directory exists
+    await fs.mkdir('./static', { recursive: true });
+    await fs.writeFile(filename, narrative);
+    console.log(`\nNarrative saved to ${filename}`);
+  } catch (error) {
+    console.error('Error saving narrative:', error);
+    throw error;
+  }
 }
 
 // Update main loop manager
