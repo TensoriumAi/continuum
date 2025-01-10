@@ -1,0 +1,41 @@
+body {
+   padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+}
+
+footer {
+   margin: 50px 0;
+}
+
+.inputHeading {
+   font-size: 110%;
+}
+
+.verticalButtonList {
+   padding-top: 10em;
+}
+
+.verticalButtonList a.btn {
+   display: block;
+   margin: auto;
+   margin-bottom: 1em;
+}
+
+.tab-content {
+   border: 1px solid #dddddd;
+   border-top: none;
+   border-radius: 0 0 4px 4px;
+   padding: 1em;
+}
+
+.tab-content textarea {
+   font-family: "Courier New", Courier, monospace;
+   border: none;
+   width: 100%;
+   height: 24em;
+}
+
+iframe#htmlPreviewFrame {
+   height: 24em;
+   width: 100%;
+   border: none;
+}

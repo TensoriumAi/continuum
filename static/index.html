@@ -495,6 +495,7 @@
         let hoveredNode = null;
         let autoAdvanceEnabled = localStorage.getItem('autoAdvanceEnabled') === 'true';
         let currentAudioPlayer = null;
+        let trailParticles = [];
 
         // Add texture cache and cleanup
         const textureCache = new Map();
@@ -566,6 +567,14 @@
 
             // Force renderer to release memory
             renderer.renderLists.dispose();
+
+            // Clean up trail particles
+            trailParticles.forEach(particle => {
+                scene.remove(particle);
+                particle.geometry.dispose();
+                particle.material.dispose();
+            });
+            trailParticles = [];
         }
 
         // Move animate function to global scope
@@ -607,6 +616,25 @@
             if (frameTime > 16.67) { // Longer than 60fps frame time
                 console.warn(`Long frame: ${Math.round(frameTime)}ms`);
             }
+
+            // Update trail particles
+            const now = performance.now();
+            trailParticles = trailParticles.filter(particle => {
+                const age = now - particle.userData.createdAt;
+                if (age > particle.userData.lifetime) {
+                    scene.remove(particle);
+                    particle.geometry.dispose();
+                    particle.material.dispose();
+                    return false;
+                }
+                
+                // Fade out
+                particle.material.opacity = 0.8 * (1 - age / particle.userData.lifetime);
+                // Expand slightly
+                particle.scale.setScalar(1 + (age / particle.userData.lifetime) * 0.5);
+                
+                return true;
+            });
         }
 
         async function init() {
@@ -961,6 +989,12 @@
                     new TWEEN.Tween(controls.target)
                         .to(targetPosition, 1000)
                         .easing(TWEEN.Easing.Cubic.InOut)
+                        .onUpdate(() => {
+                            // Create trail particles
+                            if (Math.random() < 0.3) { // Adjust frequency of particles
+                                createTrailParticle(selectedNode.position.clone());
+                            }
+                        })
                         .start();
 
                     new TWEEN.Tween(camera.position)
@@ -1746,6 +1780,27 @@
                 renderer.dispose();
             }
         });
+
+        // Add this function to create trail particles
+        function createTrailParticle(position) {
+            const geometry = new THREE.SphereGeometry(0.2, 8, 8);
+            const material = new THREE.MeshPhongMaterial({
+                color: 0x00aaff,
+                emissive: 0x0066aa,
+                transparent: true,
+                opacity: 0.8
+            });
+            
+            const particle = new THREE.Mesh(geometry, material);
+            particle.position.copy(position);
+            particle.userData.createdAt = performance.now();
+            particle.userData.lifetime = 1000; // milliseconds
+            
+            scene.add(particle);
+            trailParticles.push(particle);
+            
+            return particle;
+        }
 
         init();
     </script>
