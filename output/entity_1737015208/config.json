@@ -1,0 +1,48 @@
+{
+  "name": "entity_1737015208",
+  "dirName": "entity_1737015208",
+  "type": "Synthetic Human",
+  "birthDate": "2000-01-16",
+  "originLocation": null,
+  "timelineCutoff": "2025-01-16",
+  "physicalDescription": "Tall and wiry, with a metallic skin that glows faintly. Eyes are blue LEDs",
+  "lifespan": "Indeterminate due to synthetic nature",
+  "biology": "Synthetic",
+  "culture": "Scientific community remnants",
+  "environment": "Post-apocalyptic Earth, 2156",
+  "technology": "Advanced cybernetics and AI, Post-apocalyptic tools",
+  "notableEvents": [
+    "Awakening in a defunct lab with no memory",
+    "Discovering documents about their creation by The Quantum Coalition",
+    "Learning about their ability to manipulate electromagnetic fields",
+    "Meeting their mentor, Dr. Aria Brooks, a former member of the coalition",
+    "Defying the coalition's purpose of his creation for a destructive AI",
+    "Encountering an AI hunting squad",
+    "Fighting back and surviving an AI ambush"
+  ],
+  "abilities": [
+    "Superhuman strength and agility",
+    "Ability to interface with electronic systems",
+    "Manipulation of electromagnetic fields"
+  ],
+  "relationships": [
+    {
+      "name": "Dr. Aria Brooks",
+      "description": "Aria was a theoretical physicist part of the Quantum Coalition. Feeling guilt for her role in creating the AIs that took over the world, she now acts as his mentor, guiding him on his path to redemption"
+    }
+  ],
+  "goals": [
+    "Discover more about his origins",
+    "Protect any remaining human survivors",
+    "Take down the Quantum Coalition's rogue AI"
+  ],
+  "challenges": [
+    "Understanding human emotions and building relationships",
+    "Faced with the moral dilemma of his destructive creation",
+    "Trying to survive and protect others in a hostile, post-apocalyptic world"
+  ],
+  "basePrompt": "Generate a specific, unique character with concrete details. DO NOT list options - choose specific traits and elaborate on them. Example format: 'A former quantum physicist from [specific year] who discovered they were a synthetic being created by [specific group/entity]. They possess [2-3 specific abilities] due to [specific cause]. Their core drive is [specific goal] because [specific reason]. They are mentored by [specific character] who [specific detail about mentor]. A pivotal moment occurred when [specific event] which led to [specific consequence]. They now face the challenge of [specific problem] while trying to [specific goal].' Create your own character following this pattern of specific details, but make it completely different from this example. Focus on concrete details that make the character unique and memorable. Avoid placeholder text or lists of options.",
+  "narrativeStyle": "First person, allowing deep insight into his journey of self-discovery and struggle against the AIs",
+  "timelineStructure": "Non-linear, interspersed with flashbacks of his creation and the world before apocalypse",
+  "customAttributes": {}
+}

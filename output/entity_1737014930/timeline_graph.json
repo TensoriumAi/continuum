@@ -1,0 +1,76 @@
+{
+  "options": {
+    "type": "mixed",
+    "multi": false,
+    "allowSelfLoops": true
+  },
+  "attributes": {},
+  "nodes": [
+    {
+      "key": "birth",
+      "attributes": {
+        "name": "Birth of entity_1737014930",
+        "timestamp": "2000-01-16T00:00:00-05:00",
+        "description": "Beginning of entity_1737014930's story.",
+        "timeline": "main",
+        "expansion_prompt": "What were the circumstances surrounding entity_1737014930's birth? Consider the environment, the people present, and any notable events or signs that accompanied their arrival."
+      }
+    },
+    {
+      "key": "event_0",
+      "attributes": {
+        "name": "Achieved a breakthrough in quantum theory at age 28",
+        "timestamp": "2010-01-14T23:00:00.000-05:00",
+        "description": "Achieved a breakthrough in quantum theory at age 28",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Achieved a breakthrough in quantum theory at age 28? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737014930's path?"
+      }
+    },
+    {
+      "key": "event_1",
+      "attributes": {
+        "name": "Discovered her synthetic creation at age 30 by Pandora Corporation",
+        "timestamp": "2015-01-15T17:00:00.000-05:00",
+        "description": "Discovered her synthetic creation at age 30 by Pandora Corporation",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Discovered her synthetic creation at age 30 by Pandora Corporation? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737014930's path?"
+      }
+    },
+    {
+      "key": "event_2",
+      "attributes": {
+        "name": "Recruited by the Global Protection Agency and faked her own death at age 31",
+        "timestamp": "2020-01-16T11:00:00.000-05:00",
+        "description": "Recruited by the Global Protection Agency and faked her own death at age 31",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Recruited by the Global Protection Agency and faked her own death at age 31? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737014930's path?"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "key": "geid_161_0",
+      "source": "birth",
+      "target": "event_0",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_161_1",
+      "source": "event_0",
+      "target": "event_1",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_161_2",
+      "source": "event_1",
+      "target": "event_2",
+      "attributes": {
+        "type": "sequence"
+      }
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "options": {
+    "type": "mixed",
+    "multi": false,
+    "allowSelfLoops": true
+  },
+  "attributes": {},
+  "nodes": [
+    {
+      "key": "birth",
+      "attributes": {
+        "name": "Birth of entity_1737015855",
+        "timestamp": "2000-01-16T00:00:00-05:00",
+        "description": "Beginning of entity_1737015855's story.",
+        "timeline": "main",
+        "expansion_prompt": "What were the circumstances surrounding entity_1737015855's birth? Consider the environment, the people present, and any notable events or signs that accompanied their arrival."
+      }
+    },
+    {
+      "key": "event1737015858079",
+      "attributes": {
+        "name": "Parents celebrate entity_1737015855's birth",
+        "timestamp": "2000-01-17",
+        "description": "Entity_1737015855 was born in a small, peaceful town to a loving family. The weather was unusually warm for January, and some of the locals took it as a sign of good fortune. The parents, overwhelmed with joy, threw a small celebration on the next day inviting their close family and friends. The gathering was filled with laughter, joy, and hope for entity_1737015855's future.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Parents celebrate entity_1737015855's birth? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015855's path?"
+      }
+    },
+    {
+      "key": "event1737015871021",
+      "attributes": {
+        "name": "Entity_1737015855's Naming Ceremony",
+        "timestamp": "2000-01-18",
+        "description": "Two days after entity_1737015855's birth, the parents decided to host a traditional naming ceremony. The ceremony took place in the family's ancestral home in the peaceful town. The baby was named in the presence of close family and friends who had gathered for the celebration. The baby was named 'Hope', symbolizing the parents' aspirations and the joyous sentiments that had filled the town since its birth. The ceremony was followed by a feast that consisted of the family's traditional dishes, a symbol of their roots and heritage. The event was not only a celebration of the new life but also a mark of the continuation of the family's lineage and customs.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Entity_1737015855's Naming Ceremony? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015855's path?"
+      }
+    },
+    {
+      "key": "event1737015880071",
+      "attributes": {
+        "name": "First Cry in Hospital",
+        "timestamp": "2000-01-16T01:37:00-05:00",
+        "description": "In the early hours of January 16, entity_1737015855 let out their first cry in the maternity ward of St. Martha's Hospital. The room was filled with the comforting scent of new life, sanitized and warm. The air was thick with joy, relief, and a profound sense of love as the baby's parents, grandparents, and the attending nurse, Martha, witnessed the miraculous moment. Outside, a rare meteor shower graced the night sky - an event some in the family would later regard as a sign of great things to come for entity_1737015855.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding First Cry in Hospital? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015855's path?"
+      }
+    },
+    {
+      "key": "event1737015901106",
+      "attributes": {
+        "name": "Entity_1737015855's First Trip to the Grandparents' House",
+        "timestamp": "2000-01-20",
+        "description": "Two days after the naming ceremony, entity_1737015855, now known as Hope, was taken to her grandparents' house for the first time. Her grandparents, residing in a quaint village located a few miles from the town, were eager to meet their youngest grandchild. The journey was a long but joyous one, filled with anticipation and excitement. Upon reaching, Hope was embraced by her grandparents, who were overjoyed to see her. They spent the day doting on Hope, showering her with love and blessings. The visit to the grandparents' house also marked Hope's first outing, a significant milestone for the parents. This event also established a strong bond between Hope and her grandparents, a bond that would play a significant role in shaping her character and values in the future.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Entity_1737015855's First Trip to the Grandparents' House? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015855's path?"
+      }
+    },
+    {
+      "key": "event1737015909788",
+      "attributes": {
+        "name": "First Meeting with Sibling",
+        "timestamp": "2000-01-16T02:00:00-05:00",
+        "description": "After settling down from the excitement of entity_1737015855's first cry, the parents called in their 3-year-old son, David, who had been patiently waiting outside with his paternal grandfather. David, upon seeing his new sibling for the first time, was initially shy but soon began to exhibit signs of curiosity and protective instincts. He gently touched entity_1737015855's tiny hand, promising in his childlike manner to look after his baby sibling. The family captured this tender moment in a photograph that would later become a cherished family heirloom. This event marked the beginning of a strong bond between entity_1737015855 and his elder brother, David.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding First Meeting with Sibling? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015855's path?"
+      }
+    },
+    {
+      "key": "event1737015942685",
+      "attributes": {
+        "name": "First Family Photo with entity_1737015855",
+        "timestamp": "2000-01-16T04:00:00-05:00",
+        "description": "Following the birth of entity_1737015855, the hospital's resident photographer captured the first family photo. The picture included the tired but joyous parents, the older sibling who was still in awe of the baby, and entity_1737015855, swaddled and peacefully asleep. The photo was taken in the private hospital room, adorned with colorful balloons and a 'Welcome Baby' banner, with the city's early morning skyline visible through the window. This photo later became a cherished family memento, prominently displayed at the family's home.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding First Family Photo with entity_1737015855? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015855's path?"
+      }
+    },
+    {
+      "key": "event1737015955525",
+      "attributes": {
+        "name": "Parents make a wish for entity_1737015855's future",
+        "timestamp": "2000-01-17T23:00:00-05:00",
+        "description": "After the celebration of entity_1737015855's birth, the parents found themselves alone in the quiet house, still filled with the warmth of the day's joy. As they looked down at their newborn, they made a wish. They wished for their child to grow strong, kind, and successful. They promised to do their best to guide entity_1737015855 through life, and hoped their efforts would equip their child with the skills necessary to navigate the world with grace. This moment marked a silent, yet profound resolution that would shape the way they raised entity_1737015855, influencing the future decisions they would make as parents.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Parents make a wish for entity_1737015855's future? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015855's path?"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "key": "geid_240_0",
+      "source": "birth",
+      "target": "event1737015858079",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_240_1",
+      "source": "event1737015858079",
+      "target": "event1737015871021",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_240_2",
+      "source": "birth",
+      "target": "event1737015880071",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_240_3",
+      "source": "event1737015880071",
+      "target": "event1737015858079",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "The first cry of entity_1737015855 might have heightened the family's joy and relief, culminating in the celebration the following day. The meteor shower that coincided with the birth might have fueled the perception of good fortune, leading to higher enthusiasm for the celebration."
+      }
+    },
+    {
+      "key": "geid_240_4",
+      "source": "event1737015871021",
+      "target": "birth",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "The naming ceremony reflects the continuation of customs and lineage, making it a symbolic bookend to the birth event which marks the start of entity_1737015855's own lineage within the family. Meanwhile, the birth event sets the context for the tradition carried out in the naming ceremony."
+      }
+    },
+    {
+      "key": "geid_240_5",
+      "source": "event1737015871021",
+      "target": "event1737015901106",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_240_6",
+      "source": "event1737015880071",
+      "target": "event1737015909788",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_240_7",
+      "source": "birth",
+      "target": "event1737015942685",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_240_8",
+      "source": "event1737015858079",
+      "target": "event1737015955525",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_240_9",
+      "source": "birth",
+      "target": "event1737015871021",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "The birth of entity_1737015855 is intrinsically connected with the naming ceremony as it is the starting point of their individual identity which is formally recognized with their naming."
+      }
+    },
+    {
+      "key": "geid_240_10",
+      "source": "event1737015955525",
+      "target": "event1737015901106",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "The parents' wish and resolution for their child's future could have influenced their decision to introduce Hope to her grandparents early in life, intending to instill the same values they were committed to teaching."
+      }
+    },
+    {
+      "key": "geid_240_11",
+      "source": "event1737015909788",
+      "target": "event1737015942685",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "The first interaction between Hope and her brother David is captured and immortalized in their first family photo. While the visual evidence isn't explicit, the underlying bond evident in the photo traces back to their first meeting."
+      }
+    }
+  ]
+}

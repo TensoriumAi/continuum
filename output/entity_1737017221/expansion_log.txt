@@ -1,0 +1,516 @@
+
+=== EXPANSION ATTEMPT 2025-01-16T08:47:12.573Z ===
+
+Node ID: birth
+Node Attributes: {
+  "name": "Birth of entity_1737017221",
+  "timestamp": "2000-01-16T00:00:00-05:00",
+  "description": "Beginning of entity_1737017221's story.",
+  "timeline": "main",
+  "expansion_prompt": "What were the circumstances surrounding entity_1737017221's birth? Consider the environment, the people present, and any notable events or signs that accompanied their arrival."
+}
+
+Expansion Prompt:
+You are expanding the timeline for entity_1737017221. 
+Character Context:
+Name: entity_1737017221
+Type: Unique
+Birth/Creation: 2000-01-16
+Description: Tall, athletic build with short brown hair and piercing blue eyes. Has a small scar on the left cheek.
+Biology: Human
+Technology: High-tech, advanced digital technology
+Notable Events: Graduated top of class in university, Invented a revolutionary technological device, Survived a near-death experience
+Goals: To lead a technological revolution, To find a balance between work and personal life
+Challenges: Struggles with work-life balance, Faces competition from other tech companies
+
+Timeline Context (chronological order):
+- [birth] 2000-01-16T00:00:00-05:00: Birth of entity_1737017221
+- [event_0] 2010-01-14T23:00:00.000-05:00: Graduated top of class in university
+- [event_1] 2015-01-15T17:00:00.000-05:00: Invented a revolutionary technological device
+- [event_2] 2020-01-16T11:00:00.000-05:00: Survived a near-death experience
+
+Existing Connections:
+birth -> event_0 (sequence)
+event_0 -> event_1 (sequence)
+event_1 -> event_2 (sequence)
+
+Current Event to Expand:
+Name: Birth of entity_1737017221
+Node Key: birth
+Time: 2000-01-16T00:00:00-05:00
+Description: Beginning of entity_1737017221's story.
+Expansion Prompt: What were the circumstances surrounding entity_1737017221's birth? Consider the environment, the people present, and any notable events or signs that accompanied their arrival.
+
+Generate a new event that logically follows from this event. The event should:
+1. Be temporally consistent (happen after 2000-01-16T00:00:00-05:00)
+2. Not contradict known history or character traits
+3. Provide rich detail about what happened
+4. Include specific names, places, and consequences
+5. Maintain consistency with the character's established timeline
+
+Return ONLY a JSON object in this exact format (no other text):
+{
+  "id": "event1737017232575",
+  "name": "Brief, specific title",
+  "timestamp": "YYYY-MM-DD",
+  "description": "Detailed description",
+  "connectedTo": "birth",
+  "connectionType": "sequence"
+}
+
+AI Response:
+{
+  "id": "event1737017232575",
+  "name": "Enrollment in Prestigious Preparatory School",
+  "timestamp": "2005-09-01T08:00:00-05:00",
+  "description": "At the age of five, entity_1737017221 was enrolled in the prestigious 'Future Leaders Academy', known for nurturing bright minds in the field of science and technology. This school was located in the bustling city of Silicon Valley, California. The decision to enroll was made by entity_1737017221's parents, both of whom were renowned scientists. They recognized their child's early aptitude for understanding complex concepts and believed this environment would allow him to thrive. Being the youngest student in his cohort, entity_1737017221 faced the challenge of catching up acadically and socially. This early exposure to a high-pressure environment instilled in him a sense of resilience and ambition, traits that would serve him well in his future endeavors.",
+  "connectedTo": "birth",
+  "connectionType": "sequence"
+}
+
+Parsed Event:
+{
+  "id": "event1737017232575",
+  "name": "Enrollment in Prestigious Preparatory School",
+  "timestamp": "2005-09-01T08:00:00-05:00",
+  "description": "At the age of five, entity_1737017221 was enrolled in the prestigious 'Future Leaders Academy', known for nurturing bright minds in the field of science and technology. This school was located in the bustling city of Silicon Valley, California. The decision to enroll was made by entity_1737017221's parents, both of whom were renowned scientists. They recognized their child's early aptitude for understanding complex concepts and believed this environment would allow him to thrive. Being the youngest student in his cohort, entity_1737017221 faced the challenge of catching up acadically and socially. This early exposure to a high-pressure environment instilled in him a sense of resilience and ambition, traits that would serve him well in his future endeavors.",
+  "connectedTo": "birth",
+  "connectionType": "sequence"
+}
+
+Added Event to Graph: event1737017232575
+
+=== EXPANSION ATTEMPT 2025-01-16T08:47:40.164Z ===
+
+Node ID: event_0
+Node Attributes: {
+  "name": "Graduated top of class in university",
+  "timestamp": "2010-01-14T23:00:00.000-05:00",
+  "description": "Graduated top of class in university",
+  "timeline": "main",
+  "expansion_prompt": "What were the key moments and details surrounding Graduated top of class in university? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737017221's path?"
+}
+
+Expansion Prompt:
+You are expanding the timeline for entity_1737017221. 
+Character Context:
+Name: entity_1737017221
+Type: Unique
+Birth/Creation: 2000-01-16
+Description: Tall, athletic build with short brown hair and piercing blue eyes. Has a small scar on the left cheek.
+Biology: Human
+Technology: High-tech, advanced digital technology
+Notable Events: Graduated top of class in university, Invented a revolutionary technological device, Survived a near-death experience
+Goals: To lead a technological revolution, To find a balance between work and personal life
+Challenges: Struggles with work-life balance, Faces competition from other tech companies
+
+Timeline Context (chronological order):
+- [birth] 2000-01-16T00:00:00-05:00: Birth of entity_1737017221
+- [event1737017232575] 2005-09-01T08:00:00-05:00: Enrollment in Prestigious Preparatory School
+- [event_0] 2010-01-14T23:00:00.000-05:00: Graduated top of class in university
+- [event_1] 2015-01-15T17:00:00.000-05:00: Invented a revolutionary technological device
+- [event_2] 2020-01-16T11:00:00.000-05:00: Survived a near-death experience
+
+Existing Connections:
+birth -> event_0 (sequence)
+event_0 -> event_1 (sequence)
+event_1 -> event_2 (sequence)
+birth -> event1737017232575 (sequence)
+
+Current Event to Expand:
+Name: Graduated top of class in university
+Node Key: event_0
+Time: 2010-01-14T23:00:00.000-05:00
+Description: Graduated top of class in university
+Expansion Prompt: What were the key moments and details surrounding Graduated top of class in university? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737017221's path?
+
+Generate a new event that logically follows from this event. The event should:
+1. Be temporally consistent (happen after 2010-01-14T23:00:00.000-05:00)
+2. Not contradict known history or character traits
+3. Provide rich detail about what happened
+4. Include specific names, places, and consequences
+5. Maintain consistency with the character's established timeline
+
+Return ONLY a JSON object in this exact format (no other text):
+{
+  "id": "event1737017260165",
+  "name": "Brief, specific title",
+  "timestamp": "YYYY-MM-DD",
+  "description": "Detailed description",
+  "connectedTo": "event_0",
+  "connectionType": "sequence"
+}
+
+AI Response:
+{
+  "id": "event1737017260165",
+  "name": "Hired by Tech Giant BlueRay Technologies",
+  "timestamp": "2010-04-16",
+  "description": "After graduating top of his class, entity_1737017221 caught the attention of many renowned tech companies. He was offered a lucrative position by BlueRay Technologies, a leading tech company known for cultivating young talent. His role as a lead software engineer allowed him to work on groundbreaking projects, providing him with the experience and exposure he needed to further his career.",
+  "connectedTo": "event_0",
+  "connectionType": "sequence"
+}
+
+Parsed Event:
+{
+  "id": "event1737017260165",
+  "name": "Hired by Tech Giant BlueRay Technologies",
+  "timestamp": "2010-04-16",
+  "description": "After graduating top of his class, entity_1737017221 caught the attention of many renowned tech companies. He was offered a lucrative position by BlueRay Technologies, a leading tech company known for cultivating young talent. His role as a lead software engineer allowed him to work on groundbreaking projects, providing him with the experience and exposure he needed to further his career.",
+  "connectedTo": "event_0",
+  "connectionType": "sequence"
+}
+
+Added Event to Graph: event1737017260165
+
+=== EXPANSION ATTEMPT 2025-01-16T08:47:59.055Z ===
+
+Node ID: event_1
+Node Attributes: {
+  "name": "Invented a revolutionary technological device",
+  "timestamp": "2015-01-15T17:00:00.000-05:00",
+  "description": "Invented a revolutionary technological device",
+  "timeline": "main",
+  "expansion_prompt": "What were the key moments and details surrounding Invented a revolutionary technological device? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737017221's path?"
+}
+
+Expansion Prompt:
+You are expanding the timeline for entity_1737017221. 
+Character Context:
+Name: entity_1737017221
+Type: Unique
+Birth/Creation: 2000-01-16
+Description: Tall, athletic build with short brown hair and piercing blue eyes. Has a small scar on the left cheek.
+Biology: Human
+Technology: High-tech, advanced digital technology
+Notable Events: Graduated top of class in university, Invented a revolutionary technological device, Survived a near-death experience
+Goals: To lead a technological revolution, To find a balance between work and personal life
+Challenges: Struggles with work-life balance, Faces competition from other tech companies
+
+Timeline Context (chronological order):
+- [birth] 2000-01-16T00:00:00-05:00: Birth of entity_1737017221
+- [event1737017232575] 2005-09-01T08:00:00-05:00: Enrollment in Prestigious Preparatory School
+- [event_0] 2010-01-14T23:00:00.000-05:00: Graduated top of class in university
+- [event1737017260165] 2010-04-16: Hired by Tech Giant BlueRay Technologies
+- [event_1] 2015-01-15T17:00:00.000-05:00: Invented a revolutionary technological device
+- [event_2] 2020-01-16T11:00:00.000-05:00: Survived a near-death experience
+
+Existing Connections:
+birth -> event_0 (sequence)
+event_0 -> event_1 (sequence)
+event_1 -> event_2 (sequence)
+birth -> event1737017232575 (sequence)
+event_0 -> event1737017260165 (sequence)
+
+Current Event to Expand:
+Name: Invented a revolutionary technological device
+Node Key: event_1
+Time: 2015-01-15T17:00:00.000-05:00
+Description: Invented a revolutionary technological device
+Expansion Prompt: What were the key moments and details surrounding Invented a revolutionary technological device? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737017221's path?
+
+Generate a new event that logically follows from this event. The event should:
+1. Be temporally consistent (happen after 2015-01-15T17:00:00.000-05:00)
+2. Not contradict known history or character traits
+3. Provide rich detail about what happened
+4. Include specific names, places, and consequences
+5. Maintain consistency with the character's established timeline
+
+Return ONLY a JSON object in this exact format (no other text):
+{
+  "id": "event1737017279056",
+  "name": "Brief, specific title",
+  "timestamp": "YYYY-MM-DD",
+  "description": "Detailed description",
+  "connectedTo": "event_1",
+  "connectionType": "sequence"
+}
+
+AI Response:
+{
+  "id": "event1737017279056",
+  "name": "Recognition and Launch of Revolutionary Device",
+  "timestamp": "2015-03-10",
+  "description": "After two months of intense testing, validation, and refinement, the revolutionary technology, now known as 'SpectraLink', was officially patented by entity_1737017221 and launched by BlueRay Technologies. The device, which enables seamless, high-speed data communication between disparate digital systems, quickly gained recognition in the tech industry. Despite the initial skepticism, the innovative idea and efficient execution led to the device's success, catapulting entity_1737017221 into the spotlight.",
+  "connectedTo": "event_1",
+  "connectionType": "sequence"
+}
+
+Parsed Event:
+{
+  "id": "event1737017279056",
+  "name": "Recognition and Launch of Revolutionary Device",
+  "timestamp": "2015-03-10",
+  "description": "After two months of intense testing, validation, and refinement, the revolutionary technology, now known as 'SpectraLink', was officially patented by entity_1737017221 and launched by BlueRay Technologies. The device, which enables seamless, high-speed data communication between disparate digital systems, quickly gained recognition in the tech industry. Despite the initial skepticism, the innovative idea and efficient execution led to the device's success, catapulting entity_1737017221 into the spotlight.",
+  "connectedTo": "event_1",
+  "connectionType": "sequence"
+}
+
+Added Event to Graph: event1737017279056
+
+=== EXPANSION ATTEMPT 2025-01-16T08:48:16.574Z ===
+
+Node ID: event_2
+Node Attributes: {
+  "name": "Survived a near-death experience",
+  "timestamp": "2020-01-16T11:00:00.000-05:00",
+  "description": "Survived a near-death experience",
+  "timeline": "main",
+  "expansion_prompt": "What were the key moments and details surrounding Survived a near-death experience? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737017221's path?"
+}
+
+Expansion Prompt:
+You are expanding the timeline for entity_1737017221. 
+Character Context:
+Name: entity_1737017221
+Type: Unique
+Birth/Creation: 2000-01-16
+Description: Tall, athletic build with short brown hair and piercing blue eyes. Has a small scar on the left cheek.
+Biology: Human
+Technology: High-tech, advanced digital technology
+Notable Events: Graduated top of class in university, Invented a revolutionary technological device, Survived a near-death experience
+Goals: To lead a technological revolution, To find a balance between work and personal life
+Challenges: Struggles with work-life balance, Faces competition from other tech companies
+
+Timeline Context (chronological order):
+- [birth] 2000-01-16T00:00:00-05:00: Birth of entity_1737017221
+- [event1737017232575] 2005-09-01T08:00:00-05:00: Enrollment in Prestigious Preparatory School
+- [event_0] 2010-01-14T23:00:00.000-05:00: Graduated top of class in university
+- [event1737017260165] 2010-04-16: Hired by Tech Giant BlueRay Technologies
+- [event_1] 2015-01-15T17:00:00.000-05:00: Invented a revolutionary technological device
+- [event1737017279056] 2015-03-10: Recognition and Launch of Revolutionary Device
+- [event_2] 2020-01-16T11:00:00.000-05:00: Survived a near-death experience
+
+Existing Connections:
+birth -> event_0 (sequence)
+event_0 -> event_1 (sequence)
+event_1 -> event_2 (sequence)
+birth -> event1737017232575 (sequence)
+event_0 -> event1737017260165 (sequence)
+event_1 -> event1737017279056 (sequence)
+
+Current Event to Expand:
+Name: Survived a near-death experience
+Node Key: event_2
+Time: 2020-01-16T11:00:00.000-05:00
+Description: Survived a near-death experience
+Expansion Prompt: What were the key moments and details surrounding Survived a near-death experience? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737017221's path?
+
+Generate a new event that logically follows from this event. The event should:
+1. Be temporally consistent (happen after 2020-01-16T11:00:00.000-05:00)
+2. Not contradict known history or character traits
+3. Provide rich detail about what happened
+4. Include specific names, places, and consequences
+5. Maintain consistency with the character's established timeline
+
+Return ONLY a JSON object in this exact format (no other text):
+{
+  "id": "event1737017296576",
+  "name": "Brief, specific title",
+  "timestamp": "YYYY-MM-DD",
+  "description": "Detailed description",
+  "connectedTo": "event_2",
+  "connectionType": "sequence"
+}
+
+AI Response:
+{
+  "id": "event1737017296576",
+  "name": "Reflection and Personal Growth",
+  "timestamp": "2020-06-15",
+  "description": "After surviving the near-death experience, entity_1737017221 took a three-month leave from BlueRay Technologies to reflect. He spent time traveling, exploring different cultures, and reevaluating his life priorities. During this period, he realized the importance of work-life balance and decided to make significant changes in his lifestyle. He also developed a new vision for his technological innovations, aiming to make them more accessible and beneficial to people's everyday lives.",
+  "connectedTo": "event_2",
+  "connectionType": "sequence"
+}
+
+Parsed Event:
+{
+  "id": "event1737017296576",
+  "name": "Reflection and Personal Growth",
+  "timestamp": "2020-06-15",
+  "description": "After surviving the near-death experience, entity_1737017221 took a three-month leave from BlueRay Technologies to reflect. He spent time traveling, exploring different cultures, and reevaluating his life priorities. During this period, he realized the importance of work-life balance and decided to make significant changes in his lifestyle. He also developed a new vision for his technological innovations, aiming to make them more accessible and beneficial to people's everyday lives.",
+  "connectedTo": "event_2",
+  "connectionType": "sequence"
+}
+
+Added Event to Graph: event1737017296576
+
+=== EXPANSION ATTEMPT 2025-01-16T08:49:02.154Z ===
+
+Node ID: event_2
+Node Attributes: {
+  "name": "Survived a near-death experience",
+  "timestamp": "2020-01-16T11:00:00.000-05:00",
+  "description": "Survived a near-death experience",
+  "timeline": "main",
+  "expansion_prompt": "What were the key moments and details surrounding Survived a near-death experience? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737017221's path?"
+}
+
+Expansion Prompt:
+You are expanding the timeline for entity_1737017221. 
+Character Context:
+Name: entity_1737017221
+Type: Unique
+Birth/Creation: 2000-01-16
+Description: Tall, athletic build with short brown hair and piercing blue eyes. Has a small scar on the left cheek.
+Biology: Human
+Technology: High-tech, advanced digital technology
+Notable Events: Graduated top of class in university, Invented a revolutionary technological device, Survived a near-death experience
+Goals: To lead a technological revolution, To find a balance between work and personal life
+Challenges: Struggles with work-life balance, Faces competition from other tech companies
+
+Timeline Context (chronological order):
+- [birth] 2000-01-16T00:00:00-05:00: Birth of entity_1737017221
+- [event1737017232575] 2005-09-01T08:00:00-05:00: Enrollment in Prestigious Preparatory School
+- [event_0] 2010-01-14T23:00:00.000-05:00: Graduated top of class in university
+- [event1737017260165] 2010-04-16: Hired by Tech Giant BlueRay Technologies
+- [event_1] 2015-01-15T17:00:00.000-05:00: Invented a revolutionary technological device
+- [event1737017279056] 2015-03-10: Recognition and Launch of Revolutionary Device
+- [event_2] 2020-01-16T11:00:00.000-05:00: Survived a near-death experience
+- [event1737017296576] 2020-06-15: Reflection and Personal Growth
+
+Existing Connections:
+birth -> event_0 (sequence)
+event_0 -> event_1 (sequence)
+event_1 -> event_2 (sequence)
+birth -> event1737017232575 (sequence)
+event_0 -> event1737017260165 (sequence)
+event_1 -> event1737017279056 (sequence)
+event_2 -> event1737017296576 (sequence)
+
+Current Event to Expand:
+Name: Survived a near-death experience
+Node Key: event_2
+Time: 2020-01-16T11:00:00.000-05:00
+Description: Survived a near-death experience
+Expansion Prompt: What were the key moments and details surrounding Survived a near-death experience? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737017221's path?
+
+Generate a new event that logically follows from this event. The event should:
+1. Be temporally consistent (happen after 2020-01-16T11:00:00.000-05:00)
+2. Not contradict known history or character traits
+3. Provide rich detail about what happened
+4. Include specific names, places, and consequences
+5. Maintain consistency with the character's established timeline
+
+Return ONLY a JSON object in this exact format (no other text):
+{
+  "id": "event1737017342155",
+  "name": "Brief, specific title",
+  "timestamp": "YYYY-MM-DD",
+  "description": "Detailed description",
+  "connectedTo": "event_2",
+  "connectionType": "sequence"
+}
+
+AI Response:
+{
+  "id": "event1737017342155",
+  "name": "Recovery and Re-evaluation of Priorities",
+  "timestamp": "2020-03-20",
+  "description": "After surviving a near-death experience due to overwork and stress, entity_1737017221 spent two months recovering in a private clinic in Silicon Valley, surrounded by family and close friends. The experience provided a wake-up call, prompting a re-evaluation of priorities and a renewed determination to find a better work-life balance. The event sparked a significant change in entity_1737017221's approach to work, leading to the implementation of healthier work habits and the intention to inspire a similar culture within BlueRay Technologies.",
+  "connectedTo": "event_2",
+  "connectionType": "sequence"
+}
+
+Parsed Event:
+{
+  "id": "event1737017342155",
+  "name": "Recovery and Re-evaluation of Priorities",
+  "timestamp": "2020-03-20",
+  "description": "After surviving a near-death experience due to overwork and stress, entity_1737017221 spent two months recovering in a private clinic in Silicon Valley, surrounded by family and close friends. The experience provided a wake-up call, prompting a re-evaluation of priorities and a renewed determination to find a better work-life balance. The event sparked a significant change in entity_1737017221's approach to work, leading to the implementation of healthier work habits and the intention to inspire a similar culture within BlueRay Technologies.",
+  "connectedTo": "event_2",
+  "connectionType": "sequence"
+}
+
+Added Event to Graph: event1737017342155
+
+=== EXPANSION ATTEMPT 2025-01-16T08:49:20.538Z ===
+
+Node ID: event_1
+Node Attributes: {
+  "name": "Invented a revolutionary technological device",
+  "timestamp": "2015-01-15T17:00:00.000-05:00",
+  "description": "Invented a revolutionary technological device",
+  "timeline": "main",
+  "expansion_prompt": "What were the key moments and details surrounding Invented a revolutionary technological device? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737017221's path?"
+}
+
+Expansion Prompt:
+You are expanding the timeline for entity_1737017221. 
+Character Context:
+Name: entity_1737017221
+Type: Unique
+Birth/Creation: 2000-01-16
+Description: Tall, athletic build with short brown hair and piercing blue eyes. Has a small scar on the left cheek.
+Biology: Human
+Technology: High-tech, advanced digital technology
+Notable Events: Graduated top of class in university, Invented a revolutionary technological device, Survived a near-death experience
+Goals: To lead a technological revolution, To find a balance between work and personal life
+Challenges: Struggles with work-life balance, Faces competition from other tech companies
+
+Timeline Context (chronological order):
+- [birth] 2000-01-16T00:00:00-05:00: Birth of entity_1737017221
+- [event1737017232575] 2005-09-01T08:00:00-05:00: Enrollment in Prestigious Preparatory School
+- [event_0] 2010-01-14T23:00:00.000-05:00: Graduated top of class in university
+- [event1737017260165] 2010-04-16: Hired by Tech Giant BlueRay Technologies
+- [event_1] 2015-01-15T17:00:00.000-05:00: Invented a revolutionary technological device
+- [event1737017279056] 2015-03-10: Recognition and Launch of Revolutionary Device
+- [event_2] 2020-01-16T11:00:00.000-05:00: Survived a near-death experience
+- [event1737017342155] 2020-03-20: Recovery and Re-evaluation of Priorities
+- [event1737017296576] 2020-06-15: Reflection and Personal Growth
+
+Existing Connections:
+birth -> event_0 (sequence)
+event_0 -> event_1 (sequence)
+event_1 -> event_2 (sequence)
+birth -> event1737017232575 (sequence)
+event_0 -> event1737017260165 (sequence)
+event_1 -> event1737017279056 (sequence)
+event_2 -> event1737017296576 (sequence)
+event_2 -> event1737017342155 (sequence)
+
+Current Event to Expand:
+Name: Invented a revolutionary technological device
+Node Key: event_1
+Time: 2015-01-15T17:00:00.000-05:00
+Description: Invented a revolutionary technological device
+Expansion Prompt: What were the key moments and details surrounding Invented a revolutionary technological device? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737017221's path?
+
+Generate a new event that logically follows from this event. The event should:
+1. Be temporally consistent (happen after 2015-01-15T17:00:00.000-05:00)
+2. Not contradict known history or character traits
+3. Provide rich detail about what happened
+4. Include specific names, places, and consequences
+5. Maintain consistency with the character's established timeline
+
+Return ONLY a JSON object in this exact format (no other text):
+{
+  "id": "event1737017360540",
+  "name": "Brief, specific title",
+  "timestamp": "YYYY-MM-DD",
+  "description": "Detailed description",
+  "connectedTo": "event_1",
+  "connectionType": "sequence"
+}
+
+AI Response:
+{
+  "id": "event1737017360540",
+  "name": "Prototype Demonstration and Initial Funding",
+  "timestamp": "2015-04-01",
+  "description": "Entity_1737017221 presented the prototype of the revolutionary device at a tech conference to a room full of potential investors. The device's potential was immediately recognized, and entity_1737017221 received substantial funding from Tech Titan Investments, a leading venture capital firm. This funding allowed for further development and eventual mass production of the device.",
+  "connectedTo": "event_1",
+  "connectionType": "sequence"
+}
+
+Parsed Event:
+{
+  "id": "event1737017360540",
+  "name": "Prototype Demonstration and Initial Funding",
+  "timestamp": "2015-04-01",
+  "description": "Entity_1737017221 presented the prototype of the revolutionary device at a tech conference to a room full of potential investors. The device's potential was immediately recognized, and entity_1737017221 received substantial funding from Tech Titan Investments, a leading venture capital firm. This funding allowed for further development and eventual mass production of the device.",
+  "connectedTo": "event_1",
+  "connectionType": "sequence"
+}
+
+Added Event to Graph: event1737017360540

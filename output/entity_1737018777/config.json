@@ -1,0 +1,71 @@
+{
+  "type": "Human",
+  "physicalDescription": {
+    "height": "5'6",
+    "weight": "130 lbs",
+    "eyeColor": "Hazel",
+    "hairColor": "Raven black, short pixie cut",
+    "age": "35",
+    "skinTone": "Olive",
+    "physicalCondition": "Athletic build, muscular",
+    "notableFeatures": [
+      "Scar on left cheek from a lab accident",
+      "Always wears a silver pendant of a DNA helix"
+    ]
+  },
+  "biology": {
+    "species": "Homo Sapiens",
+    "traits": [
+      "Highly intelligent",
+      "Profound analytical skills",
+      "Superior hand-eye coordination",
+      "Excellent problem-solving abilities",
+      "Strong immune system"
+    ]
+  },
+  "technology": {
+    "tools": [
+      "Advanced medical scanner",
+      "High-tech prosthetic arm with integrated tools"
+    ],
+    "devices": [
+      "AI-assisted holographic computer",
+      "Teleportal bracelet"
+    ],
+    "techAbilities": [
+      "Expert in genetic engineering",
+      "Proficient in advanced robotics",
+      "Knowledgeable in quantum physics"
+    ]
+  },
+  "notableEvents": [
+    "Graduated top of her class from Stanford School of Medicine at age 21",
+    "Lost her right arm in a lab explosion at age 28, replaced it with a high-tech prosthetic",
+    "Invented a revolutionary gene therapy to cure a deadly disease at age 32",
+    "Became the youngest recipient of the Nobel Prize in Physiology or Medicine at age 33"
+  ],
+  "goals": [
+    "To find a cure for aging",
+    "To create a more efficient gene-editing technology",
+    "To pioneer the integration of AI with human biology"
+  ],
+  "challenges": [
+    "Overcoming the trauma of her lab accident",
+    "Solving the puzzle of aging",
+    "Fighting against the ethical criticisms of her work"
+  ],
+  "name": "entity_1737018777",
+  "characterName": "Dr. Liora Solstice",
+  "birthDate": "2000-01-16",
+  "creationDate": "2025-01-16",
+  "outputDir": "output/entity_1737018777",
+  "environment": null,
+  "culture": null,
+  "lifespan": null,
+  "abilities": [],
+  "relationships": [],
+  "customAttributes": {},
+  "timelineStructure": "linear",
+  "narrativeStyle": "personal",
+  "transformPrompt": ""
+}

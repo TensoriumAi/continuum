@@ -1,0 +1,60 @@
+{
+  "type": "human",
+  "biology": null,
+  "environment": null,
+  "culture": null,
+  "technology": null,
+  "physicalDescription": null,
+  "lifespan": null,
+  "notableEvents": [],
+  "abilities": [],
+  "goals": [],
+  "challenges": [],
+  "relationships": {
+    "single": true,
+    "children": false,
+    "friends": [
+      "Oliver",
+      "Amelia"
+    ],
+    "pets": [
+      "A black cat named Poe"
+    ]
+  },
+  "customAttributes": {},
+  "timelineStructure": "linear",
+  "narrativeStyle": "personal",
+  "transformPrompt": "",
+  "name": "entity_1737017112",
+  "age": 32,
+  "occupation": "Antique Bookseller",
+  "education": "Master's degree in History",
+  "physical_attributes": {
+    "height": "5 feet 6 inches",
+    "weight": "130 lbs",
+    "hair_color": "Jet black",
+    "eye_color": "Hazel"
+  },
+  "personality_traits": {
+    "introverted": true,
+    "adventurous": false,
+    "meticulous": true,
+    "romantic": false,
+    "intellectual": true
+  },
+  "hobbies": [
+    "Reading historical novels",
+    "Collecting old maps",
+    "Writing poetry"
+  ],
+  "background": {
+    "birthplace": "Dublin, Ireland",
+    "childhood_experience": "Grew up in a small village, surrounded by ancient architecture and folklore",
+    "life_milestone": "Moved to London at 25 to open her own antique bookstore"
+  },
+  "basePrompt": "Generate a specific, unique character with concrete details...",
+  "birthDate": "2000-01-16",
+  "timelineCutoff": "2025-01-16",
+  "creationDate": "2025-01-16",
+  "outputDir": "output/entity_1737017112"
+}

@@ -1,17 +1,30 @@
 #!/usr/bin/env node
 
-import 'dotenv/config';
-import { program } from 'commander';
-import fs from 'fs/promises';
-import path from 'path';
+import { Command } from 'commander';
 import OpenAI from 'openai';
-import { createCharacter } from './create_character.js';
+import path from 'path';
+import * as fs from 'fs/promises';
+import { existsSync } from 'fs';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+import graphology from 'graphology';
+import dotenv from 'dotenv';
 
+// Load environment variables
+dotenv.config();
+
+// Fix __dirname in ES modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+// Initialize OpenAI
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY
 });
 
-// Required configuration
+// Initialize commander
+const program = new Command();
+
 const REQUIRED_CONFIG = {
   name: '',
   basePrompt: '',
@@ -19,7 +32,6 @@ const REQUIRED_CONFIG = {
   birthDate: null
 };
 
-// Optional advanced configuration
 const OPTIONAL_CONFIG = {
   type: 'human',
   biology: null,
@@ -43,97 +55,165 @@ async function promptToCharacterConfig(prompt) {
   try {
     const completion = await openai.chat.completions.create({
       model: "gpt-4",
-      messages: [{
-        role: "system",
-        content: `You are a character creation assistant. Convert the following description into a structured character configuration object with these possible fields:
-        type, biology, environment, culture, technology, physicalDescription, lifespan, notableEvents (array),
-        abilities (array), goals (array), challenges (array), relationships (array), timelineStructure, narrativeStyle, transformPrompt.
-        Only include fields that are relevant to the character description. Output just the JSON object, nothing else.`
-      }, {
-        role: "user",
-        content: prompt
-      }]
+      messages: [{ 
+        role: "user", 
+        content: `Generate a detailed character configuration in JSON format. The character should be unique and interesting.
+The configuration must include:
+- type (e.g., human, AI, alien, etc.)
+- physicalDescription (detailed physical appearance)
+- biology (species traits or characteristics)
+- technology (tools, devices, or tech they use)
+- notableEvents (array of significant life events)
+- goals (array of personal objectives)
+- challenges (array of obstacles or difficulties)
+- characterName (a unique and fitting name)
+
+${prompt}
+
+Return ONLY a valid JSON object with no additional text or markdown formatting.`
+      }],
+      temperature: 0.7,
+      max_tokens: 1000
     });
 
-    const config = JSON.parse(completion.choices[0].message.content);
-    return config;
-  } catch (error) {
-    console.error('Error generating character config from prompt:', error);
-    return {};
-  }
-}
-
-function validateConfig(config) {
-  const errors = [];
-  
-  // Check required fields
-  for (const [key, defaultValue] of Object.entries(REQUIRED_CONFIG)) {
-    if (!config[key] && defaultValue === null) {
-      errors.push(`Missing required field: ${key}`);
+    const response = completion.choices[0].message.content;
+    
+    // Clean up response - remove any assistant prefix or markdown
+    const cleanedResponse = response.replace(/^\[Assistant\]:\s*/i, '')
+                                  .replace(/^```json\s*/, '')
+                                  .replace(/\s*```$/, '');
+    
+    try {
+      return JSON.parse(cleanedResponse);
+    } catch (parseError) {
+      console.error('Failed to parse initial response, retrying with different prompt...');
+      // Retry with more explicit prompt
+      const retryPrompt = `${prompt}\n\nIMPORTANT: Return ONLY a valid JSON object with no additional text or markdown formatting. The response should start with "{" and end with "}".`;
+      
+      const retryCompletion = await openai.chat.completions.create({
+        model: "gpt-4",
+        messages: [{ role: "user", content: retryPrompt }],
+        temperature: 0.7,
+        max_tokens: 1000
+      });
+      
+      const retryResponse = retryCompletion.choices[0].message.content;
+      return JSON.parse(retryResponse);
     }
+  } catch (error) {
+    throw new Error(`Failed to generate character config: ${error.message}`);
   }
-
-  // Validate date formats
-  if (config.timelineCutoff && !isValidDate(config.timelineCutoff)) {
-    errors.push('Invalid timelineCutoff date format (use YYYY-MM-DD)');
-  }
-  if (config.birthDate && !isValidDate(config.birthDate)) {
-    errors.push('Invalid birthDate format (use YYYY-MM-DD)');
-  }
-
-  return errors;
 }
 
-function isValidDate(dateStr) {
-  const date = new Date(dateStr);
-  return date instanceof Date && !isNaN(date) && dateStr.match(/^\d{4}-\d{2}-\d{2}$/);
+async function initCharacter(options) {
+  try {
+    // Check if character already exists
+    const outputDir = path.join('./output', encodeURIComponent(options.name).replace(/%20/g, '-'));
+    const configPath = path.join(outputDir, 'config.json');
+    
+    if (existsSync(configPath)) {
+      console.error(`Character ${options.name} already exists at ${outputDir}`);
+      console.error('To modify an existing character, use the expand command instead.');
+      process.exit(1);
+    }
+
+    console.log('Generating character configuration...');
+    const aiConfig = await promptToCharacterConfig(options.prompt);
+    
+    // Create output directory
+    await fs.mkdir(outputDir, { recursive: true });
+    
+    // Add metadata to config
+    const characterConfig = {
+      type: aiConfig.type || 'human',
+      physicalDescription: aiConfig.physicalDescription || 'No description available',
+      biology: aiConfig.biology || null,
+      technology: aiConfig.technology || null,
+      notableEvents: aiConfig.notableEvents || [],
+      goals: aiConfig.goals || [],
+      challenges: aiConfig.challenges || [],
+      name: options.name,
+      characterName: aiConfig.characterName || options.name,
+      birthDate: options.birthDate,
+      creationDate: options.creationDate,
+      outputDir,
+      environment: aiConfig.environment || null,
+      culture: aiConfig.culture || null,
+      lifespan: aiConfig.lifespan || null,
+      abilities: aiConfig.abilities || [],
+      relationships: aiConfig.relationships || [],
+      customAttributes: aiConfig.customAttributes || {},
+      timelineStructure: aiConfig.timelineStructure || 'linear',
+      narrativeStyle: aiConfig.narrativeStyle || 'personal',
+      transformPrompt: aiConfig.transformPrompt || ''
+    };
+    
+    // Save config
+    await fs.writeFile(
+      configPath,
+      JSON.stringify(characterConfig, null, 2)
+    );
+    console.log(`Created character configuration for ${options.name} at ${configPath}`);
+    
+    // Initialize timeline graph
+    const graph = new graphology.Graph({
+      type: 'mixed',
+      multi: false,
+      allowSelfLoops: true
+    });
+    
+    // Add birth node
+    graph.addNode('birth', {
+      name: `Birth of ${characterConfig.characterName}`,
+      timestamp: `${options.birthDate}T00:00:00-05:00`,
+      description: `Beginning of ${characterConfig.characterName}'s story.`,
+      timeline: 'main',
+      expansion_prompt: `What were the circumstances surrounding ${characterConfig.characterName}'s birth? Consider the environment, the people present, and any notable events or signs that accompanied their arrival.`
+    });
+    
+    // Save graph
+    const graphPath = path.join(outputDir, 'timeline_graph.json');
+    await fs.writeFile(
+      graphPath,
+      JSON.stringify(graph.export(), null, 2)
+    );
+    console.log(`Initialized timeline graph at ${graphPath}`);
+    
+    console.log(`Character ${characterConfig.characterName} initialized successfully!`);
+  } catch (error) {
+    throw new Error(`Error initializing character: ${error.message}`);
+  }
 }
 
-async function initCharacter() {
+async function main() {
   program
     .name('init-character')
     .description('Initialize a new character with timeline configuration')
-    // Required options
-    .requiredOption('-n, --name <n>', 'Character name')
-    .requiredOption('-p, --base-prompt <prompt>', 'Base prompt for character generation')
-    // Optional basic options
-    .option('-c, --timeline-cutoff <date>', 'Timeline cutoff date (YYYY-MM-DD)', REQUIRED_CONFIG.timelineCutoff)
-    .option('-b, --birth-date <date>', 'Character birth date (YYYY-MM-DD)');
+    .requiredOption('-n, --name <name>', 'Character name')
+    .requiredOption('-p, --prompt <prompt>', 'Base prompt for character generation')
+    .requiredOption('-b, --birth-date <date>', 'Character birth date (YYYY-MM-DD)')
+    .requiredOption('-c, --creation-date <date>', 'Character creation date (YYYY-MM-DD)');
 
   program.parse();
   const options = program.opts();
 
   try {
-    // Generate AI config from base prompt
-    console.log('Generating character configuration...');
-    const aiConfig = await promptToCharacterConfig(options.basePrompt);
-    
-    // Merge configs with priority: AI config < Optional defaults < Command line options
-    const config = {
-      ...OPTIONAL_CONFIG,
-      ...aiConfig,
+    const result = await initCharacter({
       name: options.name,
-      basePrompt: options.basePrompt,
+      prompt: options.prompt,
       birthDate: options.birthDate,
-      timelineCutoff: options.timelineCutoff
-    };
-
-    // Validate configuration
-    const errors = validateConfig(config);
-    if (errors.length > 0) {
-      console.error('Configuration errors:');
-      errors.forEach(err => console.error(`- ${err}`));
-      process.exit(1);
-    }
-
-    // Create character
-    await createCharacter(options.name, config);
-    console.log(`Character ${options.name} initialized successfully!`);
-
+      creationDate: options.creationDate
+    });
+    process.exit(result);
   } catch (error) {
-    console.error('Error initializing character:', error);
+    console.error('Error:', error.message);
     process.exit(1);
   }
 }
 
-initCharacter();
+if (import.meta.url === `file://${process.argv[1]}`) {
+  main().catch(error => {
+    console.error('Error:', error.message);
+    process.exit(1);
+  });
+}

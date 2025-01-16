@@ -1,0 +1,76 @@
+{
+  "options": {
+    "type": "mixed",
+    "multi": false,
+    "allowSelfLoops": true
+  },
+  "attributes": {},
+  "nodes": [
+    {
+      "key": "birth",
+      "attributes": {
+        "name": "Birth of entity_1737017221",
+        "timestamp": "2000-01-16T00:00:00-05:00",
+        "description": "Beginning of entity_1737017221's story.",
+        "timeline": "main",
+        "expansion_prompt": "What were the circumstances surrounding entity_1737017221's birth? Consider the environment, the people present, and any notable events or signs that accompanied their arrival."
+      }
+    },
+    {
+      "key": "event_0",
+      "attributes": {
+        "name": "Graduated top of class in university",
+        "timestamp": "2010-01-14T23:00:00.000-05:00",
+        "description": "Graduated top of class in university",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Graduated top of class in university? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737017221's path?"
+      }
+    },
+    {
+      "key": "event_1",
+      "attributes": {
+        "name": "Invented a revolutionary technological device",
+        "timestamp": "2015-01-15T17:00:00.000-05:00",
+        "description": "Invented a revolutionary technological device",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Invented a revolutionary technological device? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737017221's path?"
+      }
+    },
+    {
+      "key": "event_2",
+      "attributes": {
+        "name": "Survived a near-death experience",
+        "timestamp": "2020-01-16T11:00:00.000-05:00",
+        "description": "Survived a near-death experience",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Survived a near-death experience? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737017221's path?"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "key": "geid_16_0",
+      "source": "birth",
+      "target": "event_0",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_16_1",
+      "source": "event_0",
+      "target": "event_1",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_16_2",
+      "source": "event_1",
+      "target": "event_2",
+      "attributes": {
+        "type": "sequence"
+      }
+    }
+  ]
+}

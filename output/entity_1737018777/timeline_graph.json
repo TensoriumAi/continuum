@@ -1,0 +1,116 @@
+{
+  "options": {
+    "type": "mixed",
+    "multi": false,
+    "allowSelfLoops": true
+  },
+  "attributes": {},
+  "nodes": [
+    {
+      "key": "birth",
+      "attributes": {
+        "name": "Birth of Dr. Liora Solstice",
+        "timestamp": "2000-01-16T00:00:00-05:00",
+        "description": "Beginning of Dr. Liora Solstice's story.",
+        "timeline": "main",
+        "expansion_prompt": "What were the circumstances surrounding Dr. Liora Solstice's birth? Consider the environment, the people present, and any notable events or signs that accompanied their arrival.",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737018792413",
+      "attributes": {
+        "name": "Evident Intellectual Prowess at Early Age",
+        "timestamp": "2003-06-02",
+        "description": "At just over three years old, Liora Solstice stunned her parents and preschool teacher by reading and comprehending advanced books for her age. This early exhibition of intellectual prowess sparked her parents' realization of her extraordinary intelligence, leading them to provide her with resources that nurtured her analytical abilities and curiosity. Liora's early exposure to complex concepts and problems laid the foundation for her future academic and scientific achievements.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Evident Intellectual Prowess at Early Age? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737018777's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737018808625",
+      "attributes": {
+        "name": "Enrollment in Gifted Children Program",
+        "timestamp": "2003-08-17",
+        "description": "Impressed by Liora's intellectual abilities, her preschool teacher, Ms. Harper, recommended her for a gifted children program at the local community center. The program, designed for children with exceptional cognitive abilities, provided a stimulating environment where Liora could explore her interests and capabilities, particularly in the realm of science and technology. Her parents, Susan and Michael Solstice, enthusiastically supported this decision, recognizing the potential in their daughter and the opportunity for her to learn and grow. This marked the beginning of Liora's journey into the world of science and technology, where she would eventually make groundbreaking contributions.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Enrollment in Gifted Children Program? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737018777's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737018831166",
+      "attributes": {
+        "name": "First Science Fair Win",
+        "timestamp": "2004-05-23",
+        "description": "At the age of four, Liora participated in her first science fair organized by the gifted children program. Determined to make a strong impression, she worked on a project demonstrating the principles of buoyancy and displacement. Her project, 'Why do Ships Float?', used a series of miniatures and practical experiments that made the complex scientific principle accessible to her peers and adults alike. Her innovative approach and clear explanation won her the first prize, boosting her confidence and cementing her interest in science. It also caught the attention of Dr. James Eliot, a retired professor of Physics who volunteered at the community center, who began mentoring Liora in advanced scientific concepts.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding First Science Fair Win? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737018777's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737018858986",
+      "attributes": {
+        "name": "Mentorship Under Dr. James Eliot Begins",
+        "timestamp": "2004-06-15",
+        "description": "Following her success at the science fair, Dr. James Eliot formally began mentoring Liora. Dr. Eliot, a retired physics professor, was impressed by Liora's innovative approach and clear understanding of scientific principles at such a young age. The mentorship kicked off with weekly meetings at the local library. Dr. Eliot introduced Liora to advanced physics concepts, using real-world examples and experiments to make the learning process engaging. These mentoring sessions significantly accelerated Liora's scientific education and deepened her interest in the field. The mentorship also fostered Liora's curiosity and taught her the critical thinking skills necessary for her future endeavors in science and medicine.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Mentorship Under Dr. James Eliot Begins? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737018777's path?"
+      }
+    },
+    {
+      "key": "event1737018879709",
+      "attributes": {
+        "name": "First Independent Research Project",
+        "timestamp": "2005-06-20",
+        "description": "A year into her mentorship with Dr. James Eliot, Liora embarked on her first independent research project. She decided to investigate the potential of gene therapy in slowing down the aging process. The project was a daunting task for a 5-year-old, but Dr. Eliot believed in her capabilities and encouraged her to push her limits. Liora spent countless hours in the local library, researching and learning about DNA, cells, and the aging process. She then presented her findings at a local science competition, where she won the first place. This project solidified her interest in genetic engineering and anti-aging research, and it was a stepping stone towards her future groundbreaking work in these fields.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding First Independent Research Project? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737018777's path?"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "key": "geid_231_0",
+      "source": "birth",
+      "target": "event1737018792413",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_231_1",
+      "source": "event1737018792413",
+      "target": "event1737018808625",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_231_2",
+      "source": "event1737018808625",
+      "target": "event1737018831166",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_231_3",
+      "source": "event1737018831166",
+      "target": "event1737018858986",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_231_4",
+      "source": "event1737018858986",
+      "target": "event1737018879709",
+      "attributes": {
+        "type": "sequence"
+      }
+    }
+  ]
+}

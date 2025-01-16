@@ -1,0 +1,23 @@
+{
+  "name": "entity_1737015855",
+  "dirName": "entity_1737015855",
+  "type": "human",
+  "birthDate": "2000-01-16",
+  "originLocation": null,
+  "timelineCutoff": "2025-01-16",
+  "physicalDescription": null,
+  "lifespan": null,
+  "biology": null,
+  "culture": null,
+  "environment": null,
+  "technology": null,
+  "notableEvents": [],
+  "abilities": [],
+  "relationships": [],
+  "goals": [],
+  "challenges": [],
+  "basePrompt": "Generate a specific, unique character with concrete details...",
+  "narrativeStyle": "personal",
+  "timelineStructure": "linear",
+  "customAttributes": {}
+}

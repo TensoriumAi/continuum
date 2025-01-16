@@ -1,0 +1,157 @@
+{
+  "options": {
+    "type": "mixed",
+    "multi": false,
+    "allowSelfLoops": true
+  },
+  "attributes": {},
+  "nodes": [
+    {
+      "key": "birth",
+      "attributes": {
+        "name": "Birth of entity_1737015482",
+        "timestamp": "2000-01-16T00:00:00-05:00",
+        "description": "Beginning of entity_1737015482's story.",
+        "timeline": "main",
+        "expansion_prompt": "What were the circumstances surrounding entity_1737015482's birth? Consider the environment, the people present, and any notable events or signs that accompanied their arrival."
+      }
+    },
+    {
+      "key": "event_0",
+      "attributes": {
+        "name": "Unnamed Event",
+        "timestamp": "2010-01-14T23:00:00.000-05:00",
+        "description": "",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Unnamed Event? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015482's path?"
+      }
+    },
+    {
+      "key": "event_1",
+      "attributes": {
+        "name": "Unnamed Event",
+        "timestamp": "2015-01-15T17:00:00.000-05:00",
+        "description": "",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Unnamed Event? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015482's path?"
+      }
+    },
+    {
+      "key": "event_2",
+      "attributes": {
+        "name": "Unnamed Event",
+        "timestamp": "2020-01-16T11:00:00.000-05:00",
+        "description": "",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Unnamed Event? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015482's path?"
+      }
+    },
+    {
+      "key": "event1737015652047",
+      "attributes": {
+        "name": "First Exposure to Nanotechnology",
+        "timestamp": "2003-09-02",
+        "description": "At the age of three, entity_1737015482's parents, renowned scientists Dr. Ilene and Dr. Aiden, expose their child to a prototype nanomachine technology. The intention was to improve the child's physical abilities and cognitive functions. This exposure takes place in their personal lab, located in the heart of New York City. However, an unexpected reaction occurs, and entity_1737015482's hair turns silver, and their eyes begin to shift colors. This event marks the first sign of entity_1737015482's unique abilities and their path towards becoming a cross-dimensional traveler.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding First Exposure to Nanotechnology? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015482's path?"
+      }
+    },
+    {
+      "key": "event1737015659290",
+      "attributes": {
+        "name": "First Encounter with The Maw",
+        "timestamp": "2011-06-30",
+        "description": "In the aftermath of their first cross-dimensional travel, entity_1737015482 had their first encounter with The Maw, a terrifying entity consuming dimensions. The Maw's appearance was unexpected, leaving entity_1737015482 scared and unprepared. Despite their fear, they managed to escape back to their home dimension, but not before their travel gear was damaged. This confrontation solidified entity_1737015482's resolve to protect other dimensions from The Maw, but it also marked the beginning of their isolation as they realized the potential dangers their travels could bring to their home dimension and its inhabitants.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding First Encounter with The Maw? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015482's path?"
+      }
+    },
+    {
+      "key": "event1737015666164",
+      "attributes": {
+        "name": "Discovery of the Maw's True Intentions",
+        "timestamp": "2021-12-12",
+        "description": "After a year of relentless pursuit and inter-dimensional travel, entity_1737015482 stumbled upon an ancient artifact, The Codex of Realities, hidden in the 7th dimension. The Codex revealed the Maw's true intentions - it wasn't just consuming dimensions, but was attempting to create a singular, chaotic reality under its control. This discovery gave entity_1737015482 a renewed sense of purpose and urgency. He understood that the stakes were higher than he had ever imagined. The isolation and immortality he had been grappling with suddenly bore a more profound meaning; they were necessary sacrifices to protect the multiverse.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Discovery of the Maw's True Intentions? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015482's path?"
+      }
+    },
+    {
+      "key": "event1737015680695",
+      "attributes": {
+        "name": "Acquisition of the Temporal Compass",
+        "timestamp": "2015-02-10",
+        "description": "After the confrontation with The Maw in 2011, entity_1737015482 realized the importance of understanding and mastering inter-dimensional travel. This led to the initiation of a quest for a device known as the 'Temporal Compass,' which is believed to provide its user with the ability to navigate the multiverse. The search culminated on February 10, 2015, when entity_1737015482 managed to procure the Temporal Compass from a hidden dimension known as the 'Timeless Vault'. This acquisition marked a significant step in entity_1737015482's journey, dramatically enhancing their ability to travel across dimensions and setting them on a more direct path to their ultimate goal: Defeating The Maw.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Acquisition of the Temporal Compass? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015482's path?"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "key": "geid_61_0",
+      "source": "birth",
+      "target": "event_0",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_61_1",
+      "source": "event_0",
+      "target": "event_1",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_61_2",
+      "source": "event_1",
+      "target": "event_2",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_233_0",
+      "source": "birth",
+      "target": "event1737015652047",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_233_1",
+      "source": "event_0",
+      "target": "event1737015659290",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_233_2",
+      "source": "event_2",
+      "target": "event1737015666164",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_233_3",
+      "source": "event_1",
+      "target": "event1737015680695",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_233_4",
+      "source": "event1737015652047",
+      "target": "event1737015659290",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "The exposure to nanotechnology likely facilitated entity_1737015482's first cross-dimensional travel and encounter with The Maw. The technologies led to the development of unique physical and cognitive abilities, which probably enabled their interdimensional journeys."
+      }
+    }
+  ]
+}

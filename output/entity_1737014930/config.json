@@ -1,0 +1,58 @@
+{
+  "name": "entity_1737014930",
+  "dirName": "entity_1737014930",
+  "type": "Quantum-Enhanced Spy",
+  "birthDate": "2000-01-16",
+  "originLocation": null,
+  "timelineCutoff": "2025-01-16",
+  "physicalDescription": "She is a medium height woman with a lean, athletic build. Her eyes are a bright electric blue, a side-effect of the synthetic modifications. She has short-cut sandy brown hair.",
+  "lifespan": "Unknown due to synthetic modification",
+  "biology": {
+    "species": "Human",
+    "syntheticEnhancements": true
+  },
+  "culture": {
+    "background": "Quantum Physicist",
+    "currentRole": "Spy"
+  },
+  "environment": {
+    "year": 2058,
+    "origin": "London, United Kingdom",
+    "currentLocation": "Tokyo, Japan"
+  },
+  "technology": {
+    "tools": [
+      "Quantum Communicator",
+      "Stealth Suit",
+      "Holographic Disguise"
+    ]
+  },
+  "notableEvents": [
+    "Achieved a breakthrough in quantum theory at age 28",
+    "Discovered her synthetic creation at age 30 by Pandora Corporation",
+    "Recruited by the Global Protection Agency and faked her own death at age 31"
+  ],
+  "abilities": [
+    "Control over quantum states allowing phasing through objects",
+    "Ability to perceive multiple potential outcomes"
+  ],
+  "relationships": [
+    {
+      "type": "mentor",
+      "name": "Marcus Graves",
+      "details": "A retired G.P.A agent who discovered her synthetic nature and guided her transition into becoming a spy."
+    }
+  ],
+  "goals": [
+    "Reveal Pandora Corporation's illegal synthetic human experiments",
+    "Protect innocent lives from corporate exploitation"
+  ],
+  "challenges": [
+    "Proving Pandora Corporation's guilt without blowing her cover",
+    "Dealing with unpredictable side effects of her synthetic enhancements"
+  ],
+  "basePrompt": "Generate a specific, unique character with concrete details. DO NOT list options - choose specific traits and elaborate on them. Example format: 'A former quantum physicist from [specific year] who discovered they were a synthetic being created by [specific group/entity]. They possess [2-3 specific abilities] due to [specific cause]. Their core drive is [specific goal] because [specific reason]. They are mentored by [specific character] who [specific detail about mentor]. A pivotal moment occurred when [specific event] which led to [specific consequence]. They now face the challenge of [specific problem] while trying to [specific goal].' Create your own character following this pattern of specific details, but make it completely different from this example. Focus on concrete details that make the character unique and memorable. Avoid placeholder text or lists of options.",
+  "narrativeStyle": "First-person, providing a deep insight into her struggle and victories",
+  "timelineStructure": "Linear, with occasional jumps due to quantum ability",
+  "customAttributes": {}
+}

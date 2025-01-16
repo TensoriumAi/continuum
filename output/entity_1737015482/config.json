@@ -1,0 +1,53 @@
+{
+  "name": "entity_1737015482",
+  "dirName": "entity_1737015482",
+  "type": "Cross-dimensional Traveller",
+  "birthDate": "2000-01-16",
+  "originLocation": null,
+  "timelineCutoff": "2025-01-16",
+  "physicalDescription": "Tall, athletic build, with short, silver hair and eyes that shift color due to nanomachines",
+  "lifespan": "Immortal due to nanomachine augmentation",
+  "biology": "Human",
+  "culture": "Raised in a technocratic society of 2078",
+  "environment": null,
+  "technology": "High Tech nanomachines and interdimensional travel gear",
+  "notableEvents": [
+    {
+      "Event": "Unintentionally fell into a rift in the fabric of space-time",
+      "Consequence": "Became a cross-dimensional traveller"
+    },
+    {
+      "Event": "Met mentor, an ancient entity known as VA-23",
+      "Details": "VA-23 guides them through the intricacies of inter-dimensional travel"
+    },
+    {
+      "Event": "Encountered an entity, known only as The Maw, which threatened countless dimensions",
+      "Consequence": "Decided to protect the multiverse from The Maw"
+    }
+  ],
+  "abilities": [
+    "Ability to manipulate time using nanomachines",
+    "Vast knowledge of quantum physics and the fabric of space-time",
+    "Rapid regeneration due to nanomachine augmentation"
+  ],
+  "relationships": [
+    {
+      "Relation": "Mentor",
+      "Name": "VA-23",
+      "Details": "VA-23 is an ancient entity who guides them and aids in understanding inter-dimensional travel"
+    }
+  ],
+  "goals": [
+    "Defeat The Maw and protect the multiverse",
+    "Understand their own nature and existence"
+  ],
+  "challenges": [
+    "Understanding and harnessing the intricacies of inter-dimensional travel",
+    "Diverting The Maw's attempt to consume dimensions",
+    "Dealing with isolation and immortality"
+  ],
+  "basePrompt": "Generate a specific, unique character with concrete details. DO NOT list options - choose specific traits and elaborate on them. Example format: 'A former quantum physicist from [specific year] who discovered they were a synthetic being created by [specific group/entity]. They possess [2-3 specific abilities] due to [specific cause]. Their core drive is [specific goal] because [specific reason]. They are mentored by [specific character] who [specific detail about mentor]. A pivotal moment occurred when [specific event] which led to [specific consequence]. They now face the challenge of [specific problem] while trying to [specific goal].' Create your own character following this pattern of specific details, but make it completely different from this example. Focus on concrete details that make the character unique and memorable. Avoid placeholder text or lists of options.",
+  "narrativeStyle": "First person, present tense",
+  "timelineStructure": "Nonlinear due to time travel and dimension hopping",
+  "customAttributes": {}
+}

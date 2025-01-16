@@ -1,0 +1,41 @@
+{
+  "type": "Unique",
+  "biology": "Human",
+  "environment": "Urban city",
+  "culture": "Modern Western",
+  "technology": "High-tech, advanced digital technology",
+  "physicalDescription": "Tall, athletic build with short brown hair and piercing blue eyes. Has a small scar on the left cheek.",
+  "lifespan": "Expected to live to 80-90 years old",
+  "notableEvents": [
+    "Graduated top of class in university",
+    "Invented a revolutionary technological device",
+    "Survived a near-death experience"
+  ],
+  "abilities": [
+    "High intelligence",
+    "Expert in technological engineering",
+    "Strong leadership skills"
+  ],
+  "goals": [
+    "To lead a technological revolution",
+    "To find a balance between work and personal life"
+  ],
+  "challenges": [
+    "Struggles with work-life balance",
+    "Faces competition from other tech companies"
+  ],
+  "relationships": [
+    "Has a strained relationship with his family due to work commitments",
+    "Has a close-knit group of colleagues who are also his friends"
+  ],
+  "customAttributes": {},
+  "timelineStructure": "Non-linear, with flashbacks to important life events",
+  "narrativeStyle": "First-person perspective",
+  "transformPrompt": "How would the character change if he lost his job?",
+  "name": "entity_1737017221",
+  "basePrompt": "Generate a specific, unique character with concrete details...",
+  "birthDate": "2000-01-16",
+  "timelineCutoff": "2025-01-16",
+  "creationDate": "2025-01-16",
+  "outputDir": "output/entity_1737017221"
+}

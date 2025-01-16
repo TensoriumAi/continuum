@@ -1,0 +1,73 @@
+{
+  "type": "human",
+  "biology": null,
+  "environment": null,
+  "culture": null,
+  "technology": null,
+  "physicalDescription": null,
+  "lifespan": null,
+  "notableEvents": [],
+  "abilities": [],
+  "goals": [
+    "To play at the Royal Albert Hall",
+    "To compose her own symphony"
+  ],
+  "challenges": [],
+  "relationships": [],
+  "customAttributes": {},
+  "timelineStructure": "linear",
+  "narrativeStyle": "personal",
+  "transformPrompt": "",
+  "characterName": "Elara Richmond",
+  "age": 28,
+  "gender": "Female",
+  "occupation": "Professional Violinist",
+  "background": "Raised in the countryside of England, Elara was introduced to the violin at a young age by her Italian grandmother. She moved to London at the age of 16 to attend the Royal Academy of Music.",
+  "personalityTraits": [
+    "Passionate",
+    "Determined",
+    "Sensitive",
+    "Introverted"
+  ],
+  "physicalAppearance": {
+    "height": "5'6\"",
+    "eyeColor": "Hazel",
+    "hairColor": "Auburn",
+    "dressStyle": "Bohemian chic with a preference for long, flowing skirts and artistic jewelry"
+  },
+  "likes": [
+    "Classical music",
+    "Theatre",
+    "Traveling",
+    "Animals"
+  ],
+  "dislikes": [
+    "Loud noises",
+    "Crowded places",
+    "Dishonesty"
+  ],
+  "strengths": [
+    "Musical talent",
+    "Strong memory",
+    "Dedication"
+  ],
+  "weaknesses": [
+    "Social anxiety",
+    "Perfectionism"
+  ],
+  "fears": [
+    "Losing her ability to play",
+    "Being alone"
+  ],
+  "family": {
+    "mother": "Sophia Richmond",
+    "father": "Charles Richmond",
+    "siblings": "None"
+  },
+  "name": "entity_1737018121",
+  "basePrompt": "Generate a specific, unique character with concrete details...",
+  "birthDate": "2000-01-16",
+  "timelineCutoff": "2025-01-16",
+  "creationDate": "2025-01-16",
+  "outputDir": "output/entity_1737018121"
+}

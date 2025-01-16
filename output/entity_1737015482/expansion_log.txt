@@ -1,0 +1,664 @@
+
+=== EXPANSION ATTEMPT 2025-01-16T08:18:46.454Z ===
+
+Node ID: event_1
+Node Attributes: {
+  "name": "Unnamed Event",
+  "timestamp": "2015-01-15T17:00:00.000-05:00",
+  "description": "",
+  "timeline": "main",
+  "expansion_prompt": "What were the key moments and details surrounding Unnamed Event? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015482's path?"
+}
+
+Expansion Prompt:
+You are expanding the timeline for entity_1737015482. 
+Character Context:
+Name: entity_1737015482
+Type: Cross-dimensional Traveller
+Birth/Creation: 2000-01-16
+Description: Tall, athletic build, with short, silver hair and eyes that shift color due to nanomachines
+Biology: Human
+Technology: High Tech nanomachines and interdimensional travel gear
+Notable Events: [object Object], [object Object], [object Object]
+Goals: Defeat The Maw and protect the multiverse, Understand their own nature and existence
+Challenges: Understanding and harnessing the intricacies of inter-dimensional travel, Diverting The Maw's attempt to consume dimensions, Dealing with isolation and immortality
+
+Timeline Context (chronological order):
+- [birth] 2000-01-16T00:00:00-05:00: Birth of entity_1737015482
+- [event_0] 2010-01-14T23:00:00.000-05:00: Unnamed Event
+- [event_1] 2015-01-15T17:00:00.000-05:00: Unnamed Event
+- [event_2] 2020-01-16T11:00:00.000-05:00: Unnamed Event
+
+Existing Connections:
+birth -> event_0 (sequence)
+event_0 -> event_1 (sequence)
+event_1 -> event_2 (sequence)
+
+Current Event to Expand:
+Name: Unnamed Event
+Key: undefined
+Time: 2015-01-15T17:00:00.000-05:00
+Description: No description available
+Expansion Prompt: What were the key moments and details surrounding Unnamed Event? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015482's path?
+
+Generate a new event that logically follows from this event. The event should:
+1. Be temporally consistent (happen after 2015-01-15T17:00:00.000-05:00)
+2. Not contradict known history or character traits
+3. Provide rich detail about what happened
+4. Include specific names, places, and consequences
+5. Maintain consistency with the character's established timeline
+
+Return ONLY a JSON object in this exact format (no other text):
+{
+  "id": "event1737015526455",
+  "name": "Brief, specific title",
+  "timestamp": "YYYY-MM-DD",
+  "description": "Detailed description",
+  "connectedTo": "undefined",
+  "connectionType": "sequence"
+}
+
+AI Response:
+{
+  "id": "event1737015526455",
+  "name": "First Encounter with The Maw",
+  "timestamp": "2016-10-31",
+  "description": "While exploring the dimensions with their interdimensional travel gear, entity_1737015482 stumbled upon a horrifying entity known as The Maw. This creature was a sentient force that consumed dimensions, leaving nothing but chaos in its wake. The Maw, sensing entity_1737015482's presence, attacked, forcing entity_1737015482 to retreat hastily. This encounter left entity_1737015482 with a newfound sense of purpose - to protect the multiverse from The Maw's destructive force. It marked the beginning of entity_1737015482's self-imposed mission to understand and harness the intricacies of inter-dimensional travel to combat The Maw.",
+  "connectedTo": "undefined",
+  "connectionType": "sequence"
+}
+
+Parsed Event:
+{
+  "id": "event1737015526455",
+  "name": "First Encounter with The Maw",
+  "timestamp": "2016-10-31",
+  "description": "While exploring the dimensions with their interdimensional travel gear, entity_1737015482 stumbled upon a horrifying entity known as The Maw. This creature was a sentient force that consumed dimensions, leaving nothing but chaos in its wake. The Maw, sensing entity_1737015482's presence, attacked, forcing entity_1737015482 to retreat hastily. This encounter left entity_1737015482 with a newfound sense of purpose - to protect the multiverse from The Maw's destructive force. It marked the beginning of entity_1737015482's self-imposed mission to understand and harness the intricacies of inter-dimensional travel to combat The Maw.",
+  "connectedTo": "undefined",
+  "connectionType": "sequence"
+}
+
+=== EXPANSION ATTEMPT 2025-01-16T08:19:01.995Z ===
+
+Node ID: birth
+Node Attributes: {
+  "name": "Birth of entity_1737015482",
+  "timestamp": "2000-01-16T00:00:00-05:00",
+  "description": "Beginning of entity_1737015482's story.",
+  "timeline": "main",
+  "expansion_prompt": "What were the circumstances surrounding entity_1737015482's birth? Consider the environment, the people present, and any notable events or signs that accompanied their arrival."
+}
+
+Expansion Prompt:
+You are expanding the timeline for entity_1737015482. 
+Character Context:
+Name: entity_1737015482
+Type: Cross-dimensional Traveller
+Birth/Creation: 2000-01-16
+Description: Tall, athletic build, with short, silver hair and eyes that shift color due to nanomachines
+Biology: Human
+Technology: High Tech nanomachines and interdimensional travel gear
+Notable Events: [object Object], [object Object], [object Object]
+Goals: Defeat The Maw and protect the multiverse, Understand their own nature and existence
+Challenges: Understanding and harnessing the intricacies of inter-dimensional travel, Diverting The Maw's attempt to consume dimensions, Dealing with isolation and immortality
+
+Timeline Context (chronological order):
+- [birth] 2000-01-16T00:00:00-05:00: Birth of entity_1737015482
+- [event_0] 2010-01-14T23:00:00.000-05:00: Unnamed Event
+- [event_1] 2015-01-15T17:00:00.000-05:00: Unnamed Event
+- [event1737015526455] 2016-10-31: First Encounter with The Maw
+- [event_2] 2020-01-16T11:00:00.000-05:00: Unnamed Event
+
+Existing Connections:
+birth -> event_0 (sequence)
+event_0 -> event_1 (sequence)
+event_1 -> event_2 (sequence)
+
+Current Event to Expand:
+Name: Birth of entity_1737015482
+Key: undefined
+Time: 2000-01-16T00:00:00-05:00
+Description: Beginning of entity_1737015482's story.
+Expansion Prompt: What were the circumstances surrounding entity_1737015482's birth? Consider the environment, the people present, and any notable events or signs that accompanied their arrival.
+
+Generate a new event that logically follows from this event. The event should:
+1. Be temporally consistent (happen after 2000-01-16T00:00:00-05:00)
+2. Not contradict known history or character traits
+3. Provide rich detail about what happened
+4. Include specific names, places, and consequences
+5. Maintain consistency with the character's established timeline
+
+Return ONLY a JSON object in this exact format (no other text):
+{
+  "id": "event1737015541996",
+  "name": "Brief, specific title",
+  "timestamp": "YYYY-MM-DD",
+  "description": "Detailed description",
+  "connectedTo": "undefined",
+  "connectionType": "sequence"
+}
+
+AI Response:
+{
+  "id": "event1737015541996",
+  "name": "The Awakening of Nanomachines",
+  "timestamp": "2000-02-01T00:00:00-05:00",
+  "description": "Just two weeks after entity_1737015482's birth, their silver hair and color-shifting eyes began to manifest, startling their parents. This was due to the nanomachines embedded in their DNA activating. Their parents, both renowned scientists, quickly realized their child was unique and began documenting the changes. This event marked the awakening of entity_1737015482's extraordinary abilities, setting the course for their future as a cross-dimensional traveller.",
+  "connectedTo": "birth",
+  "connectionType": "sequence"
+}
+
+Parsed Event:
+{
+  "id": "event1737015541996",
+  "name": "The Awakening of Nanomachines",
+  "timestamp": "2000-02-01T00:00:00-05:00",
+  "description": "Just two weeks after entity_1737015482's birth, their silver hair and color-shifting eyes began to manifest, startling their parents. This was due to the nanomachines embedded in their DNA activating. Their parents, both renowned scientists, quickly realized their child was unique and began documenting the changes. This event marked the awakening of entity_1737015482's extraordinary abilities, setting the course for their future as a cross-dimensional traveller.",
+  "connectedTo": "birth",
+  "connectionType": "sequence"
+}
+
+Added Event to Graph: event1737015541996
+
+=== EXPANSION ATTEMPT 2025-01-16T08:19:09.644Z ===
+
+Node ID: event_0
+Node Attributes: {
+  "name": "Unnamed Event",
+  "timestamp": "2010-01-14T23:00:00.000-05:00",
+  "description": "",
+  "timeline": "main",
+  "expansion_prompt": "What were the key moments and details surrounding Unnamed Event? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015482's path?"
+}
+
+Expansion Prompt:
+You are expanding the timeline for entity_1737015482. 
+Character Context:
+Name: entity_1737015482
+Type: Cross-dimensional Traveller
+Birth/Creation: 2000-01-16
+Description: Tall, athletic build, with short, silver hair and eyes that shift color due to nanomachines
+Biology: Human
+Technology: High Tech nanomachines and interdimensional travel gear
+Notable Events: [object Object], [object Object], [object Object]
+Goals: Defeat The Maw and protect the multiverse, Understand their own nature and existence
+Challenges: Understanding and harnessing the intricacies of inter-dimensional travel, Diverting The Maw's attempt to consume dimensions, Dealing with isolation and immortality
+
+Timeline Context (chronological order):
+- [birth] 2000-01-16T00:00:00-05:00: Birth of entity_1737015482
+- [event1737015541996] 2000-02-01T00:00:00-05:00: The Awakening of Nanomachines
+- [event_0] 2010-01-14T23:00:00.000-05:00: Unnamed Event
+- [event_1] 2015-01-15T17:00:00.000-05:00: Unnamed Event
+- [event1737015526455] 2016-10-31: First Encounter with The Maw
+- [event_2] 2020-01-16T11:00:00.000-05:00: Unnamed Event
+
+Existing Connections:
+birth -> event_0 (sequence)
+event_0 -> event_1 (sequence)
+event_1 -> event_2 (sequence)
+birth -> event1737015541996 (sequence)
+
+Current Event to Expand:
+Name: Unnamed Event
+Key: undefined
+Time: 2010-01-14T23:00:00.000-05:00
+Description: No description available
+Expansion Prompt: What were the key moments and details surrounding Unnamed Event? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015482's path?
+
+Generate a new event that logically follows from this event. The event should:
+1. Be temporally consistent (happen after 2010-01-14T23:00:00.000-05:00)
+2. Not contradict known history or character traits
+3. Provide rich detail about what happened
+4. Include specific names, places, and consequences
+5. Maintain consistency with the character's established timeline
+
+Return ONLY a JSON object in this exact format (no other text):
+{
+  "id": "event1737015549645",
+  "name": "Brief, specific title",
+  "timestamp": "YYYY-MM-DD",
+  "description": "Detailed description",
+  "connectedTo": "undefined",
+  "connectionType": "sequence"
+}
+
+AI Response:
+{
+  "id": "event1737015549645",
+  "name": "First Interdimensional Jump",
+  "timestamp": "2010-03-21",
+  "description": "After months of studying and understanding the intricacies of his nanomachines, entity_1737015482 successfully makes his first interdimensional jump. He found himself in an alternate reality where the Earth was dominated by sentient plants. The shock of this new reality further instilled in him the need to understand his own existence and protect the multiverse. This event marked the beginning of entity_1737015482's true journey as a cross-dimensional traveller.",
+  "connectedTo": "undefined",
+  "connectionType": "sequence"
+}
+
+Parsed Event:
+{
+  "id": "event1737015549645",
+  "name": "First Interdimensional Jump",
+  "timestamp": "2010-03-21",
+  "description": "After months of studying and understanding the intricacies of his nanomachines, entity_1737015482 successfully makes his first interdimensional jump. He found himself in an alternate reality where the Earth was dominated by sentient plants. The shock of this new reality further instilled in him the need to understand his own existence and protect the multiverse. This event marked the beginning of entity_1737015482's true journey as a cross-dimensional traveller.",
+  "connectedTo": "undefined",
+  "connectionType": "sequence"
+}
+
+=== EXPANSION ATTEMPT 2025-01-16T08:19:15.837Z ===
+
+Node ID: event_2
+Node Attributes: {
+  "name": "Unnamed Event",
+  "timestamp": "2020-01-16T11:00:00.000-05:00",
+  "description": "",
+  "timeline": "main",
+  "expansion_prompt": "What were the key moments and details surrounding Unnamed Event? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015482's path?"
+}
+
+Expansion Prompt:
+You are expanding the timeline for entity_1737015482. 
+Character Context:
+Name: entity_1737015482
+Type: Cross-dimensional Traveller
+Birth/Creation: 2000-01-16
+Description: Tall, athletic build, with short, silver hair and eyes that shift color due to nanomachines
+Biology: Human
+Technology: High Tech nanomachines and interdimensional travel gear
+Notable Events: [object Object], [object Object], [object Object]
+Goals: Defeat The Maw and protect the multiverse, Understand their own nature and existence
+Challenges: Understanding and harnessing the intricacies of inter-dimensional travel, Diverting The Maw's attempt to consume dimensions, Dealing with isolation and immortality
+
+Timeline Context (chronological order):
+- [birth] 2000-01-16T00:00:00-05:00: Birth of entity_1737015482
+- [event1737015541996] 2000-02-01T00:00:00-05:00: The Awakening of Nanomachines
+- [event_0] 2010-01-14T23:00:00.000-05:00: Unnamed Event
+- [event1737015549645] 2010-03-21: First Interdimensional Jump
+- [event_1] 2015-01-15T17:00:00.000-05:00: Unnamed Event
+- [event1737015526455] 2016-10-31: First Encounter with The Maw
+- [event_2] 2020-01-16T11:00:00.000-05:00: Unnamed Event
+
+Existing Connections:
+birth -> event_0 (sequence)
+event_0 -> event_1 (sequence)
+event_1 -> event_2 (sequence)
+birth -> event1737015541996 (sequence)
+
+Current Event to Expand:
+Name: Unnamed Event
+Key: undefined
+Time: 2020-01-16T11:00:00.000-05:00
+Description: No description available
+Expansion Prompt: What were the key moments and details surrounding Unnamed Event? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015482's path?
+
+Generate a new event that logically follows from this event. The event should:
+1. Be temporally consistent (happen after 2020-01-16T11:00:00.000-05:00)
+2. Not contradict known history or character traits
+3. Provide rich detail about what happened
+4. Include specific names, places, and consequences
+5. Maintain consistency with the character's established timeline
+
+Return ONLY a JSON object in this exact format (no other text):
+{
+  "id": "event1737015555837",
+  "name": "Brief, specific title",
+  "timestamp": "YYYY-MM-DD",
+  "description": "Detailed description",
+  "connectedTo": "undefined",
+  "connectionType": "sequence"
+}
+
+AI Response:
+{
+  "id": "event1737015555837",
+  "name": "Battle of the Bleeding Dimensions",
+  "timestamp": "2020-07-29",
+  "description": "Following the Unnamed Event, entity_1737015482 discovered a massive, unstable rift in the multiverse, torn open by The Maw in its relentless hunger. Gathering allies from different dimensions, including the technomancer Lyra from Dimension-56X and the warrior queen Aelinor from Dimension-72H, entity_1737015482 led a desperate stand against The Maw. The battle resulted in the closing of the rift, but not without cost. Lyra sacrificed herself to stabilize the rift, and the event led to entity_1737015482's deepened understanding of the consequences and responsibilities of their existence.",
+  "connectedTo": "event_2",
+  "connectionType": "sequence"
+}
+
+Parsed Event:
+{
+  "id": "event1737015555837",
+  "name": "Battle of the Bleeding Dimensions",
+  "timestamp": "2020-07-29",
+  "description": "Following the Unnamed Event, entity_1737015482 discovered a massive, unstable rift in the multiverse, torn open by The Maw in its relentless hunger. Gathering allies from different dimensions, including the technomancer Lyra from Dimension-56X and the warrior queen Aelinor from Dimension-72H, entity_1737015482 led a desperate stand against The Maw. The battle resulted in the closing of the rift, but not without cost. Lyra sacrificed herself to stabilize the rift, and the event led to entity_1737015482's deepened understanding of the consequences and responsibilities of their existence.",
+  "connectedTo": "event_2",
+  "connectionType": "sequence"
+}
+
+Added Event to Graph: event1737015555837
+
+=== EXPANSION ATTEMPT 2025-01-16T08:20:52.046Z ===
+
+Node ID: birth
+Node Attributes: {
+  "name": "Birth of entity_1737015482",
+  "timestamp": "2000-01-16T00:00:00-05:00",
+  "description": "Beginning of entity_1737015482's story.",
+  "timeline": "main",
+  "expansion_prompt": "What were the circumstances surrounding entity_1737015482's birth? Consider the environment, the people present, and any notable events or signs that accompanied their arrival."
+}
+
+Expansion Prompt:
+You are expanding the timeline for entity_1737015482. 
+Character Context:
+Name: entity_1737015482
+Type: Cross-dimensional Traveller
+Birth/Creation: 2000-01-16
+Description: Tall, athletic build, with short, silver hair and eyes that shift color due to nanomachines
+Biology: Human
+Technology: High Tech nanomachines and interdimensional travel gear
+Notable Events: [object Object], [object Object], [object Object]
+Goals: Defeat The Maw and protect the multiverse, Understand their own nature and existence
+Challenges: Understanding and harnessing the intricacies of inter-dimensional travel, Diverting The Maw's attempt to consume dimensions, Dealing with isolation and immortality
+
+Timeline Context (chronological order):
+- [birth] 2000-01-16T00:00:00-05:00: Birth of entity_1737015482
+- [event_0] 2010-01-14T23:00:00.000-05:00: Unnamed Event
+- [event_1] 2015-01-15T17:00:00.000-05:00: Unnamed Event
+- [event_2] 2020-01-16T11:00:00.000-05:00: Unnamed Event
+
+Existing Connections:
+birth -> event_0 (sequence)
+event_0 -> event_1 (sequence)
+event_1 -> event_2 (sequence)
+
+Current Event to Expand:
+Name: Birth of entity_1737015482
+Node Key: birth
+Time: 2000-01-16T00:00:00-05:00
+Description: Beginning of entity_1737015482's story.
+Expansion Prompt: What were the circumstances surrounding entity_1737015482's birth? Consider the environment, the people present, and any notable events or signs that accompanied their arrival.
+
+Generate a new event that logically follows from this event. The event should:
+1. Be temporally consistent (happen after 2000-01-16T00:00:00-05:00)
+2. Not contradict known history or character traits
+3. Provide rich detail about what happened
+4. Include specific names, places, and consequences
+5. Maintain consistency with the character's established timeline
+
+Return ONLY a JSON object in this exact format (no other text):
+{
+  "id": "event1737015652047",
+  "name": "Brief, specific title",
+  "timestamp": "YYYY-MM-DD",
+  "description": "Detailed description",
+  "connectedTo": "birth",
+  "connectionType": "sequence"
+}
+
+AI Response:
+{
+  "id": "event1737015652047",
+  "name": "First Exposure to Nanotechnology",
+  "timestamp": "2003-09-02",
+  "description": "At the age of three, entity_1737015482's parents, renowned scientists Dr. Ilene and Dr. Aiden, expose their child to a prototype nanomachine technology. The intention was to improve the child's physical abilities and cognitive functions. This exposure takes place in their personal lab, located in the heart of New York City. However, an unexpected reaction occurs, and entity_1737015482's hair turns silver, and their eyes begin to shift colors. This event marks the first sign of entity_1737015482's unique abilities and their path towards becoming a cross-dimensional traveler.",
+  "connectedTo": "birth",
+  "connectionType": "sequence"
+}
+
+Parsed Event:
+{
+  "id": "event1737015652047",
+  "name": "First Exposure to Nanotechnology",
+  "timestamp": "2003-09-02",
+  "description": "At the age of three, entity_1737015482's parents, renowned scientists Dr. Ilene and Dr. Aiden, expose their child to a prototype nanomachine technology. The intention was to improve the child's physical abilities and cognitive functions. This exposure takes place in their personal lab, located in the heart of New York City. However, an unexpected reaction occurs, and entity_1737015482's hair turns silver, and their eyes begin to shift colors. This event marks the first sign of entity_1737015482's unique abilities and their path towards becoming a cross-dimensional traveler.",
+  "connectedTo": "birth",
+  "connectionType": "sequence"
+}
+
+Added Event to Graph: event1737015652047
+
+=== EXPANSION ATTEMPT 2025-01-16T08:20:59.290Z ===
+
+Node ID: event_0
+Node Attributes: {
+  "name": "Unnamed Event",
+  "timestamp": "2010-01-14T23:00:00.000-05:00",
+  "description": "",
+  "timeline": "main",
+  "expansion_prompt": "What were the key moments and details surrounding Unnamed Event? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015482's path?"
+}
+
+Expansion Prompt:
+You are expanding the timeline for entity_1737015482. 
+Character Context:
+Name: entity_1737015482
+Type: Cross-dimensional Traveller
+Birth/Creation: 2000-01-16
+Description: Tall, athletic build, with short, silver hair and eyes that shift color due to nanomachines
+Biology: Human
+Technology: High Tech nanomachines and interdimensional travel gear
+Notable Events: [object Object], [object Object], [object Object]
+Goals: Defeat The Maw and protect the multiverse, Understand their own nature and existence
+Challenges: Understanding and harnessing the intricacies of inter-dimensional travel, Diverting The Maw's attempt to consume dimensions, Dealing with isolation and immortality
+
+Timeline Context (chronological order):
+- [birth] 2000-01-16T00:00:00-05:00: Birth of entity_1737015482
+- [event1737015652047] 2003-09-02: First Exposure to Nanotechnology
+- [event_0] 2010-01-14T23:00:00.000-05:00: Unnamed Event
+- [event_1] 2015-01-15T17:00:00.000-05:00: Unnamed Event
+- [event_2] 2020-01-16T11:00:00.000-05:00: Unnamed Event
+
+Existing Connections:
+birth -> event_0 (sequence)
+event_0 -> event_1 (sequence)
+event_1 -> event_2 (sequence)
+birth -> event1737015652047 (sequence)
+
+Current Event to Expand:
+Name: Unnamed Event
+Node Key: event_0
+Time: 2010-01-14T23:00:00.000-05:00
+Description: No description available
+Expansion Prompt: What were the key moments and details surrounding Unnamed Event? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015482's path?
+
+Generate a new event that logically follows from this event. The event should:
+1. Be temporally consistent (happen after 2010-01-14T23:00:00.000-05:00)
+2. Not contradict known history or character traits
+3. Provide rich detail about what happened
+4. Include specific names, places, and consequences
+5. Maintain consistency with the character's established timeline
+
+Return ONLY a JSON object in this exact format (no other text):
+{
+  "id": "event1737015659290",
+  "name": "Brief, specific title",
+  "timestamp": "YYYY-MM-DD",
+  "description": "Detailed description",
+  "connectedTo": "event_0",
+  "connectionType": "sequence"
+}
+
+AI Response:
+{
+  "id": "event1737015659290",
+  "name": "First Encounter with The Maw",
+  "timestamp": "2011-06-30",
+  "description": "In the aftermath of their first cross-dimensional travel, entity_1737015482 had their first encounter with The Maw, a terrifying entity consuming dimensions. The Maw's appearance was unexpected, leaving entity_1737015482 scared and unprepared. Despite their fear, they managed to escape back to their home dimension, but not before their travel gear was damaged. This confrontation solidified entity_1737015482's resolve to protect other dimensions from The Maw, but it also marked the beginning of their isolation as they realized the potential dangers their travels could bring to their home dimension and its inhabitants.",
+  "connectedTo": "event_0",
+  "connectionType": "sequence"
+}
+
+Parsed Event:
+{
+  "id": "event1737015659290",
+  "name": "First Encounter with The Maw",
+  "timestamp": "2011-06-30",
+  "description": "In the aftermath of their first cross-dimensional travel, entity_1737015482 had their first encounter with The Maw, a terrifying entity consuming dimensions. The Maw's appearance was unexpected, leaving entity_1737015482 scared and unprepared. Despite their fear, they managed to escape back to their home dimension, but not before their travel gear was damaged. This confrontation solidified entity_1737015482's resolve to protect other dimensions from The Maw, but it also marked the beginning of their isolation as they realized the potential dangers their travels could bring to their home dimension and its inhabitants.",
+  "connectedTo": "event_0",
+  "connectionType": "sequence"
+}
+
+Added Event to Graph: event1737015659290
+
+=== EXPANSION ATTEMPT 2025-01-16T08:21:06.163Z ===
+
+Node ID: event_2
+Node Attributes: {
+  "name": "Unnamed Event",
+  "timestamp": "2020-01-16T11:00:00.000-05:00",
+  "description": "",
+  "timeline": "main",
+  "expansion_prompt": "What were the key moments and details surrounding Unnamed Event? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015482's path?"
+}
+
+Expansion Prompt:
+You are expanding the timeline for entity_1737015482. 
+Character Context:
+Name: entity_1737015482
+Type: Cross-dimensional Traveller
+Birth/Creation: 2000-01-16
+Description: Tall, athletic build, with short, silver hair and eyes that shift color due to nanomachines
+Biology: Human
+Technology: High Tech nanomachines and interdimensional travel gear
+Notable Events: [object Object], [object Object], [object Object]
+Goals: Defeat The Maw and protect the multiverse, Understand their own nature and existence
+Challenges: Understanding and harnessing the intricacies of inter-dimensional travel, Diverting The Maw's attempt to consume dimensions, Dealing with isolation and immortality
+
+Timeline Context (chronological order):
+- [birth] 2000-01-16T00:00:00-05:00: Birth of entity_1737015482
+- [event1737015652047] 2003-09-02: First Exposure to Nanotechnology
+- [event_0] 2010-01-14T23:00:00.000-05:00: Unnamed Event
+- [event1737015659290] 2011-06-30: First Encounter with The Maw
+- [event_1] 2015-01-15T17:00:00.000-05:00: Unnamed Event
+- [event_2] 2020-01-16T11:00:00.000-05:00: Unnamed Event
+
+Existing Connections:
+birth -> event_0 (sequence)
+event_0 -> event_1 (sequence)
+event_1 -> event_2 (sequence)
+birth -> event1737015652047 (sequence)
+event_0 -> event1737015659290 (sequence)
+
+Current Event to Expand:
+Name: Unnamed Event
+Node Key: event_2
+Time: 2020-01-16T11:00:00.000-05:00
+Description: No description available
+Expansion Prompt: What were the key moments and details surrounding Unnamed Event? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015482's path?
+
+Generate a new event that logically follows from this event. The event should:
+1. Be temporally consistent (happen after 2020-01-16T11:00:00.000-05:00)
+2. Not contradict known history or character traits
+3. Provide rich detail about what happened
+4. Include specific names, places, and consequences
+5. Maintain consistency with the character's established timeline
+
+Return ONLY a JSON object in this exact format (no other text):
+{
+  "id": "event1737015666164",
+  "name": "Brief, specific title",
+  "timestamp": "YYYY-MM-DD",
+  "description": "Detailed description",
+  "connectedTo": "event_2",
+  "connectionType": "sequence"
+}
+
+AI Response:
+{
+  "id": "event1737015666164",
+  "name": "Discovery of the Maw's True Intentions",
+  "timestamp": "2021-12-12",
+  "description": "After a year of relentless pursuit and inter-dimensional travel, entity_1737015482 stumbled upon an ancient artifact, The Codex of Realities, hidden in the 7th dimension. The Codex revealed the Maw's true intentions - it wasn't just consuming dimensions, but was attempting to create a singular, chaotic reality under its control. This discovery gave entity_1737015482 a renewed sense of purpose and urgency. He understood that the stakes were higher than he had ever imagined. The isolation and immortality he had been grappling with suddenly bore a more profound meaning; they were necessary sacrifices to protect the multiverse.",
+  "connectedTo": "event_2",
+  "connectionType": "sequence"
+}
+
+Parsed Event:
+{
+  "id": "event1737015666164",
+  "name": "Discovery of the Maw's True Intentions",
+  "timestamp": "2021-12-12",
+  "description": "After a year of relentless pursuit and inter-dimensional travel, entity_1737015482 stumbled upon an ancient artifact, The Codex of Realities, hidden in the 7th dimension. The Codex revealed the Maw's true intentions - it wasn't just consuming dimensions, but was attempting to create a singular, chaotic reality under its control. This discovery gave entity_1737015482 a renewed sense of purpose and urgency. He understood that the stakes were higher than he had ever imagined. The isolation and immortality he had been grappling with suddenly bore a more profound meaning; they were necessary sacrifices to protect the multiverse.",
+  "connectedTo": "event_2",
+  "connectionType": "sequence"
+}
+
+Added Event to Graph: event1737015666164
+
+=== EXPANSION ATTEMPT 2025-01-16T08:21:20.694Z ===
+
+Node ID: event_1
+Node Attributes: {
+  "name": "Unnamed Event",
+  "timestamp": "2015-01-15T17:00:00.000-05:00",
+  "description": "",
+  "timeline": "main",
+  "expansion_prompt": "What were the key moments and details surrounding Unnamed Event? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015482's path?"
+}
+
+Expansion Prompt:
+You are expanding the timeline for entity_1737015482. 
+Character Context:
+Name: entity_1737015482
+Type: Cross-dimensional Traveller
+Birth/Creation: 2000-01-16
+Description: Tall, athletic build, with short, silver hair and eyes that shift color due to nanomachines
+Biology: Human
+Technology: High Tech nanomachines and interdimensional travel gear
+Notable Events: [object Object], [object Object], [object Object]
+Goals: Defeat The Maw and protect the multiverse, Understand their own nature and existence
+Challenges: Understanding and harnessing the intricacies of inter-dimensional travel, Diverting The Maw's attempt to consume dimensions, Dealing with isolation and immortality
+
+Timeline Context (chronological order):
+- [birth] 2000-01-16T00:00:00-05:00: Birth of entity_1737015482
+- [event1737015652047] 2003-09-02: First Exposure to Nanotechnology
+- [event_0] 2010-01-14T23:00:00.000-05:00: Unnamed Event
+- [event1737015659290] 2011-06-30: First Encounter with The Maw
+- [event_1] 2015-01-15T17:00:00.000-05:00: Unnamed Event
+- [event_2] 2020-01-16T11:00:00.000-05:00: Unnamed Event
+- [event1737015666164] 2021-12-12: Discovery of the Maw's True Intentions
+
+Existing Connections:
+birth -> event_0 (sequence)
+event_0 -> event_1 (sequence)
+event_1 -> event_2 (sequence)
+birth -> event1737015652047 (sequence)
+event_0 -> event1737015659290 (sequence)
+event_2 -> event1737015666164 (sequence)
+
+Current Event to Expand:
+Name: Unnamed Event
+Node Key: event_1
+Time: 2015-01-15T17:00:00.000-05:00
+Description: No description available
+Expansion Prompt: What were the key moments and details surrounding Unnamed Event? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015482's path?
+
+Generate a new event that logically follows from this event. The event should:
+1. Be temporally consistent (happen after 2015-01-15T17:00:00.000-05:00)
+2. Not contradict known history or character traits
+3. Provide rich detail about what happened
+4. Include specific names, places, and consequences
+5. Maintain consistency with the character's established timeline
+
+Return ONLY a JSON object in this exact format (no other text):
+{
+  "id": "event1737015680695",
+  "name": "Brief, specific title",
+  "timestamp": "YYYY-MM-DD",
+  "description": "Detailed description",
+  "connectedTo": "event_1",
+  "connectionType": "sequence"
+}
+
+AI Response:
+{
+  "id": "event1737015680695",
+  "name": "Acquisition of the Temporal Compass",
+  "timestamp": "2015-02-10",
+  "description": "After the confrontation with The Maw in 2011, entity_1737015482 realized the importance of understanding and mastering inter-dimensional travel. This led to the initiation of a quest for a device known as the 'Temporal Compass,' which is believed to provide its user with the ability to navigate the multiverse. The search culminated on February 10, 2015, when entity_1737015482 managed to procure the Temporal Compass from a hidden dimension known as the 'Timeless Vault'. This acquisition marked a significant step in entity_1737015482's journey, dramatically enhancing their ability to travel across dimensions and setting them on a more direct path to their ultimate goal: Defeating The Maw.",
+  "connectedTo": "event_1",
+  "connectionType": "sequence"
+}
+
+Parsed Event:
+{
+  "id": "event1737015680695",
+  "name": "Acquisition of the Temporal Compass",
+  "timestamp": "2015-02-10",
+  "description": "After the confrontation with The Maw in 2011, entity_1737015482 realized the importance of understanding and mastering inter-dimensional travel. This led to the initiation of a quest for a device known as the 'Temporal Compass,' which is believed to provide its user with the ability to navigate the multiverse. The search culminated on February 10, 2015, when entity_1737015482 managed to procure the Temporal Compass from a hidden dimension known as the 'Timeless Vault'. This acquisition marked a significant step in entity_1737015482's journey, dramatically enhancing their ability to travel across dimensions and setting them on a more direct path to their ultimate goal: Defeating The Maw.",
+  "connectedTo": "event_1",
+  "connectionType": "sequence"
+}
+
+Added Event to Graph: event1737015680695

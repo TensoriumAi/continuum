@@ -1,0 +1,42 @@
+{
+  "type": "Individual",
+  "biology": "Human",
+  "environment": "Urban",
+  "culture": "Middle-class American",
+  "technology": "Contemporary",
+  "physicalDescription": "Tall, slim, with short brown hair and green eyes. Often seen wearing business casual attire.",
+  "lifespan": "30 years (still alive)",
+  "notableEvents": [
+    "Graduated from Harvard Business School",
+    "Started his own tech startup",
+    "Sold his startup to a major tech company"
+  ],
+  "abilities": [
+    "Exceptional business acumen",
+    "Proficient programmer",
+    "Good public speaker"
+  ],
+  "goals": [
+    "To start another tech company",
+    "To become a prominent figure in the tech industry"
+  ],
+  "challenges": [
+    "Finding the right team for his new venture",
+    "Balancing work and personal life"
+  ],
+  "relationships": [
+    "Parents - supportive of his ambitions",
+    "Ex-business partner - strained relationship due to differing business views",
+    "Younger sister - close relationship, often seeks his advice"
+  ],
+  "customAttributes": {},
+  "timelineStructure": "Linear, present time",
+  "narrativeStyle": "First-person perspective",
+  "transformPrompt": "What if the character loses all his savings and has to start from scratch?",
+  "name": "entity_1737017724",
+  "basePrompt": "Generate a specific, unique character with concrete details...",
+  "birthDate": "2000-01-16",
+  "timelineCutoff": "2025-01-16",
+  "creationDate": "2025-01-16",
+  "outputDir": "output/entity_1737017724"
+}

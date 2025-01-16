@@ -1,0 +1,362 @@
+{
+  "options": {
+    "type": "mixed",
+    "multi": false,
+    "allowSelfLoops": true
+  },
+  "attributes": {},
+  "nodes": [
+    {
+      "key": "birth",
+      "attributes": {
+        "name": "Birth of entity_1737018121",
+        "timestamp": "2000-01-16T00:00:00-05:00",
+        "description": "Beginning of entity_1737018121's story.",
+        "timeline": "main",
+        "expansion_prompt": "What were the circumstances surrounding entity_1737018121's birth? Consider the environment, the people present, and any notable events or signs that accompanied their arrival.",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737018134635",
+      "attributes": {
+        "name": "First Music Lesson",
+        "timestamp": "2005-09-06",
+        "description": "Five years after her birth, entity_1737018121 took her first music lesson at the local community center in her small town. Her parents, both avid music lovers, noticed her early inclination towards music and decided to foster her interest. Her mother, a pianist herself, was her first teacher. The lesson took place in their cozy house, filled with the melodies of Chopin and Beethoven. This marked the beginning of her journey towards her goal of composing her own symphony and playing at the Royal Albert Hall.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding First Music Lesson? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737018121's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737018159797",
+      "attributes": {
+        "name": "First Public Performance",
+        "timestamp": "2006-12-15",
+        "description": "A little over a year after her first music lesson, entity_1737018121 gave her first public performance at her school's annual holiday concert. She played a simplified version of Beethoven's 'Für Elise' on the piano. The performance was a resounding success and was met with applause from the audience, which included her classmates, teachers, and her proud parents. This public affirmation of her talent boosted her confidence immensely and reaffirmed her desire to pursue music professionally. This event also exposed her to the thrill of performing in front of an audience for the first time, kindling her aspiration to play at the Royal Albert Hall.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding First Public Performance? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737018121's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737018182874",
+      "attributes": {
+        "name": "First Composition Attempt",
+        "timestamp": "2007-03-10",
+        "description": "Motivated by the success of her first public performance, entity_1737018121 decided to try her hand at composition. With the encouragement of her music teacher, Mrs. Jenkins, she began working on her first piece. It was a simple melody, inspired by the birds she would hear chirping outside her bedroom window each morning. She spent countless hours at the piano, carefully crafting and revising her composition. The process was challenging and at times frustrating, but also deeply rewarding. This experience further fueled her passion for music and sparked her long-term goal to compose her own symphony.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding First Composition Attempt? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737018121's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737018199974",
+      "attributes": {
+        "name": "First Composition Public Performance",
+        "timestamp": "2007-06-15",
+        "description": "After months of diligent work, entity_1737018121 completed her first composition and was ready to perform it to the public. This event was held at the local community center where she had previously captivated the audience with her piano performance. Mrs. Jenkins, her music teacher, arranged this performance to help entity_1737018121 gain exposure and experience. The composition, lovingly titled 'Morning Serenade', was well-received by the audience, earning her a standing ovation. This success boosted entity_1737018121's confidence and further reinforced her desire to pursue a career in music and compose her own symphony.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding First Composition Public Performance? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737018121's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737018221824",
+      "attributes": {
+        "name": "Invitation to Perform at Music Festival",
+        "timestamp": "2007-09-10",
+        "description": "Impressed by the talent and creativity displayed by entity_1737018121 during her first composition performance, a local music festival organizer, Mr. Gareth, extended an invitation to her to perform at the upcoming 'Harmony Fest'. The annual festival, known for showcasing young talents, was to be held in the city's main park and was a popular event, drawing large crowds. Ecstatic at the opportunity, entity_1737018121 accepted the invitation, viewing it as a significant step towards achieving her dream of performing at the Royal Albert Hall. With her music teacher, Mrs. Jenkins' guidance, she began preparing for the event, deciding to perform 'Morning Serenade' and a few other pieces she had been working on.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Invitation to Perform at Music Festival? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737018121's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737018235415",
+      "attributes": {
+        "name": "Successful Performance at Harmony Fest",
+        "timestamp": "2007-10-05",
+        "description": "After weeks of rigorous practice under the guidance of her mentor Mrs. Jenkins, entity_1737018121 delivered a mesmerizing performance at the 'Harmony Fest'. She performed 'Morning Serenade' and a few other compositions, which were met with thunderous applause. The event was covered by the local newspaper, 'The City Chronicle', giving entity_1737018121 her first taste of media attention. Her performance was so well-received that she was invited to give a solo concert at the city's prestigious concert hall, 'The Melody Dome'. This event marked a significant leap in entity_1737018121's musical journey as her talent was recognized, not only in her local community but also in wider music circles.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Successful Performance at Harmony Fest? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737018121's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737018258845",
+      "attributes": {
+        "name": "Solo Concert at The Melody Dome",
+        "timestamp": "2008-01-12",
+        "description": "Riding high on the success of her performance at the Harmony Fest, entity_1737018121 started preparing for her solo concert at The Melody Dome. She practiced tirelessly, honing her skills and composing new pieces under the watchful eyes of her mentor, Mrs. Jenkins. The concert, held on January 12, 2008, was a grand success. Entity_1737018121 performed her original compositions, including an intricate symphony that she had been working on for months. The audience, consisting of music lovers, critics, and notable personalities from the music industry, was thoroughly impressed. The event was extensively covered by 'The City Chronicle' and several other media outlets. Post the concert, entity_1737018121 received several offers to perform at different venues across the country, marking a new chapter in her musical career.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Solo Concert at The Melody Dome? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737018121's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737018286809",
+      "attributes": {
+        "name": "Invitation to Perform at the Royal Albert Hall",
+        "timestamp": "2008-03-20",
+        "description": "Following her successful solo concert at The Melody Dome, entity_1737018121's reputation as a promising young musician started spreading across the music industry. Among the attendees of her concert was Sir Edward Harrison, a renowned conductor and the artistic director of the Royal Albert Hall. Impressed by her talent, Sir Edward Harrison extended an invitation to entity_1737018121 to perform at the Royal Albert Hall in London. This was a significant moment in entity_1737018121's career as performing at the Royal Albert Hall was one of her goals. Thrilled by this opportunity, she immediately started preparing for the concert under the guidance of her mentor, Mrs. Jenkins. This invitation marked another milestone in her journey and brought her one step closer to achieving her dream of composing her own symphony.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Invitation to Perform at the Royal Albert Hall? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737018121's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737018316404",
+      "attributes": {
+        "name": "Performance at the Royal Albert Hall",
+        "timestamp": "2008-06-30",
+        "description": "After months of rigorous preparation under the watchful eyes of Mrs. Jenkins, entity_1737018121's day of reckoning finally arrived on June 30th, 2008. She stepped onto the prestigious stage of the Royal Albert Hall, a dream she had nurtured since her childhood. She performed a captivating rendition of her own composition, 'Symphony of Dreams', which was met with a standing ovation from the audience, including Sir Edward Harrison. The performance was a resounding success and solidified her position as a rising star in the classical music world. The event also opened up new opportunities, as influential people from the music industry were present in the audience who showed interest in her talent.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Performance at the Royal Albert Hall? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737018121's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737018352587",
+      "attributes": {
+        "name": "Signed to Prestigious Music Label",
+        "timestamp": "2008-09-15",
+        "description": "Following her stunning performance at the Royal Albert Hall, entity_1737018121's talent garnered the attention of many influential figures in the music industry. Among them was Sir Edward Harrison, a renowned conductor and the head of the prestigious Harrison Music Label. Impressed by her talent and potential, Sir Edward personally offered entity_1737018121 a recording contract. On September 15th, 2008, she signed with the Harrison Music Label, marking the start of a new chapter in her musical journey. This opportunity not only provided her with the platform to reach a larger audience but also gave her the resources and professional guidance to further hone her skills and create more of her own compositions.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Signed to Prestigious Music Label? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737018121's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737018382984",
+      "attributes": {
+        "name": "Signed Contract with Prestigious Music Label",
+        "timestamp": "2008-07-10",
+        "description": "Ten days after her stellar performance at the Royal Albert Hall, entity_1737018121 was approached by the influential music director, Mr. Gregory Simmons, who was present at her performance. He was the Head of A&R for the prestigious music label 'Elysium Records'. Impressed by her talent, he offered her a long term contract to record her compositions with the label. After pondering over the offer and consulting with her mentor Mrs. Jenkins, entity_1737018121 decided to sign with Elysium Records on July 10th, 2008. This marked a new chapter in her musical career as she got the opportunity to work with top-class producers and composers, expanding her creative horizons.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Signed Contract with Prestigious Music Label? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737018121's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737018391246",
+      "attributes": {
+        "name": "First Album Release Under Harrison Label",
+        "timestamp": "2009-03-20",
+        "description": "Following her contract signing, entity_1737018121 spent the next six months intensively working on her first album under the Harrison Music Label. The album, 'Harmonic Odyssey', comprised a mix of her original compositions and modern interpretations of classical pieces. It was launched on March 20, 2009, at the esteemed Victoria Concert Hall in London. Notable attendees included Sir Edward Harrison, prominent music critics, and industry veterans. The album release marked a significant milestone in entity_1737018121's career, giving her music exposure to a worldwide audience. The album was met with positive reviews, particularly commending her innovative compositions and the emotional depth of her performances. 'Harmonic Odyssey' established entity_1737018121 as a rising star in the classical music scene, paving the way for her future projects.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding First Album Release Under Harrison Label? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737018121's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737018412405",
+      "attributes": {
+        "name": "First Studio Recording with Elysium Records",
+        "timestamp": "2008-09-15",
+        "description": "After signing a contract with Elysium Records, entity_1737018121 began preparing for her first studio recording. She was paired with the acclaimed record producer, Mr. Julian Rhys, known for his innovative approach towards classical music. Over the next two months, entity_1737018121 and Mr. Rhys worked tirelessly on perfecting her compositions, often spending hours discussing the subtleties of her music. This process was both challenging and rewarding for entity_1737018121 as she navigated the pressures of the professional music industry while staying true to her artistic vision. Her first studio recording took place on September 15th, 2008, at the legendary Abbey Road Studios in London. This recording session marked an important milestone in her career, solidifying her standing in the music industry and paving the way for her forthcoming debut album.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding First Studio Recording with Elysium Records? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737018121's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737018420408",
+      "attributes": {
+        "name": "Nomination for Prestigious Music Award",
+        "timestamp": "2009-07-05",
+        "description": "Following the success of her first album, 'Harmonic Odyssey', entity_1737018121's impressive work was recognized by the music industry. On July 5, 2009, it was announced that she had been nominated for the 'Best New Classical Artist' at the esteemed International Classical Music Awards (ICMA). The nomination was a significant honor, as the ICMA is renowned for recognizing the highest level of artistic excellence in the classical music scene. The news was celebrated by her team at the Harrison Music Label, and it further boosted entity_1737018121's rapidly growing reputation in the music world. This nomination positioned her as a serious contender in the field of classical music and opened doors for more high-level opportunities.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Nomination for Prestigious Music Award? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737018121's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737018462220",
+      "attributes": {
+        "name": "Debut Single Release",
+        "timestamp": "2008-11-10",
+        "description": "Shortly after her first studio recording, entity_1737018121 released her debut single, 'Symphony of the Dawn', on November 10, 2008. The single was a piece from her upcoming album, carefully selected by herself and Julian Rhys. The song was a testament to her musical prowess and a glimpse of what was to come in her first album. The release was met with widespread acclaim from critics and listeners alike, with praises for her innovative composition and the emotional depth in her music. 'Symphony of the Dawn' quickly climbed the classical music charts and solidified entity_1737018121's position as an emerging talent in the music industry. The success of the single also increased anticipation for her full album release.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Debut Single Release? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737018121's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737018471379",
+      "attributes": {
+        "name": "Winning the 'Best New Classical Artist' at ICMA",
+        "timestamp": "2009-10-10",
+        "description": "On October 10, 2009, entity_1737018121's burgeoning career reached a new milestone when she was awarded the 'Best New Classical Artist' at the International Classical Music Awards (ICMA). The award ceremony, held at the prestigious Musikverein in Vienna, Austria, saw the best of classical music talent from around the world. entity_1737018121's victory was a testament to her extraordinary musical talent and the success of her debut album 'Harmonic Odyssey.' The win further catapulted her into the limelight, garnering her worldwide recognition and opening doors to grander stages. The Harrison Music Label celebrated this achievement as a testament to their faith in entity_1737018121's talent. This award significantly impacted her career trajectory, solidifying her status as an internationally recognized classical artist and increasing demand for her performances globally.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Winning the 'Best New Classical Artist' at ICMA? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737018121's path?"
+      }
+    },
+    {
+      "key": "event1737018500865",
+      "attributes": {
+        "name": "Top Spot on Classical Music Charts",
+        "timestamp": "2008-12-01",
+        "description": "Just three weeks after its release, 'Symphony of the Dawn', the debut single of entity_1737018121, reached the top spot on the Classical Music Charts on December 1, 2008. The success was unprecedented for a debut single in the classical genre, and it was due to the unique composition, emotional depth, and innovative style that resonated with a wide audience. The achievement was celebrated with a small party at Elysium Records, attended by entity_1737018121, Julian Rhys, and the rest of the recording team. The swift success of the single not only certified entity_1737018121's talent and potential but also put her in the spotlight of the classical music industry. This achievement also increased the pressure and anticipation for her upcoming album.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Top Spot on Classical Music Charts? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737018121's path?"
+      }
+    },
+    {
+      "key": "event1737018507987",
+      "attributes": {
+        "name": "First International Tour Announcement",
+        "timestamp": "2010-01-15",
+        "description": "Following her successful win at the International Classical Music Awards, entity_1737018121's career took a significant leap forward. On January 15, 2010, the Harrison Label announced the launch of entity_1737018121's first international tour titled 'Ascend: A Harmonic Journey.' The six-month tour, scheduled to commence in April 2010, was to cover major cities in Europe, North America, and Asia. From the Sydney Opera House to the Carnegie Hall, the tour would take entity_1737018121 to some of the world's most prestigious concert venues. The announcement was met with immense enthusiasm from fans worldwide, leading to a surge in ticket bookings. The tour, apart from cementing entity_1737018121's global standing as a classical music artist, was an opportunity for her to explore diverse cultures and musical traditions, influencing her future compositions.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding First International Tour Announcement? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737018121's path?"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "key": "geid_218_0",
+      "source": "birth",
+      "target": "event1737018134635",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_218_1",
+      "source": "event1737018134635",
+      "target": "event1737018159797",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_218_2",
+      "source": "event1737018159797",
+      "target": "event1737018182874",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_218_3",
+      "source": "event1737018182874",
+      "target": "event1737018199974",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_218_4",
+      "source": "event1737018199974",
+      "target": "event1737018221824",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_218_5",
+      "source": "event1737018221824",
+      "target": "event1737018235415",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_218_6",
+      "source": "event1737018235415",
+      "target": "event1737018258845",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_218_7",
+      "source": "event1737018258845",
+      "target": "event1737018286809",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_218_8",
+      "source": "event1737018286809",
+      "target": "event1737018316404",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_218_9",
+      "source": "event1737018316404",
+      "target": "event1737018352587",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_219_0",
+      "source": "event1737018316404",
+      "target": "event1737018382984",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_219_1",
+      "source": "event1737018352587",
+      "target": "event1737018391246",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_219_2",
+      "source": "event1737018382984",
+      "target": "event1737018412405",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_219_3",
+      "source": "event1737018391246",
+      "target": "event1737018420408",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_219_4",
+      "source": "event1737018412405",
+      "target": "event1737018462220",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_219_5",
+      "source": "event1737018420408",
+      "target": "event1737018471379",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_219_6",
+      "source": "event1737018462220",
+      "target": "event1737018500865",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_219_7",
+      "source": "event1737018471379",
+      "target": "event1737018507987",
+      "attributes": {
+        "type": "sequence"
+      }
+    }
+  ]
+}

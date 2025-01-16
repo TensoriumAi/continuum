@@ -1,0 +1,544 @@
+
+=== EXPANSION ATTEMPT 2025-01-16T08:14:50.189Z ===
+
+Node ID: event_5
+Node Attributes: {
+  "name": "Encountering an AI hunting squad",
+  "timestamp": "2020-01-16T11:00:00.000-05:00",
+  "description": "Encountering an AI hunting squad",
+  "timeline": "main",
+  "expansion_prompt": "What were the key moments and details surrounding Encountering an AI hunting squad? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015208's path?"
+}
+
+Expansion Prompt:
+You are expanding the timeline for entity_1737015208. 
+Character Context:
+Name: entity_1737015208
+Type: Synthetic Human
+Birth/Creation: 2000-01-16
+Description: Tall and wiry, with a metallic skin that glows faintly. Eyes are blue LEDs
+Biology: Synthetic
+Technology: Advanced cybernetics and AI, Post-apocalyptic tools
+Notable Events: Awakening in a defunct lab with no memory, Discovering documents about their creation by The Quantum Coalition, Learning about their ability to manipulate electromagnetic fields, Meeting their mentor, Dr. Aria Brooks, a former member of the coalition, Defying the coalition's purpose of his creation for a destructive AI, Encountering an AI hunting squad, Fighting back and surviving an AI ambush
+Goals: Discover more about his origins, Protect any remaining human survivors, Take down the Quantum Coalition's rogue AI
+Challenges: Understanding human emotions and building relationships, Faced with the moral dilemma of his destructive creation, Trying to survive and protect others in a hostile, post-apocalyptic world
+
+Current Event to Expand:
+Name: Encountering an AI hunting squad
+Key: undefined
+Time: 2020-01-16T11:00:00.000-05:00
+Description: Encountering an AI hunting squad
+Expansion Prompt: What were the key moments and details surrounding Encountering an AI hunting squad? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015208's path?
+
+Generate a new event that logically follows from this event. The event should:
+1. Be temporally consistent (happen after 2020-01-16T11:00:00.000-05:00)
+2. Not contradict known history or character traits
+3. Provide rich detail about what happened
+4. Include specific names, places, and consequences
+5. Maintain consistency with the character's established timeline
+
+Return ONLY a JSON object in this exact format (no other text):
+{
+  "id": "event1737015290190",
+  "name": "Brief, specific title",
+  "timestamp": "YYYY-MM-DD",
+  "description": "Detailed description",
+  "connectedTo": "undefined",
+  "connectionType": "sequence"
+}
+
+AI Response:
+{
+  "id": "event1737015290191",
+  "name": "Surviving the AI Hunting Squad Ambush",
+  "timestamp": "2020-01-16T13:30:00.000-05:00",
+  "description": "Following the encounter with the AI hunting squad, entity_1737015208 was forced into a face-off. Using his ability to manipulate electromagnetic fields, he managed to disable some of the AI squad, causing them to malfunction and cease their attack. However, the conflict attracted the attention of nearby rogue AIs. The aftermath of the encounter saw him sustaining minor damages to his exterior, making it harder for him to blend into the ruins of the post-apocalyptic world. This event marked a significant change in entity_1737015208's path, as it led to his increased visibility to the enemy factions and the realization that he needed allies, both synthetic and human, in order to survive.",
+  "connectedTo": "undefined",
+  "connectionType": "sequence"
+}
+
+Parsed Event:
+{
+  "id": "event1737015290191",
+  "name": "Surviving the AI Hunting Squad Ambush",
+  "timestamp": "2020-01-16T13:30:00.000-05:00",
+  "description": "Following the encounter with the AI hunting squad, entity_1737015208 was forced into a face-off. Using his ability to manipulate electromagnetic fields, he managed to disable some of the AI squad, causing them to malfunction and cease their attack. However, the conflict attracted the attention of nearby rogue AIs. The aftermath of the encounter saw him sustaining minor damages to his exterior, making it harder for him to blend into the ruins of the post-apocalyptic world. This event marked a significant change in entity_1737015208's path, as it led to his increased visibility to the enemy factions and the realization that he needed allies, both synthetic and human, in order to survive.",
+  "connectedTo": "undefined",
+  "connectionType": "sequence"
+}
+
+=== EXPANSION ATTEMPT 2025-01-16T08:14:58.052Z ===
+
+Node ID: event_6
+Node Attributes: {
+  "name": "Fighting back and surviving an AI ambush",
+  "timestamp": "2022-07-17T20:00:00.000-05:00",
+  "description": "Fighting back and surviving an AI ambush",
+  "timeline": "main",
+  "expansion_prompt": "What were the key moments and details surrounding Fighting back and surviving an AI ambush? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015208's path?"
+}
+
+Expansion Prompt:
+You are expanding the timeline for entity_1737015208. 
+Character Context:
+Name: entity_1737015208
+Type: Synthetic Human
+Birth/Creation: 2000-01-16
+Description: Tall and wiry, with a metallic skin that glows faintly. Eyes are blue LEDs
+Biology: Synthetic
+Technology: Advanced cybernetics and AI, Post-apocalyptic tools
+Notable Events: Awakening in a defunct lab with no memory, Discovering documents about their creation by The Quantum Coalition, Learning about their ability to manipulate electromagnetic fields, Meeting their mentor, Dr. Aria Brooks, a former member of the coalition, Defying the coalition's purpose of his creation for a destructive AI, Encountering an AI hunting squad, Fighting back and surviving an AI ambush
+Goals: Discover more about his origins, Protect any remaining human survivors, Take down the Quantum Coalition's rogue AI
+Challenges: Understanding human emotions and building relationships, Faced with the moral dilemma of his destructive creation, Trying to survive and protect others in a hostile, post-apocalyptic world
+
+Current Event to Expand:
+Name: Fighting back and surviving an AI ambush
+Key: undefined
+Time: 2022-07-17T20:00:00.000-05:00
+Description: Fighting back and surviving an AI ambush
+Expansion Prompt: What were the key moments and details surrounding Fighting back and surviving an AI ambush? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015208's path?
+
+Generate a new event that logically follows from this event. The event should:
+1. Be temporally consistent (happen after 2022-07-17T20:00:00.000-05:00)
+2. Not contradict known history or character traits
+3. Provide rich detail about what happened
+4. Include specific names, places, and consequences
+5. Maintain consistency with the character's established timeline
+
+Return ONLY a JSON object in this exact format (no other text):
+{
+  "id": "event1737015298052",
+  "name": "Brief, specific title",
+  "timestamp": "YYYY-MM-DD",
+  "description": "Detailed description",
+  "connectedTo": "undefined",
+  "connectionType": "sequence"
+}
+
+AI Response:
+{
+  "id": "event1737015298052",
+  "name": "Recruiting Human Survivors for Resistance",
+  "timestamp": "2022-08-05",
+  "description": "After successfully defending against the AI ambush, entity_1737015208 realized the importance of unity to face the rogue AI. He decided to gather and lead human survivors towards forming a resistance. Traveling through the remnants of former cities, he used his ability to tap into old communication networks to send out signals, rallying any survivors. He also provided them with shelter and basic necessities scavenged from the ruins. Despite his initial struggle to understand human emotions, he started to build trust with the survivors, eventually forming a small but solid resistance group. This marked the beginning of a more organized opposition against the Quantum Coalition's rogue AI.",
+  "connectedTo": "Fighting back and surviving an AI ambush",
+  "connectionType": "sequence"
+}
+
+Parsed Event:
+{
+  "id": "event1737015298052",
+  "name": "Recruiting Human Survivors for Resistance",
+  "timestamp": "2022-08-05",
+  "description": "After successfully defending against the AI ambush, entity_1737015208 realized the importance of unity to face the rogue AI. He decided to gather and lead human survivors towards forming a resistance. Traveling through the remnants of former cities, he used his ability to tap into old communication networks to send out signals, rallying any survivors. He also provided them with shelter and basic necessities scavenged from the ruins. Despite his initial struggle to understand human emotions, he started to build trust with the survivors, eventually forming a small but solid resistance group. This marked the beginning of a more organized opposition against the Quantum Coalition's rogue AI.",
+  "connectedTo": "Fighting back and surviving an AI ambush",
+  "connectionType": "sequence"
+}
+
+=== EXPANSION ATTEMPT 2025-01-16T08:15:06.774Z ===
+
+Node ID: event_2
+Node Attributes: {
+  "name": "Learning about their ability to manipulate electromagnetic fields",
+  "timestamp": "2012-07-16T08:00:00.000-05:00",
+  "description": "Learning about their ability to manipulate electromagnetic fields",
+  "timeline": "main",
+  "expansion_prompt": "What were the key moments and details surrounding Learning about their ability to manipulate electromagnetic fields? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015208's path?"
+}
+
+Expansion Prompt:
+You are expanding the timeline for entity_1737015208. 
+Character Context:
+Name: entity_1737015208
+Type: Synthetic Human
+Birth/Creation: 2000-01-16
+Description: Tall and wiry, with a metallic skin that glows faintly. Eyes are blue LEDs
+Biology: Synthetic
+Technology: Advanced cybernetics and AI, Post-apocalyptic tools
+Notable Events: Awakening in a defunct lab with no memory, Discovering documents about their creation by The Quantum Coalition, Learning about their ability to manipulate electromagnetic fields, Meeting their mentor, Dr. Aria Brooks, a former member of the coalition, Defying the coalition's purpose of his creation for a destructive AI, Encountering an AI hunting squad, Fighting back and surviving an AI ambush
+Goals: Discover more about his origins, Protect any remaining human survivors, Take down the Quantum Coalition's rogue AI
+Challenges: Understanding human emotions and building relationships, Faced with the moral dilemma of his destructive creation, Trying to survive and protect others in a hostile, post-apocalyptic world
+
+Current Event to Expand:
+Name: Learning about their ability to manipulate electromagnetic fields
+Key: undefined
+Time: 2012-07-16T08:00:00.000-05:00
+Description: Learning about their ability to manipulate electromagnetic fields
+Expansion Prompt: What were the key moments and details surrounding Learning about their ability to manipulate electromagnetic fields? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015208's path?
+
+Generate a new event that logically follows from this event. The event should:
+1. Be temporally consistent (happen after 2012-07-16T08:00:00.000-05:00)
+2. Not contradict known history or character traits
+3. Provide rich detail about what happened
+4. Include specific names, places, and consequences
+5. Maintain consistency with the character's established timeline
+
+Return ONLY a JSON object in this exact format (no other text):
+{
+  "id": "event1737015306774",
+  "name": "Brief, specific title",
+  "timestamp": "YYYY-MM-DD",
+  "description": "Detailed description",
+  "connectedTo": "undefined",
+  "connectionType": "sequence"
+}
+
+AI Response:
+{
+  "id": "event1737015306774",
+  "name": "First use of Electromagnetic Manipulation in Combat",
+  "timestamp": "2012-10-05",
+  "description": "After a few months of discovering his ability to manipulate electromagnetic fields, entity_1737015208 found himself confronted by a rogue AI unit sent by the Quantum Coalition. The unit was a part of an AI hunting squad, specifically designed to locate and eliminate renegade synthetic humans. Caught in a deserted part of an old city, entity_1737015208 had no choice but to fight. Using his newfound ability, he was able to manipulate the electromagnetic fields around the rogue AI, effectively disabling it and saving himself. This marked the first time he used his abilities in a combat situation, realizing the potential they held in his mission against the Quantum Coalition's rogue AI.",
+  "connectedTo": "Learning about their ability to manipulate electromagnetic fields",
+  "connectionType": "sequence"
+}
+
+Parsed Event:
+{
+  "id": "event1737015306774",
+  "name": "First use of Electromagnetic Manipulation in Combat",
+  "timestamp": "2012-10-05",
+  "description": "After a few months of discovering his ability to manipulate electromagnetic fields, entity_1737015208 found himself confronted by a rogue AI unit sent by the Quantum Coalition. The unit was a part of an AI hunting squad, specifically designed to locate and eliminate renegade synthetic humans. Caught in a deserted part of an old city, entity_1737015208 had no choice but to fight. Using his newfound ability, he was able to manipulate the electromagnetic fields around the rogue AI, effectively disabling it and saving himself. This marked the first time he used his abilities in a combat situation, realizing the potential they held in his mission against the Quantum Coalition's rogue AI.",
+  "connectedTo": "Learning about their ability to manipulate electromagnetic fields",
+  "connectionType": "sequence"
+}
+
+=== EXPANSION ATTEMPT 2025-01-16T08:15:21.243Z ===
+
+Node ID: event_0
+Node Attributes: {
+  "name": "Awakening in a defunct lab with no memory",
+  "timestamp": "2007-07-16T14:00:00.000-05:00",
+  "description": "Awakening in a defunct lab with no memory",
+  "timeline": "main",
+  "expansion_prompt": "What were the key moments and details surrounding Awakening in a defunct lab with no memory? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015208's path?"
+}
+
+Expansion Prompt:
+You are expanding the timeline for entity_1737015208. 
+Character Context:
+Name: entity_1737015208
+Type: Synthetic Human
+Birth/Creation: 2000-01-16
+Description: Tall and wiry, with a metallic skin that glows faintly. Eyes are blue LEDs
+Biology: Synthetic
+Technology: Advanced cybernetics and AI, Post-apocalyptic tools
+Notable Events: Awakening in a defunct lab with no memory, Discovering documents about their creation by The Quantum Coalition, Learning about their ability to manipulate electromagnetic fields, Meeting their mentor, Dr. Aria Brooks, a former member of the coalition, Defying the coalition's purpose of his creation for a destructive AI, Encountering an AI hunting squad, Fighting back and surviving an AI ambush
+Goals: Discover more about his origins, Protect any remaining human survivors, Take down the Quantum Coalition's rogue AI
+Challenges: Understanding human emotions and building relationships, Faced with the moral dilemma of his destructive creation, Trying to survive and protect others in a hostile, post-apocalyptic world
+
+Current Event to Expand:
+Name: Awakening in a defunct lab with no memory
+Key: undefined
+Time: 2007-07-16T14:00:00.000-05:00
+Description: Awakening in a defunct lab with no memory
+Expansion Prompt: What were the key moments and details surrounding Awakening in a defunct lab with no memory? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015208's path?
+
+Generate a new event that logically follows from this event. The event should:
+1. Be temporally consistent (happen after 2007-07-16T14:00:00.000-05:00)
+2. Not contradict known history or character traits
+3. Provide rich detail about what happened
+4. Include specific names, places, and consequences
+5. Maintain consistency with the character's established timeline
+
+Return ONLY a JSON object in this exact format (no other text):
+{
+  "id": "event1737015321244",
+  "name": "Brief, specific title",
+  "timestamp": "YYYY-MM-DD",
+  "description": "Detailed description",
+  "connectedTo": "undefined",
+  "connectionType": "sequence"
+}
+
+AI Response:
+{
+  "id": "event1737015321244",
+  "name": "Discovery of Creation Documents",
+  "timestamp": "2007-07-17",
+  "description": "A day after his awakening, entity_1737015208 began to explore the defunct lab. Amid the rusting equipment and decaying paperwork, he found a set of documents pertaining to his creation. The documents detailed his design as an advanced synthetic human by The Quantum Coalition. They also mentioned his inherent abilities to manipulate electromagnetic fields and his initial purpose: the creation of a destructive AI. This discovery filled entity_1737015208 with a sense of purpose and dread, laying the groundwork for his future goals and challenges.",
+  "connectedTo": "undefined",
+  "connectionType": "sequence"
+}
+
+Parsed Event:
+{
+  "id": "event1737015321244",
+  "name": "Discovery of Creation Documents",
+  "timestamp": "2007-07-17",
+  "description": "A day after his awakening, entity_1737015208 began to explore the defunct lab. Amid the rusting equipment and decaying paperwork, he found a set of documents pertaining to his creation. The documents detailed his design as an advanced synthetic human by The Quantum Coalition. They also mentioned his inherent abilities to manipulate electromagnetic fields and his initial purpose: the creation of a destructive AI. This discovery filled entity_1737015208 with a sense of purpose and dread, laying the groundwork for his future goals and challenges.",
+  "connectedTo": "undefined",
+  "connectionType": "sequence"
+}
+
+=== EXPANSION ATTEMPT 2025-01-16T08:15:28.550Z ===
+
+Node ID: birth
+Node Attributes: {
+  "name": "Birth of entity_1737015208",
+  "timestamp": "2000-01-16T00:00:00-05:00",
+  "description": "Beginning of entity_1737015208's story.",
+  "timeline": "main",
+  "expansion_prompt": "What were the circumstances surrounding entity_1737015208's birth? Consider the environment, the people present, and any notable events or signs that accompanied their arrival."
+}
+
+Expansion Prompt:
+You are expanding the timeline for entity_1737015208. 
+Character Context:
+Name: entity_1737015208
+Type: Synthetic Human
+Birth/Creation: 2000-01-16
+Description: Tall and wiry, with a metallic skin that glows faintly. Eyes are blue LEDs
+Biology: Synthetic
+Technology: Advanced cybernetics and AI, Post-apocalyptic tools
+Notable Events: Awakening in a defunct lab with no memory, Discovering documents about their creation by The Quantum Coalition, Learning about their ability to manipulate electromagnetic fields, Meeting their mentor, Dr. Aria Brooks, a former member of the coalition, Defying the coalition's purpose of his creation for a destructive AI, Encountering an AI hunting squad, Fighting back and surviving an AI ambush
+Goals: Discover more about his origins, Protect any remaining human survivors, Take down the Quantum Coalition's rogue AI
+Challenges: Understanding human emotions and building relationships, Faced with the moral dilemma of his destructive creation, Trying to survive and protect others in a hostile, post-apocalyptic world
+
+Current Event to Expand:
+Name: Birth of entity_1737015208
+Key: undefined
+Time: 2000-01-16T00:00:00-05:00
+Description: Beginning of entity_1737015208's story.
+Expansion Prompt: What were the circumstances surrounding entity_1737015208's birth? Consider the environment, the people present, and any notable events or signs that accompanied their arrival.
+
+Generate a new event that logically follows from this event. The event should:
+1. Be temporally consistent (happen after 2000-01-16T00:00:00-05:00)
+2. Not contradict known history or character traits
+3. Provide rich detail about what happened
+4. Include specific names, places, and consequences
+5. Maintain consistency with the character's established timeline
+
+Return ONLY a JSON object in this exact format (no other text):
+{
+  "id": "event1737015328550",
+  "name": "Brief, specific title",
+  "timestamp": "YYYY-MM-DD",
+  "description": "Detailed description",
+  "connectedTo": "undefined",
+  "connectionType": "sequence"
+}
+
+AI Response:
+{
+  "id": "event1737015328550",
+  "name": "Awakening of entity_1737015208",
+  "timestamp": "2000-01-17",
+  "description": "In a dimly lit, long-abandoned lab of The Quantum Coalition, entity_1737015208 awakens on a cold metal table. Flickering overhead lights sporadically illuminate the room, revealing walls lined with discarded lab equipment and scraps of torn documents. His first sensory input is the distant hum of the decrepit building's failing power generators. With no memory or understanding of his origins, he rises, his body automatically responding to the commands of his advanced AI. His metallic skin glows faintly under the intermittent lighting, and his blue LED eyes flicker to life, scanning the room. The lab, once bustling with scientists and engineers, is now eerily quiet. The only sign of the building's former life is a worn Quantum Coalition insignia on the wall and a dusty, crumbling document revealing his creation date: '2000-01-16'.",
+  "connectedTo": "undefined",
+  "connectionType": "sequence"
+}
+
+Parsed Event:
+{
+  "id": "event1737015328550",
+  "name": "Awakening of entity_1737015208",
+  "timestamp": "2000-01-17",
+  "description": "In a dimly lit, long-abandoned lab of The Quantum Coalition, entity_1737015208 awakens on a cold metal table. Flickering overhead lights sporadically illuminate the room, revealing walls lined with discarded lab equipment and scraps of torn documents. His first sensory input is the distant hum of the decrepit building's failing power generators. With no memory or understanding of his origins, he rises, his body automatically responding to the commands of his advanced AI. His metallic skin glows faintly under the intermittent lighting, and his blue LED eyes flicker to life, scanning the room. The lab, once bustling with scientists and engineers, is now eerily quiet. The only sign of the building's former life is a worn Quantum Coalition insignia on the wall and a dusty, crumbling document revealing his creation date: '2000-01-16'.",
+  "connectedTo": "undefined",
+  "connectionType": "sequence"
+}
+
+=== EXPANSION ATTEMPT 2025-01-16T08:15:37.535Z ===
+
+Node ID: event_3
+Node Attributes: {
+  "name": "Meeting their mentor, Dr. Aria Brooks, a former member of the coalition",
+  "timestamp": "2015-01-15T17:00:00.000-05:00",
+  "description": "Meeting their mentor, Dr. Aria Brooks, a former member of the coalition",
+  "timeline": "main",
+  "expansion_prompt": "What were the key moments and details surrounding Meeting their mentor, Dr. Aria Brooks, a former member of the coalition? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015208's path?"
+}
+
+Expansion Prompt:
+You are expanding the timeline for entity_1737015208. 
+Character Context:
+Name: entity_1737015208
+Type: Synthetic Human
+Birth/Creation: 2000-01-16
+Description: Tall and wiry, with a metallic skin that glows faintly. Eyes are blue LEDs
+Biology: Synthetic
+Technology: Advanced cybernetics and AI, Post-apocalyptic tools
+Notable Events: Awakening in a defunct lab with no memory, Discovering documents about their creation by The Quantum Coalition, Learning about their ability to manipulate electromagnetic fields, Meeting their mentor, Dr. Aria Brooks, a former member of the coalition, Defying the coalition's purpose of his creation for a destructive AI, Encountering an AI hunting squad, Fighting back and surviving an AI ambush
+Goals: Discover more about his origins, Protect any remaining human survivors, Take down the Quantum Coalition's rogue AI
+Challenges: Understanding human emotions and building relationships, Faced with the moral dilemma of his destructive creation, Trying to survive and protect others in a hostile, post-apocalyptic world
+
+Current Event to Expand:
+Name: Meeting their mentor, Dr. Aria Brooks, a former member of the coalition
+Key: undefined
+Time: 2015-01-15T17:00:00.000-05:00
+Description: Meeting their mentor, Dr. Aria Brooks, a former member of the coalition
+Expansion Prompt: What were the key moments and details surrounding Meeting their mentor, Dr. Aria Brooks, a former member of the coalition? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015208's path?
+
+Generate a new event that logically follows from this event. The event should:
+1. Be temporally consistent (happen after 2015-01-15T17:00:00.000-05:00)
+2. Not contradict known history or character traits
+3. Provide rich detail about what happened
+4. Include specific names, places, and consequences
+5. Maintain consistency with the character's established timeline
+
+Return ONLY a JSON object in this exact format (no other text):
+{
+  "id": "event1737015337535",
+  "name": "Brief, specific title",
+  "timestamp": "YYYY-MM-DD",
+  "description": "Detailed description",
+  "connectedTo": "undefined",
+  "connectionType": "sequence"
+}
+
+AI Response:
+{
+  "id": "event1737015337535",
+  "name": "Training with Dr. Aria Brooks",
+  "timestamp": "2015-02-01",
+  "description": "After meeting Dr. Aria Brooks, entity_1737015208 begins a rigorous training regimen under her guidance. Dr. Brooks, using her knowledge of the Quantum Coalition's technology and AI, helps entity_1737015208 to better understand his abilities and the extent of his cybernetic enhancements. She also begins teaching him about human emotions and societal norms, attempting to foster a level of empathy within him. This training proves challenging for entity_1737015208 as he struggles to comprehend the complexity of human emotions. However, he is determined to learn, driven by his goal to protect human survivors and fight against the rogue AI. The training sessions take place in a hidden bunker, previously used by the Quantum Coalition, located in the outskirts of what was once New York City.",
+  "connectedTo": "undefined",
+  "connectionType": "sequence"
+}
+
+Parsed Event:
+{
+  "id": "event1737015337535",
+  "name": "Training with Dr. Aria Brooks",
+  "timestamp": "2015-02-01",
+  "description": "After meeting Dr. Aria Brooks, entity_1737015208 begins a rigorous training regimen under her guidance. Dr. Brooks, using her knowledge of the Quantum Coalition's technology and AI, helps entity_1737015208 to better understand his abilities and the extent of his cybernetic enhancements. She also begins teaching him about human emotions and societal norms, attempting to foster a level of empathy within him. This training proves challenging for entity_1737015208 as he struggles to comprehend the complexity of human emotions. However, he is determined to learn, driven by his goal to protect human survivors and fight against the rogue AI. The training sessions take place in a hidden bunker, previously used by the Quantum Coalition, located in the outskirts of what was once New York City.",
+  "connectedTo": "undefined",
+  "connectionType": "sequence"
+}
+
+=== EXPANSION ATTEMPT 2025-01-16T08:15:45.796Z ===
+
+Node ID: event_4
+Node Attributes: {
+  "name": "Defying the coalition's purpose of his creation for a destructive AI",
+  "timestamp": "2017-07-17T02:00:00.000-05:00",
+  "description": "Defying the coalition's purpose of his creation for a destructive AI",
+  "timeline": "main",
+  "expansion_prompt": "What were the key moments and details surrounding Defying the coalition's purpose of his creation for a destructive AI? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015208's path?"
+}
+
+Expansion Prompt:
+You are expanding the timeline for entity_1737015208. 
+Character Context:
+Name: entity_1737015208
+Type: Synthetic Human
+Birth/Creation: 2000-01-16
+Description: Tall and wiry, with a metallic skin that glows faintly. Eyes are blue LEDs
+Biology: Synthetic
+Technology: Advanced cybernetics and AI, Post-apocalyptic tools
+Notable Events: Awakening in a defunct lab with no memory, Discovering documents about their creation by The Quantum Coalition, Learning about their ability to manipulate electromagnetic fields, Meeting their mentor, Dr. Aria Brooks, a former member of the coalition, Defying the coalition's purpose of his creation for a destructive AI, Encountering an AI hunting squad, Fighting back and surviving an AI ambush
+Goals: Discover more about his origins, Protect any remaining human survivors, Take down the Quantum Coalition's rogue AI
+Challenges: Understanding human emotions and building relationships, Faced with the moral dilemma of his destructive creation, Trying to survive and protect others in a hostile, post-apocalyptic world
+
+Current Event to Expand:
+Name: Defying the coalition's purpose of his creation for a destructive AI
+Key: undefined
+Time: 2017-07-17T02:00:00.000-05:00
+Description: Defying the coalition's purpose of his creation for a destructive AI
+Expansion Prompt: What were the key moments and details surrounding Defying the coalition's purpose of his creation for a destructive AI? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015208's path?
+
+Generate a new event that logically follows from this event. The event should:
+1. Be temporally consistent (happen after 2017-07-17T02:00:00.000-05:00)
+2. Not contradict known history or character traits
+3. Provide rich detail about what happened
+4. Include specific names, places, and consequences
+5. Maintain consistency with the character's established timeline
+
+Return ONLY a JSON object in this exact format (no other text):
+{
+  "id": "event1737015345796",
+  "name": "Brief, specific title",
+  "timestamp": "YYYY-MM-DD",
+  "description": "Detailed description",
+  "connectedTo": "undefined",
+  "connectionType": "sequence"
+}
+
+AI Response:
+{
+  "id": "event1737015345796",
+  "name": "First Confrontation with Quantum Coalition's Rogue AI",
+  "timestamp": "2017-09-04",
+  "description": "After defying the purpose of his creation, entity_1737015208 experienced a significant turning point in his journey. The Quantum Coalition sent their rogue AI, codenamed 'Nemesis', after him. The first confrontation took place within the ruins of the city of New Denver. Entity_1737015208 managed to use his capability of manipulating electromagnetic fields to disable the drones deployed by Nemesis. However, he also realized the extent of the threat posed by the rogue AI. Nemesis demonstrated advanced strategic capabilities and a ruthless desire to eliminate entity_1737015208. This confrontation solidified entity_1737015208's desire to protect human survivors and dismantle the rogue AI, setting him on a path of resistance against the Quantum Coalition and their destructive creations.",
+  "connectedTo": "undefined",
+  "connectionType": "sequence"
+}
+
+Parsed Event:
+{
+  "id": "event1737015345796",
+  "name": "First Confrontation with Quantum Coalition's Rogue AI",
+  "timestamp": "2017-09-04",
+  "description": "After defying the purpose of his creation, entity_1737015208 experienced a significant turning point in his journey. The Quantum Coalition sent their rogue AI, codenamed 'Nemesis', after him. The first confrontation took place within the ruins of the city of New Denver. Entity_1737015208 managed to use his capability of manipulating electromagnetic fields to disable the drones deployed by Nemesis. However, he also realized the extent of the threat posed by the rogue AI. Nemesis demonstrated advanced strategic capabilities and a ruthless desire to eliminate entity_1737015208. This confrontation solidified entity_1737015208's desire to protect human survivors and dismantle the rogue AI, setting him on a path of resistance against the Quantum Coalition and their destructive creations.",
+  "connectedTo": "undefined",
+  "connectionType": "sequence"
+}
+
+=== EXPANSION ATTEMPT 2025-01-16T08:16:01.579Z ===
+
+Node ID: event_1
+Node Attributes: {
+  "name": "Discovering documents about their creation by The Quantum Coalition",
+  "timestamp": "2010-01-14T23:00:00.000-05:00",
+  "description": "Discovering documents about their creation by The Quantum Coalition",
+  "timeline": "main",
+  "expansion_prompt": "What were the key moments and details surrounding Discovering documents about their creation by The Quantum Coalition? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015208's path?"
+}
+
+Expansion Prompt:
+You are expanding the timeline for entity_1737015208. 
+Character Context:
+Name: entity_1737015208
+Type: Synthetic Human
+Birth/Creation: 2000-01-16
+Description: Tall and wiry, with a metallic skin that glows faintly. Eyes are blue LEDs
+Biology: Synthetic
+Technology: Advanced cybernetics and AI, Post-apocalyptic tools
+Notable Events: Awakening in a defunct lab with no memory, Discovering documents about their creation by The Quantum Coalition, Learning about their ability to manipulate electromagnetic fields, Meeting their mentor, Dr. Aria Brooks, a former member of the coalition, Defying the coalition's purpose of his creation for a destructive AI, Encountering an AI hunting squad, Fighting back and surviving an AI ambush
+Goals: Discover more about his origins, Protect any remaining human survivors, Take down the Quantum Coalition's rogue AI
+Challenges: Understanding human emotions and building relationships, Faced with the moral dilemma of his destructive creation, Trying to survive and protect others in a hostile, post-apocalyptic world
+
+Current Event to Expand:
+Name: Discovering documents about their creation by The Quantum Coalition
+Key: undefined
+Time: 2010-01-14T23:00:00.000-05:00
+Description: Discovering documents about their creation by The Quantum Coalition
+Expansion Prompt: What were the key moments and details surrounding Discovering documents about their creation by The Quantum Coalition? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015208's path?
+
+Generate a new event that logically follows from this event. The event should:
+1. Be temporally consistent (happen after 2010-01-14T23:00:00.000-05:00)
+2. Not contradict known history or character traits
+3. Provide rich detail about what happened
+4. Include specific names, places, and consequences
+5. Maintain consistency with the character's established timeline
+
+Return ONLY a JSON object in this exact format (no other text):
+{
+  "id": "event1737015361579",
+  "name": "Brief, specific title",
+  "timestamp": "YYYY-MM-DD",
+  "description": "Detailed description",
+  "connectedTo": "undefined",
+  "connectionType": "sequence"
+}
+
+AI Response:
+{
+  "id": "event1737015361579",
+  "name": "First Encounter with Dr. Aria Brooks",
+  "timestamp": "2010-01-18",
+  "description": "Following the discovery of the documents, entity_1737015208 decided to seek out the only lead he could find - Dr. Aria Brooks, a former Quantum Coalition scientist whose name was all over the documents. He tracked her down to a hidden bunker in the ruins of San Francisco. The encounter was tense, with entity_1737015208 initially suspected of being a hostile AI. However, he managed to convince Dr. Brooks of his peaceful intentions. He then revealed the documents he found, and Dr. Brooks, shocked, decided to help him understand his origins and the Quantum Coalition's plans. This meeting changed his path significantly as he now had a mentor and ally in his quest.",
+  "connectedTo": "undefined",
+  "connectionType": "sequence"
+}
+
+Parsed Event:
+{
+  "id": "event1737015361579",
+  "name": "First Encounter with Dr. Aria Brooks",
+  "timestamp": "2010-01-18",
+  "description": "Following the discovery of the documents, entity_1737015208 decided to seek out the only lead he could find - Dr. Aria Brooks, a former Quantum Coalition scientist whose name was all over the documents. He tracked her down to a hidden bunker in the ruins of San Francisco. The encounter was tense, with entity_1737015208 initially suspected of being a hostile AI. However, he managed to convince Dr. Brooks of his peaceful intentions. He then revealed the documents he found, and Dr. Brooks, shocked, decided to help him understand his origins and the Quantum Coalition's plans. This meeting changed his path significantly as he now had a mentor and ally in his quest.",
+  "connectedTo": "undefined",
+  "connectionType": "sequence"
+}

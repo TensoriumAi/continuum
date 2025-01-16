@@ -1,0 +1,220 @@
+{
+  "options": {
+    "type": "mixed",
+    "multi": false,
+    "allowSelfLoops": true
+  },
+  "attributes": {},
+  "nodes": [
+    {
+      "key": "birth",
+      "attributes": {
+        "name": "Birth of entity_1737017724",
+        "timestamp": "2000-01-16T00:00:00-05:00",
+        "description": "Beginning of entity_1737017724's story.",
+        "timeline": "main",
+        "expansion_prompt": "What were the circumstances surrounding entity_1737017724's birth? Consider the environment, the people present, and any notable events or signs that accompanied their arrival."
+      }
+    },
+    {
+      "key": "event_0",
+      "attributes": {
+        "name": "Graduated from Harvard Business School",
+        "timestamp": "2010-01-14T23:00:00.000-05:00",
+        "description": "Graduated from Harvard Business School",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Graduated from Harvard Business School? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737017724's path?"
+      }
+    },
+    {
+      "key": "event_1",
+      "attributes": {
+        "name": "Started his own tech startup",
+        "timestamp": "2015-01-15T17:00:00.000-05:00",
+        "description": "Started his own tech startup",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Started his own tech startup? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737017724's path?"
+      }
+    },
+    {
+      "key": "event_2",
+      "attributes": {
+        "name": "Sold his startup to a major tech company",
+        "timestamp": "2020-01-16T11:00:00.000-05:00",
+        "description": "Sold his startup to a major tech company",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Sold his startup to a major tech company? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737017724's path?"
+      }
+    },
+    {
+      "key": "event1737017736007",
+      "attributes": {
+        "name": "Secured a Job at a Prominent Tech Company",
+        "timestamp": "2010-02-01",
+        "description": "Shortly after graduating from Harvard Business School, entity_1737017724 secured a position at a prominent tech company, 'TechGiant Inc.'. The role offered him a unique opportunity to learn and understand the workings of the tech industry. His impressive academic credentials and innovative ideas were instantly recognized by the company, helping him to establish a strong foundation for his future entrepreneurial ventures. He worked closely with a team of experienced professionals who contributed significantly to his growth and learning. This job experience had a profound impact on his career, giving him the confidence and knowledge to start his own tech startup.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Secured a Job at a Prominent Tech Company? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737017724's path?"
+      }
+    },
+    {
+      "key": "event1737017763298",
+      "attributes": {
+        "name": "Early Indication of entity_1737017724's Interest in Technology",
+        "timestamp": "2007-10-09",
+        "description": "At the age of seven, entity_1737017724 displayed an early interest in technology, specifically, computers. His parents, both engineers, gifted him a small Raspberry Pi computer for his birthday. By the end of the day, he had already successfully assembled it and programmed his first lines of code. This event marked the first indication of his inclination towards technology and computers, a passion that would shape his future pursuits and success.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Early Indication of entity_1737017724's Interest in Technology? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737017724's path?"
+      }
+    },
+    {
+      "key": "event1737017785724",
+      "attributes": {
+        "name": "Secured First Major Investor for Startup",
+        "timestamp": "2015-03-10",
+        "description": "After months of relentless pitching and networking, entity_1737017724 managed to secure his first major investor, a renowned venture capitalist named John D. Bannister. The funding round led by Bannister brought in a substantial amount of capital, allowing the startup to expand its operations and hire more staff. This major milestone not only validated entity_1737017724's business model but also boosted his confidence in his entrepreneurial journey.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Secured First Major Investor for Startup? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737017724's path?"
+      }
+    },
+    {
+      "key": "event1737017802085",
+      "attributes": {
+        "name": "Took a Sabbatical and Began Planning for Next Venture",
+        "timestamp": "2020-03-20",
+        "description": "After the successful sale of his startup, entity_1737017724 decided to take a brief sabbatical to rest and recharge. During this period, he traveled to various tech hubs like San Francisco, Berlin, and Bangalore to gather inspiration and meet potential collaborators. He spent a lot of time distilling his ideas and experiences into a concrete plan for his next tech venture. This sabbatical period was a pivotal time for entity_1737017724 as it solidified his decision to remain in the tech industry and pursue his goals of starting another tech company and becoming a prominent figure in the industry.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Took a Sabbatical and Began Planning for Next Venture? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737017724's path?"
+      }
+    },
+    {
+      "key": "event1737017844134",
+      "attributes": {
+        "name": "Celebrated the Successful Startup Sale",
+        "timestamp": "2020-01-18",
+        "description": "Two days after the successful sale of his tech startup, entity_1737017724 organized a grand celebration to thank all employees and investors who contributed to the company's success. The event took place at a high-end venue in Silicon Valley, California. It was a night of reflection and gratitude, with entity_1737017724 delivering a heartfelt speech about the journey, acknowledging everyone's hard work. He also shared his future plans to start another tech company, inspiring many at the party. The event was widely covered by local tech media, raising his profile in the tech industry.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Celebrated the Successful Startup Sale? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737017724's path?"
+      }
+    },
+    {
+      "key": "event1737017865823",
+      "attributes": {
+        "name": "Launch of Tech Startup's First Product",
+        "timestamp": "2015-06-10",
+        "description": "Just a few months after starting his tech startup, entity_1737017724 and his team launched their first product, a cutting-edge mobile application that uses artificial intelligence to streamline project management. The launch event took place at the company's headquarters in San Francisco, attracting various tech industry influencers and potential investors. The product received positive initial reviews, marking an encouraging start for the startup and significantly boosting entity_1737017724's confidence in his venture.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Launch of Tech Startup's First Product? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737017724's path?"
+      }
+    },
+    {
+      "key": "event1737017882173",
+      "attributes": {
+        "name": "Promoted to Project Lead at TechGiant Inc.",
+        "timestamp": "2011-08-05",
+        "description": "After a year and a half of dedicated work at TechGiant Inc., entity_1737017724 was promoted to the position of Project Lead. His innovative ideas, strong leadership skills, and consistent performance caught the attention of the company's senior management. In this new role, he was responsible for spearheading a key R&D project aimed at developing next-generation AI algorithms. This promotion was a testament to entity_1737017724's growing influence in the company and the tech industry at large. It also offered him a unique platform to apply his academic knowledge in a real-world scenario, further bolstering his confidence to take entrepreneurial risks in the future.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Promoted to Project Lead at TechGiant Inc.? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737017724's path?"
+      }
+    },
+    {
+      "key": "event1737017906973",
+      "attributes": {
+        "name": "First Programming Competition Win",
+        "timestamp": "2008-05-10",
+        "description": "After being inspired by his success with the Raspberry Pi, entity_1737017724 began to immerse himself in the world of computer programming. He joined the local 'Young Coders' club, where he met like-minded peers and mentors who nurtured his passion. A year later, on May 10, 2008, he competed in his first programming competition - the Junior Coders Challenge in his home city. Entity_1737017724 won first place, coding a simple but unique game that impressed the judges. His victory not only validated his skills but also boosted his confidence and determination to pursue a career in technology.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding First Programming Competition Win? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737017724's path?"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "key": "geid_79_0",
+      "source": "birth",
+      "target": "event_0",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_79_1",
+      "source": "event_0",
+      "target": "event_1",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_79_2",
+      "source": "event_1",
+      "target": "event_2",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_43_0",
+      "source": "event_0",
+      "target": "event1737017736007",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_43_1",
+      "source": "birth",
+      "target": "event1737017763298",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_43_2",
+      "source": "event_1",
+      "target": "event1737017785724",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_43_3",
+      "source": "event_2",
+      "target": "event1737017802085",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_43_4",
+      "source": "event_2",
+      "target": "event1737017844134",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_43_5",
+      "source": "event_1",
+      "target": "event1737017865823",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_43_6",
+      "source": "event1737017736007",
+      "target": "event1737017882173",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_43_7",
+      "source": "event1737017763298",
+      "target": "event1737017906973",
+      "attributes": {
+        "type": "sequence"
+      }
+    }
+  ]
+}

@@ -1706,6 +1706,240 @@
         "type": "CAUSES",
         "description": "Innovative games and eco-learning from 'The Harvest Games' became structured culinary explorations in 'The Culinary Guild', indicating a thematic link where learning through play transitioned into applying culinary knowledge, highlighting how early playfulness infused with themes of ecology and sustainability influenced systematic exploration."
       }
+    },
+    {
+      "key": "geid_43_0",
+      "source": "event19",
+      "target": "event6",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Professor Elena Verma's mentorship in 'A Mentor from the Hearth,' which includes educating Naval about soil ecosystems, ties directly with the lessons on nature and conservation in 'Exploring Tradition and Nature,' where Naval applies this knowledge practically in everyday chores and family teachings, creating a seamless blend of scientific and traditional knowledge."
+      }
+    },
+    {
+      "key": "geid_43_1",
+      "source": "event1",
+      "target": "event23",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Naval Ravikant's formative exposure to familial and cultural traditions from 'Naval Ravikant's Origin' laid a moral and philosophical foundation that was expanded during 'The Herbal Suppers,' where Mrs. Chen’s lessons in traditional plant use dovetailed with his upbringing, solidifying his passion for integrating ancient practices with modern understanding."
+      }
+    },
+    {
+      "key": "geid_43_2",
+      "source": "event4",
+      "target": "event24",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Naval's routine explorations and learning in 'A Day in the Life of Young Naval' facilitated the curiosity and hands-on experience needed for 'The Spice Hunters,' where he applies knowledge of biodiversity and ecosystem interactions to identify and experiment with local herbs and spices, bridging early daily learnings with later adventurous explorations."
+      }
+    },
+    {
+      "key": "geid_43_3",
+      "source": "event13",
+      "target": "event9",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "The efforts Naval and Avi put into the 'Friendship Garden' find echo in the communal creativity of 'The Artisans' Circle,' where mutual support and encouragement mirror the collaborative spirit of the garden, underscoring a lifecycle of partnership where initial co-created projects lead to broader community engagement and creativity."
+      }
+    },
+    {
+      "key": "geid_43_4",
+      "source": "event1",
+      "target": "event13",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Naval Ravikant’s early inherent curiosity from his origin is a foundational trait that is further developed and applied in the Friendship Garden with Avi. This project exemplified how his initial curiosity evolved into collaborative community efforts that integrated exploration, shared learning, and creativity, laying the groundwork for his future endeavors in regenerative agriculture."
+      }
+    },
+    {
+      "key": "geid_43_5",
+      "source": "event12",
+      "target": "event5",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "The harmony and unique talents within the Ravikant family portrayed in the Interplay of Talents set the foundation for the cultural practices celebrated in Traditions of the Hearth, emphasizing how a familial environment of mutual respect for diverse skills naturally extends into collective cultural rituals, reinforcing themes of shared heritage and sustainability."
+      }
+    },
+    {
+      "key": "geid_43_6",
+      "source": "event2",
+      "target": "event24",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Naval’s early experiences with mentors like Mrs. Green and Mr. Patel in Childhood Exploration and Influences provided the initial exposure to ecological practices and biodiversity, concepts that directly inspired and motivated his participation in The Spice Hunters, where he actively explored and applied these ideas in a playful and experimental context."
+      }
+    },
+    {
+      "key": "geid_43_7",
+      "source": "event14",
+      "target": "event8",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "The collaborative spirit and shared interests in the Friendship Garden as seen in The Roots of Collaboration correlate with the family dynamics in Harmony of Interests, where mutual admiration and support within the family emphasize the value of collective efforts and diverse talents in achieving shared goals, whether in familial settings or wider community endeavors like the garden."
+      }
+    },
+    {
+      "key": "geid_43_8",
+      "source": "event18",
+      "target": "event25",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "The storytelling tradition in The Hearthside Chronicles sets the stage for the innovative culinary projects in The Culinary Guild, showing how narrative and shared cultural heritage act as thematic elements that inform and inspire creative culinary exploration and experimentation, bridging cultural identity with practical application."
+      }
+    },
+    {
+      "key": "geid_43_9",
+      "source": "event3",
+      "target": "event23",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "The gift of seeds from Grandma West in 'The Tale of the Wandering Seeds' complements Mrs. Chen's herbal lessons in 'The Herbal Suppers', where Naval’s exposure to diverse plant species and their uses broadens his understanding of plant-based solutions for both agricultural and health purposes."
+      }
+    },
+    {
+      "key": "geid_133_0",
+      "source": "event15",
+      "target": "event25",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Mr. Thomas's teachings in 'Teaching Through the Lens' emphasize the value of visual storytelling, which resonates with the culinary creativity fostered in 'The Culinary Guild', illuminating how visual and gastronomic arts both contribute to a greater appreciation of culture and environment."
+      }
+    },
+    {
+      "key": "geid_133_1",
+      "source": "event6",
+      "target": "event24",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "The mentorship and broader cultural knowledge in 'Exploring Tradition and Nature' offer thematic parallels to 'The Spice Hunters', where global plant varieties and cultural stories motivate Naval and his peers to explore local biodiversity, blending cultural appreciation with playful experimentation."
+      }
+    },
+    {
+      "key": "geid_133_2",
+      "source": "event9",
+      "target": "event12",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "The creative environment of 'The Artisans' Circle', encouraging skill-sharing and artistic collaboration, set a foundation for the seamless integration of diverse family talents in 'The Interplay of Talents', where familial support and creativity intertwined naturally."
+      }
+    },
+    {
+      "key": "geid_133_3",
+      "source": "event16",
+      "target": "event20",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "The skills of observation and documentation honed in 'The Lens of Discovery' are integrated into the peer-led educational exploration in 'The Circle of Curiosity', exemplifying the transition from individual skill development to collective learning experiences."
+      }
+    },
+    {
+      "key": "geid_133_4",
+      "source": "event25",
+      "target": "event12",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "The experiential learning and culinary creations from 'The Culinary Guild' highlight the roots of collaborative innovation seen in 'The Interplay of Talents', where diverse familial interests and skills are seamlessly integrated into new endeavors, emphasizing the importance of interdisciplinary explorations in achieving holistic learning."
+      }
+    },
+    {
+      "key": "geid_133_5",
+      "source": "event6",
+      "target": "event11",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "In 'Exploring Tradition and Nature', Naval's early integration of family teachings with nature aligns with the insights from 'Mr. Singh's Wisdom Sessions', illustrating how lessons from his environment were enhanced by Mr. Singh’s broadened historical and cultural narratives."
+      }
+    },
+    {
+      "key": "geid_220_0",
+      "source": "event7",
+      "target": "event23",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "The observational engagement depicted in 'The Cycle of Discovery' is thematically aligned with and finds practical application in 'The Herbal Suppers', where learnings about ecological balance translate to an understanding of traditional herb use, demonstrating the process of integrating diverse knowledge streams into coherent practices."
+      }
+    },
+    {
+      "key": "geid_220_1",
+      "source": "event8",
+      "target": "event16",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "The household dynamic of 'Harmony of Interests' that supported diverse passions provided a backdrop for the observational depth achieved in 'The Dawn of Observation', underscoring how a nurturing environment that values interdisciplinary pursuits enhances individual capabilities to engage deeply with ecological systems."
+      }
+    },
+    {
+      "key": "geid_220_2",
+      "source": "event13",
+      "target": "event3",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "The collaboration and creativity fostered in 'The Friendship Garden' reflect the influence of Grandma West’s philosophies in 'The Tale of the Wandering Seeds', where the interaction with diverse plants extends through Naval and Avi's applied projects in their Friendship Garden, representing a continuous line of learning from mentor to practice."
+      }
+    },
+    {
+      "key": "geid_220_3",
+      "source": "event16",
+      "target": "event1",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "The skills of observation and the appreciation for diverse ecosystems developed in 'The Lens of Discovery' by young Naval are reflective of the foundational inquisitiveness introduced at the onset of his life, establishing a lifelong commitment to understanding and documenting the interconnections within nature."
+      }
+    },
+    {
+      "key": "geid_220_4",
+      "source": "event17",
+      "target": "event3",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "The dawn of Naval’s practice in detailed observation outlined in 'The Dawn of Observation' is deeply inspired by 'The Tale of the Wandering Seeds', where his initial curiosity for plant diversity was kindled through varied mentorships, laying a groundwork for the complexities he captures through observation."
+      }
+    },
+    {
+      "key": "geid_220_5",
+      "source": "event23",
+      "target": "event6",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "The Herbal Suppers led by Mrs. Chen in 'The Herbal Suppers' served as an advanced practice of the cultural understandings Naval explored in 'Exploring Tradition and Nature,' where early familial lessons on traditions and nature linked with community-based practical applications, enriching his agricultural philosophy."
+      }
+    },
+    {
+      "key": "geid_220_6",
+      "source": "event24",
+      "target": "event8",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "The adventurous pursuit of knowledge in 'The Spice Hunters' stems from the environment of mutual respect and admiration cultivated in 'Harmony of Interests,' showcasing how family dynamics fostered an explorative mindset that translated into community-based scientific curiosity."
+      }
+    },
+    {
+      "key": "geid_220_7",
+      "source": "event25",
+      "target": "event5",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "The Culinary Guild's emphasis on the integration of cultural learning and culinary exploration builds on the 'Traditions of the Hearth,' where familial customs provide a template for understanding the convergence of cultural narratives and community-driven gastronomical innovation."
+      }
+    },
+    {
+      "key": "geid_220_8",
+      "source": "event5",
+      "target": "event14",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "The family traditions and communal rituals in 'Traditions of the Hearth' laid a foundation for Naval's understanding and appreciation of collaboration and synergy, which he later applied and expanded upon in 'The Roots of Collaboration' with Avi, underscoring how early cultural and familial influences can inform creative and innovative approaches in community endeavors."
+      }
+    },
+    {
+      "key": "geid_220_9",
+      "source": "event6",
+      "target": "event18",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "The balance between practical chores and cultural storytelling in 'Exploring Tradition and Nature' emerges again in 'The Hearthside Chronicles', where Naval's daily explorations provided practical experiences and observations that enriched the storytelling sessions around the hearth, emphasizing how his growing understanding of natural and cultural cycles informed and was informed by familial narratives."
+      }
     }
   ]
 }

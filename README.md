@@ -170,7 +170,7 @@ npm start
 
 3. Generate their timeline:
 ```bash
-CHARACTER=character-name npm run generate
+CHARACTER=character-name npm run expand
 ```
 
 4. Explore the visualization at http://localhost:8080
@@ -180,7 +180,7 @@ CHARACTER=character-name npm run generate
 ```
 continuum/
 ├── index.js          # Visualization server
-├── single.js         # Timeline generator
+├── expand.js         # Timeline generator
 ├── static/          
 │   └── index.html    # 3D visualization
 ├── tools/

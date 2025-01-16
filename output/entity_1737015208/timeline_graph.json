@@ -1,0 +1,148 @@
+{
+  "options": {
+    "type": "mixed",
+    "multi": false,
+    "allowSelfLoops": true
+  },
+  "attributes": {},
+  "nodes": [
+    {
+      "key": "birth",
+      "attributes": {
+        "name": "Birth of entity_1737015208",
+        "timestamp": "2000-01-16T00:00:00-05:00",
+        "description": "Beginning of entity_1737015208's story.",
+        "timeline": "main",
+        "expansion_prompt": "What were the circumstances surrounding entity_1737015208's birth? Consider the environment, the people present, and any notable events or signs that accompanied their arrival."
+      }
+    },
+    {
+      "key": "event_0",
+      "attributes": {
+        "name": "Awakening in a defunct lab with no memory",
+        "timestamp": "2007-07-16T14:00:00.000-05:00",
+        "description": "Awakening in a defunct lab with no memory",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Awakening in a defunct lab with no memory? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015208's path?"
+      }
+    },
+    {
+      "key": "event_1",
+      "attributes": {
+        "name": "Discovering documents about their creation by The Quantum Coalition",
+        "timestamp": "2010-01-14T23:00:00.000-05:00",
+        "description": "Discovering documents about their creation by The Quantum Coalition",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Discovering documents about their creation by The Quantum Coalition? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015208's path?"
+      }
+    },
+    {
+      "key": "event_2",
+      "attributes": {
+        "name": "Learning about their ability to manipulate electromagnetic fields",
+        "timestamp": "2012-07-16T08:00:00.000-05:00",
+        "description": "Learning about their ability to manipulate electromagnetic fields",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Learning about their ability to manipulate electromagnetic fields? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015208's path?"
+      }
+    },
+    {
+      "key": "event_3",
+      "attributes": {
+        "name": "Meeting their mentor, Dr. Aria Brooks, a former member of the coalition",
+        "timestamp": "2015-01-15T17:00:00.000-05:00",
+        "description": "Meeting their mentor, Dr. Aria Brooks, a former member of the coalition",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Meeting their mentor, Dr. Aria Brooks, a former member of the coalition? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015208's path?"
+      }
+    },
+    {
+      "key": "event_4",
+      "attributes": {
+        "name": "Defying the coalition's purpose of his creation for a destructive AI",
+        "timestamp": "2017-07-17T02:00:00.000-05:00",
+        "description": "Defying the coalition's purpose of his creation for a destructive AI",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Defying the coalition's purpose of his creation for a destructive AI? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015208's path?"
+      }
+    },
+    {
+      "key": "event_5",
+      "attributes": {
+        "name": "Encountering an AI hunting squad",
+        "timestamp": "2020-01-16T11:00:00.000-05:00",
+        "description": "Encountering an AI hunting squad",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Encountering an AI hunting squad? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015208's path?"
+      }
+    },
+    {
+      "key": "event_6",
+      "attributes": {
+        "name": "Fighting back and surviving an AI ambush",
+        "timestamp": "2022-07-17T20:00:00.000-05:00",
+        "description": "Fighting back and surviving an AI ambush",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Fighting back and surviving an AI ambush? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737015208's path?"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "key": "geid_188_0",
+      "source": "birth",
+      "target": "event_0",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_188_1",
+      "source": "event_0",
+      "target": "event_1",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_188_2",
+      "source": "event_1",
+      "target": "event_2",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_188_3",
+      "source": "event_2",
+      "target": "event_3",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_188_4",
+      "source": "event_3",
+      "target": "event_4",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_188_5",
+      "source": "event_4",
+      "target": "event_5",
+      "attributes": {
+        "type": "sequence"
+      }
+    },
+    {
+      "key": "geid_188_6",
+      "source": "event_5",
+      "target": "event_6",
+      "attributes": {
+        "type": "sequence"
+      }
+    }
+  ]
+}
