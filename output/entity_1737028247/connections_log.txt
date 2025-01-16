@@ -1,0 +1,1010 @@
+
+=== NEW CONNECTIONS ATTEMPT 2025-01-16T11:51:16.670Z ===
+
+AI Response:
+{
+  "connections": [
+    {
+      "from": "event1737028256162_1",
+      "to": "birth",
+      "type": "INFLUENCES",
+      "description": "The unique celestial event during Zynthera's birth likely influenced their physical and harmonic resonance traits, which were later recognized as significant by the elders. This connection suggests that Zynthera's identity and role in their society were shaped from the moment of their birth due to the Convergence."
+    }
+  ]
+}
+
+Parsed Response:
+{
+  "connections": [
+    {
+      "from": "event1737028256162_1",
+      "to": "birth",
+      "type": "INFLUENCES",
+      "description": "The unique celestial event during Zynthera's birth likely influenced their physical and harmonic resonance traits, which were later recognized as significant by the elders. This connection suggests that Zynthera's identity and role in their society were shaped from the moment of their birth due to the Convergence."
+    }
+  ]
+}
+
+Added 1 new connections
+
+=== NEW CONNECTIONS ATTEMPT 2025-01-16T11:51:51.227Z ===
+
+AI Response:
+{
+  "connections": [
+    {
+      "from": "event1737028256162_1",
+      "to": "event1737028280057_3",
+      "type": "CAUSES",
+      "description": "The amplified harmonic energy fields during the Celestial Convergence at Zynthera's birth likely triggered the unprecedented First Harmonic Resonance, as the unique conditions created by the Convergence could have heightened the sensitivity and activation of Zynthera's secondary organ."
+    },
+    {
+      "from": "event1737028280057_3",
+      "to": "event1737028276674_2",
+      "type": "INFLUENCES",
+      "description": "The First Harmonic Resonance influenced the Naming Ceremony by showcasing Zynthera's unique connection to the ancient frequencies, which directly informed the elders' decision to name them 'Key of the Eternal Song.' This resonance provided evidence of Zynthera's connection to the lost Quillari archives and cosmic forces."
+    },
+    {
+      "from": "event1737028256162_1",
+      "to": "event1737028276674_2",
+      "type": "ENABLES",
+      "description": "The residual harmonic waves from the Celestial Convergence enabled the extraordinary conditions of the Naming Ceremony, where Zynthera's unmatched harmonic frequency was measured and interpreted as a connection to the dormant ancient frequencies."
+    },
+    {
+      "from": "event1737028280057_3",
+      "to": "event1737028256162_1",
+      "type": "CONTRASTS",
+      "description": "While the Celestial Convergence was a planetary-scale cosmic event, the First Harmonic Resonance was a localized phenomenon directly tied to Zynthera's unique physiology, contrasting the cosmic and personal scales of significance."
+    }
+  ]
+}
+
+Parsed Response:
+{
+  "connections": [
+    {
+      "from": "event1737028256162_1",
+      "to": "event1737028280057_3",
+      "type": "CAUSES",
+      "description": "The amplified harmonic energy fields during the Celestial Convergence at Zynthera's birth likely triggered the unprecedented First Harmonic Resonance, as the unique conditions created by the Convergence could have heightened the sensitivity and activation of Zynthera's secondary organ."
+    },
+    {
+      "from": "event1737028280057_3",
+      "to": "event1737028276674_2",
+      "type": "INFLUENCES",
+      "description": "The First Harmonic Resonance influenced the Naming Ceremony by showcasing Zynthera's unique connection to the ancient frequencies, which directly informed the elders' decision to name them 'Key of the Eternal Song.' This resonance provided evidence of Zynthera's connection to the lost Quillari archives and cosmic forces."
+    },
+    {
+      "from": "event1737028256162_1",
+      "to": "event1737028276674_2",
+      "type": "ENABLES",
+      "description": "The residual harmonic waves from the Celestial Convergence enabled the extraordinary conditions of the Naming Ceremony, where Zynthera's unmatched harmonic frequency was measured and interpreted as a connection to the dormant ancient frequencies."
+    },
+    {
+      "from": "event1737028280057_3",
+      "to": "event1737028256162_1",
+      "type": "CONTRASTS",
+      "description": "While the Celestial Convergence was a planetary-scale cosmic event, the First Harmonic Resonance was a localized phenomenon directly tied to Zynthera's unique physiology, contrasting the cosmic and personal scales of significance."
+    }
+  ]
+}
+
+Added 3 new connections
+
+=== NEW CONNECTIONS ATTEMPT 2025-01-16T11:52:32.105Z ===
+
+AI Response:
+{
+  "connections": [
+    {
+      "from": "event1737028280057_3",
+      "to": "event1737028314466_5",
+      "type": "CAUSES",
+      "description": "The First Harmonic Resonance emitted from Zynthera likely caused the arrival of the Twilight Herald, as the resonance's unique frequencies may have acted as a summoning or signaling mechanism."
+    },
+    {
+      "from": "event1737028314466_5",
+      "to": "event1737028317443_6",
+      "type": "ENABLES",
+      "description": "The arrival of the Twilight Herald and their proclamation prompted the elders to initiate the Rite of Alignment, as their insights and the activation of the Glyphstone solidified Zynthera's connection to the ancient prophecies."
+    },
+    {
+      "from": "event1737028256162_1",
+      "to": "event1737028276674_2",
+      "type": "INFLUENCES",
+      "description": "The Celestial Convergence influenced the Naming Ceremony by reinforcing the elders' interpretation of Zynthera’s harmonic resonance as tied to the ancient frequencies, ultimately shaping their name and identity."
+    },
+    {
+      "from": "event1737028317443_6",
+      "to": "event1737028311232_4",
+      "type": "PARALLELS",
+      "description": "The Rite of Alignment and the Gathering of the Elders both involved interpreting the cosmic significance of Zynthera's resonance and its implications for Quillari society, reflecting parallel efforts to understand their prophetic role."
+    },
+    {
+      "from": "event1737028276674_2",
+      "to": "event1737028311232_4",
+      "type": "CONTRASTS",
+      "description": "The Naming Ceremony focused on celebrating Zynthera’s potential and cosmic connection, while the Gathering of the Elders highlighted the societal concerns and divisions their resonance and prophecy introduced."
+    },
+    {
+      "from": "event1737028280057_3",
+      "to": "event1737028311232_4",
+      "type": "INFLUENCES",
+      "description": "The First Harmonic Resonance influenced the Gathering of the Elders by providing tangible evidence of Zynthera's unique abilities, which underpinned discussions about their connection to the Eternal Song and its potential consequences."
+    },
+    {
+      "from": "event1737028317443_6",
+      "to": "event1737028276674_2",
+      "type": "INFLUENCES",
+      "description": "The Rite of Alignment influenced the Naming Ceremony by confirming Zynthera's connection to the ancient frequencies and the lost archives, which directly informed the choice of their name and its symbolism."
+    }
+  ]
+}
+
+Parsed Response:
+{
+  "connections": [
+    {
+      "from": "event1737028280057_3",
+      "to": "event1737028314466_5",
+      "type": "CAUSES",
+      "description": "The First Harmonic Resonance emitted from Zynthera likely caused the arrival of the Twilight Herald, as the resonance's unique frequencies may have acted as a summoning or signaling mechanism."
+    },
+    {
+      "from": "event1737028314466_5",
+      "to": "event1737028317443_6",
+      "type": "ENABLES",
+      "description": "The arrival of the Twilight Herald and their proclamation prompted the elders to initiate the Rite of Alignment, as their insights and the activation of the Glyphstone solidified Zynthera's connection to the ancient prophecies."
+    },
+    {
+      "from": "event1737028256162_1",
+      "to": "event1737028276674_2",
+      "type": "INFLUENCES",
+      "description": "The Celestial Convergence influenced the Naming Ceremony by reinforcing the elders' interpretation of Zynthera’s harmonic resonance as tied to the ancient frequencies, ultimately shaping their name and identity."
+    },
+    {
+      "from": "event1737028317443_6",
+      "to": "event1737028311232_4",
+      "type": "PARALLELS",
+      "description": "The Rite of Alignment and the Gathering of the Elders both involved interpreting the cosmic significance of Zynthera's resonance and its implications for Quillari society, reflecting parallel efforts to understand their prophetic role."
+    },
+    {
+      "from": "event1737028276674_2",
+      "to": "event1737028311232_4",
+      "type": "CONTRASTS",
+      "description": "The Naming Ceremony focused on celebrating Zynthera’s potential and cosmic connection, while the Gathering of the Elders highlighted the societal concerns and divisions their resonance and prophecy introduced."
+    },
+    {
+      "from": "event1737028280057_3",
+      "to": "event1737028311232_4",
+      "type": "INFLUENCES",
+      "description": "The First Harmonic Resonance influenced the Gathering of the Elders by providing tangible evidence of Zynthera's unique abilities, which underpinned discussions about their connection to the Eternal Song and its potential consequences."
+    },
+    {
+      "from": "event1737028317443_6",
+      "to": "event1737028276674_2",
+      "type": "INFLUENCES",
+      "description": "The Rite of Alignment influenced the Naming Ceremony by confirming Zynthera's connection to the ancient frequencies and the lost archives, which directly informed the choice of their name and its symbolism."
+    }
+  ]
+}
+
+Added 6 new connections
+
+=== NEW CONNECTIONS ATTEMPT 2025-01-16T11:53:19.934Z ===
+
+AI Response:
+{
+  "connections": [
+    {
+      "from": "event1737028256162_1",
+      "to": "event1737028355526_8",
+      "type": "CAUSES",
+      "description": "The amplified harmonic energy fields during the Celestial Convergence likely caused the Luminous Storm, as the unique atmospheric phenomenon originated directly above the birthing chamber and was interpreted as a manifestation of cosmic energy tied to Zynthera's arrival."
+    },
+    {
+      "from": "event1737028355526_8",
+      "to": "event1737028280057_3",
+      "type": "INFLUENCES",
+      "description": "The Luminous Storm's harmonic frequencies resonating across Luminara Prime may have further amplified the conditions that led to Zynthera's First Harmonic Resonance, emphasizing the cascading effects of cosmic and harmonic energies triggered by their birth."
+    },
+    {
+      "from": "event1737028314466_5",
+      "to": "event1737028357977_9",
+      "type": "ENHANCES",
+      "description": "The arrival of the Twilight Herald and their activation of the ancient Glyphstone likely enhanced the subsequent Awakening of the Spire Glyphstone, as their presence and the harmonic tones they introduced reinforced the activation of dormant artifacts linked to Zynthera."
+    },
+    {
+      "from": "event1737028357977_9",
+      "to": "event1737028317443_6",
+      "type": "ENABLES",
+      "description": "The Awakening of the Spire Glyphstone enabled the Rite of Alignment by providing a clear indication of Zynthera's connection to the ancient frequencies and the necessity of aligning their unique harmonic resonance with the planetary energy fields."
+    },
+    {
+      "from": "event1737028352112_7",
+      "to": "event1737028311232_4",
+      "type": "INFLUENCES",
+      "description": "The Twilight Communion influenced the Gathering of the Elders by revealing cryptic references to the 'Key of the Eternal Song,' providing the council with crucial insights into Zynthera's connection to the lost archives and the broader implications of the prophecy."
+    },
+    {
+      "from": "event1737028357977_9",
+      "to": "event1737028276674_2",
+      "type": "INFLUENCES",
+      "description": "The Awakening of the Spire Glyphstone influenced the Naming Ceremony by demonstrating Zynthera's unique resonance with ancient frequencies, which inspired the elders to select the name 'Key of the Eternal Song' to reflect their connection to the lost archives."
+    },
+    {
+      "from": "event1737028317443_6",
+      "to": "event1737028352112_7",
+      "type": "PARALLELS",
+      "description": "The Rite of Alignment and the Twilight Communion both involved interpreting and amplifying Zynthera's harmonic resonance to uncover their connection to ancient Quillari knowledge, reflecting parallel efforts to understand their cosmic significance."
+    },
+    {
+      "from": "event1737028355526_8",
+      "to": "event1737028314466_5",
+      "type": "CAUSES",
+      "description": "The Luminous Storm's harmonic waves likely acted as a summoning mechanism for the Twilight Herald, as the atmospheric phenomenon resonated across Luminara Prime and marked Zynthera's birth as a moment of cosmic importance."
+    },
+    {
+      "from": "event1737028311232_4",
+      "to": "event1737028276674_2",
+      "type": "INFLUENCES",
+      "description": "The Gathering of the Elders influenced the Naming Ceremony by confirming Zynthera’s connection to the 'Eternal Song' and the ancient archives, leading to the elders’ decision to name them in alignment with their cosmic role."
+    },
+    {
+      "from": "event1737028317443_6",
+      "to": "event1737028311232_4",
+      "type": "SEQUENCE",
+      "description": "The Rite of Alignment directly preceded the Gathering of the Elders, as the elders convened to interpret the results of the ceremony and its implications for Zynthera's connection to the ancient Quillari prophecies."
+    }
+  ]
+}
+
+Parsed Response:
+{
+  "connections": [
+    {
+      "from": "event1737028256162_1",
+      "to": "event1737028355526_8",
+      "type": "CAUSES",
+      "description": "The amplified harmonic energy fields during the Celestial Convergence likely caused the Luminous Storm, as the unique atmospheric phenomenon originated directly above the birthing chamber and was interpreted as a manifestation of cosmic energy tied to Zynthera's arrival."
+    },
+    {
+      "from": "event1737028355526_8",
+      "to": "event1737028280057_3",
+      "type": "INFLUENCES",
+      "description": "The Luminous Storm's harmonic frequencies resonating across Luminara Prime may have further amplified the conditions that led to Zynthera's First Harmonic Resonance, emphasizing the cascading effects of cosmic and harmonic energies triggered by their birth."
+    },
+    {
+      "from": "event1737028314466_5",
+      "to": "event1737028357977_9",
+      "type": "ENHANCES",
+      "description": "The arrival of the Twilight Herald and their activation of the ancient Glyphstone likely enhanced the subsequent Awakening of the Spire Glyphstone, as their presence and the harmonic tones they introduced reinforced the activation of dormant artifacts linked to Zynthera."
+    },
+    {
+      "from": "event1737028357977_9",
+      "to": "event1737028317443_6",
+      "type": "ENABLES",
+      "description": "The Awakening of the Spire Glyphstone enabled the Rite of Alignment by providing a clear indication of Zynthera's connection to the ancient frequencies and the necessity of aligning their unique harmonic resonance with the planetary energy fields."
+    },
+    {
+      "from": "event1737028352112_7",
+      "to": "event1737028311232_4",
+      "type": "INFLUENCES",
+      "description": "The Twilight Communion influenced the Gathering of the Elders by revealing cryptic references to the 'Key of the Eternal Song,' providing the council with crucial insights into Zynthera's connection to the lost archives and the broader implications of the prophecy."
+    },
+    {
+      "from": "event1737028357977_9",
+      "to": "event1737028276674_2",
+      "type": "INFLUENCES",
+      "description": "The Awakening of the Spire Glyphstone influenced the Naming Ceremony by demonstrating Zynthera's unique resonance with ancient frequencies, which inspired the elders to select the name 'Key of the Eternal Song' to reflect their connection to the lost archives."
+    },
+    {
+      "from": "event1737028317443_6",
+      "to": "event1737028352112_7",
+      "type": "PARALLELS",
+      "description": "The Rite of Alignment and the Twilight Communion both involved interpreting and amplifying Zynthera's harmonic resonance to uncover their connection to ancient Quillari knowledge, reflecting parallel efforts to understand their cosmic significance."
+    },
+    {
+      "from": "event1737028355526_8",
+      "to": "event1737028314466_5",
+      "type": "CAUSES",
+      "description": "The Luminous Storm's harmonic waves likely acted as a summoning mechanism for the Twilight Herald, as the atmospheric phenomenon resonated across Luminara Prime and marked Zynthera's birth as a moment of cosmic importance."
+    },
+    {
+      "from": "event1737028311232_4",
+      "to": "event1737028276674_2",
+      "type": "INFLUENCES",
+      "description": "The Gathering of the Elders influenced the Naming Ceremony by confirming Zynthera’s connection to the 'Eternal Song' and the ancient archives, leading to the elders’ decision to name them in alignment with their cosmic role."
+    },
+    {
+      "from": "event1737028317443_6",
+      "to": "event1737028311232_4",
+      "type": "SEQUENCE",
+      "description": "The Rite of Alignment directly preceded the Gathering of the Elders, as the elders convened to interpret the results of the ceremony and its implications for Zynthera's connection to the ancient Quillari prophecies."
+    }
+  ]
+}
+
+Added 9 new connections
+
+=== NEW CONNECTIONS ATTEMPT 2025-01-16T11:54:04.109Z ===
+
+AI Response:
+{
+  "connections": [
+    {
+      "from": "event1737028402880_11",
+      "to": "event1737028355526_8",
+      "type": "CAUSES",
+      "description": "The Veil of Auralis unfolded moments after Zynthera's birth, creating a cascade of harmonic energy. This phenomenon likely acted as a precursor to the Luminous Storm by amplifying harmonic frequencies in the atmosphere, setting the stage for the storm’s emergence."
+    },
+    {
+      "from": "event1737028355526_8",
+      "to": "event1737028406370_12",
+      "type": "ENABLES",
+      "description": "The Luminous Storm spread amplified harmonic frequencies across the environment, which directly enabled the Crystalline Convergence by activating the resonance within the planet’s crystalline structures."
+    },
+    {
+      "from": "event1737028357977_9",
+      "to": "event1737028352112_7",
+      "type": "PARALLELS",
+      "description": "The Awakening of the Spire Glyphstone and the Twilight Communion both involved decoding harmonic projections linked to ancient Quillari knowledge. These parallel events showcased Zynthera’s critical role as a bridge to lost archives, although they unfolded in different contexts."
+    },
+    {
+      "from": "event1737028314466_5",
+      "to": "event1737028276674_2",
+      "type": "INFLUENCES",
+      "description": "The arrival of the Twilight Herald, who declared Zynthera’s cosmic importance and activated the ancient Glyphstone, influenced the Naming Ceremony by reinforcing Zynthera's connection to the Eternal Song and shaping the elders’ decision regarding their name."
+    },
+    {
+      "from": "event1737028399942_10",
+      "to": "event1737028317443_6",
+      "type": "CONTRASTS",
+      "description": "The Cosmic Vigil of Aeralis was a collective spiritual observance focused on interpreting Zynthera's significance, whereas the Rite of Alignment was a focused ritual aimed at harmonizing Zynthera’s resonance with planetary energy fields, reflecting contrasting approaches to understanding their importance."
+    },
+    {
+      "from": "event1737028280057_3",
+      "to": "event1737028399942_10",
+      "type": "ENABLES",
+      "description": "The First Harmonic Resonance, which demonstrated Zynthera’s unique abilities, enabled the Cosmic Vigil of Aeralis by providing tangible evidence of their significance, prompting the elders and citizens to gather and interpret the cosmic implications."
+    },
+    {
+      "from": "event1737028276674_2",
+      "to": "event1737028311232_4",
+      "type": "CAUSES",
+      "description": "The Naming Ceremony, which officially linked Zynthera to the Eternal Song, caused the Gathering of the Elders to further deliberate on the societal and cosmic implications of their role as a prophesied figure."
+    },
+    {
+      "from": "event1737028355526_8",
+      "to": "event1737028314466_5",
+      "type": "INFLUENCES",
+      "description": "The Luminous Storm’s harmonic resonance influenced the arrival of the Twilight Herald by creating the atmospheric and energetic conditions that drew the Herald to the birthing enclave."
+    },
+    {
+      "from": "event1737028352112_7",
+      "to": "event1737028317443_6",
+      "type": "ENABLES",
+      "description": "The Twilight Communion’s cryptic revelations about the 'Key of the Eternal Song' enabled the Rite of Alignment by reinforcing the necessity of aligning Zynthera’s unique resonance with the planetary harmonic fields."
+    },
+    {
+      "from": "event1737028357977_9",
+      "to": "event1737028399942_10",
+      "type": "INFLUENCES",
+      "description": "The Awakening of the Spire Glyphstone, which revealed fragments of the Eternal Song, influenced the Cosmic Vigil by providing additional insights into Zynthera’s connection to the ancient archives, shaping the collective interpretation of their significance."
+    }
+  ]
+}
+
+Parsed Response:
+{
+  "connections": [
+    {
+      "from": "event1737028402880_11",
+      "to": "event1737028355526_8",
+      "type": "CAUSES",
+      "description": "The Veil of Auralis unfolded moments after Zynthera's birth, creating a cascade of harmonic energy. This phenomenon likely acted as a precursor to the Luminous Storm by amplifying harmonic frequencies in the atmosphere, setting the stage for the storm’s emergence."
+    },
+    {
+      "from": "event1737028355526_8",
+      "to": "event1737028406370_12",
+      "type": "ENABLES",
+      "description": "The Luminous Storm spread amplified harmonic frequencies across the environment, which directly enabled the Crystalline Convergence by activating the resonance within the planet’s crystalline structures."
+    },
+    {
+      "from": "event1737028357977_9",
+      "to": "event1737028352112_7",
+      "type": "PARALLELS",
+      "description": "The Awakening of the Spire Glyphstone and the Twilight Communion both involved decoding harmonic projections linked to ancient Quillari knowledge. These parallel events showcased Zynthera’s critical role as a bridge to lost archives, although they unfolded in different contexts."
+    },
+    {
+      "from": "event1737028314466_5",
+      "to": "event1737028276674_2",
+      "type": "INFLUENCES",
+      "description": "The arrival of the Twilight Herald, who declared Zynthera’s cosmic importance and activated the ancient Glyphstone, influenced the Naming Ceremony by reinforcing Zynthera's connection to the Eternal Song and shaping the elders’ decision regarding their name."
+    },
+    {
+      "from": "event1737028399942_10",
+      "to": "event1737028317443_6",
+      "type": "CONTRASTS",
+      "description": "The Cosmic Vigil of Aeralis was a collective spiritual observance focused on interpreting Zynthera's significance, whereas the Rite of Alignment was a focused ritual aimed at harmonizing Zynthera’s resonance with planetary energy fields, reflecting contrasting approaches to understanding their importance."
+    },
+    {
+      "from": "event1737028280057_3",
+      "to": "event1737028399942_10",
+      "type": "ENABLES",
+      "description": "The First Harmonic Resonance, which demonstrated Zynthera’s unique abilities, enabled the Cosmic Vigil of Aeralis by providing tangible evidence of their significance, prompting the elders and citizens to gather and interpret the cosmic implications."
+    },
+    {
+      "from": "event1737028276674_2",
+      "to": "event1737028311232_4",
+      "type": "CAUSES",
+      "description": "The Naming Ceremony, which officially linked Zynthera to the Eternal Song, caused the Gathering of the Elders to further deliberate on the societal and cosmic implications of their role as a prophesied figure."
+    },
+    {
+      "from": "event1737028355526_8",
+      "to": "event1737028314466_5",
+      "type": "INFLUENCES",
+      "description": "The Luminous Storm’s harmonic resonance influenced the arrival of the Twilight Herald by creating the atmospheric and energetic conditions that drew the Herald to the birthing enclave."
+    },
+    {
+      "from": "event1737028352112_7",
+      "to": "event1737028317443_6",
+      "type": "ENABLES",
+      "description": "The Twilight Communion’s cryptic revelations about the 'Key of the Eternal Song' enabled the Rite of Alignment by reinforcing the necessity of aligning Zynthera’s unique resonance with the planetary harmonic fields."
+    },
+    {
+      "from": "event1737028357977_9",
+      "to": "event1737028399942_10",
+      "type": "INFLUENCES",
+      "description": "The Awakening of the Spire Glyphstone, which revealed fragments of the Eternal Song, influenced the Cosmic Vigil by providing additional insights into Zynthera’s connection to the ancient archives, shaping the collective interpretation of their significance."
+    }
+  ]
+}
+
+Added 7 new connections
+
+=== NEW CONNECTIONS ATTEMPT 2025-01-16T11:54:57.893Z ===
+
+AI Response:
+{
+  "connections": [
+    {
+      "from": "event1737028355526_8",
+      "to": "event1737028406370_12",
+      "type": "CAUSES",
+      "description": "The Luminous Storm's harmonic frequencies likely created the conditions for the Crystalline Convergence by energizing the planetary crystalline structures, which then resonated in synchronization to produce the geometric light patterns and star charts."
+    },
+    {
+      "from": "event1737028451402_15",
+      "to": "event1737028406370_12",
+      "type": "ENABLES",
+      "description": "The Resonance Cascade’s activation of harmonic frequencies and uncovering of the Harmonic Keystone set the stage for the Crystalline Convergence, as the harmonic energy it released amplified the planetary resonance field."
+    },
+    {
+      "from": "event1737028355526_8",
+      "to": "event1737028444117_13",
+      "type": "INFLUENCES",
+      "description": "The Luminous Storm's widespread harmonic energy likely contributed to the atmospheric and environmental conditions that enabled the manifestation of the Harmonic Nexus, as its residual energy would have amplified the celestial alignment effects."
+    },
+    {
+      "from": "event1737028311232_4",
+      "to": "event1737028317443_6",
+      "type": "PARALLELS",
+      "description": "The Gathering of the Elders and the Rite of Alignment both focused on interpreting Zynthera’s connection to the Eternal Song, showcasing parallel approaches of deliberation and direct action in understanding their role in Quillari prophecy."
+    },
+    {
+      "from": "event1737028276674_2",
+      "to": "event1737028357977_9",
+      "type": "ENHANCES",
+      "description": "The Naming Ceremony, which highlighted Zynthera’s unique resonance, likely enhanced the elders’ perception of the Awakening of the Spire Glyphstone, as their earlier declarations of Zynthera’s importance framed the Glyphstone’s activation as confirmation of their role."
+    },
+    {
+      "from": "event1737028352112_7",
+      "to": "event1737028276674_2",
+      "type": "INFLUENCES",
+      "description": "The Twilight Communion’s revelations about the ‘Key of the Eternal Song’ influenced the Naming Ceremony by reinforcing the elders’ decision to name Zynthera in alignment with their role in fulfilling the prophecy."
+    },
+    {
+      "from": "event1737028444117_13",
+      "to": "event1737028314466_5",
+      "type": "INFLUENCES",
+      "description": "The emergence of the Harmonic Nexus, which created a planetary-scale harmonic pattern, likely influenced the arrival of the Twilight Herald by amplifying the harmonic energy field, signaling the significance of Zynthera’s birth on a cosmic scale."
+    },
+    {
+      "from": "event1737028280057_3",
+      "to": "event1737028399942_10",
+      "type": "PARALLELS",
+      "description": "The First Harmonic Resonance and the Cosmic Vigil of Aeralis both showcased Zynthera’s unique resonance and its effects on Quillari society, reflecting parallel moments of revelation and collective response to their importance."
+    },
+    {
+      "from": "event1737028402880_11",
+      "to": "event1737028451402_15",
+      "type": "INFLUENCES",
+      "description": "The Veil of Auralis, with its harmonic frequencies and glyph-like patterns, influenced the Resonance Cascade by setting the stage for the activation of the Celestial Nexus’s crystalline structures and the discovery of the Harmonic Keystone."
+    },
+    {
+      "from": "event1737028399942_10",
+      "to": "event1737028317443_6",
+      "type": "CONTRASTS",
+      "description": "The Cosmic Vigil of Aeralis was a communal and spiritual effort to interpret Zynthera’s significance, contrasting with the Rite of Alignment’s focused and ritualistic approach to aligning their resonance with the planetary energy fields."
+    }
+  ]
+}
+
+Parsed Response:
+{
+  "connections": [
+    {
+      "from": "event1737028355526_8",
+      "to": "event1737028406370_12",
+      "type": "CAUSES",
+      "description": "The Luminous Storm's harmonic frequencies likely created the conditions for the Crystalline Convergence by energizing the planetary crystalline structures, which then resonated in synchronization to produce the geometric light patterns and star charts."
+    },
+    {
+      "from": "event1737028451402_15",
+      "to": "event1737028406370_12",
+      "type": "ENABLES",
+      "description": "The Resonance Cascade’s activation of harmonic frequencies and uncovering of the Harmonic Keystone set the stage for the Crystalline Convergence, as the harmonic energy it released amplified the planetary resonance field."
+    },
+    {
+      "from": "event1737028355526_8",
+      "to": "event1737028444117_13",
+      "type": "INFLUENCES",
+      "description": "The Luminous Storm's widespread harmonic energy likely contributed to the atmospheric and environmental conditions that enabled the manifestation of the Harmonic Nexus, as its residual energy would have amplified the celestial alignment effects."
+    },
+    {
+      "from": "event1737028311232_4",
+      "to": "event1737028317443_6",
+      "type": "PARALLELS",
+      "description": "The Gathering of the Elders and the Rite of Alignment both focused on interpreting Zynthera’s connection to the Eternal Song, showcasing parallel approaches of deliberation and direct action in understanding their role in Quillari prophecy."
+    },
+    {
+      "from": "event1737028276674_2",
+      "to": "event1737028357977_9",
+      "type": "ENHANCES",
+      "description": "The Naming Ceremony, which highlighted Zynthera’s unique resonance, likely enhanced the elders’ perception of the Awakening of the Spire Glyphstone, as their earlier declarations of Zynthera’s importance framed the Glyphstone’s activation as confirmation of their role."
+    },
+    {
+      "from": "event1737028352112_7",
+      "to": "event1737028276674_2",
+      "type": "INFLUENCES",
+      "description": "The Twilight Communion’s revelations about the ‘Key of the Eternal Song’ influenced the Naming Ceremony by reinforcing the elders’ decision to name Zynthera in alignment with their role in fulfilling the prophecy."
+    },
+    {
+      "from": "event1737028444117_13",
+      "to": "event1737028314466_5",
+      "type": "INFLUENCES",
+      "description": "The emergence of the Harmonic Nexus, which created a planetary-scale harmonic pattern, likely influenced the arrival of the Twilight Herald by amplifying the harmonic energy field, signaling the significance of Zynthera’s birth on a cosmic scale."
+    },
+    {
+      "from": "event1737028280057_3",
+      "to": "event1737028399942_10",
+      "type": "PARALLELS",
+      "description": "The First Harmonic Resonance and the Cosmic Vigil of Aeralis both showcased Zynthera’s unique resonance and its effects on Quillari society, reflecting parallel moments of revelation and collective response to their importance."
+    },
+    {
+      "from": "event1737028402880_11",
+      "to": "event1737028451402_15",
+      "type": "INFLUENCES",
+      "description": "The Veil of Auralis, with its harmonic frequencies and glyph-like patterns, influenced the Resonance Cascade by setting the stage for the activation of the Celestial Nexus’s crystalline structures and the discovery of the Harmonic Keystone."
+    },
+    {
+      "from": "event1737028399942_10",
+      "to": "event1737028317443_6",
+      "type": "CONTRASTS",
+      "description": "The Cosmic Vigil of Aeralis was a communal and spiritual effort to interpret Zynthera’s significance, contrasting with the Rite of Alignment’s focused and ritualistic approach to aligning their resonance with the planetary energy fields."
+    }
+  ]
+}
+
+Added 6 new connections
+
+=== NEW CONNECTIONS ATTEMPT 2025-01-16T11:55:53.310Z ===
+
+AI Response:
+{
+  "connections": [
+    {
+      "from": "event1737028447902_14",
+      "to": "event1737028504838_18",
+      "type": "CAUSES",
+      "description": "The Shimmering Dawn's harmonic vibrations directly amplified the planetary energy field, leading to the activation of the Crystalline Chorus, where crystalline structures began emitting synchronized harmonic tones."
+    },
+    {
+      "from": "event1737028501281_17",
+      "to": "event1737028402880_11",
+      "type": "PARALLELS",
+      "description": "The Celestial Reverberation and the Veil of Auralis both involved cascading auroral lights synchronized with Zynthera's harmonic resonance, showcasing parallel cosmic phenomena tied to their birth."
+    },
+    {
+      "from": "event1737028451402_15",
+      "to": "event1737028406370_12",
+      "type": "ENABLES",
+      "description": "The Resonance Cascade, which activated harmonic frequencies and revealed the Harmonic Keystone, set the conditions for the Crystalline Convergence by amplifying planetary resonance patterns."
+    },
+    {
+      "from": "event1737028504838_18",
+      "to": "event1737028399942_10",
+      "type": "INFLUENCES",
+      "description": "The Crystalline Chorus Awakens influenced the Cosmic Vigil of Aeralis by projecting harmonic tones and patterns that inspired the Quillari to gather and interpret Zynthera's significance."
+    },
+    {
+      "from": "event1737028355526_8",
+      "to": "event1737028444117_13",
+      "type": "CAUSES",
+      "description": "The Luminous Storm's residual harmonic energy likely caused the Emergence of the Harmonic Nexus by amplifying the already heightened planetary energy fields, enabling the Nexus to manifest."
+    },
+    {
+      "from": "birth",
+      "to": "event1737028501281_17",
+      "type": "INFLUENCES",
+      "description": "Zynthera's unique harmonic resonance at birth directly influenced the Celestial Reverberation, as their emitted tone synchronized with the cascading auroras and amplified planetary energy."
+    },
+    {
+      "from": "event1737028314466_5",
+      "to": "event1737028357977_9",
+      "type": "ENABLES",
+      "description": "The arrival of the Twilight Herald, along with their activation of the ancient Glyphstone, enabled the Awakening of the Spire Glyphstone by introducing harmonic tones that resonated with dormant artifacts."
+    },
+    {
+      "from": "event1737028357977_9",
+      "to": "event1737028280057_3",
+      "type": "ENHANCES",
+      "description": "The Awakening of the Spire Glyphstone enhanced the significance of the First Harmonic Resonance by demonstrating its direct connection to dormant Quillari artifacts and ancient archives."
+    },
+    {
+      "from": "event1737028276674_2",
+      "to": "event1737028497904_16",
+      "type": "PARALLELS",
+      "description": "The Naming Ceremony and the Shroud of Harmonic Prophecy both involved interpreting Zynthera's connection to the Eternal Song, reflecting parallel efforts to frame their role in Quillari lore."
+    },
+    {
+      "from": "event1737028352112_7",
+      "to": "event1737028317443_6",
+      "type": "INFLUENCES",
+      "description": "The Twilight Communion, which revealed cryptic references to the Key of the Eternal Song, influenced the Rite of Alignment by reinforcing the elders' decision to align Zynthera's resonance with planetary energy fields."
+    }
+  ]
+}
+
+Parsed Response:
+{
+  "connections": [
+    {
+      "from": "event1737028447902_14",
+      "to": "event1737028504838_18",
+      "type": "CAUSES",
+      "description": "The Shimmering Dawn's harmonic vibrations directly amplified the planetary energy field, leading to the activation of the Crystalline Chorus, where crystalline structures began emitting synchronized harmonic tones."
+    },
+    {
+      "from": "event1737028501281_17",
+      "to": "event1737028402880_11",
+      "type": "PARALLELS",
+      "description": "The Celestial Reverberation and the Veil of Auralis both involved cascading auroral lights synchronized with Zynthera's harmonic resonance, showcasing parallel cosmic phenomena tied to their birth."
+    },
+    {
+      "from": "event1737028451402_15",
+      "to": "event1737028406370_12",
+      "type": "ENABLES",
+      "description": "The Resonance Cascade, which activated harmonic frequencies and revealed the Harmonic Keystone, set the conditions for the Crystalline Convergence by amplifying planetary resonance patterns."
+    },
+    {
+      "from": "event1737028504838_18",
+      "to": "event1737028399942_10",
+      "type": "INFLUENCES",
+      "description": "The Crystalline Chorus Awakens influenced the Cosmic Vigil of Aeralis by projecting harmonic tones and patterns that inspired the Quillari to gather and interpret Zynthera's significance."
+    },
+    {
+      "from": "event1737028355526_8",
+      "to": "event1737028444117_13",
+      "type": "CAUSES",
+      "description": "The Luminous Storm's residual harmonic energy likely caused the Emergence of the Harmonic Nexus by amplifying the already heightened planetary energy fields, enabling the Nexus to manifest."
+    },
+    {
+      "from": "birth",
+      "to": "event1737028501281_17",
+      "type": "INFLUENCES",
+      "description": "Zynthera's unique harmonic resonance at birth directly influenced the Celestial Reverberation, as their emitted tone synchronized with the cascading auroras and amplified planetary energy."
+    },
+    {
+      "from": "event1737028314466_5",
+      "to": "event1737028357977_9",
+      "type": "ENABLES",
+      "description": "The arrival of the Twilight Herald, along with their activation of the ancient Glyphstone, enabled the Awakening of the Spire Glyphstone by introducing harmonic tones that resonated with dormant artifacts."
+    },
+    {
+      "from": "event1737028357977_9",
+      "to": "event1737028280057_3",
+      "type": "ENHANCES",
+      "description": "The Awakening of the Spire Glyphstone enhanced the significance of the First Harmonic Resonance by demonstrating its direct connection to dormant Quillari artifacts and ancient archives."
+    },
+    {
+      "from": "event1737028276674_2",
+      "to": "event1737028497904_16",
+      "type": "PARALLELS",
+      "description": "The Naming Ceremony and the Shroud of Harmonic Prophecy both involved interpreting Zynthera's connection to the Eternal Song, reflecting parallel efforts to frame their role in Quillari lore."
+    },
+    {
+      "from": "event1737028352112_7",
+      "to": "event1737028317443_6",
+      "type": "INFLUENCES",
+      "description": "The Twilight Communion, which revealed cryptic references to the Key of the Eternal Song, influenced the Rite of Alignment by reinforcing the elders' decision to align Zynthera's resonance with planetary energy fields."
+    }
+  ]
+}
+
+Added 4 new connections
+
+=== NEW CONNECTIONS ATTEMPT 2025-01-16T11:56:38.858Z ===
+
+AI Response:
+{
+  "connections": [
+    {
+      "from": "event1737028557256_20",
+      "to": "event1737028504838_18",
+      "type": "ENABLES",
+      "description": "The Harmonic Cradle Activation triggered a planetary harmonic resonance that later intensified during the Crystalline Chorus Awakens, establishing a cascade of harmonic events linked to Zynthera's unique energy signature."
+    },
+    {
+      "from": "event1737028504838_18",
+      "to": "event1737028406370_12",
+      "type": "CAUSES",
+      "description": "The Crystalline Chorus Awakens caused widespread harmonic vibrations that laid the foundation for the Crystalline Convergence, where further revelations about ancient Quillari knowledge were unveiled."
+    },
+    {
+      "from": "event1737028402880_11",
+      "to": "event1737028501281_17",
+      "type": "INFLUENCES",
+      "description": "The Veil of Auralis Unfolds amplified the harmonic energy in the environment, directly influencing the emergence of the Celestial Reverberation and its synchronization with Zynthera's resonance."
+    },
+    {
+      "from": "event1737028355526_8",
+      "to": "event1737028406370_12",
+      "type": "INFLUENCES",
+      "description": "The Luminous Storm’s harmonic frequencies resonated across Luminara Prime, influencing the crystalline structures that later synchronized during the Crystalline Convergence."
+    },
+    {
+      "from": "event1737028451402_15",
+      "to": "event1737028560624_21",
+      "type": "CAUSES",
+      "description": "The Resonance Cascade caused a surge of harmonic energy that directly triggered the Harmonic Lattice Emergence, connecting the planetary Glyphstones and revealing glyph-like patterns tied to ancient Quillari knowledge."
+    },
+    {
+      "from": "event1737028276674_2",
+      "to": "event1737028317443_6",
+      "type": "ENHANCES",
+      "description": "The Naming Ceremony of Zynthera Quillaris, which highlighted their unique resonance, enhanced the spiritual and symbolic significance of the Rite of Alignment as a step to align their role with cosmic forces."
+    },
+    {
+      "from": "event1737028497904_16",
+      "to": "event1737028357977_9",
+      "type": "INFLUENCES",
+      "description": "The Shroud of Harmonic Prophecy’s revelations about Zynthera's resonance provided context for the Awakening of the Spire Glyphstone, linking Zynthera’s significance to ancient Quillari archives."
+    },
+    {
+      "from": "event1737028553315_19",
+      "to": "event1737028444117_13",
+      "type": "ENHANCES",
+      "description": "The Harmonic Awakening of Aeralis enhanced the Emergence of the Harmonic Nexus by activating dormant Glyphstones and intensifying the harmonic energy field across the region."
+    },
+    {
+      "from": "event1737028314466_5",
+      "to": "event1737028447902_14",
+      "type": "PARALLELS",
+      "description": "The Arrival of the Twilight Herald and The Shimmering Dawn both signify cosmic recognition of Zynthera’s importance, reflecting parallel validations of their role in Quillari prophecy."
+    },
+    {
+      "from": "event1737028280057_3",
+      "to": "event1737028553315_19",
+      "type": "CAUSES",
+      "description": "The First Harmonic Resonance directly caused the Harmonic Awakening of Aeralis by initiating resonance patterns that activated dormant energy fields and artifacts in the city."
+    }
+  ]
+}
+
+Parsed Response:
+{
+  "connections": [
+    {
+      "from": "event1737028557256_20",
+      "to": "event1737028504838_18",
+      "type": "ENABLES",
+      "description": "The Harmonic Cradle Activation triggered a planetary harmonic resonance that later intensified during the Crystalline Chorus Awakens, establishing a cascade of harmonic events linked to Zynthera's unique energy signature."
+    },
+    {
+      "from": "event1737028504838_18",
+      "to": "event1737028406370_12",
+      "type": "CAUSES",
+      "description": "The Crystalline Chorus Awakens caused widespread harmonic vibrations that laid the foundation for the Crystalline Convergence, where further revelations about ancient Quillari knowledge were unveiled."
+    },
+    {
+      "from": "event1737028402880_11",
+      "to": "event1737028501281_17",
+      "type": "INFLUENCES",
+      "description": "The Veil of Auralis Unfolds amplified the harmonic energy in the environment, directly influencing the emergence of the Celestial Reverberation and its synchronization with Zynthera's resonance."
+    },
+    {
+      "from": "event1737028355526_8",
+      "to": "event1737028406370_12",
+      "type": "INFLUENCES",
+      "description": "The Luminous Storm’s harmonic frequencies resonated across Luminara Prime, influencing the crystalline structures that later synchronized during the Crystalline Convergence."
+    },
+    {
+      "from": "event1737028451402_15",
+      "to": "event1737028560624_21",
+      "type": "CAUSES",
+      "description": "The Resonance Cascade caused a surge of harmonic energy that directly triggered the Harmonic Lattice Emergence, connecting the planetary Glyphstones and revealing glyph-like patterns tied to ancient Quillari knowledge."
+    },
+    {
+      "from": "event1737028276674_2",
+      "to": "event1737028317443_6",
+      "type": "ENHANCES",
+      "description": "The Naming Ceremony of Zynthera Quillaris, which highlighted their unique resonance, enhanced the spiritual and symbolic significance of the Rite of Alignment as a step to align their role with cosmic forces."
+    },
+    {
+      "from": "event1737028497904_16",
+      "to": "event1737028357977_9",
+      "type": "INFLUENCES",
+      "description": "The Shroud of Harmonic Prophecy’s revelations about Zynthera's resonance provided context for the Awakening of the Spire Glyphstone, linking Zynthera’s significance to ancient Quillari archives."
+    },
+    {
+      "from": "event1737028553315_19",
+      "to": "event1737028444117_13",
+      "type": "ENHANCES",
+      "description": "The Harmonic Awakening of Aeralis enhanced the Emergence of the Harmonic Nexus by activating dormant Glyphstones and intensifying the harmonic energy field across the region."
+    },
+    {
+      "from": "event1737028314466_5",
+      "to": "event1737028447902_14",
+      "type": "PARALLELS",
+      "description": "The Arrival of the Twilight Herald and The Shimmering Dawn both signify cosmic recognition of Zynthera’s importance, reflecting parallel validations of their role in Quillari prophecy."
+    },
+    {
+      "from": "event1737028280057_3",
+      "to": "event1737028553315_19",
+      "type": "CAUSES",
+      "description": "The First Harmonic Resonance directly caused the Harmonic Awakening of Aeralis by initiating resonance patterns that activated dormant energy fields and artifacts in the city."
+    }
+  ]
+}
+
+Added 9 new connections
+
+=== NEW CONNECTIONS ATTEMPT 2025-01-16T11:57:38.938Z ===
+
+AI Response:
+```json
+{
+  "connections": [
+    {
+      "from": "event1737028557256_20",
+      "to": "event1737028447902_14",
+      "type": "CAUSES",
+      "description": "The Harmonic Cradle Activation emitted harmonic tones that synchronized with Zynthera's resonance. This amplification likely set the stage for the Shimmering Dawn by intensifying the harmonic energy fields, causing the rare atmospheric transformation."
+    },
+    {
+      "from": "event1737028557256_20",
+      "to": "event1737028451402_15",
+      "type": "ENABLES",
+      "description": "The Harmonic Cradle Activation amplified the harmonic resonance in the planetary environment, which later escalated into the Resonance Cascade, a more widespread activation of harmonic patterns across Luminara Prime."
+    },
+    {
+      "from": "event1737028447902_14",
+      "to": "event1737028504838_18",
+      "type": "INFLUENCES",
+      "description": "The harmonic vibrations from the Shimmering Dawn influenced the Crystalline Chorus Awakens by intensifying the resonance within the crystalline structures, leading to their synchronized harmonic tones across the planet."
+    },
+    {
+      "from": "event1737028355526_8",
+      "to": "event1737028598864_22",
+      "type": "ENHANCES",
+      "description": "The Luminous Storm introduced widespread harmonic energy that enhanced the conditions for the Celestial Chorus Unveiled, allowing the glyph-like sky patterns to manifest more vividly and respond to Zynthera’s resonance."
+    },
+    {
+      "from": "event1737028610926_24",
+      "to": "event1737028451402_15",
+      "type": "CAUSES",
+      "description": "The Resonant Awakening of Auralis propagated harmonic vibrations that directly caused the Resonance Cascade by activating the crystalline structures and triggering their synchronization with Zynthera’s unique resonance."
+    },
+    {
+      "from": "event1737028553315_19",
+      "to": "event1737028406370_12",
+      "type": "ENHANCES",
+      "description": "The Harmonic Awakening of Aeralis enhanced the Crystalline Convergence by activating dormant Glyphstones and amplifying harmonic energy across the city, which contributed to the projection of ancient star charts during the Convergence."
+    },
+    {
+      "from": "event1737028444117_13",
+      "to": "event1737028352112_7",
+      "type": "PARALLELS",
+      "description": "The Emergence of the Harmonic Nexus and the Twilight Communion both involved decoding harmonic patterns tied to Zynthera’s resonance, reflecting parallel efforts to uncover the connection between their birth and ancient Quillari knowledge."
+    },
+    {
+      "from": "event1737028501281_17",
+      "to": "event1737028608178_23",
+      "type": "INFLUENCES",
+      "description": "The Celestial Reverberation influenced the Harmonic Aurora Ignites by amplifying harmonic energy in the atmosphere, which enhanced the synchronization between Zynthera’s resonance and the aurora’s light and sound phenomenon."
+    },
+    {
+      "from": "event1737028608178_23",
+      "to": "event1737028560624_21",
+      "type": "ENABLES",
+      "description": "The Harmonic Aurora Ignites enabled the Harmonic Lattice Emergence by creating an elevated harmonic energy field that interconnected planetary Glyphstones, allowing the lattice to manifest and reveal glyph-like patterns."
+    },
+    {
+      "from": "event1737028610926_24",
+      "to": "event1737028357977_9",
+      "type": "ENHANCES",
+      "description": "The Resonant Awakening of Auralis enhanced the Awakening of the Spire Glyphstone by spreading harmonic energy that further amplified the activation of dormant artifacts linked to Zynthera’s resonance."
+    }
+  ]
+}
+```
+
+Parsed Response:
+{
+  "connections": [
+    {
+      "from": "event1737028557256_20",
+      "to": "event1737028447902_14",
+      "type": "CAUSES",
+      "description": "The Harmonic Cradle Activation emitted harmonic tones that synchronized with Zynthera's resonance. This amplification likely set the stage for the Shimmering Dawn by intensifying the harmonic energy fields, causing the rare atmospheric transformation."
+    },
+    {
+      "from": "event1737028557256_20",
+      "to": "event1737028451402_15",
+      "type": "ENABLES",
+      "description": "The Harmonic Cradle Activation amplified the harmonic resonance in the planetary environment, which later escalated into the Resonance Cascade, a more widespread activation of harmonic patterns across Luminara Prime."
+    },
+    {
+      "from": "event1737028447902_14",
+      "to": "event1737028504838_18",
+      "type": "INFLUENCES",
+      "description": "The harmonic vibrations from the Shimmering Dawn influenced the Crystalline Chorus Awakens by intensifying the resonance within the crystalline structures, leading to their synchronized harmonic tones across the planet."
+    },
+    {
+      "from": "event1737028355526_8",
+      "to": "event1737028598864_22",
+      "type": "ENHANCES",
+      "description": "The Luminous Storm introduced widespread harmonic energy that enhanced the conditions for the Celestial Chorus Unveiled, allowing the glyph-like sky patterns to manifest more vividly and respond to Zynthera’s resonance."
+    },
+    {
+      "from": "event1737028610926_24",
+      "to": "event1737028451402_15",
+      "type": "CAUSES",
+      "description": "The Resonant Awakening of Auralis propagated harmonic vibrations that directly caused the Resonance Cascade by activating the crystalline structures and triggering their synchronization with Zynthera’s unique resonance."
+    },
+    {
+      "from": "event1737028553315_19",
+      "to": "event1737028406370_12",
+      "type": "ENHANCES",
+      "description": "The Harmonic Awakening of Aeralis enhanced the Crystalline Convergence by activating dormant Glyphstones and amplifying harmonic energy across the city, which contributed to the projection of ancient star charts during the Convergence."
+    },
+    {
+      "from": "event1737028444117_13",
+      "to": "event1737028352112_7",
+      "type": "PARALLELS",
+      "description": "The Emergence of the Harmonic Nexus and the Twilight Communion both involved decoding harmonic patterns tied to Zynthera’s resonance, reflecting parallel efforts to uncover the connection between their birth and ancient Quillari knowledge."
+    },
+    {
+      "from": "event1737028501281_17",
+      "to": "event1737028608178_23",
+      "type": "INFLUENCES",
+      "description": "The Celestial Reverberation influenced the Harmonic Aurora Ignites by amplifying harmonic energy in the atmosphere, which enhanced the synchronization between Zynthera’s resonance and the aurora’s light and sound phenomenon."
+    },
+    {
+      "from": "event1737028608178_23",
+      "to": "event1737028560624_21",
+      "type": "ENABLES",
+      "description": "The Harmonic Aurora Ignites enabled the Harmonic Lattice Emergence by creating an elevated harmonic energy field that interconnected planetary Glyphstones, allowing the lattice to manifest and reveal glyph-like patterns."
+    },
+    {
+      "from": "event1737028610926_24",
+      "to": "event1737028357977_9",
+      "type": "ENHANCES",
+      "description": "The Resonant Awakening of Auralis enhanced the Awakening of the Spire Glyphstone by spreading harmonic energy that further amplified the activation of dormant artifacts linked to Zynthera’s resonance."
+    }
+  ]
+}
+
+Added 9 new connections

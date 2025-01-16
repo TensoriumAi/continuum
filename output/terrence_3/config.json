@@ -1,0 +1,60 @@
+{
+  "type": "human",
+  "physicalDescription": {
+    "height": "5'9\"",
+    "build": "slim, slightly hunched from years of working at a desk",
+    "hair": "dark brown, unkempt, with streaks of gray",
+    "eyes": "piercing hazel with a distant, contemplative gaze",
+    "skin": "pale, with a slightly weathered complexion from sleepless nights",
+    "distinctFeatures": "perpetually ink-stained fingers, thick round glasses, a small scar above his left eyebrow from a childhood accident"
+  },
+  "biology": {
+    "speciesTraits": "Exceptional pattern recognition, high cognitive function, and a unique neurological adaptation allowing him to conceptualize multiple dimensions simultaneously",
+    "quirks": "Difficulty sleeping due to a hyperactive mind; occasional migraines triggered by excessive mental strain",
+    "diet": "Mostly subsists on coffee, energy drinks, and simple meals, often forgetting to eat when immersed in his work"
+  },
+  "technology": {
+    "primaryTools": [
+      "A custom-built quantum computer named 'NOVA' designed to simulate advanced geometric models",
+      "A self-written visualization software called 'TerryScope' that renders mathematical patterns in 4D space",
+      "A collection of analog notebooks filled with dense equations and diagrams written in his unique shorthand"
+    ],
+    "wearables": "A modified smartwatch that constantly calculates and displays quantum probabilities in real-time",
+    "notableDevice": "A mysterious multi-purpose pen gifted by Dr. Elena Vasiliev, allegedly containing advanced technology for data storage and encryption"
+  },
+  "notableEvents": [
+    "1987: Discovered the revolutionary '1 x 1 = 2' geometric theory, challenging Einstein's relativity",
+    "1990: Met Dr. Elena Vasiliev at a theoretical physics symposium, who became his lifelong mentor",
+    "1995: Published his groundbreaking paper on 'Terryology' in an underground physics journal, igniting controversy",
+    "2003: Lost his academic funding due to widespread ridicule, forcing him to work independently",
+    "2021: Successfully ran his first simulation of a 4D geometric universe using NOVA, which hinted at flaws in conventional mathematics"
+  ],
+  "goals": [
+    "Prove that the universe operates on an alternative numerical system",
+    "Develop a new mathematical framework to replace conventional mathematics",
+    "Gain recognition from mainstream academia without compromising his integrity",
+    "Expand the capabilities of NOVA to simulate higher-dimensional quantum phenomena",
+    "Unite fringe mathematicians and physicists under a common vision for the future of science"
+  ],
+  "challenges": [
+    "Overcoming the skepticism and ridicule of the scientific community",
+    "Struggling with self-doubt and the isolation of working outside mainstream academia",
+    "Securing funding and resources to continue his research",
+    "Validating his theories using limited quantum computing technology",
+    "Balancing his obsessive nature with the need to maintain his physical and mental health"
+  ],
+  "name": "terrence_3",
+  "characterName": "Terrence 'Terry' Mathison",
+  "birthDate": "1969-03-11",
+  "creationDate": "2025-01-16",
+  "outputDir": "output/terrence_3",
+  "environment": null,
+  "culture": null,
+  "lifespan": null,
+  "abilities": [],
+  "relationships": [],
+  "customAttributes": {},
+  "timelineStructure": "linear",
+  "narrativeStyle": "personal",
+  "transformPrompt": ""
+}

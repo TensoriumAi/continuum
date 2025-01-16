@@ -303,6 +303,10 @@ async function findNewConnections(nodes) {
   console.log('\nFinding new connections between nodes...');
   const characterName = characterConfig.characterName || characterConfig.name;
   
+  const template = {
+    "connections": []
+  };
+  
   const prompt = `Given these timeline events in ${characterName}'s life, identify any potential NEW connections or relationships between them that aren't already captured. Focus on discovering non-obvious cause-and-effect relationships, thematic links, or parallel developments that might have been missed.
 
 Return ONLY a JSON object with no markdown formatting or extra text:
@@ -316,7 +320,7 @@ Return ONLY a JSON object with no markdown formatting or extra text:
     }
   ]
 }
-  
+Keep descriptions short, we have 2500 tokens to work with, lets save it for long graphs vs verbosity.
 Timeline events:
 ${nodes.map(n => `- ${n.timestamp}: ${n.name} (id: ${n.id})\n${n.description}`).join('\n\n')}
 
@@ -332,7 +336,7 @@ ${graph.edges().map(e => {
     model: MODEL,
     messages: [{ role: "user", content: prompt }],
     temperature: 0.7,
-    max_tokens: 5000
+    max_tokens: 2500
   });
 
   const content = completion.choices[0].message.content;
@@ -342,12 +346,13 @@ ${graph.edges().map(e => {
   
   try {
     // Clean and parse the JSON response
-    const cleanedContent = cleanJsonResponse(content);
+    const cleanedContent = ensureValidJson(content, template);
     const parsed = JSON.parse(cleanedContent);
     await fs.appendFile(logPath, `\nParsed Response:\n${JSON.stringify(parsed, null, 2)}\n`);
 
     if (!parsed.connections || !Array.isArray(parsed.connections)) {
-      throw new Error('Response missing connections array');
+      console.log('No valid connections found in response');
+      return false;
     }
 
     let addedConnections = 0;
@@ -396,14 +401,6 @@ ${graph.edges().map(e => {
     await fs.appendFile(logPath, `\nError parsing connections: ${error}\n${error.stack}\n`);
     return false;
   }
-}
-
-let eventIdCounter = 0;
-
-// Helper function to generate unique event IDs
-function generateEventId() {
-  eventIdCounter++;
-  return `event${Date.now()}_${eventIdCounter}`;
 }
 
 async function transformTimeline(nodes) {
@@ -713,7 +710,8 @@ async function expandIteration(iterationNumber, nodeId = null) {
         timestamp: parsedEvent.timestamp,
         description: parsedEvent.description,
         timeline: "main",
-        expansion_prompt: `What were the key moments and details surrounding ${parsedEvent.name}? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change ${characterName}'s path?`
+        expansion_prompt: `What were the key moments and details surrounding ${parsedEvent.name}? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change ${characterName}'s path?`,
+        templateType: parsedEvent.templateType
       });
 
       // Add edge to graph
@@ -742,18 +740,132 @@ async function expandIteration(iterationNumber, nodeId = null) {
 
 // Utility function to clean up JSON responses
 function cleanJsonResponse(response) {
-  // Remove markdown code block syntax
-  let cleaned = response.replace(/^```(?:json)?\s*/, '').replace(/\s*```$/, '');
+  try {
+    // First try parsing as-is in case it's already valid JSON
+    try {
+      JSON.parse(response);
+      return response;
+    } catch (e) {
+      // Continue with cleaning if direct parse fails
+    }
+
+    // Remove markdown code block syntax and normalize line endings
+    let cleaned = response.replace(/```(?:json)?/g, '')
+                         .replace(/\r\n/g, '\n')
+                         .trim();
+    
+    // Try to find the first { and last }
+    const start = cleaned.indexOf('{');
+    const end = cleaned.lastIndexOf('}');
+    
+    if (start === -1 || end === -1) {
+      throw new Error('No JSON object found in response');
+    }
+    
+    // Extract just the JSON part
+    cleaned = cleaned.slice(start, end + 1);
+    
+    // Fix common JSON issues
+    cleaned = cleaned
+      // Fix trailing commas in arrays and objects
+      .replace(/,(\s*[}\]])/g, '$1')
+      // Fix missing commas between array elements
+      .replace(/}(\s*){/g, '},\n{')
+      // Fix missing commas between object properties
+      .replace(/"(\s*)"(?=\s*:)/g, '",\n"')
+      // Fix unclosed arrays or objects
+      .replace(/{\s*"[^}]*$/g, '{}')
+      .replace(/\[\s*{[^\]]*$/g, '[]');
+    
+    // Attempt to parse and format
+    try {
+      const parsed = JSON.parse(cleaned);
+      return JSON.stringify(parsed);
+    } catch (parseError) {
+      console.error('Parse error:', parseError);
+      console.error('Cleaned content:', cleaned);
+      
+      // If parsing still fails, try to recover the structure
+      if (cleaned.includes('"connections"')) {
+        return '{"connections": []}';
+      } else if (cleaned.includes('"newEvents"')) {
+        return '{"newEvents": []}';
+      } else {
+        throw parseError;
+      }
+    }
+  } catch (error) {
+    console.error('JSON cleaning error:', error);
+    console.error('Original response:', response);
+    throw new Error(`Failed to clean JSON response: ${error.message}`);
+  }
+}
+
+// Helper function to ensure response is proper JSON
+function ensureValidJson(completion, template) {
+  try {
+    // Try to parse the cleaned response
+    const cleaned = cleanJsonResponse(completion);
+    const parsed = JSON.parse(cleaned);
+    
+    // If we have a template, ensure all required fields are present
+    if (template) {
+      const missing = [];
+      for (const key in template) {
+        if (!(key in parsed)) {
+          missing.push(key);
+        }
+      }
+      if (missing.length > 0) {
+        throw new Error(`Missing required fields: ${missing.join(', ')}`);
+      }
+    }
+    
+    return cleaned;
+  } catch (error) {
+    // If parsing fails, try to format response as the expected structure
+    console.error('Error parsing JSON response:', error);
+    console.error('Attempting to recover...');
+    
+    if (template) {
+      const structured = {};
+      for (const key in template) {
+        structured[key] = template[key];
+      }
+      return JSON.stringify(structured, null, 2);
+    }
+    
+    throw error;
+  }
+}
+
+// Utility function to generate unique event IDs
+function generateEventId() {
+  let eventIdCounter = 0;
+  return `event${Date.now()}_${eventIdCounter++}`;
+}
+
+// Helper function to select appropriate template type based on context
+function selectTemplateType(nodeAttributes, timelineNodes) {
+  if (!nodeAttributes) {
+    // For root events, prefer foundational templates
+    return 'CHILDHOOD_MEMORIES';
+  }
+
+  // Get all template types
+  const types = Object.keys(EXPANSION_PROMPT_TYPES);
   
-  // Remove any leading/trailing whitespace
-  cleaned = cleaned.trim();
+  // Weight the selection based on existing events
+  const existingTypes = new Set(timelineNodes.map(node => node.templateType).filter(Boolean));
   
-  // Ensure it starts with { and ends with }
-  if (!cleaned.startsWith('{') || !cleaned.endsWith('}')) {
-    throw new Error('Response is not a valid JSON object');
+  // Prefer types we haven't used much
+  const unusedTypes = types.filter(type => !existingTypes.has(type));
+  if (unusedTypes.length > 0) {
+    return unusedTypes[Math.floor(Math.random() * unusedTypes.length)];
   }
   
-  return cleaned;
+  // If all types used, pick random
+  return types[Math.floor(Math.random() * types.length)];
 }
 
 async function generateExpansionPrompt(nodeKey, nodeAttributes) {
@@ -777,7 +889,8 @@ Challenges: ${characterConfig.challenges ? characterConfig.challenges.join(', ')
       key: node,
       name: attrs.name,
       timestamp: attrs.timestamp,
-      description: attrs.description
+      description: attrs.description,
+      templateType: attrs.templateType
     });
   });
   
@@ -797,6 +910,17 @@ ${timelineNodes.map(node => `- [${node.key}] ${node.timestamp}: ${node.name}`).j
   const connectionsContext = `\nExisting Connections:
 ${connections.join('\n')}`;
 
+  // Select template type and get prompts
+  const selectedType = selectTemplateType(nodeAttributes, timelineNodes);
+  const templateData = EXPANSION_PROMPT_TYPES[selectedType];
+  const selectedTemplate = templateData.templates[Math.floor(Math.random() * templateData.templates.length)];
+  
+  // Process template with any subject if needed
+  let processedTemplate = selectedTemplate;
+  if (nodeAttributes) {
+    processedTemplate = processedTemplate.replace(/\${subject}/g, nodeAttributes.name);
+  }
+
   // If we have a specific node to expand from
   if (nodeAttributes) {
     return `You are expanding the timeline for ${characterName}. 
@@ -809,24 +933,34 @@ Name: ${nodeAttributes.name}
 Node Key: ${nodeKey}
 Time: ${nodeAttributes.timestamp}
 Description: ${nodeAttributes.description || 'No description available'}
-Expansion Prompt: ${nodeAttributes.expansion_prompt}
 
-Generate a new event that logically follows from this event. The event should:
+Expansion Focus (${templateData.name}):
+IMPORTANT: Adapt this prompt to fit the character's nature, culture, and world. For example:
+- If the character is non-human, translate human concepts into appropriate equivalents
+- If the setting is historical/futuristic, adjust modern references to fit the era
+- If the character's culture is unique, interpret social concepts through their cultural lens
+- If the character's world has special rules/physics, adapt physical concepts accordingly
+
+Original Prompt: ${processedTemplate}
+
+Generate a new event that addresses this focus and logically follows from the current event. The event should:
 1. Be temporally consistent (happen after ${nodeAttributes.timestamp})
 2. Not contradict known history or character traits
 3. Provide rich detail about what happened
 4. Include specific names, places, and consequences
 5. Maintain consistency with the character's established timeline
+6. Adapt concepts naturally to fit the character's nature and world
 
 Return ONLY a JSON object with no markdown formatting or extra text:
 {
   "id": "${generateEventId()}",
   "name": "Brief, specific title",
   "timestamp": "YYYY-MM-DD",
-  "description": "Detailed description",
+  "description": "Detailed description that specifically addresses the expansion focus",
   "connectedTo": "${nodeKey}",
   "connectionType": "sequence",
-  "connectionDescription": "How this event follows from or relates to the previous event"
+  "connectionDescription": "How this event follows from or relates to the previous event",
+  "templateType": "${selectedType}"
 }`;
   }
 
@@ -836,19 +970,30 @@ ${characterContext}
 ${timelineContext}
 ${connectionsContext}
 
-Generate a new foundational event in the character's timeline. The event should:
+Expansion Focus (${templateData.name}):
+IMPORTANT: Adapt this prompt to fit the character's nature, culture, and world. For example:
+- If the character is non-human, translate human concepts into appropriate equivalents
+- If the setting is historical/futuristic, adjust modern references to fit the era
+- If the character's culture is unique, interpret social concepts through their cultural lens
+- If the character's world has special rules/physics, adapt physical concepts accordingly
+
+Original Prompt: ${processedTemplate}
+
+Generate a new foundational event in the character's timeline that addresses this focus. The event should:
 1. Be temporally consistent with their known history
 2. Not contradict known facts or character traits
 3. Provide rich detail about what happened
 4. Include specific names, places, and consequences
 5. Help establish the character's background
+6. Adapt concepts naturally to fit the character's nature and world
 
 Return ONLY a JSON object with no markdown formatting or extra text:
 {
   "id": "${generateEventId()}",
   "name": "Event Name",
   "timestamp": "YYYY-MM-DD",
-  "description": "Detailed event description"
+  "description": "Detailed event description that specifically addresses the expansion focus",
+  "templateType": "${selectedType}"
 }`;
 }
 

@@ -1,0 +1,69 @@
+{
+  "type": "human",
+  "physicalDescription": {
+    "height": "5'11\"",
+    "weight": "160 lbs",
+    "hairColor": "dark brown with streaks of gray",
+    "eyeColor": "hazel with flecks of green",
+    "distinguishingFeatures": "slightly hunched posture from years of hunching over equations, a faint scar on his left hand from a childhood accident, and thick-rimmed glasses that he constantly adjusts when deep in thought",
+    "attire": "usually wears a well-worn tweed blazer with elbow patches, complemented by a collection of mismatched ties covered in abstract geometric patterns"
+  },
+  "biology": {
+    "speciesTraits": "average human physiology",
+    "uniqueCharacteristics": "unusually high activity in the parietal and occipital lobes of his brain, which gives him an extraordinary ability to perceive and manipulate complex mathematical patterns in his mind"
+  },
+  "technology": {
+    "tools": {
+      "primaryTool": "custom-built quantum tablet with advanced visualization software for modeling multidimensional equations",
+      "secondaryTool": "a handcrafted abacus made from rare wood, which he uses as a meditative tool to 'reset' his mind",
+      "wearableDevice": "a wristband that monitors his neural activity and provides feedback on his cognitive workload"
+    },
+    "devices": {
+      "notableDevice": "a prototype quantum computer that he co-designed with Dr. Elena Vasiliev, capable of simulating theoretical 'Terryology' constructs"
+    }
+  },
+  "notableEvents": [
+    {
+      "year": 1987,
+      "event": "Discovered his revolutionary geometric theory that challenged Einstein's relativity during a sleepless night in his Chicago apartment."
+    },
+    {
+      "year": 1995,
+      "event": "Published his controversial paper on 'Terryology' in an underground physics journal, gaining both ridicule and a cult following."
+    },
+    {
+      "year": 2003,
+      "event": "Partnered with Dr. Elena Vasiliev to co-develop a quantum computer capable of testing his theories."
+    },
+    {
+      "year": 2015,
+      "event": "Presented a partial validation of his '1 x 1 = 2' theory at a fringe science conference, sparking renewed interest in his work."
+    }
+  ],
+  "goals": [
+    "Prove that the universe operates on an alternative numerical system.",
+    "Establish 'Terryology' as a legitimate branch of mathematics.",
+    "Develop a unified framework that connects his theories with quantum mechanics and classical physics.",
+    "Gain recognition from mainstream academia while staying true to his unconventional methods."
+  ],
+  "challenges": [
+    "Overcoming ridicule and skepticism from the scientific community.",
+    "Securing funding for his experimental quantum research.",
+    "Navigating his own self-doubt and imposter syndrome, exacerbated by years of isolation.",
+    "Avoiding exploitation by fringe groups who misunderstand or misappropriate his work."
+  ],
+  "name": "terrence_5",
+  "characterName": "Terrence 'Terry' Alden",
+  "birthDate": "1969-03-11",
+  "creationDate": "2025-01-16",
+  "outputDir": "output/terrence_5",
+  "environment": null,
+  "culture": null,
+  "lifespan": null,
+  "abilities": [],
+  "relationships": [],
+  "customAttributes": {},
+  "timelineStructure": "linear",
+  "narrativeStyle": "personal",
+  "transformPrompt": ""
+}

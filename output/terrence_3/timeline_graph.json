@@ -1,0 +1,280 @@
+{
+  "options": {
+    "type": "mixed",
+    "multi": false,
+    "allowSelfLoops": true
+  },
+  "attributes": {},
+  "nodes": [
+    {
+      "key": "birth",
+      "attributes": {
+        "name": "Birth of Terrence 'Terry' Mathison",
+        "timestamp": "1969-03-11T00:00:00-05:00",
+        "description": "Beginning of Terrence 'Terry' Mathison's story.",
+        "timeline": "main",
+        "expansion_prompt": "What were the circumstances surrounding Terrence 'Terry' Mathison's birth? Consider the environment, the people present, and any notable events or signs that accompanied their arrival."
+      }
+    },
+    {
+      "key": "event1737030450078_1",
+      "attributes": {
+        "name": "Early Signs of Exceptional Cognition",
+        "timestamp": "1972-06-15",
+        "description": "At just three years old, Terrence 'Terry' Mathison astonished his parents, Marjorie and Kenneth Mathison, by solving a wooden puzzle meant for children aged 10 and above in under five minutes. This event took place in their modest home in Ithaca, New York, where Kenneth worked as a physics professor at Cornell University and Marjorie was a librarian. While initially dismissed as a fluke, Terry began displaying an uncanny ability to recognize patterns and solve problems far beyond his age group. His father, intrigued by his son's aptitude, started introducing him to basic mathematical concepts, which Terry grasped with remarkable ease. This marked the beginning of Kenneth's informal mentorship, setting the stage for Terry's lifelong fascination with mathematics and patterns.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Early Signs of Exceptional Cognition? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Mathison's path?"
+      }
+    },
+    {
+      "key": "event1737030481357_2",
+      "attributes": {
+        "name": "First Words of Terrence 'Terry' Mathison",
+        "timestamp": "1970-08-25",
+        "description": "Terry speaks his first words significantly earlier than average, showing early signs of advanced language development and cognitive precocity.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737030481357_3",
+      "attributes": {
+        "name": "Fascination with Patterns Emerges",
+        "timestamp": "1971-05-10",
+        "description": "Terry demonstrates an unusual fascination with patterns and shapes, spending hours arranging toys and objects methodically, hinting at his future analytical mindset.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737030481357_4",
+      "attributes": {
+        "name": "Visit to the Natural History Museum",
+        "timestamp": "1972-01-18",
+        "description": "A family visit to the Natural History Museum captivates young Terry, sparking an intense curiosity about the natural world and science.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737030481360_5",
+      "attributes": {
+        "name": "The Solar Flare Birth",
+        "timestamp": "1969-03-11",
+        "description": "Terrence 'Terry' Mathison was born during an unusually powerful solar flare that disrupted communications across the region. His father, Dr. Kenneth Mathison, a physics professor, was attending a nearby university lecture on cosmic radiation when he was urgently called to the hospital. His mother, Marjorie, a librarian with an interest in astronomy, had gone into labor earlier than expected. Terry's birth was marked by an uncanny calmness; he hardly cried and seemed to exhibit a peculiar alertness, his eyes unusually focused for a newborn. Nurses and doctors remarked on his attentiveness, an observation that would become an early hallmark of his exceptional cognition. The solar flare event, coinciding with his birth, became a curious anecdote within the family, symbolizing his future connection to cosmic and mathematical phenomena.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Solar Flare Birth? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Mathison's path?"
+      }
+    },
+    {
+      "key": "event1737030486300_6",
+      "attributes": {
+        "name": "The Puzzle Exhibition Incident",
+        "timestamp": "1973-04-20",
+        "description": "Less than a year after demonstrating his remarkable cognitive abilities, Terrence 'Terry' Mathison, now four years old, attended a local science and arts fair with his parents in Ithaca, New York. During the event, he became enamored with a booth displaying intricate geometric puzzles and models. One particular exhibit featured a complex 3D puzzle known as the 'Pentagonal Starburst,' designed to challenge high school students. To the astonishment of the booth operator, Terry solved the puzzle in under ten minutes while casually explaining the underlying symmetry principles. This public demonstration of his talent drew the attention of Dr. Richard Calloway, a mathematician from Cornell University, who was also attending the fair. Intrigued, Dr. Calloway approached Kenneth Mathison and suggested introducing Terry to more advanced mathematical tools and concepts. This encounter led to Terry being invited to informal seminars at Cornell, where he was exposed to higher-level mathematical ideas, sparking his early interest in theoretical patterns and setting him on a trajectory toward his future groundbreaking work.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Puzzle Exhibition Incident? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Mathison's path?"
+      }
+    },
+    {
+      "key": "event1737030522599_7",
+      "attributes": {
+        "name": "The Kaleidoscope Encounter",
+        "timestamp": "1970-01-15",
+        "description": "Terry, at the age of 10 months, becomes mesmerized by a kaleidoscope, marking the earliest observable moment of his fascination with patterns and symmetry.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737030522599_8",
+      "attributes": {
+        "name": "The Shape Sorting Box Discovery",
+        "timestamp": "1970-12-10",
+        "description": "Terry's parents notice his exceptional ability to solve shape-sorting puzzles faster than other children his age, hinting at his advanced cognitive abilities.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737030522599_9",
+      "attributes": {
+        "name": "The Nature Walk Revelation",
+        "timestamp": "1971-03-22",
+        "description": "During a family walk in the park, Terry observes recurring patterns in leaves and flowers, further deepening his interest in natural patterns.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737030522599_10",
+      "attributes": {
+        "name": "The Planetarium Visit",
+        "timestamp": "1972-03-05",
+        "description": "A family trip to the planetarium leaves a lasting impression on Terry as he begins to correlate cosmic patterns with those he observes on Earth.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737030522599_11",
+      "attributes": {
+        "name": "The Library Discovery",
+        "timestamp": "1972-09-10",
+        "description": "Terry stumbles upon an advanced book on mathematical patterns in a local library, sparking a new level of curiosity and understanding.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737030522601_12",
+      "attributes": {
+        "name": "The Aurora Phenomenon Observation",
+        "timestamp": "1969-03-12",
+        "description": "The day after Terrence 'Terry' Mathison's birth, the unusually strong solar flare that had disrupted communications also resulted in a rare aurora display visible far beyond its usual latitudinal range, including over the hospital where he was born in Boulder, Colorado. Dr. Kenneth Mathison, still processing the events of the previous day, took a moment outside the hospital to observe the vibrant green and red lights rippling across the night sky. The event left a profound impression on him, inspiring him to later incorporate cosmic phenomena into his lectures and discussions at home. This fascination with celestial events subtly permeated the household, influencing Terry's upbringing and exposure to scientific concepts. Marjorie, still recovering in the hospital, recalled feeling a deep sense of connection to the universe while holding her newborn son and gazing at the aurora through the window. The aurora phenomenon became a key anecdote in family lore, symbolizing a cosmic alignment with Terry's extraordinary potential.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Aurora Phenomenon Observation? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Mathison's path?"
+      }
+    },
+    {
+      "key": "event1737030525736_13",
+      "attributes": {
+        "name": "The Celestial Storm Night",
+        "timestamp": "1969-03-11",
+        "description": "On the night of Terry's birth, a rare solar storm caused extraordinary auroras that danced across the skies of the northern hemisphere, visible even in regions unaccustomed to such phenomena. In the small hospital room in Ithaca, New York, Marjorie Mathison, a librarian with a passion for astronomy, gave birth to a healthy baby boy. Kenneth Mathison, a physics professor at Cornell University, was present, his attention divided between his newborn son and the unusual cosmic activity unfolding outside. The hospital staff, though focused on their work, couldn't help but remark on the 'otherworldly' display outside the windows. The event created a profound sense of significance for Kenneth and Marjorie, who joked that their son was 'destined for the stars.' A local news report the next morning highlighted the unusual intensity of the auroras, noting it as one of the most vivid displays of the decade. This moment became a cherished memory for the Mathison family and a symbolic foreshadowing of Terry's future fascination with the cosmos and advanced patterns.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Celestial Storm Night? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Mathison's path?"
+      }
+    },
+    {
+      "key": "event1737030528883_14",
+      "attributes": {
+        "name": "The Pattern Recognition Game",
+        "timestamp": "1970-11-10",
+        "description": "At just over a year old, Terry astonishes his parents and visiting family friends during a casual gathering by solving a children's pattern recognition game designed for older children. The game involves matching shapes and colors to create specific sequences, which Terry completes effortlessly and even devises more complex variations of on his own. This moment marks the first public display of his exceptional cognitive abilities, prompting his father, Kenneth, to begin keeping a detailed journal of Terry's developmental milestones.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Pattern Recognition Game? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Mathison's path?"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "key": "geid_65_0",
+      "source": "birth",
+      "target": "event1737030450078_1",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event showcases the first instance of Terry's exceptional cognitive abilities, following his birth and setting a foundation for his future intellectual pursuits."
+      }
+    },
+    {
+      "key": "geid_65_1",
+      "source": "event1737030450078_1",
+      "target": "birth",
+      "attributes": {
+        "type": "INFLUENCES",
+        "description": "Terry's exceptional cognition at an early age may be influenced by genetic or environmental factors stemming from his parents' intellectual backgrounds—Kenneth being a physics professor and Marjorie a librarian. This familial environment likely fostered a setting conducive to cognitive development, even predating the formal observation of his abilities."
+      }
+    },
+    {
+      "key": "geid_65_3",
+      "source": "birth",
+      "target": "event1737030481360_5",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event directly follows Terry's birth, adding context to the circumstances of his arrival and introducing early signs of his unique traits."
+      }
+    },
+    {
+      "key": "geid_65_4",
+      "source": "event1737030450078_1",
+      "target": "event1737030486300_6",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event builds on Terry's early display of exceptional cognition by showcasing another instance of his advanced problem-solving abilities, this time in a public setting, which caught the attention of influential figures in academia and expanded his exposure to mathematical concepts."
+      }
+    },
+    {
+      "key": "geid_65_5",
+      "source": "event1737030481360_5",
+      "target": "event1737030481357_3",
+      "attributes": {
+        "type": "INFLUENCES",
+        "description": "The solar flare event during Terry's birth and the family's interest in cosmic phenomena may have subtly shaped his early fascination with patterns and structured thinking, possibly influenced by subconscious exposure to his parents' discussions and interests in astronomy and physics."
+      }
+    },
+    {
+      "key": "geid_65_6",
+      "source": "event1737030481357_2",
+      "target": "event1737030481357_3",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Terry's early language development likely enabled him to articulate and explore his fascination with patterns more effectively, accelerating his engagement with structured thinking and problem-solving."
+      }
+    },
+    {
+      "key": "geid_65_7",
+      "source": "event1737030481357_3",
+      "target": "event1737030450078_1",
+      "attributes": {
+        "type": "ENABLES",
+        "description": "Terry's early fascination with patterns directly enabled his ability to solve advanced puzzles, as his exposure to and comfort with patterns laid the groundwork for his exceptional cognition."
+      }
+    },
+    {
+      "key": "geid_65_8",
+      "source": "event1737030481357_4",
+      "target": "event1737030486300_6",
+      "attributes": {
+        "type": "INFLUENCES",
+        "description": "The visit to the Natural History Museum likely nurtured Terry's curiosity about science and complex systems, indirectly influencing his enthusiasm for engaging with the mathematical puzzles at the science fair."
+      }
+    },
+    {
+      "key": "geid_65_9",
+      "source": "event1737030481360_5",
+      "target": "birth",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "The Solar Flare Birth coincides with Terry's birth, suggesting a cosmic or symbolic link to his extraordinary cognition and pattern recognition abilities."
+      }
+    },
+    {
+      "key": "geid_65_11",
+      "source": "event1737030481357_4",
+      "target": "event1737030450078_1",
+      "attributes": {
+        "type": "ENABLES",
+        "description": "The museum visit exposed Terry to complex natural systems, possibly triggering the early manifestation of his exceptional cognition."
+      }
+    },
+    {
+      "key": "geid_65_12",
+      "source": "event1737030481357_3",
+      "target": "event1737030486300_6",
+      "attributes": {
+        "type": "INFLUENCES",
+        "description": "Terry’s early interest in patterns likely prefigured his extraordinary performance at the Puzzle Exhibition."
+      }
+    },
+    {
+      "key": "geid_65_14",
+      "source": "event1737030481360_5",
+      "target": "event1737030522601_12",
+      "attributes": {
+        "type": "sequence",
+        "description": "The aurora phenomenon immediately followed Terry's birth during the solar flare, extending the cosmic significance of the event and embedding it into the Mathison family's narrative of Terry's extraordinary nature."
+      }
+    },
+    {
+      "key": "geid_65_15",
+      "source": "birth",
+      "target": "event1737030525736_13",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event follows immediately from Terry's birth, adding an atmospheric and symbolic layer to the circumstances of his arrival, and setting the stage for his lifelong connection to cosmic phenomena."
+      }
+    },
+    {
+      "key": "geid_65_16",
+      "source": "event1737030481357_2",
+      "target": "event1737030528883_14",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event follows Terry's first words, showcasing his rapidly advancing cognitive abilities and laying the groundwork for the recognition of his exceptional pattern recognition skills."
+      }
+    }
+  ]
+}

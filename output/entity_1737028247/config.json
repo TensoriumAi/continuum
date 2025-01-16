@@ -1,0 +1,67 @@
+{
+  "type": "alien",
+  "physicalDescription": {
+    "height": "7 feet",
+    "skinColor": "Iridescent silver with faint blue undertones",
+    "eyes": "Large, oval-shaped, with shifting hues of gold and violet",
+    "hair": "Translucent filaments that glow faintly in the dark",
+    "build": "Lithe and elongated, with graceful, almost ethereal movements",
+    "distinguishingFeatures": [
+      "Bioluminescent markings along forearms and temples",
+      "Four-fingered hands with retractable, claw-like tips",
+      "Double-jointed legs that bend both forwards and backwards"
+    ]
+  },
+  "biology": {
+    "speciesName": "Quillari",
+    "homePlanet": "Luminara Prime, a planet with perpetual twilight",
+    "diet": "Photosynthetic energy and trace minerals absorbed through the skin",
+    "uniqueTraits": [
+      "Can temporarily phase through solid matter by altering molecular density",
+      "Highly adaptive to extreme temperatures",
+      "Possess a secondary organ for emitting resonant harmonic sounds used in communication and navigation"
+    ],
+    "agingProcess": "Age slowly, reaching maturity at 200 years and living up to 1,200 years"
+  },
+  "technology": {
+    "standardDevice": "Astral Harmonizer, a wrist-mounted tool that allows for precise manipulation of energy fields",
+    "notableGear": [
+      "Aetheric Cloak, a garment that renders the wearer invisible by bending light waves",
+      "Glyphstones, small, programmable artifacts that store vast amounts of knowledge and can project holograms",
+      "Sonic Resonator, a defensive device that emits disorienting sound waves"
+    ],
+    "transportation": "Luminara Skiff, a small, personal spacecraft capable of interdimensional travel"
+  },
+  "notableEvents": [
+    "First Contact with a human exploration team, leading to a cultural exchange treaty",
+    "Accidentally phasing into a forbidden ancient Quillari temple, discovering a lost archive of their species' history",
+    "Saving a Luminara Prime biodome from collapse during a planet-wide energy crisis",
+    "Exiled from a Quillari council after breaking an ancient law to save an off-world colony from destruction"
+  ],
+  "goals": [
+    "To uncover the secrets of the ancient Quillari archives and restore lost knowledge",
+    "To bridge understanding between Quillari and other intelligent species across the galaxy",
+    "To redeem their name among the Quillari council and reintegrate into their society",
+    "To explore the multiverse and document unknown dimensions"
+  ],
+  "challenges": [
+    "Struggling with the stigma and isolation of being exiled from their people",
+    "The Astral Harmonizer is prone to malfunction, leaving them vulnerable at critical moments",
+    "Navigating the political tensions between Quillari and the various galactic factions",
+    "Experiencing occasional instability in their phasing ability, sometimes getting trapped temporarily"
+  ],
+  "name": "entity_1737028247",
+  "characterName": "Zynthera Quillaris",
+  "birthDate": "2000-01-16",
+  "creationDate": "2025-01-16",
+  "outputDir": "output/entity_1737028247",
+  "environment": null,
+  "culture": null,
+  "lifespan": null,
+  "abilities": [],
+  "relationships": [],
+  "customAttributes": {},
+  "timelineStructure": "linear",
+  "narrativeStyle": "personal",
+  "transformPrompt": ""
+}

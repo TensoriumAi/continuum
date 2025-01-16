@@ -1,0 +1,1492 @@
+{
+  "options": {
+    "type": "mixed",
+    "multi": false,
+    "allowSelfLoops": true
+  },
+  "attributes": {},
+  "nodes": [
+    {
+      "key": "birth",
+      "attributes": {
+        "name": "Birth of Terrence 'Terry' Alden",
+        "timestamp": "1969-03-11T00:00:00-05:00",
+        "description": "Beginning of Terrence 'Terry' Alden's story.",
+        "timeline": "main",
+        "expansion_prompt": "What were the circumstances surrounding Terrence 'Terry' Alden's birth? Consider the environment, the people present, and any notable events or signs that accompanied their arrival."
+      }
+    },
+    {
+      "key": "event1737031486146_1",
+      "attributes": {
+        "name": "Meeting Professor Elias Hart, Childhood Mentor",
+        "timestamp": "1977-05-08",
+        "description": "At the age of eight, Terry's unusual cognitive abilities began to garner attention in his small hometown of Ashgrove. His elementary school teacher, Mrs. Lillian Carter, noticed his extraordinary skill in solving complex mathematical puzzles far beyond his grade level. Recognizing his potential, she reached out to a retired mathematics professor, Elias Hart, who had moved to Ashgrove for a quieter life. Despite his initial reluctance, Professor Hart agreed to meet Terry after hearing about his unique talents. During their first meeting, Terry astonished the professor by intuitively solving a problem involving non-Euclidean geometry, a topic he had never formally encountered. Impressed and intrigued, Professor Hart decided to mentor Terry, introducing him to advanced mathematical concepts and feeding his insatiable curiosity. This relationship not only nurtured Terry's intellectual growth but also provided him with a sense of belonging and encouragement as he navigated the challenges of being an unconventional thinker at such a young age.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Meeting Professor Elias Hart, Childhood Mentor? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Alden's path?",
+        "templateType": "MENTORSHIP_MOMENTS"
+      }
+    },
+    {
+      "key": "event1737031519759_2",
+      "attributes": {
+        "name": "Discovery of Natural Curiosity",
+        "timestamp": "1973-06-15",
+        "description": "At the age of 4, Terry accidentally dismantled and reassembled a music box, an early sign of his inquisitive nature and problem-solving skills.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031519759_3",
+      "attributes": {
+        "name": "First Visit to the Local Library",
+        "timestamp": "1975-09-20",
+        "description": "Terry's parents took him to the local library, where he became fascinated with books about science and exploration, sparking his lifelong love of learning.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031519759_4",
+      "attributes": {
+        "name": "Meeting Childhood Friend Lucy Harper",
+        "timestamp": "1976-03-12",
+        "description": "Terry met Lucy Harper, a precocious and imaginative neighbor, forming a friendship that would deeply influence his creativity and sense of adventure.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031519760_5",
+      "attributes": {
+        "name": "Community Gathering: Celebration of Spring",
+        "timestamp": "1969-04-15",
+        "description": "In the small town where Terry was born, the community held an annual Celebration of Spring, bringing neighbors together for food, music, and shared traditions. This particular year, the event took on special significance for the Alden family, as it was Terry's first public appearance as a newborn. His parents, Margaret and Henry Alden, were well-known in the community for their warmth and intellect—Margaret being a teacher and Henry a carpenter with a passion for intricate designs. During the event, Margaret introduced baby Terry to various neighbors, including local librarian Alice Carter, who would later play a key role in fostering Terry's love for knowledge. The gathering took place in Maplewood Park, a central location surrounded by blooming cherry blossoms. While Terry was too young to remember any of it, photographs and stories from the event would later serve as a reminder of his early connection to the community. The event marked the beginning of a lifelong bond between Terry and the diverse group of people who would support him in his journey.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Community Gathering: Celebration of Spring? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Alden's path?",
+        "templateType": "COMMUNITY_CONNECTIONS"
+      }
+    },
+    {
+      "key": "event1737031526338_6",
+      "attributes": {
+        "name": "Discovery of the Whispering Woods Sanctuary",
+        "timestamp": "1977-06-12",
+        "description": "A month after beginning his mentorship with Professor Elias Hart, Terry found himself overwhelmed by the intensity of the advanced concepts he was learning. In search of a quiet place to process his thoughts, he wandered into the Whispering Woods, a dense forest on the outskirts of Ashgrove known for its serene atmosphere. Deep within the woods, Terry discovered a secluded clearing by a small stream where the sound of the water and the rustling leaves created a natural symphony. The tranquility of the spot allowed him to focus and visualize the abstract mathematical patterns he was exploring with Professor Hart. This clearing quickly became Terry's sanctuary—a place of peace and inspiration where he could retreat to meditate, experiment with his abacus, and sketch out his ideas. Over time, this practice of retreating to the Whispering Woods became a daily ritual, forging a profound connection between Terry's intellectual pursuits and the natural world.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Discovery of the Whispering Woods Sanctuary? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Alden's path?",
+        "templateType": "DAILY_RITUALS"
+      }
+    },
+    {
+      "key": "event1737031695283_1",
+      "attributes": {
+        "name": "Terry's First Smile",
+        "timestamp": "1969-03-25",
+        "description": "At only two weeks old, Terry displayed his first smile during a quiet moment at home, a small but significant milestone that brought joy to his family.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031695283_2",
+      "attributes": {
+        "name": "A Rainy Day Discovery",
+        "timestamp": "1971-05-03",
+        "description": "On a rainy spring day, young Terry found a small garden snail and spent hours observing its slow movements, marking one of his earliest acts of curiosity about nature.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031695283_3",
+      "attributes": {
+        "name": "Storytime by the Fireplace",
+        "timestamp": "1974-12-10",
+        "description": "Terry's grandfather shared fascinating stories by the fireplace, sparking Terry's imagination and love for storytelling, which would later shape his interactions with others.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031695283_4",
+      "attributes": {
+        "name": "An Unexpected Gift",
+        "timestamp": "1976-01-15",
+        "description": "Terry received a magnifying glass as a belated holiday gift from a neighbor, which further fueled his curiosity and exploration of the natural world.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031695283_5",
+      "attributes": {
+        "name": "Exploration of the Old Mill",
+        "timestamp": "1977-06-01",
+        "description": "Terry and Lucy embarked on an adventure to explore the abandoned old mill near their town, an experience that deepened their friendship and sense of wonder.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031695291_6",
+      "attributes": {
+        "name": "Visit from Uncle Charles Alden",
+        "timestamp": "1969-04-10",
+        "description": "One month after Terry's birth, his father's older brother, Charles Alden, visited the family home in Oakridge. Charles, a theoretical physicist and mathematician working at a prestigious university, brought a peculiar gift: a handcrafted wooden mobile adorned with intricate geometric shapes. As he hung the mobile above Terry's crib, he explained the patterns' mathematical significance to Terry's parents, sparking their curiosity about fostering their son's intellectual development. Though Terry was too young to understand, the presence of the mobile seemed to captivate him, as his gaze often lingered on its symmetrical designs. This visit marked the beginning of Charles's subtle but profound influence on Terry's life, as he would later become a key advocate for nurturing Terry's unique abilities.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Visit from Uncle Charles Alden? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Alden's path?",
+        "templateType": "FAMILY_DYNAMICS"
+      }
+    },
+    {
+      "key": "event1737031701417_7",
+      "attributes": {
+        "name": "A Blossoming Friendship at Maplewood Park",
+        "timestamp": "1970-04-15",
+        "description": "Exactly a year after Terry's first public appearance at the Celebration of Spring, the Alden family attended the annual event again at Maplewood Park. By this time, Terry was a curious toddler, just starting to toddle around and interact with his surroundings. While his parents spoke with neighbors, young Terry wandered near a group of slightly older children playing by the edge of the cherry blossom grove. Among them was Lucy Harper, a lively and imaginative girl who was captivated by the sight of Terry attempting to mimic the older children's actions. Lucy, noticing his fascination, took it upon herself to include him in their game of 'Petal Catch,' where they tried to catch falling cherry blossom petals before they hit the ground. Though Terry was too young to fully participate, Lucy's playful encouragement and gentle guidance created a bond between them. This moment marked the beginning of their lifelong friendship, characterized by Lucy's protective yet adventurous spirit and Terry's quiet curiosity. Over the years, Lucy would often recall this memory with humor, teasing Terry about his clumsy but determined attempts to catch petals, while Terry would credit Lucy for teaching him the value of persistence and collaboration.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding A Blossoming Friendship at Maplewood Park? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Alden's path?",
+        "templateType": "FRIENDSHIP_STORIES"
+      }
+    },
+    {
+      "key": "event1737031708105_8",
+      "attributes": {
+        "name": "The Music Box Influence",
+        "timestamp": "1973-07-10",
+        "description": "A month after dismantling and reassembling the music box, Terry's parents noticed his fascination with objects and mechanisms. During a visit to a local fair, they decided to let him pick one item from a vendor's stall. Terry chose a simple wooden puzzle box. Intrigued by its intricate design, he spent hours unlocking its secrets. This seemingly small decision reinforced his ability to focus intensely on solving complex problems at a young age. The puzzle box became a cherished possession, one he often referred to as his 'gateway to infinite questions,' and it sparked his lifelong habit of challenging himself with increasingly difficult mental tasks.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Music Box Influence? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Alden's path?",
+        "templateType": "TURNING_POINTS"
+      }
+    },
+    {
+      "key": "event1737031758852_9",
+      "attributes": {
+        "name": "The Arrival of the Maple Tree Sapling",
+        "timestamp": "1969-04-01",
+        "description": "Terry's family received a symbolic gift from the community—a maple tree sapling—representing growth and nurturing. This sapling would later hold significance in Terry's life.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031758852_10",
+      "attributes": {
+        "name": "An Afternoon in the Meadow",
+        "timestamp": "1971-08-25",
+        "description": "Terry spent an afternoon in a meadow near his home, observing insects and flowers. This experience deepened his connection to nature and foreshadowed his later discoveries.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031758852_11",
+      "attributes": {
+        "name": "The Broken Clock Mystery",
+        "timestamp": "1973-10-15",
+        "description": "Terry stumbled upon an old broken clock in the attic. His fascination with fixing it led to a burgeoning interest in understanding how things work.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031758852_12",
+      "attributes": {
+        "name": "The Neighborhood Picnic",
+        "timestamp": "1975-07-10",
+        "description": "Terry attended a neighborhood picnic where he met new friends and learned about the importance of community and collaboration.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031758852_13",
+      "attributes": {
+        "name": "The Forgotten Journal",
+        "timestamp": "1976-02-15",
+        "description": "Terry discovered an old journal belonging to a distant relative. The journal, filled with sketches and notes, inspired his imagination and storytelling.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031758852_14",
+      "attributes": {
+        "name": "The Mysterious Map",
+        "timestamp": "1977-03-20",
+        "description": "While cleaning Professor Hart's study, Terry found a mysterious map that hinted at hidden locations in the surrounding area, fueling his adventurous spirit.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031758858_15",
+      "attributes": {
+        "name": "The Music and Numbers Workshop",
+        "timestamp": "1974-05-20",
+        "description": "At the age of five, Terry's parents enrolled him in a community 'Music and Numbers Workshop' held at the Maplewood Community Center. Designed to blend music theory with basic arithmetic, the program encouraged children to explore the relationship between rhythm, patterns, and numbers. While most children enjoyed the singing and clapping games, Terry was captivated by the mathematical structure underlying musical compositions. He astonished the instructor, Mrs. Beatrice Langley, by demonstrating an innate ability to predict rhythmic patterns and identify hidden numerical sequences in melodies. This experience not only fostered his love for abstract thinking but also led to his parents realizing the depth of his mathematical potential. They began actively seeking additional educational opportunities to nurture his unique abilities.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Music and Numbers Workshop? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Alden's path?",
+        "templateType": "SCHOOL_LIFE"
+      }
+    },
+    {
+      "key": "event1737031762556_16",
+      "attributes": {
+        "name": "The Family Blanket Ritual",
+        "timestamp": "1969-04-05",
+        "description": "During a quiet evening at home, the Alden family introduced baby Terry to their cherished 'Family Blanket Ritual.' This tradition involved gathering around an intricately embroidered quilt passed down through generations, with each patch representing a story or milestone from their lineage. As they placed Terry on the center of the blanket, his parents, Margaret and Edward, shared tales of their ancestors, instilling an early sense of connection to his heritage. While too young to understand, Terry responded with a series of joyful coos and small, delighted movements, which his parents interpreted as his innate receptiveness to the warmth and legacy surrounding him. This moment marked the beginning of a lifelong appreciation for storytelling and connection to history.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Family Blanket Ritual? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Alden's path?",
+        "templateType": "CHILDHOOD_MEMORIES"
+      }
+    },
+    {
+      "key": "event1737031765644_17",
+      "attributes": {
+        "name": "The Curious Lullaby",
+        "timestamp": "1969-04-15",
+        "description": "Five days after Charles Alden's visit, Terry's parents noticed an unusual pattern in his behavior. Whenever the handcrafted geometric mobile gifted by Charles swayed above his crib, young Terry would become unusually calm, his wide eyes fixed on the intricate shapes as they cast shadows on the walls. In an effort to soothe him during a restless evening, Terry's mother began softly humming a tune inspired by the rhythmic motion of the mobile. This melody, which seemed to mimic the symmetry and flow of the mobile's design, immediately captivated Terry. Over time, this nightly ritual evolved into a bonding moment for the family, as Terry’s father joined in, creating harmonies that paralleled the mathematical elegance of the mobile. Although Terry was too young to understand, this early experience of patterns, symmetry, and connection laid the groundwork for his lifelong fascination with the interplay between structure and emotion. The moment also strengthened the family's commitment to nurturing Terry's unique potential, influenced by Charles's earlier visit.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Curious Lullaby? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Alden's path?",
+        "templateType": "FRIENDSHIP_STORIES"
+      }
+    },
+    {
+      "key": "event1737031808703_18",
+      "attributes": {
+        "name": "The First Rainy Afternoon",
+        "timestamp": "1969-03-20",
+        "description": "Terry experiences his first rainy afternoon, during which his mother reads to him by the window, creating a lasting association between rain and comfort.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031808703_19",
+      "attributes": {
+        "name": "The Maple Tree's First Growth",
+        "timestamp": "1969-08-15",
+        "description": "The maple tree sapling planted in the backyard shows its first signs of growth, symbolizing both Terry's growth and the family's connection to nature.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031808703_20",
+      "attributes": {
+        "name": "The Mysterious Butterfly",
+        "timestamp": "1970-05-15",
+        "description": "Terry observes a unique butterfly in Maplewood Park, sparking his fascination with nature and curiosity about the world.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031808703_21",
+      "attributes": {
+        "name": "The Meadow Discovery Club",
+        "timestamp": "1972-09-15",
+        "description": "Terry and his friends form a club dedicated to exploring the meadow and sharing discoveries, deepening their bond and sense of adventure.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031808703_22",
+      "attributes": {
+        "name": "The Clockmaker's Visit",
+        "timestamp": "1973-11-15",
+        "description": "A local clockmaker visits Terry's school to discuss the art of clockmaking, inspiring Terry's attempt to fix the broken clock.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031808703_23",
+      "attributes": {
+        "name": "The Winter Lantern Festival",
+        "timestamp": "1974-02-15",
+        "description": "Terry attends a community lantern festival during the winter, which instills a sense of wonder and appreciation for local traditions.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031808703_24",
+      "attributes": {
+        "name": "The Library's Hidden Nook",
+        "timestamp": "1975-10-10",
+        "description": "During a visit to the local library, Terry discovers a hidden reading nook filled with old books, igniting his love for stories and exploration.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031808703_25",
+      "attributes": {
+        "name": "The Journal's Secret",
+        "timestamp": "1976-02-25",
+        "description": "While flipping through the forgotten journal, Terry finds a cryptic note that hints at an adventure, setting the stage for future discoveries.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031808703_26",
+      "attributes": {
+        "name": "The Professor's Tale",
+        "timestamp": "1977-05-20",
+        "description": "Professor Elias Hart shares a personal story about his own childhood adventures, inspiring Terry to embrace his curiosity and pursue more explorations.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031808705_27",
+      "attributes": {
+        "name": "The Geometric Mobile Experiment",
+        "timestamp": "1969-06-15",
+        "description": "At just three months old, Terry's parents noticed his unusual fascination with the geometric mobile hanging above his crib. Designed by his Uncle Charles, the mobile featured intricate shapes and patterns that shifted dynamically with the slightest breeze. In an attempt to soothe a fussy Terry one afternoon, his parents rearranged the mobile to create new patterns. To their surprise, Terry calmed down immediately and began to track the motion of the shapes with uncanny focus for his age. This led his parents to experiment further, adjusting the mobile regularly to observe his reactions. Over time, they realized that Terry seemed particularly captivated by symmetrical and rotational patterns, marking the earliest signs of his extraordinary cognitive abilities. This discovery would later inspire his parents to encourage his exploration of structured play and puzzles as he grew older.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Geometric Mobile Experiment? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Alden's path?",
+        "templateType": "SCHOOL_LIFE"
+      }
+    },
+    {
+      "key": "event1737031813129_28",
+      "attributes": {
+        "name": "The Evening Smile Ritual",
+        "timestamp": "1969-03-30",
+        "description": "Following Terry's first smile, his parents, Martha and Jonathan Alden, began a small nightly ritual to encourage more joyful moments. Each evening after dinner, they would dim the lights and play soft, melodic tunes on their old gramophone while rocking Terry gently in his cradle. This created a calm and loving environment where Terry would often respond with small coos and smiles. Over time, this ritual became a cherished family tradition, continuing even as Terry grew older, evolving into a shared moment of storytelling and reflection during his childhood.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Evening Smile Ritual? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Alden's path?",
+        "templateType": "DAILY_RITUALS"
+      }
+    },
+    {
+      "key": "event1737031816386_29",
+      "attributes": {
+        "name": "The Maple Tree Planting Ceremony",
+        "timestamp": "1969-04-08",
+        "description": "One week after receiving the sapling, Terry's family organized a small gathering in their backyard to plant the maple tree. The event became a community affair, with neighbors and close friends attending to celebrate growth and togetherness. During the ceremony, Terry's mother recited a poem she had written about nurturing roots and reaching for the sky, a sentiment that would resonate with Terry throughout his life. His father carefully placed a small, engraved stone at the base of the sapling, inscribed with the words, 'Grow with curiosity.' This phrase would later become a quiet mantra for Terry, inspiring both his intellectual pursuits and personal growth. The tree's planting marked the beginning of an annual tradition where the family would gather around the tree every spring to reflect on their shared memories and aspirations.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Maple Tree Planting Ceremony? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Alden's path?",
+        "templateType": "CHILDHOOD_MEMORIES"
+      }
+    },
+    {
+      "key": "event1737031867044_30",
+      "attributes": {
+        "name": "The First Light of Morning",
+        "timestamp": "1969-03-15",
+        "description": "On a serene morning, baby Terry awoke to the first rays of sunlight streaming through the window, marking a moment of calm and wonder for his family.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031867045_31",
+      "attributes": {
+        "name": "The Playful Wind Chime",
+        "timestamp": "1969-05-01",
+        "description": "The family added colorful wind chimes to their porch, and Terry showed fascination with the melodic tinkling sounds as the wind passed through.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031867045_32",
+      "attributes": {
+        "name": "The Maple Tree's First Visitor",
+        "timestamp": "1969-07-10",
+        "description": "A small bird perched on the young maple tree for the first time, symbolizing the beginning of the tree's connection to the natural world.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031867045_33",
+      "attributes": {
+        "name": "The Hidden Grove",
+        "timestamp": "1971-11-15",
+        "description": "While wandering with friends, Terry discovered a secluded grove that became a sanctuary for his adventures and reflections.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031867045_34",
+      "attributes": {
+        "name": "The Forgotten Melody",
+        "timestamp": "1974-03-10",
+        "description": "Terry stumbled upon an old, untuned piano at the community center and discovered a melody that seemed familiar yet elusive, sparking his interest in music.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031867045_35",
+      "attributes": {
+        "name": "The Winter Starry Night",
+        "timestamp": "1974-12-20",
+        "description": "On a clear winter night, Terry and his family gazed at the stars, leading to his first questions about the vastness of the universe.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031867045_36",
+      "attributes": {
+        "name": "The Library Lanterns",
+        "timestamp": "1975-10-01",
+        "description": "While exploring the library, Terry noticed beautiful hanging lanterns that seemed to tell stories through their intricate designs, sparking his imagination further.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031867045_37",
+      "attributes": {
+        "name": "The Professor's Letter",
+        "timestamp": "1977-04-15",
+        "description": "Terry received a handwritten letter from Professor Elias Hart, inviting him to learn more about the mysteries of the natural world.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031867049_38",
+      "attributes": {
+        "name": "The First Cry of Perception",
+        "timestamp": "1969-03-11",
+        "description": "Moments after his birth, Terry's unusually prolonged and intense cry caught the attention of the hospital staff. Unlike other newborns, his cries seemed to follow an irregular rhythmic pattern that perplexed and intrigued the attending nurse, Margaret Lawson. She noted that the pauses between his cries seemed almost measured, as if following unseen intervals. While his parents dismissed it as coincidence, this moment marked an early glimpse of Terry's unique cognitive wiring. The attending physician, Dr. Harold Mendez, jokingly referred to him as 'the little pattern maker.' This small, seemingly insignificant detail would later be remembered by his parents as a curious precursor to his extraordinary ability to perceive and manipulate complex patterns.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The First Cry of Perception? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Alden's path?",
+        "templateType": "TURNING_POINTS"
+      }
+    },
+    {
+      "key": "event1737031870805_39",
+      "attributes": {
+        "name": "The Rainy Day Circle",
+        "timestamp": "1969-03-25",
+        "description": "A few days after Terry's first rainy afternoon, his mother invites a small group of neighbors over for tea and conversation during another rainy day. The gathering is held in their cozy living room, with Terry seated in a bassinet near the window. Among the attendees is Alice Carter, a local librarian, and Charles Alden, Terry's uncle, who shares stories about his travels and brings a handcrafted geometric mobile as a gift. The event marks the beginning of a supportive community network around Terry, as Alice offers to help foster his curiosity through books and Charles hints at the importance of nurturing Terry's budding perception skills. This gathering establishes a tradition of community support that would play a significant role in Terry's development.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Rainy Day Circle? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Alden's path?",
+        "templateType": "COMMUNITY_CONNECTIONS"
+      }
+    },
+    {
+      "key": "event1737031874625_40",
+      "attributes": {
+        "name": "The Evening Lullaby Bond",
+        "timestamp": "1969-03-30",
+        "description": "Five days after Terry's first smile, his parents, Evelyn and Robert Alden, began a nightly ritual of singing lullabies to him before bed. Evelyn created a soothing melody inspired by her own childhood, while Robert added gentle tapping rhythms, combining their efforts to comfort and connect with their son. During these moments, they noticed Terry's unusually focused gaze, which seemed to follow the patterns of sound and movement. This ritual not only deepened the emotional bond within the family but also marked the beginning of their realization that Terry's responses to stimuli were unique, setting the stage for their growing awareness of his exceptional abilities.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Evening Lullaby Bond? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Alden's path?",
+        "templateType": "FAMILY_DYNAMICS"
+      }
+    },
+    {
+      "key": "event1737031919980_41",
+      "attributes": {
+        "name": "The Lullaby Resonance",
+        "timestamp": "1969-03-14",
+        "description": "Three days after Terry's birth, his mother, Elaine Alden, noticed something peculiar during her nightly attempt to soothe him. While humming a lullaby, she observed that certain tones caused him to pause his crying momentarily and fixate his gaze on her. Intrigued, she began experimenting with variations in pitch and rhythm, discovering that Terry seemed to respond more attentively to uneven, syncopated melodies rather than simple, repetitive ones. This nightly ritual became a bonding moment for the family, with Elaine and Terry's father, Robert Alden, creating unique lullabies to test his reactions. Over time, these experiments subtly influenced their own perception of rhythm and sound, unknowingly laying the groundwork for Terry's later fascination with complex patterns. The family began to refer to these moments as 'The Lullaby Resonance,' a term that would later take on deeper meaning in Terry's life.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Lullaby Resonance? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Alden's path?",
+        "templateType": "DAILY_RITUALS"
+      }
+    },
+    {
+      "key": "event1737031925399_42",
+      "attributes": {
+        "name": "The Quiet Gesture of Uncle Charles",
+        "timestamp": "1969-03-13",
+        "description": "Two days after Terry's birth, his uncle, Charles Alden, visited the family with an unexpected gift. Known for his reserved demeanor and intellectual pursuits, Charles surprised everyone by presenting a handcrafted geometric mobile. Made from intricately carved wood and translucent glass, the mobile cast shifting patterns of light and shadow when hung near a window. Charles explained that he had designed it to stimulate curiosity and focus in infants, drawing upon his own studies in cognitive development. While Terry’s parents initially saw it as a decorative piece, they were astonished to notice Terry’s unusual engagement with the patterns, his gaze fixed and seemingly tracking the complex movements. This subtle interaction marked the first time anyone observed Terry’s heightened perceptual abilities, leaving a lasting impression on Charles, who became quietly determined to support his nephew’s intellectual growth in the years to come.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Quiet Gesture of Uncle Charles? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Alden's path?",
+        "templateType": "FAMILY_DYNAMICS"
+      }
+    },
+    {
+      "key": "event1737031930806_43",
+      "attributes": {
+        "name": "The Morning Sunbeam Ritual",
+        "timestamp": "1969-03-20",
+        "description": "On a quiet spring morning, Terry's mother, Margaret, noticed how baby Terry seemed captivated by the golden sunbeam that filtered through the window onto his crib. She decided to make it a daily ritual to sit by the window with him during the early morning light, cradling him and softly singing lullabies. Over time, this became a cherished bonding activity for the family, with Terry's father, William, occasionally joining to read aloud from a favorite poetry book. This ritual not only nurtured a sense of calm and connection but also seemed to inspire Terry's early affinity for patterns, as his eyes frequently followed the shifting shapes of the sunlight on the walls.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Morning Sunbeam Ritual? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Alden's path?",
+        "templateType": "DAILY_RITUALS"
+      }
+    },
+    {
+      "key": "event1737031987053_44",
+      "attributes": {
+        "name": "The Chime Maker's Visit",
+        "timestamp": "1969-04-20",
+        "description": "A local artisan visits Terry's family to share the art of crafting wind chimes, sparking an early interest in creativity and sound in young Terry.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031987053_45",
+      "attributes": {
+        "name": "The Maple Leaf Discovery",
+        "timestamp": "1969-06-01",
+        "description": "Terry's parents show him a newly formed maple leaf, marking his first interaction with the changing growth of the tree and fostering a deeper connection to nature.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031987053_46",
+      "attributes": {
+        "name": "The Mysterious Meadow Sound",
+        "timestamp": "1971-10-15",
+        "description": "While exploring near the meadow, Terry and his friends hear an unusual, enchanting sound that deepens their curiosity about the natural world.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031987053_47",
+      "attributes": {
+        "name": "The First Winter Tale",
+        "timestamp": "1973-01-10",
+        "description": "On a snowy evening, Terry's family gathers to share a story passed down through generations, enriching his sense of tradition and imagination.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031987053_48",
+      "attributes": {
+        "name": "The Library's Secret Passage",
+        "timestamp": "1975-10-05",
+        "description": "During a visit to the library's hidden nook, Terry discovers a secret passage leading to an ancient archive, igniting his love for exploration and history.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031987053_49",
+      "attributes": {
+        "name": "The Lantern Builder's Workshop",
+        "timestamp": "1974-02-25",
+        "description": "Terry attends a workshop where he learns to craft lanterns, contributing to his family's preparations for the Winter Lantern Festival.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031987053_50",
+      "attributes": {
+        "name": "The Professor's Mysterious Box",
+        "timestamp": "1977-05-25",
+        "description": "Professor Elias Hart shares a peculiar box filled with artifacts that hint at deeper mysteries, fueling Terry's curiosity and determination to uncover the truth.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737031987057_51",
+      "attributes": {
+        "name": "The Rhythmic Observation",
+        "timestamp": "1969-03-12",
+        "description": "The day after Terry's birth, nurse Margaret Lawson, still intrigued by the rhythmic nature of his cries, returned to check on him in the maternity ward. She observed that his movements, even in sleep, seemed to have a subtle synchronicity with the beeping of nearby medical monitors. Margaret mentioned this observation to Dr. Harold Mendez, who humorously suggested it might be a coincidence but asked her to keep a note of any unusual behavior. Meanwhile, Terry's mother, Elaine Alden, noticed that he seemed unusually calm when she hummed lullabies with consistent tempos. This led her to hum softly to him during feedings and diaper changes, which unintentionally began a daily ritual of rhythmic bonding between mother and child. This quiet interaction became a comforting routine for both, subtly reinforcing Terry's connection to patterns from the earliest days of his life.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Rhythmic Observation? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Alden's path?",
+        "templateType": "DAILY_RITUALS"
+      }
+    },
+    {
+      "key": "event1737031990646_52",
+      "attributes": {
+        "name": "The Early Glimpse of Infinity",
+        "timestamp": "1969-03-16",
+        "description": "Just five days after his birth, Terry Alden had his first remarkable moment that hinted at his unique cognitive potential. As his parents placed him in his crib next to the window, sunlight filtered through a hand-woven blanket, casting intricate geometric patterns of light and shadow on the wall. While most infants would have been mesmerized by the shapes, Terry displayed an unusual reaction—his eyes followed the patterns methodically, as if tracing them with intent. His parents, initially dismissing this as a coincidence, began to notice that Terry's gaze lingered on certain repeating shapes, particularly triangles and spirals, far longer than expected for a newborn. His mother, Eleanor Alden, later remarked that it was 'as if he was trying to solve a puzzle too advanced for the rest of us to even see.' This moment planted the first seeds of awareness in his family about his extraordinary ability to perceive and process patterns, though they would not fully understand its implications for years to come.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Early Glimpse of Infinity? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Alden's path?",
+        "templateType": "TURNING_POINTS"
+      }
+    },
+    {
+      "key": "event1737031994616_53",
+      "attributes": {
+        "name": "The Flickering Shadows Discovery",
+        "timestamp": "1969-03-18",
+        "description": "Five days after Uncle Charles gifted the geometric mobile, Terry's parents noticed a peculiar moment during a quiet evening. The mobile, now hung near a west-facing window, caught the soft glow of the setting sun. As the light filtered through the translucent glass pieces, it cast intricate, flickering shadows onto the nursery walls. Terry, only a week old, responded in an unexpected way. Instead of the usual uncoordinated movements of an infant, he seemed to move his tiny fingers in subtle, rhythmic patterns, as if unconsciously trying to mimic or map the shifting shadows. This behavior startled his parents, who initially thought it was merely a coincidence. However, when the phenomenon repeated over the following days, they began to suspect that Terry was interacting with his environment in a way far beyond typical infant development. This moment forced them to confront an unsettling question: How could they nurture such extraordinary potential without fully understanding it? The realization led to their first parental challenge, as they grappled with balancing the desire to encourage his unique abilities while ensuring a normal and loving upbringing.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Flickering Shadows Discovery? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Alden's path?",
+        "templateType": "TURNING_POINTS"
+      }
+    },
+    {
+      "key": "event1737032051842_54",
+      "attributes": {
+        "name": "The Rhythmic Bonding Moment",
+        "timestamp": "1969-03-12",
+        "description": "The day after Terry's birth, while still in the hospital, nurse Margaret Lawson noticed an unusual reaction from the newborn. During a quiet moment, she hummed a soft lullaby to soothe him, and to her amazement, his cries began to synchronize with the rhythm of her humming. Intrigued, she experimented with subtle shifts in tempo, and Terry's responses adapted, creating what felt like a rhythmic exchange between them. Margaret, deeply moved by this interaction, shared the experience with Terry's mother, who dismissed it as a coincidence but appreciated Margaret's care. Unbeknownst to anyone, this moment laid the foundation for Terry's future ability to connect with others through patterns and rhythms. It also forged an unspoken bond between Margaret and Terry, as she felt a unique sense of responsibility and curiosity about his development. Years later, Margaret would recall this moment fondly when she learned about Terry's mathematical achievements.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Rhythmic Bonding Moment? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Alden's path?",
+        "templateType": "FRIENDSHIP_STORIES"
+      }
+    },
+    {
+      "key": "event1737032057905_55",
+      "attributes": {
+        "name": "The First Shared Smile",
+        "timestamp": "1969-03-25",
+        "description": "On a warm spring afternoon, baby Terry was resting in his crib by the window as his cousin, Emily Alden, a curious and playful seven-year-old, came to visit. While their parents chatted in the living room, Emily leaned over the crib, making silly faces and softly singing a playful tune. After a moment of quiet observation, Terry responded with an unmistakable smile, his first since birth. Emily clapped her hands in delight, calling it their 'special smile.' From that day on, Emily would visit often, bringing small toys and inventing games to entertain her baby cousin. This moment marked the beginning of a unique bond between them, as Emily became a constant presence in Terry's early life, fostering his natural curiosity and joy.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The First Shared Smile? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Alden's path?",
+        "templateType": "FRIENDSHIP_STORIES"
+      }
+    },
+    {
+      "key": "event1737032063439_56",
+      "attributes": {
+        "name": "The Classroom Echo Experiment",
+        "timestamp": "1974-05-25",
+        "description": "During a routine kindergarten class activity at Maplewood Elementary, the teacher, Mrs. Clara Bennett, introduced an exercise involving rhythm and sound. She clapped a sequence of beats for the class to mimic and noticed that while most children followed along inconsistently, Terry not only replicated the sequence perfectly but also added a complementary pattern that harmonized with the original beats. Intrigued, Mrs. Bennett gave him a tambourine and instructed the class to create rhythms together. To her astonishment, Terry began guiding the group’s rhythm, subtly adjusting his own patterns to unify the chaotic attempts of his peers. Recognizing his unique ability, Mrs. Bennett decided to incorporate more music and rhythm-based activities into the curriculum, nurturing Terry’s emerging talent. This experience sparked a lifelong fascination in Terry with how patterns could influence and organize group dynamics, laying an early foundation for his later exploration of mathematical harmonics and systems.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Classroom Echo Experiment? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Alden's path?",
+        "templateType": "SCHOOL_LIFE"
+      }
+    },
+    {
+      "key": "event1737032127782_57",
+      "attributes": {
+        "name": "The Wind Chime Assembly",
+        "timestamp": "1969-04-24",
+        "description": "Terry's family works together to create a wind chime inspired by the Chime Maker's visit, an early bonding moment that introduces Terry to the interplay of sound and movement.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737032127783_58",
+      "attributes": {
+        "name": "The Maple Tree's First Rainfall",
+        "timestamp": "1969-05-15",
+        "description": "A gentle rainfall nourishes the newly planted maple tree, marking a moment of growth and reflection as Terry's family gathers to admire the tree's resilience.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737032127783_59",
+      "attributes": {
+        "name": "The Meadow's Evening Light Dance",
+        "timestamp": "1971-09-01",
+        "description": "During an evening visit to the meadow, Terry observes the interplay of light and shadows, creating a dazzling 'dance' that deepens his appreciation for nature's beauty.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737032127783_60",
+      "attributes": {
+        "name": "The Lantern Maker's Secrets",
+        "timestamp": "1974-03-01",
+        "description": "Terry learns the intricate process of crafting lanterns from a local lantern maker, gaining insight into the symbolic meaning of light in winter traditions.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737032127783_61",
+      "attributes": {
+        "name": "The Winter's Hidden Melody",
+        "timestamp": "1974-12-15",
+        "description": "While gazing at the starry winter night, Terry hears a faint, mysterious melody carried by the wind, sparking a moment of introspection and wonder.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737032127783_62",
+      "attributes": {
+        "name": "The Library's Hidden History",
+        "timestamp": "1975-09-25",
+        "description": "Terry uncovers a hidden section of the library containing old maps, journals, and artifacts, hinting at a deeper connection between the library and the town's history.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737032127783_63",
+      "attributes": {
+        "name": "The Gift of Curiosity",
+        "timestamp": "1976-01-20",
+        "description": "Terry receives a beautifully wrapped gift from a mysterious sender. Inside is a magnifying glass and a note encouraging him to 'always look closer.'",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737032127783_64",
+      "attributes": {
+        "name": "The Professor's Map Puzzle",
+        "timestamp": "1977-03-25",
+        "description": "While examining the mysterious map, Terry discovers a hidden puzzle embedded in its design, hinting at a larger mystery tied to the Professor's research.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737032127792_65",
+      "attributes": {
+        "name": "The Unexpected Silence",
+        "timestamp": "1969-03-12",
+        "description": "The day after Terry's birth, nurse Margaret Lawson observed an unusual event. After spending the night in the hospital nursery, Terry, who had been unusually vocal with rhythmically patterned cries, suddenly went silent for several hours. Concerned, Margaret performed routine checks, but found no signs of distress or illness. Instead, Terry appeared calm, his eyes unusually focused on the flickering shadows cast by a mobile hanging above his crib, which was installed by another nurse. It seemed as though he was captivated, studying the movement of the shadows with an intensity uncommon in newborns. Margaret noted this in her report, but dismissed it as a coincidence. However, this period of silence was later recalled by his parents as a moment when Terry first exhibited his ability to become deeply absorbed in patterns, a trait that would define his future. This instance taught his parents the importance of paying attention to subtle and unconventional forms of communication, a lesson that would prove vital throughout his upbringing.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Unexpected Silence? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Alden's path?",
+        "templateType": "TURNING_POINTS"
+      }
+    },
+    {
+      "key": "event1737032133350_66",
+      "attributes": {
+        "name": "The First Parental Realization",
+        "timestamp": "1969-03-12",
+        "description": "The day after Terry's birth, his parents, Margaret and Samuel Alden, noticed something unusual about their newborn. During a quiet moment in the hospital room, Margaret held Terry close while humming a soft lullaby. To their astonishment, Terry's cries subsided almost immediately, and his gaze seemed to fixate on her in perfect rhythm with the melody. Samuel, sitting nearby, observed this with curiosity and remarked that it felt as though Terry was responding to the patterns in Margaret's humming rather than just the sound itself. This subtle yet profound moment began to shape their understanding of their son. Over the following hours, the couple discussed how they might nurture an infant who seemed unusually perceptive, resolving to create a calm, rhythmic environment at home. They began to plan small changes, such as introducing patterned mobiles and soothing sounds, even before leaving the hospital. This marked the first step in their journey of adapting to raise a child whose unique abilities were already apparent.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The First Parental Realization? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Alden's path?",
+        "templateType": "FAMILY_DYNAMICS"
+      }
+    },
+    {
+      "key": "event1737032138153_67",
+      "attributes": {
+        "name": "The Rhythmic Bond of Morning Light",
+        "timestamp": "1969-03-13",
+        "description": "The day after nurse Margaret Lawson's observation, Elaine Alden sat in the soft morning light streaming through the hospital room window, holding baby Terry in her arms. As she softly hummed a lullaby, Terry's tiny hands moved rhythmically, almost as if conducting an unseen orchestra. Elaine decided to experiment with different tempos, singing slower and faster melodies. To her surprise, Terry seemed to adapt his movements to match her tempo, a behavior so subtle that it felt almost instinctive. Nurse Margaret, passing by the room, noticed the interaction and paused, captivated by the synchronicity. She entered the room and suggested Elaine continue the humming, remarking that Terry seemed unusually attuned for a newborn. This became a moment of shared awe between Elaine and Margaret, forming a bond over their mutual fascination with Terry's unique responsiveness. Margaret, inspired by the scene, began to check on Terry more frequently, sharing her observations with Elaine and offering support. Terry's father, Robert Alden, arrived later to witness this interaction, further solidifying an unspoken agreement among them to nurture and protect this extraordinary child. This exchange laid the groundwork for a friendship between Elaine and Margaret, built on their shared care and curiosity for Terry's remarkable perceptiveness.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Rhythmic Bond of Morning Light? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Alden's path?",
+        "templateType": "FRIENDSHIP_STORIES"
+      }
+    },
+    {
+      "key": "event1737032199249_68",
+      "attributes": {
+        "name": "The Forest Song",
+        "timestamp": "1969-05-10",
+        "description": "While playing near the maple tree, Terry hears a soft, melodic tune carried by the wind, sparking his lifelong fascination with natural music.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737032199249_69",
+      "attributes": {
+        "name": "The Falling Leaf",
+        "timestamp": "1969-05-20",
+        "description": "Terry notices the first leaf falling from the maple tree, symbolizing the passage of time and nature's cycles, leaving a lasting impression on his young mind.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737032199249_70",
+      "attributes": {
+        "name": "The Meadow's Hidden Path",
+        "timestamp": "1971-09-10",
+        "description": "While exploring the meadow, Terry stumbles upon a barely visible path leading deeper into the wilderness, hinting at secrets yet to be discovered.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737032199249_71",
+      "attributes": {
+        "name": "The Starry Lantern",
+        "timestamp": "1974-03-05",
+        "description": "Terry completes his first handcrafted lantern featuring a design of the night sky, connecting his love of crafting with his fascination for the stars.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737032199249_72",
+      "attributes": {
+        "name": "The Journal's Sketch",
+        "timestamp": "1976-02-20",
+        "description": "Terry discovers a detailed sketch of a mysterious location in the forgotten journal, prompting a sense of adventure and curiosity.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737032199249_73",
+      "attributes": {
+        "name": "The Professor's Artifact",
+        "timestamp": "1977-05-15",
+        "description": "Professor Hart reveals an ancient artifact related to the map, fueling Terry's imagination and deepening his connection with his mentor.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737032199249_74",
+      "attributes": {
+        "name": "The Whispering Woods Trail",
+        "timestamp": "1977-06-05",
+        "description": "While exploring the old mill's surroundings, Terry discovers a hidden trail in the Whispering Woods, leading to a serene sanctuary.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737032199250_75",
+      "attributes": {
+        "name": "The Measured Lull",
+        "timestamp": "1969-03-12",
+        "description": "In the early hours following Terry's birth, nurse Margaret Lawson, still intrigued by the rhythmic nature of his cries, decided to conduct a small, private experiment. She gently swayed him while humming a simple lullaby with a repetitive pattern. To her astonishment, Terry's cries began to align with the rhythm of her humming, as though he were responding deliberately. She noted that his pauses matched her breath intervals, and his cries returned only when her rhythm wavered. This peculiar interaction left Margaret deeply curious, prompting her to document the moment in her personal journal. Although dismissed by others as coincidence, Margaret's decision to hum that lullaby became an early marker of Terry's heightened sensitivity to patterns and rhythms. This subtle event would later inspire Margaret to revisit her notes years later, becoming one of the first individuals to recognize the significance of Terry's abilities.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Measured Lull? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Alden's path?",
+        "templateType": "TURNING_POINTS"
+      }
+    },
+    {
+      "key": "event1737032204414_76",
+      "attributes": {
+        "name": "The Rhythmic Tapping Discovery",
+        "timestamp": "1969-03-18",
+        "description": "At just one week old, Terry exhibited an unusual response to his father David Alden's habit of tapping his fingers rhythmically on the edge of Terry's crib while humming. Instead of reacting with simple curiosity, Terry appeared to mimic the rhythm with subtle movements of his hands and feet, creating a matching pattern. This small but extraordinary moment hinted at his innate ability to recognize and replicate complex patterns, even at such an early stage of development. The family, particularly Terry's mother Elaine, began to encourage these behaviors by introducing rhythmic elements into everyday interactions, such as clapping games and tapping objects. This foundational experience set the stage for Terry's later fascination with patterns in sound, movement, and eventually, mathematics.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Rhythmic Tapping Discovery? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Alden's path?",
+        "templateType": "SCHOOL_LIFE"
+      }
+    },
+    {
+      "key": "event1737032211520_77",
+      "attributes": {
+        "name": "The First Shared Rhythm",
+        "timestamp": "1969-03-13",
+        "description": "The day after nurse Margaret Lawson's observation, Elaine Alden, still marveling over Terry's calming response to her rhythmic humming, decided to share her discovery with her husband, Robert Alden. That evening, while holding Terry in their dimly lit living room, the couple experimented with different tempos and tones to see which ones kept their son most at ease. Elaine hummed softly while Robert tapped a gentle rhythm on the wooden armrest of their chair. To their surprise, Terry's tiny fingers twitched in sync with Robert's tapping, as if trying to mimic the cadence. This shared discovery brought a new sense of unity to the family, as Elaine and Robert began to collaborate on creating soothing rhythmic patterns for their newborn. Over time, this nightly ritual became a cherished family bonding moment, laying the foundation not only for Terry's lifelong connection to patterns but also for a strengthened relationship between his parents, who supported each other through the challenges of early parenthood by leaning into their shared curiosity and love for their child.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The First Shared Rhythm? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Alden's path?",
+        "templateType": "FRIENDSHIP_STORIES"
+      }
+    },
+    {
+      "key": "event1737032291830_78",
+      "attributes": {
+        "name": "The Nurse's Quiet Advice",
+        "timestamp": "1969-03-12",
+        "description": "The day after Terry's birth, nurse Margaret Lawson, still intrigued by the rhythmic quality of his cries, offered a quiet piece of advice to Elaine Alden while tending to the newborn. 'Pay attention to the things that seem unusual,' she said. 'Sometimes the smallest patterns can tell us the biggest stories.' Elaine, though sleep-deprived and overwhelmed, found the words comforting and stored them away in her mind. Over the years, this simple piece of advice would subtly influence how Elaine and her husband observed and nurtured Terry's unique behaviors, creating an environment where he felt safe to explore his unconventional ways of thinking.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Nurse's Quiet Advice? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Alden's path?",
+        "templateType": "MENTORSHIP_MOMENTS"
+      }
+    },
+    {
+      "key": "event1737032296808_79",
+      "attributes": {
+        "name": "The Community Nurse's Visit",
+        "timestamp": "1969-03-13",
+        "description": "Two days after Terry's birth, Nurse Margaret Lawson, a beloved figure in the community known for her sharp observational skills and gentle demeanor, visited the Alden household to check on Elaine and the newborn. During her visit, she noticed Terry's unusual attentiveness to the rhythmic ticking of a wall clock. Intrigued, she shared her observation with Elaine and gently suggested that such moments of focus could be encouraged through exposure to soft, patterned sounds and visual stimuli. Her advice later influenced the family's decision to create a nurturing environment filled with music, gentle rhythms, and natural patterns. Nurse Lawson's visit marked the beginning of a lifelong connection between the Aldens and the wider community, as neighbors frequently came forward to offer support and share insights throughout Terry's formative years.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Community Nurse's Visit? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Alden's path?",
+        "templateType": "COMMUNITY_CONNECTIONS"
+      }
+    },
+    {
+      "key": "event1737032302185_80",
+      "attributes": {
+        "name": "The First Shared Lullaby",
+        "timestamp": "1969-03-13",
+        "description": "The day after nurse Margaret Lawson observed Terry's rhythmic patterns, she returned to the maternity ward during her evening rounds. She noticed Elaine Alden softly humming a lullaby while cradling Terry, the same tune she had used earlier to soothe him. Margaret, drawn by the calming melody, paused and offered to show Elaine a traditional lullaby from her own family that used a similar rhythmic structure. Curious, Elaine invited her to sit, and together they blended their melodies, creating a unique tune that seemed to visibly calm Terry even further. This shared moment marked the beginning of a bond between Elaine and Margaret, as they realized their mutual interest in nurturing Terry's unusual connection to patterns. Over the next few weeks, Margaret would visit during her breaks to hum the shared lullaby with Elaine, fostering a friendship that extended beyond the maternity ward and laid the foundation for Margaret’s continued involvement in Terry’s early life.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The First Shared Lullaby? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Terrence 'Terry' Alden's path?",
+        "templateType": "FRIENDSHIP_STORIES"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "key": "geid_19_0",
+      "source": "birth",
+      "target": "event1737031486146_1",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event marks the first major influence on Terry's intellectual development, building on his innate abilities identified early in life."
+      }
+    },
+    {
+      "key": "geid_19_1",
+      "source": "event1737031486146_1",
+      "target": "birth",
+      "attributes": {
+        "type": "INFLUENCES",
+        "description": "Professor Hart's mentorship indirectly reinforces the importance of Terry's early potential. It suggests that without nurturing and opportunity, innate talent alone (as seen from birth) might not have led to the same developmental trajectory."
+      }
+    },
+    {
+      "key": "geid_19_3",
+      "source": "birth",
+      "target": "event1737031519760_5",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event follows Terry's birth, showcasing his early integration into the community and setting the stage for future relationships that would influence his development."
+      }
+    },
+    {
+      "key": "geid_19_4",
+      "source": "event1737031486146_1",
+      "target": "event1737031526338_6",
+      "attributes": {
+        "type": "sequence",
+        "description": "The event follows Terry's mentorship with Professor Elias Hart, as it represents Terry's way of coping with and processing the advanced mathematical concepts he was introduced to."
+      }
+    },
+    {
+      "key": "geid_198_0",
+      "source": "event1737031519760_5",
+      "target": "event1737031519759_3",
+      "attributes": {
+        "type": "INFLUENCES",
+        "description": "The introduction of Terry to the community during the Celebration of Spring provided early exposure to individuals like Alice Carter, the local librarian, whose presence at the event likely influenced his parents' decision to prioritize visits to the local library and foster his love for books."
+      }
+    },
+    {
+      "key": "geid_198_1",
+      "source": "event1737031519759_2",
+      "target": "event1737031519759_3",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Terry's natural curiosity, demonstrated when he dismantled and reassembled the music box, likely prompted his parents to recognize the importance of introducing him to environments like the library, where he could explore his interests further."
+      }
+    },
+    {
+      "key": "geid_198_2",
+      "source": "event1737031519759_4",
+      "target": "event1737031486146_1",
+      "attributes": {
+        "type": "INFLUENCES",
+        "description": "Terry's friendship with Lucy Harper, who shared a love for imagination and adventure, may have indirectly influenced his openness to engaging with Professor Elias Hart and exploring abstract concepts in mathematics."
+      }
+    },
+    {
+      "key": "geid_198_3",
+      "source": "event1737031526338_6",
+      "target": "event1737031486146_1",
+      "attributes": {
+        "type": "ENHANCES",
+        "description": "The discovery of the Whispering Woods Sanctuary provided Terry with a peaceful space to reflect and process the advanced mathematical ideas introduced by Professor Elias Hart, enhancing the effectiveness of their mentorship relationship."
+      }
+    },
+    {
+      "key": "geid_198_4",
+      "source": "event1737031519759_4",
+      "target": "event1737031526338_6",
+      "attributes": {
+        "type": "PARALLELS",
+        "description": "Terry's bond with Lucy Harper and his connection to the Whispering Woods both represent his deep-seated need for creativity and solace, highlighting parallel developments in his intellectual and emotional growth."
+      }
+    },
+    {
+      "key": "geid_198_5",
+      "source": "event1737031519760_5",
+      "target": "event1737031519759_2",
+      "attributes": {
+        "type": "INFLUENCES",
+        "description": "The vibrant community gathering inspired Terry's growing interest in exploring and understanding the world around him, fostering his natural curiosity."
+      }
+    },
+    {
+      "key": "geid_198_6",
+      "source": "event1737031519759_3",
+      "target": "event1737031519759_4",
+      "attributes": {
+        "type": "ENABLES",
+        "description": "Terry's frequent visits to the library eventually led to him meeting Lucy Harper, as they bonded over shared interests in books and stories."
+      }
+    },
+    {
+      "key": "geid_198_8",
+      "source": "birth",
+      "target": "event1737031695291_6",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event follows Terry's birth and introduces his extended family, specifically Uncle Charles, whose intellectual background and early interactions with Terry would shape the family's perspective on his potential."
+      }
+    },
+    {
+      "key": "geid_198_9",
+      "source": "event1737031519760_5",
+      "target": "event1737031701417_7",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event naturally follows the previous year's Celebration of Spring, showing the progression of Terry's integration into his community and the early formation of a key friendship with Lucy Harper."
+      }
+    },
+    {
+      "key": "geid_198_10",
+      "source": "event1737031519759_2",
+      "target": "event1737031708105_8",
+      "attributes": {
+        "type": "sequence",
+        "description": "The event directly follows Terry's earlier demonstration of curiosity and problem-solving skills with the music box, marking his parents' recognition of his talents and their decision to nurture them."
+      }
+    },
+    {
+      "key": "geid_198_11",
+      "source": "event1737031695291_6",
+      "target": "event1737031519759_2",
+      "attributes": {
+        "type": "INFLUENCES",
+        "description": "Uncle Charles, during his visit, fostered a sense of curiosity in young Terry by sharing stories about his travels and the wonders of nature."
+      }
+    },
+    {
+      "key": "geid_198_12",
+      "source": "event1737031708105_8",
+      "target": "event1737031695283_3",
+      "attributes": {
+        "type": "ENABLES",
+        "description": "The music box, a gift from a family member, sparked a love for storytelling that grew during winter evenings by the fireplace."
+      }
+    },
+    {
+      "key": "geid_198_13",
+      "source": "event1737031695283_4",
+      "target": "event1737031519759_4",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "The unexpected gift was a handmade wooden toy that sparked Terry's interest in sharing and collaboration, leading to his friendship with Lucy Harper."
+      }
+    },
+    {
+      "key": "geid_198_14",
+      "source": "event1737031486146_1",
+      "target": "event1737031695283_5",
+      "attributes": {
+        "type": "ENABLES",
+        "description": "Professor Hart inspired Terry to explore local history, leading him to investigate the abandoned Old Mill."
+      }
+    },
+    {
+      "key": "geid_198_15",
+      "source": "event1737031695283_5",
+      "target": "event1737031526338_6",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "While exploring the Old Mill, Terry was guided by clues that eventually led him to the sanctuary within the Whispering Woods."
+      }
+    },
+    {
+      "key": "geid_198_16",
+      "source": "birth",
+      "target": "event1737031758858_15",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event follows Terry's birth and represents one of the first structured educational experiences that revealed his extraordinary aptitude for perceiving mathematical patterns, setting the stage for his future intellectual pursuits."
+      }
+    },
+    {
+      "key": "geid_198_17",
+      "source": "event1737031695283_1",
+      "target": "event1737031762556_16",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event follows Terry's first smile and builds on the family's joy, introducing him to a long-standing family tradition that would later influence his sense of identity and curiosity."
+      }
+    },
+    {
+      "key": "geid_198_18",
+      "source": "event1737031695291_6",
+      "target": "event1737031765644_17",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event directly follows Charles Alden's visit, expanding on the early influence of the geometric mobile he gifted to Terry and its impact on the family dynamic."
+      }
+    },
+    {
+      "key": "geid_198_19",
+      "source": "event1737031758852_9",
+      "target": "event1737031765644_17",
+      "attributes": {
+        "type": "INFLUENCES",
+        "description": "The growing maple tree becomes a source of inspiration for Terry's mother, leading to the creation of the lullaby."
+      }
+    },
+    {
+      "key": "geid_198_20",
+      "source": "event1737031701417_7",
+      "target": "event1737031708105_8",
+      "attributes": {
+        "type": "ENABLES",
+        "description": "The friendship nurtured at the park creates a sense of curiosity and openness in Terry, making him more receptive to the influence of the music box."
+      }
+    },
+    {
+      "key": "geid_198_21",
+      "source": "event1737031708105_8",
+      "target": "event1737031758858_15",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Terry's fascination with the music box leads to his interest in music and numbers, prompting his parents to enroll him in the workshop."
+      }
+    },
+    {
+      "key": "geid_198_22",
+      "source": "event1737031758852_13",
+      "target": "event1737031519759_4",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "The discovery of the journal sparks Terry's interest in exploring old memories, which leads to reconnecting with Lucy Harper."
+      }
+    },
+    {
+      "key": "geid_198_23",
+      "source": "event1737031758852_14",
+      "target": "event1737031695283_5",
+      "attributes": {
+        "type": "ENABLES",
+        "description": "The map discovered by Terry guides him and his friends to the Old Mill, setting the stage for further adventures."
+      }
+    },
+    {
+      "key": "geid_198_25",
+      "source": "birth",
+      "target": "event1737031808705_27",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event naturally follows Terry's birth, as it highlights the earliest observable signs of his unique cognitive abilities and sets the stage for his parents' recognition of his potential."
+      }
+    },
+    {
+      "key": "geid_198_26",
+      "source": "event1737031695283_1",
+      "target": "event1737031813129_28",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event builds upon the joy of Terry's first smile, inspiring his parents to create a daily tradition to nurture his happiness and emotional connection."
+      }
+    },
+    {
+      "key": "geid_198_27",
+      "source": "event1737031758852_9",
+      "target": "event1737031816386_29",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event represents the immediate consequence of receiving the maple tree sapling, as the family takes a symbolic step to integrate it into their lives and their community."
+      }
+    },
+    {
+      "key": "geid_198_28",
+      "source": "event1737031765644_17",
+      "target": "event1737031808705_27",
+      "attributes": {
+        "type": "INFLUENCES",
+        "description": "The soothing and rhythmic patterns of the lullaby inspired the family to introduce visual patterns through a geometric mobile to engage Terry's curiosity."
+      }
+    },
+    {
+      "key": "geid_198_29",
+      "source": "event1737031808705_27",
+      "target": "event1737031808703_19",
+      "attributes": {
+        "type": "PARALLELS",
+        "description": "The mobile's patterns symbolized growth and change, paralleling the visible growth of the maple tree in the backyard."
+      }
+    },
+    {
+      "key": "geid_198_31",
+      "source": "event1737031708105_8",
+      "target": "event1737031758852_11",
+      "attributes": {
+        "type": "ENABLES",
+        "description": "Terry's fascination with the mechanical workings of the music box paved the way for his interest in solving the mystery of the broken clock."
+      }
+    },
+    {
+      "key": "geid_198_32",
+      "source": "event1737031758852_13",
+      "target": "event1737031808703_25",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "The discovery of the forgotten journal directly led to uncovering a hidden secret within its pages."
+      }
+    },
+    {
+      "key": "geid_198_33",
+      "source": "event1737031486146_1",
+      "target": "event1737031808703_26",
+      "attributes": {
+        "type": "ENABLES",
+        "description": "Meeting Professor Hart provided an opportunity for Terry to hear the professor's captivating tale, which further shaped his curiosity and worldview."
+      }
+    },
+    {
+      "key": "geid_198_34",
+      "source": "birth",
+      "target": "event1737031867049_38",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event immediately follows Terry's birth and introduces the first subtle sign of his unique abilities, setting the stage for his parents and others to notice his extraordinary nature."
+      }
+    },
+    {
+      "key": "geid_198_35",
+      "source": "event1737031808703_18",
+      "target": "event1737031870805_39",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event naturally follows Terry's first rainy afternoon, expanding on the association between rain and comfort by introducing a sense of community and external influence on his upbringing."
+      }
+    },
+    {
+      "key": "geid_198_36",
+      "source": "event1737031695283_1",
+      "target": "event1737031874625_40",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event directly follows Terry's first smile, as his parents were inspired by the joy of witnessing his milestone and sought to nurture their connection with him."
+      }
+    },
+    {
+      "key": "geid_198_37",
+      "source": "event1737031867049_38",
+      "target": "event1737031919980_41",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event follows Terry's 'First Cry of Perception' by illustrating an early familial adaptation to his unique cognitive traits, reinforcing their subtle emergence."
+      }
+    },
+    {
+      "key": "geid_198_38",
+      "source": "birth",
+      "target": "event1737031925399_42",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event follows Terry's birth, introducing Uncle Charles Alden and highlighting one of the earliest observations of Terry's unique cognitive traits."
+      }
+    },
+    {
+      "key": "geid_198_39",
+      "source": "event1737031867044_30",
+      "target": "event1737031930806_43",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event follows the serene moment of Terry awakening to the first light of morning by establishing an ongoing family tradition centered around the calming and inspiring presence of sunlight."
+      }
+    },
+    {
+      "key": "geid_198_40",
+      "source": "event1737031765644_17",
+      "target": "event1737031867045_31",
+      "attributes": {
+        "type": "INFLUENCES",
+        "description": "The soothing melody of the lullaby inspires the family to create playful and melodic wind chimes to hang around their home."
+      }
+    },
+    {
+      "key": "geid_198_41",
+      "source": "event1737031867045_32",
+      "target": "event1737031808703_19",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "The visit from a bird or small animal indirectly aids in pollination or spreading nutrients, which contributes to the tree's growth."
+      }
+    },
+    {
+      "key": "geid_198_42",
+      "source": "event1737031758852_12",
+      "target": "event1737031519759_3",
+      "attributes": {
+        "type": "ENABLES",
+        "description": "A neighbor at the picnic shares stories about the local library, sparking Terry's curiosity and prompting his first visit."
+      }
+    },
+    {
+      "key": "geid_198_43",
+      "source": "event1737031867045_35",
+      "target": "event1737031758852_12",
+      "attributes": {
+        "type": "INFLUENCES",
+        "description": "The sense of wonder and connection to nature during the starry night inspires Terry's family to participate in more community events, like the neighborhood picnic."
+      }
+    },
+    {
+      "key": "geid_198_44",
+      "source": "event1737031808703_22",
+      "target": "event1737031808703_23",
+      "attributes": {
+        "type": "INFLUENCES",
+        "description": "The clockmaker's intricate craftsmanship inspires the family to contribute creatively to the Winter Lantern Festival."
+      }
+    },
+    {
+      "key": "geid_198_45",
+      "source": "event1737031867045_34",
+      "target": "event1737031758858_15",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Terry's fascination with rediscovering the forgotten melody leads him to explore the connection between music and patterns at the workshop."
+      }
+    },
+    {
+      "key": "geid_198_47",
+      "source": "event1737031867049_38",
+      "target": "event1737031987057_51",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event directly follows 'The First Cry of Perception,' expanding on the observations of Terry's early rhythmic responses and establishing the foundation for his later affinity for patterns."
+      }
+    },
+    {
+      "key": "geid_198_48",
+      "source": "birth",
+      "target": "event1737031990646_52",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event directly follows Terry's birth, providing the first observable sign of his unique cognitive abilities and setting the stage for future recognition of his exceptional talent."
+      }
+    },
+    {
+      "key": "geid_198_49",
+      "source": "event1737031925399_42",
+      "target": "event1737031994616_53",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event follows the introduction of the geometric mobile by Uncle Charles and expands on its unexpected impact on Terry's early perceptual development."
+      }
+    },
+    {
+      "key": "geid_198_50",
+      "source": "event1737031867049_38",
+      "target": "event1737032051842_54",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event directly follows 'The First Cry of Perception,' showcasing the first meaningful interaction where Terry's unique cognitive wiring subtly influenced those around him."
+      }
+    },
+    {
+      "key": "geid_198_51",
+      "source": "birth",
+      "target": "event1737032057905_55",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event follows Terry's birth and builds upon the family's joy by introducing one of Terry's earliest social interactions, which begins to define his connection with others."
+      }
+    },
+    {
+      "key": "geid_198_52",
+      "source": "event1737031987057_51",
+      "target": "event1737032063439_56",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event builds on Terry's early affinity for rhythms and patterns observed by his mother and nurse Margaret Lawson, demonstrating his ability to apply these skills in a social and educational setting."
+      }
+    },
+    {
+      "key": "geid_198_53",
+      "source": "event1737031987053_44",
+      "target": "event1737031867045_31",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "The Chime Maker's visit inspires the creation of the playful wind chime, blending the artistry of sound with Terry's early sensory curiosity."
+      }
+    },
+    {
+      "key": "geid_198_54",
+      "source": "event1737031987053_45",
+      "target": "event1737031808705_27",
+      "attributes": {
+        "type": "ENABLES",
+        "description": "Terry's fascination with natural patterns from the maple leaf discovery sparks an interest in geometric forms, leading to the mobile experiment."
+      }
+    },
+    {
+      "key": "geid_198_55",
+      "source": "event1737031758852_10",
+      "target": "event1737031987053_46",
+      "attributes": {
+        "type": "INFLUENCES",
+        "description": "The serene experience in the meadow deepens Terry's sensory perception, making him more attuned to the mysterious sounds of the meadow."
+      }
+    },
+    {
+      "key": "geid_198_59",
+      "source": "event1737031867049_38",
+      "target": "event1737032127792_65",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event follows directly after Terry's rhythmic cries, providing another glimpse into his unique cognitive tendencies and hinting at his extraordinary capacity to focus on patterns."
+      }
+    },
+    {
+      "key": "geid_198_60",
+      "source": "birth",
+      "target": "event1737032133350_66",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event directly follows Terry's birth, as his parents begin to observe and adapt to his unique traits for the first time."
+      }
+    },
+    {
+      "key": "geid_198_61",
+      "source": "event1737031987057_51",
+      "target": "event1737032138153_67",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event directly follows Margaret Lawson's observation of Terry's rhythmic tendencies and expands on how this behavior fostered a bond between Elaine Alden and Margaret."
+      }
+    },
+    {
+      "key": "geid_198_62",
+      "source": "event1737031816386_29",
+      "target": "event1737031867045_31",
+      "attributes": {
+        "type": "ENABLES",
+        "description": "The act of planting the maple tree becomes a symbol of new beginnings, later inspiring the playful interaction with the wind chime."
+      }
+    },
+    {
+      "key": "geid_198_63",
+      "source": "event1737031701417_7",
+      "target": "event1737031808703_20",
+      "attributes": {
+        "type": "ENHANCES",
+        "description": "The friendship formed at the park lays the emotional groundwork for Terry's fascination with the mysterious butterfly."
+      }
+    },
+    {
+      "key": "geid_198_64",
+      "source": "event1737031987053_46",
+      "target": "event1737031867045_33",
+      "attributes": {
+        "type": "INFLUENCES",
+        "description": "The mysterious sound heard in the meadow leads Terry to explore further, resulting in the discovery of the hidden grove."
+      }
+    },
+    {
+      "key": "geid_198_65",
+      "source": "event1737032127783_64",
+      "target": "event1737031867045_37",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Solving the map puzzle prompts the professor to send a letter with further instructions and insights."
+      }
+    },
+    {
+      "key": "geid_198_66",
+      "source": "event1737032127783_60",
+      "target": "event1737031867045_34",
+      "attributes": {
+        "type": "INFLUENCES",
+        "description": "The intricate patterns and sounds associated with the lanterns evoke a forgotten melody in Terry's mind."
+      }
+    },
+    {
+      "key": "geid_198_67",
+      "source": "event1737031867049_38",
+      "target": "event1737032199250_75",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event follows directly from 'The First Cry of Perception,' expanding on Terry's early rhythmic tendencies as observed by nurse Margaret Lawson."
+      }
+    },
+    {
+      "key": "geid_198_68",
+      "source": "birth",
+      "target": "event1737032204414_76",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event directly follows Terry's birth and demonstrates the first observable sign of his interest in patterns, expanding on the early recognition of his unique cognitive traits."
+      }
+    },
+    {
+      "key": "geid_198_69",
+      "source": "event1737031987057_51",
+      "target": "event1737032211520_77",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event follows directly from the rhythmic observations made by nurse Margaret and Elaine Alden, expanding on how this discovery became a shared bonding experience for the family."
+      }
+    },
+    {
+      "key": "geid_198_70",
+      "source": "event1737031867049_38",
+      "target": "event1737032291830_78",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event directly follows 'The First Cry of Perception,' as nurse Margaret Lawson builds on her observation of Terry's unusual cries to offer advice that subtly impacts his upbringing."
+      }
+    },
+    {
+      "key": "geid_198_71",
+      "source": "birth",
+      "target": "event1737032296808_79",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event naturally follows Terry's birth and introduces an early connection with the community through Nurse Margaret Lawson, who plays a subtle yet pivotal role in shaping the family's approach to nurturing Terry's unique traits."
+      }
+    },
+    {
+      "key": "geid_198_72",
+      "source": "event1737031987057_51",
+      "target": "event1737032302185_80",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event follows from nurse Margaret Lawson's initial observations of Terry's rhythmic responses, expanding on her interaction with Elaine Alden and their shared efforts to engage with Terry's unique traits."
+      }
+    }
+  ]
+}

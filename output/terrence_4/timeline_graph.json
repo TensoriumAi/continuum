@@ -1,0 +1,21 @@
+{
+  "options": {
+    "type": "mixed",
+    "multi": false,
+    "allowSelfLoops": true
+  },
+  "attributes": {},
+  "nodes": [
+    {
+      "key": "birth",
+      "attributes": {
+        "name": "Birth of Terrence 'Terry' Caelum",
+        "timestamp": "1969-03-11T00:00:00-05:00",
+        "description": "Beginning of Terrence 'Terry' Caelum's story.",
+        "timeline": "main",
+        "expansion_prompt": "What were the circumstances surrounding Terrence 'Terry' Caelum's birth? Consider the environment, the people present, and any notable events or signs that accompanied their arrival."
+      }
+    }
+  ],
+  "edges": []
+}

@@ -7,6 +7,7 @@
     "start": "node server.js",
     "dev": "node --watch server.js",
     "expand": "node expand.js",
+    "extract-temporal": "node tools/extract_temporal.js",
     "new-character": "node tools/init_character.js -n \"entity_$(date +%s)\" -b \"$(date -v-25y +%Y-%m-%d)\" -c \"$(date +%Y-%m-%d)\" -p \"Generate a specific, unique character with concrete details. DO NOT list options - choose specific traits and elaborate on them. Example format: 'A former quantum physicist from [specific year] who discovered they were a synthetic being created by [specific group/entity]. They possess [2-3 specific abilities] due to [specific cause]. Their core drive is [specific goal] because [specific reason]. They are mentored by [specific character] who [specific detail about mentor]. A pivotal moment occurred when [specific event] which led to [specific consequence]. They now face the challenge of [specific problem] while trying to [specific goal].' Create your own character following this pattern of specific details, but make it completely different from this example. Focus on concrete details that make the character unique and memorable. Avoid placeholder text or lists of options.\"",
     "create-and-expand": "ID=$(date +%s) && npm run new-character -s -- -n \"entity_$ID\" -b \"$(date -v-25y +%Y-%m-%d)\" -c \"$(date +%Y-%m-%d)\" -p \"Generate a specific, unique character with concrete details...\" && npm run expand -s -- \"entity_$ID\""
   },
