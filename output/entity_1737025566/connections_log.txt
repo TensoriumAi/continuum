@@ -2312,3 +2312,1803 @@ Parsed Response:
 }
 
 Added 7 new connections
+
+=== NEW CONNECTIONS ATTEMPT 2025-01-16T11:21:13.970Z ===
+
+AI Response:
+{
+  "connections": [
+    {
+      "from": "event1737026448417_26",
+      "to": "event1737026336916_18",
+      "type": "ENABLES",
+      "description": "The harmonic resonance and synchronized light patterns in 'The Nebular Resonance's Birthsong' directly enabled the activation of the Luminal Key during 'The Luminal Key's Awakening,' establishing Kaelith's deeper connection to the nebula's cosmic mechanisms."
+    },
+    {
+      "from": "event1737026374045_20",
+      "to": "event1737026407031_23",
+      "type": "CAUSES",
+      "description": "The radiant cocoon of starlight in 'The Cosmic Chrysalis' caused the nebular energy surge in 'The Nebular Infusion,' as both events involve Kaelith's synchronization with the nebula's energy and the resulting activation of ancient glyphs."
+    },
+    {
+      "from": "event1737026378808_21",
+      "to": "event1737026452464_27",
+      "type": "PARALLELS",
+      "description": "'The Glyph's Resonant Awakening' and 'The Glyph's Harmonic Convergence' both involved shifting glyph patterns and harmonic resonance, reflecting recurring themes of Kaelith's influence on ancient mechanisms and their cosmic significance."
+    },
+    {
+      "from": "event1737026179862_6",
+      "to": "event1737025880878_31",
+      "type": "INFLUENCES",
+      "description": "The cascading energy waves observed in 'The Luminal Ripple' influenced the activation of crystalline glyphs and star map projections in 'The Glyph's Illumination,' deepening Kaelith's connection to ancient knowledge."
+    },
+    {
+      "from": "event1737026443421_25",
+      "to": "event1737025719268_18",
+      "type": "INFLUENCES",
+      "description": "The cascading wave of energy in 'The Celestial Reverberation' influenced the harmonic resonance and cosmic projections observed in 'The Cosmic Lullaby,' as both events expanded on Kaelith's role in stabilizing and revealing ancient galactic pathways."
+    },
+    {
+      "from": "event1737026176260_5",
+      "to": "event1737026213833_7",
+      "type": "CAUSES",
+      "description": "The luminous glyphs activated during 'The Celestial Glyph's First Light' caused the resonant light waves and glyph projections observed in 'The Celestial Resonance,' as both events emphasize Kaelith's awakening to their cosmic significance."
+    },
+    {
+      "from": "event1737025804237_23",
+      "to": "event1737025854657_28",
+      "type": "ENABLES",
+      "description": "The harmonic symphony of 'The Nebular Symphony' enabled the advanced projections and telepathic vision of a fractured galaxy in 'The Celestial Glyph's Resonance,' further solidifying Kaelith's connection to repairing galactic harmony."
+    },
+    {
+      "from": "event1737025617464_6",
+      "to": "event1737025661949_10",
+      "type": "INFLUENCES",
+      "description": "The energy cocoon in 'The Radiant Ascension' influenced the destabilization of cosmic harmonic energy in 'The Harmonic Collapse,' reflecting Kaelith's growing impact on the balance of celestial forces."
+    },
+    {
+      "from": "event1737025621237_7",
+      "to": "event1737026285679_13",
+      "type": "PARALLELS",
+      "description": "'The Nebula's Cry' and 'The Nebular Pulse' both involve rhythmic frequencies and cosmic reactions tied to Kaelith's birth, symbolizing recurring manifestations of their connection to the nebula's energy."
+    },
+    {
+      "from": "event1737025675802_12",
+      "to": "event1737025694748_16",
+      "type": "CAUSES",
+      "description": "The cascading light waves in 'The Trivara Cascade' caused the activation of the Celestial Prism's projections and harmonic hum in 'The Celestial Prism's Whisper,' deepening Kaelith's tie to ancient Luminara mechanisms and cosmic pathways."
+    }
+  ]
+}
+
+Parsed Response:
+{
+  "connections": [
+    {
+      "from": "event1737026448417_26",
+      "to": "event1737026336916_18",
+      "type": "ENABLES",
+      "description": "The harmonic resonance and synchronized light patterns in 'The Nebular Resonance's Birthsong' directly enabled the activation of the Luminal Key during 'The Luminal Key's Awakening,' establishing Kaelith's deeper connection to the nebula's cosmic mechanisms."
+    },
+    {
+      "from": "event1737026374045_20",
+      "to": "event1737026407031_23",
+      "type": "CAUSES",
+      "description": "The radiant cocoon of starlight in 'The Cosmic Chrysalis' caused the nebular energy surge in 'The Nebular Infusion,' as both events involve Kaelith's synchronization with the nebula's energy and the resulting activation of ancient glyphs."
+    },
+    {
+      "from": "event1737026378808_21",
+      "to": "event1737026452464_27",
+      "type": "PARALLELS",
+      "description": "'The Glyph's Resonant Awakening' and 'The Glyph's Harmonic Convergence' both involved shifting glyph patterns and harmonic resonance, reflecting recurring themes of Kaelith's influence on ancient mechanisms and their cosmic significance."
+    },
+    {
+      "from": "event1737026179862_6",
+      "to": "event1737025880878_31",
+      "type": "INFLUENCES",
+      "description": "The cascading energy waves observed in 'The Luminal Ripple' influenced the activation of crystalline glyphs and star map projections in 'The Glyph's Illumination,' deepening Kaelith's connection to ancient knowledge."
+    },
+    {
+      "from": "event1737026443421_25",
+      "to": "event1737025719268_18",
+      "type": "INFLUENCES",
+      "description": "The cascading wave of energy in 'The Celestial Reverberation' influenced the harmonic resonance and cosmic projections observed in 'The Cosmic Lullaby,' as both events expanded on Kaelith's role in stabilizing and revealing ancient galactic pathways."
+    },
+    {
+      "from": "event1737026176260_5",
+      "to": "event1737026213833_7",
+      "type": "CAUSES",
+      "description": "The luminous glyphs activated during 'The Celestial Glyph's First Light' caused the resonant light waves and glyph projections observed in 'The Celestial Resonance,' as both events emphasize Kaelith's awakening to their cosmic significance."
+    },
+    {
+      "from": "event1737025804237_23",
+      "to": "event1737025854657_28",
+      "type": "ENABLES",
+      "description": "The harmonic symphony of 'The Nebular Symphony' enabled the advanced projections and telepathic vision of a fractured galaxy in 'The Celestial Glyph's Resonance,' further solidifying Kaelith's connection to repairing galactic harmony."
+    },
+    {
+      "from": "event1737025617464_6",
+      "to": "event1737025661949_10",
+      "type": "INFLUENCES",
+      "description": "The energy cocoon in 'The Radiant Ascension' influenced the destabilization of cosmic harmonic energy in 'The Harmonic Collapse,' reflecting Kaelith's growing impact on the balance of celestial forces."
+    },
+    {
+      "from": "event1737025621237_7",
+      "to": "event1737026285679_13",
+      "type": "PARALLELS",
+      "description": "'The Nebula's Cry' and 'The Nebular Pulse' both involve rhythmic frequencies and cosmic reactions tied to Kaelith's birth, symbolizing recurring manifestations of their connection to the nebula's energy."
+    },
+    {
+      "from": "event1737025675802_12",
+      "to": "event1737025694748_16",
+      "type": "CAUSES",
+      "description": "The cascading light waves in 'The Trivara Cascade' caused the activation of the Celestial Prism's projections and harmonic hum in 'The Celestial Prism's Whisper,' deepening Kaelith's tie to ancient Luminara mechanisms and cosmic pathways."
+    }
+  ]
+}
+
+Added 8 new connections
+
+=== NEW CONNECTIONS ATTEMPT 2025-01-16T11:26:07.257Z ===
+
+AI Response:
+```json
+{
+  "connections": [
+    {
+      "from": "event1737026448417_26",
+      "to": "event1737026243027_10",
+      "type": "INFLUENCES",
+      "description": "The intricate glyphs and harmonic resonance during 'The Nebular Resonance's Birthsong' influenced the activation of ancient glyphs in 'The Nebular Awakening,' as both events reflect Kaelith's deepening synchronization with the nebula's energy and its latent mechanisms."
+    },
+    {
+      "from": "event1737025880878_31",
+      "to": "event1737025674217_15",
+      "type": "PARALLELS",
+      "description": "'The Glyph's Illumination' and 'The Starlight Convergence' both involve the projection of star maps and galactic coordinates, symbolizing recurring themes of Kaelith's connection to ancient pathways and their role in uncovering lost knowledge."
+    },
+    {
+      "from": "event1737025774053_22",
+      "to": "event1737026218640_8",
+      "type": "CAUSES",
+      "description": "The stabilization of energy fields in 'The Harmonic Veil' likely caused the focused radiant energy beam observed in 'The Celestial Infusion,' as both events reflect Kaelith's growing influence on the nebula's energetic balance."
+    },
+    {
+      "from": "event1737026443421_25",
+      "to": "event1737026485026_30",
+      "type": "INFLUENCES",
+      "description": "The cascading wave of energy in 'The Celestial Reverberation' influenced the emergence of the Eryndor Sigil and the projection of uncharted star maps during 'The Radiant Convergence,' as both events highlight Kaelith's role in activating ancient Luminara mechanisms."
+    },
+    {
+      "from": "event1737025714947_17",
+      "to": "event1737026148471_2",
+      "type": "PARALLELS",
+      "description": "'The Nebular Resonance' and 'The Stellar Convergence' both involve harmonic frequencies and alignment phenomena tied to Kaelith's birth, symbolizing interconnected cosmic responses to their presence and foreshadowing their destined role."
+    },
+    {
+      "from": "event1737025665802_12",
+      "to": "event1737025723217_19",
+      "type": "ENABLES",
+      "description": "The cascading light waves and glyph activation during 'The Trivara Cascade' enabled the dynamic star maps and sigil revelations in 'The Crystalline Revelation,' further cementing Kaelith's connection to ancient cosmic truths."
+    },
+    {
+      "from": "event1737025617460_4",
+      "to": "event1737025661949_10",
+      "type": "CAUSES",
+      "description": "The crystalline manifestations in 'The Shardfall Prophecy' directly caused the destabilization observed in 'The Harmonic Collapse,' reflecting Kaelith's growing impact on cosmic balances and celestial forces."
+    },
+    {
+      "from": "event1737025764122_20",
+      "to": "event1737025593494_2",
+      "type": "INFLUENCES",
+      "description": "The interconnected light lattice and synchronized energy in 'The Nebular Offering' influenced the gravitational anomalies and energy flux described in 'The Nebular Omen,' as both events highlight Kaelith's expanding cosmic significance."
+    },
+    {
+      "from": "event1737025872823_29",
+      "to": "event1737026213833_7",
+      "type": "PARALLELS",
+      "description": "'The Nebular Ripple' and 'The Celestial Resonance' both depict energy waves and harmonic phenomena that project ancient knowledge, symbolizing recurring reactions of the nebula to Kaelith's presence."
+    },
+    {
+      "from": "event1737025804227_23",
+      "to": "event1737026285679_13",
+      "type": "CAUSES",
+      "description": "The harmonic light pulses in 'The Nebular Symphony' likely caused the rhythmic pulsations and glyph activations observed in 'The Nebular Pulse,' as both events reflect the nebula's recognition of Kaelith's birth."
+    }
+  ]
+}
+```
+
+Parsed Response:
+{
+  "connections": [
+    {
+      "from": "event1737026448417_26",
+      "to": "event1737026243027_10",
+      "type": "INFLUENCES",
+      "description": "The intricate glyphs and harmonic resonance during 'The Nebular Resonance's Birthsong' influenced the activation of ancient glyphs in 'The Nebular Awakening,' as both events reflect Kaelith's deepening synchronization with the nebula's energy and its latent mechanisms."
+    },
+    {
+      "from": "event1737025880878_31",
+      "to": "event1737025674217_15",
+      "type": "PARALLELS",
+      "description": "'The Glyph's Illumination' and 'The Starlight Convergence' both involve the projection of star maps and galactic coordinates, symbolizing recurring themes of Kaelith's connection to ancient pathways and their role in uncovering lost knowledge."
+    },
+    {
+      "from": "event1737025774053_22",
+      "to": "event1737026218640_8",
+      "type": "CAUSES",
+      "description": "The stabilization of energy fields in 'The Harmonic Veil' likely caused the focused radiant energy beam observed in 'The Celestial Infusion,' as both events reflect Kaelith's growing influence on the nebula's energetic balance."
+    },
+    {
+      "from": "event1737026443421_25",
+      "to": "event1737026485026_30",
+      "type": "INFLUENCES",
+      "description": "The cascading wave of energy in 'The Celestial Reverberation' influenced the emergence of the Eryndor Sigil and the projection of uncharted star maps during 'The Radiant Convergence,' as both events highlight Kaelith's role in activating ancient Luminara mechanisms."
+    },
+    {
+      "from": "event1737025714947_17",
+      "to": "event1737026148471_2",
+      "type": "PARALLELS",
+      "description": "'The Nebular Resonance' and 'The Stellar Convergence' both involve harmonic frequencies and alignment phenomena tied to Kaelith's birth, symbolizing interconnected cosmic responses to their presence and foreshadowing their destined role."
+    },
+    {
+      "from": "event1737025665802_12",
+      "to": "event1737025723217_19",
+      "type": "ENABLES",
+      "description": "The cascading light waves and glyph activation during 'The Trivara Cascade' enabled the dynamic star maps and sigil revelations in 'The Crystalline Revelation,' further cementing Kaelith's connection to ancient cosmic truths."
+    },
+    {
+      "from": "event1737025617460_4",
+      "to": "event1737025661949_10",
+      "type": "CAUSES",
+      "description": "The crystalline manifestations in 'The Shardfall Prophecy' directly caused the destabilization observed in 'The Harmonic Collapse,' reflecting Kaelith's growing impact on cosmic balances and celestial forces."
+    },
+    {
+      "from": "event1737025764122_20",
+      "to": "event1737025593494_2",
+      "type": "INFLUENCES",
+      "description": "The interconnected light lattice and synchronized energy in 'The Nebular Offering' influenced the gravitational anomalies and energy flux described in 'The Nebular Omen,' as both events highlight Kaelith's expanding cosmic significance."
+    },
+    {
+      "from": "event1737025872823_29",
+      "to": "event1737026213833_7",
+      "type": "PARALLELS",
+      "description": "'The Nebular Ripple' and 'The Celestial Resonance' both depict energy waves and harmonic phenomena that project ancient knowledge, symbolizing recurring reactions of the nebula to Kaelith's presence."
+    },
+    {
+      "from": "event1737025804227_23",
+      "to": "event1737026285679_13",
+      "type": "CAUSES",
+      "description": "The harmonic light pulses in 'The Nebular Symphony' likely caused the rhythmic pulsations and glyph activations observed in 'The Nebular Pulse,' as both events reflect the nebula's recognition of Kaelith's birth."
+    }
+  ]
+}
+
+Added 7 new connections
+
+=== NEW CONNECTIONS ATTEMPT 2025-01-16T11:26:36.985Z ===
+
+AI Response:
+{
+  "connections": [
+    {
+      "from": "event1737026479994_29",
+      "to": "event1737026775547_3",
+      "type": "CAUSES",
+      "description": "The activation of dormant glyphs and star maps during 'The Nebular Genesis' likely triggered the subsequent awakening of the Celestial Prism in 'The Celestial Prism's Awakening,' as both events involve the reactivation of ancient mechanisms tied to Kaelith's presence."
+    },
+    {
+      "from": "event1737026448417_26",
+      "to": "event1737026473979_28",
+      "type": "INFLUENCES",
+      "description": "The harmonic resonance and projection of uncharted star maps during 'The Nebular Resonance's Birthsong' influenced the cascading light pulses and synchronization with Kaelith's patterns in 'The Nebular Convergence,' highlighting interconnected cosmic reactions to Kaelith's emergence."
+    },
+    {
+      "from": "event1737026374045_20",
+      "to": "event1737026213833_7",
+      "type": "ENABLES",
+      "description": "The radiant cocoon of starlight and harmonic synchronization in 'The Cosmic Chrysalis' enabled the cascading resonances and star map projections during 'The Celestial Resonance,' emphasizing Kaelith's role in activating ancient mechanisms and uncovering galactic pathways."
+    },
+    {
+      "from": "event1737026243027_10",
+      "to": "event1737025617460_4",
+      "type": "PARALLELS",
+      "description": "'The Nebular Awakening' and 'The Shardfall Prophecy' both involve the manifestation of cosmic phenomena interpreted as omens tied to Kaelith's destiny, reflecting recurring themes of their emergence catalyzing galactic transformation."
+    },
+    {
+      "from": "event1737025661950_11",
+      "to": "event1737025624505_8",
+      "type": "INFLUENCES",
+      "description": "The surging energy and activation of ancient inscriptions during 'The Nebula's Resurgence' influenced the telepathic vision and mechanism activation in 'The Luminal Awakening,' as both events reflect Kaelith's growing synchronization with dormant galactic forces."
+    }
+  ]
+}
+
+Parsed Response:
+{
+  "connections": [
+    {
+      "from": "event1737026479994_29",
+      "to": "event1737026775547_3",
+      "type": "CAUSES",
+      "description": "The activation of dormant glyphs and star maps during 'The Nebular Genesis' likely triggered the subsequent awakening of the Celestial Prism in 'The Celestial Prism's Awakening,' as both events involve the reactivation of ancient mechanisms tied to Kaelith's presence."
+    },
+    {
+      "from": "event1737026448417_26",
+      "to": "event1737026473979_28",
+      "type": "INFLUENCES",
+      "description": "The harmonic resonance and projection of uncharted star maps during 'The Nebular Resonance's Birthsong' influenced the cascading light pulses and synchronization with Kaelith's patterns in 'The Nebular Convergence,' highlighting interconnected cosmic reactions to Kaelith's emergence."
+    },
+    {
+      "from": "event1737026374045_20",
+      "to": "event1737026213833_7",
+      "type": "ENABLES",
+      "description": "The radiant cocoon of starlight and harmonic synchronization in 'The Cosmic Chrysalis' enabled the cascading resonances and star map projections during 'The Celestial Resonance,' emphasizing Kaelith's role in activating ancient mechanisms and uncovering galactic pathways."
+    },
+    {
+      "from": "event1737026243027_10",
+      "to": "event1737025617460_4",
+      "type": "PARALLELS",
+      "description": "'The Nebular Awakening' and 'The Shardfall Prophecy' both involve the manifestation of cosmic phenomena interpreted as omens tied to Kaelith's destiny, reflecting recurring themes of their emergence catalyzing galactic transformation."
+    },
+    {
+      "from": "event1737025661950_11",
+      "to": "event1737025624505_8",
+      "type": "INFLUENCES",
+      "description": "The surging energy and activation of ancient inscriptions during 'The Nebula's Resurgence' influenced the telepathic vision and mechanism activation in 'The Luminal Awakening,' as both events reflect Kaelith's growing synchronization with dormant galactic forces."
+    }
+  ]
+}
+
+Added 4 new connections
+
+=== NEW CONNECTIONS ATTEMPT 2025-01-16T11:27:13.441Z ===
+
+AI Response:
+{
+  "connections": [
+    {
+      "from": "event1737026448417_26",
+      "to": "event1737026407031_23",
+      "type": "INFLUENCES",
+      "description": "The harmonic resonance and projections of uncharted star maps during 'The Nebular Resonance's Birthsong' directly influenced the nebular energy infusion and synchronization observed in 'The Nebular Infusion,' as both events showcase Kaelith's growing alignment with the Trivara Nebula's latent forces."
+    },
+    {
+      "from": "event1737026248022_11",
+      "to": "event1737026378808_21",
+      "type": "CAUSES",
+      "description": "The immense cosmic energy field from 'The Celestial Veil's Unfolding' caused the glyphs in 'The Glyph's Resonant Awakening' to activate, projecting new holographic symbols and initiating Kaelith's deeper connection to ancient mechanisms."
+    },
+    {
+      "from": "event1737026176260_5",
+      "to": "event1737025880878_31",
+      "type": "PARALLELS",
+      "description": "'The Celestial Glyph's First Light' and 'The Glyph's Illumination' both involve the projection of star maps and glyph activations, reflecting concurrent themes of Kaelith's emergence unlocking hidden knowledge and galactic coordinates."
+    },
+    {
+      "from": "event1737025854657_28",
+      "to": "event1737025774053_22",
+      "type": "ENABLES",
+      "description": "The activation of the Luminal Key and telepathic visions in 'The Celestial Glyph's Resonance' enabled the stabilization and protective energy barrier seen in 'The Harmonic Veil,' establishing Kaelith's role in safeguarding the nebula's stability."
+    },
+    {
+      "from": "event1737025665802_12",
+      "to": "event1737025694748_16",
+      "type": "INFLUENCES",
+      "description": "The cascading light waves and glyph projections in 'The Trivara Cascade' influenced the harmonic resonance and star chart revelations in 'The Celestial Prism's Whisper,' further connecting Kaelith to the galaxy's hidden pathways."
+    },
+    {
+      "from": "event1737026218640_8",
+      "to": "event1737026812922_6",
+      "type": "CAUSES",
+      "description": "The intense energy beam and glyph synchronization of 'The Celestial Infusion' caused the rhythmic pulse and linked projections observed in 'The Celestial Pulse's Awakening,' emphasizing Kaelith's growing influence on cosmic mechanisms."
+    },
+    {
+      "from": "event1737025813329_25",
+      "to": "event1737026213833_7",
+      "type": "PARALLELS",
+      "description": "'The Glyph's Awakening' and 'The Celestial Resonance' both depict glyph activations and shared telepathic visions tied to Kaelith's presence, highlighting recurring themes of their role in revealing ancient knowledge and stabilizing cosmic forces."
+    },
+    {
+      "from": "event1737026223277_9",
+      "to": "event1737026148471_2",
+      "type": "ENABLES",
+      "description": "The harmonic alignment and the star map projections from 'The Glyph's Resonance' enabled the synchronized radiant lattice formation during 'The Stellar Convergence,' further cementing Kaelith's connection to cosmic energy and ancient pathways."
+    },
+    {
+      "from": "event1737026374045_20",
+      "to": "event1737026443421_25",
+      "type": "CAUSES",
+      "description": "The radiant cocoon of starlight in 'The Cosmic Chrysalis' directly caused the cascading wave of energy in 'The Celestial Reverberation,' further indicating Kaelith's ability to catalyze galaxy-wide phenomena through their connection to the nebula."
+    },
+    {
+      "from": "event1737025880878_31",
+      "to": "event1737025854657_28",
+      "type": "INFLUENCES",
+      "description": "The holographic projections and crystalline stabilization during 'The Glyph's Illumination' influenced the telepathic vision and activation of the Luminal Key in 'The Celestial Glyph's Resonance,' linking Kaelith's presence to the nebula's ancient mechanisms."
+    }
+  ]
+}
+
+Parsed Response:
+{
+  "connections": [
+    {
+      "from": "event1737026448417_26",
+      "to": "event1737026407031_23",
+      "type": "INFLUENCES",
+      "description": "The harmonic resonance and projections of uncharted star maps during 'The Nebular Resonance's Birthsong' directly influenced the nebular energy infusion and synchronization observed in 'The Nebular Infusion,' as both events showcase Kaelith's growing alignment with the Trivara Nebula's latent forces."
+    },
+    {
+      "from": "event1737026248022_11",
+      "to": "event1737026378808_21",
+      "type": "CAUSES",
+      "description": "The immense cosmic energy field from 'The Celestial Veil's Unfolding' caused the glyphs in 'The Glyph's Resonant Awakening' to activate, projecting new holographic symbols and initiating Kaelith's deeper connection to ancient mechanisms."
+    },
+    {
+      "from": "event1737026176260_5",
+      "to": "event1737025880878_31",
+      "type": "PARALLELS",
+      "description": "'The Celestial Glyph's First Light' and 'The Glyph's Illumination' both involve the projection of star maps and glyph activations, reflecting concurrent themes of Kaelith's emergence unlocking hidden knowledge and galactic coordinates."
+    },
+    {
+      "from": "event1737025854657_28",
+      "to": "event1737025774053_22",
+      "type": "ENABLES",
+      "description": "The activation of the Luminal Key and telepathic visions in 'The Celestial Glyph's Resonance' enabled the stabilization and protective energy barrier seen in 'The Harmonic Veil,' establishing Kaelith's role in safeguarding the nebula's stability."
+    },
+    {
+      "from": "event1737025665802_12",
+      "to": "event1737025694748_16",
+      "type": "INFLUENCES",
+      "description": "The cascading light waves and glyph projections in 'The Trivara Cascade' influenced the harmonic resonance and star chart revelations in 'The Celestial Prism's Whisper,' further connecting Kaelith to the galaxy's hidden pathways."
+    },
+    {
+      "from": "event1737026218640_8",
+      "to": "event1737026812922_6",
+      "type": "CAUSES",
+      "description": "The intense energy beam and glyph synchronization of 'The Celestial Infusion' caused the rhythmic pulse and linked projections observed in 'The Celestial Pulse's Awakening,' emphasizing Kaelith's growing influence on cosmic mechanisms."
+    },
+    {
+      "from": "event1737025813329_25",
+      "to": "event1737026213833_7",
+      "type": "PARALLELS",
+      "description": "'The Glyph's Awakening' and 'The Celestial Resonance' both depict glyph activations and shared telepathic visions tied to Kaelith's presence, highlighting recurring themes of their role in revealing ancient knowledge and stabilizing cosmic forces."
+    },
+    {
+      "from": "event1737026223277_9",
+      "to": "event1737026148471_2",
+      "type": "ENABLES",
+      "description": "The harmonic alignment and the star map projections from 'The Glyph's Resonance' enabled the synchronized radiant lattice formation during 'The Stellar Convergence,' further cementing Kaelith's connection to cosmic energy and ancient pathways."
+    },
+    {
+      "from": "event1737026374045_20",
+      "to": "event1737026443421_25",
+      "type": "CAUSES",
+      "description": "The radiant cocoon of starlight in 'The Cosmic Chrysalis' directly caused the cascading wave of energy in 'The Celestial Reverberation,' further indicating Kaelith's ability to catalyze galaxy-wide phenomena through their connection to the nebula."
+    },
+    {
+      "from": "event1737025880878_31",
+      "to": "event1737025854657_28",
+      "type": "INFLUENCES",
+      "description": "The holographic projections and crystalline stabilization during 'The Glyph's Illumination' influenced the telepathic vision and activation of the Luminal Key in 'The Celestial Glyph's Resonance,' linking Kaelith's presence to the nebula's ancient mechanisms."
+    }
+  ]
+}
+
+Added 6 new connections
+
+=== NEW CONNECTIONS ATTEMPT 2025-01-16T11:27:42.464Z ===
+
+AI Response:
+```json
+{
+  "connections": [
+    {
+      "from": "event1737026448417_26",
+      "to": "event1737026833453_7",
+      "type": "INFLUENCES",
+      "description": "The harmonic resonance and projected star maps in 'The Nebular Resonance's Birthsong' influenced the cascading light and synchronized glyph activations observed in 'The Nebular Convergence's First Light,' further establishing Kaelith's cosmic connection to ancient Luminara knowledge."
+    },
+    {
+      "from": "event1737026374045_20",
+      "to": "event1737026837812_8",
+      "type": "CAUSES",
+      "description": "The activation of harmonic frequencies and the crystalline cocoon in 'The Cosmic Chrysalis' created the conditions necessary for the Celestial Veil to shimmer and awaken in 'The Celestial Veil's Awakening,' linking Kaelith's emergence to the nebula's latent energy field."
+    },
+    {
+      "from": "event1737026392780_15",
+      "to": "event1737025850206_27",
+      "type": "PARALLELS",
+      "description": "'The Glyph's Shimmering Echo' and 'The Celestial Cradle' both involve harmonic telepathy and glyph activations that project galactic pathways, symbolizing recurring themes of Kaelith's role in uncovering cosmic truths and stabilizing fractured energy patterns."
+    },
+    {
+      "from": "event1737026771630_2",
+      "to": "event1737027407031_23",
+      "type": "ENABLES",
+      "description": "The singularity's harmonic pulses in 'The Celestial Singularity' enabled the nebular energy surge and glyph synchronization seen in 'The Nebular Infusion,' which deepened Kaelith's resonance with the Trivara Nebula."
+    },
+    {
+      "from": "event1737026378808_21",
+      "to": "event1737026485026_30",
+      "type": "INFLUENCES",
+      "description": "The shifting holographic star maps and glyph projections in 'The Glyph's Resonant Awakening' influenced the luminous convergence and harmonic lattice observed in 'The Radiant Convergence,' amplifying Kaelith's connection to ancient knowledge."
+    },
+    {
+      "from": "event1737026841849_9",
+      "to": "event1737026289294_14",
+      "type": "CAUSES",
+      "description": "The Celestial Prism's resonant call in 'The Celestial Prism's Resonant Call' directly catalyzed the radiant energy burst and synchronized projections seen in 'The Nebular Radiance,' connecting ancient mechanisms to Kaelith's emergence."
+    },
+    {
+      "from": "event1737025880878_31",
+      "to": "event1737026218640_8",
+      "type": "ENABLES",
+      "description": "The activation of glyphs and holographic symbols in 'The Glyph's Illumination' enabled the starlight infusion and nebular beam synchronization seen in 'The Celestial Infusion,' further linking Kaelith to cosmic energies."
+    },
+    {
+      "from": "event1737026176260_5",
+      "to": "event1737025790947_17",
+      "type": "PARALLELS",
+      "description": "'The Celestial Glyph's First Light' and 'The Nebular Resonance' both depict harmonic frequencies and glyph activations tied to Kaelith's presence, symbolizing interconnected cosmic responses to their emergence."
+    },
+    {
+      "from": "event1737026473979_28",
+      "to": "event1737025690817_15",
+      "type": "INFLUENCES",
+      "description": "The cascading light pulses and synchronized energy from 'The Nebular Convergence' influenced the alignment and radiant lattice observed in 'The Starlight Convergence,' further reflecting Kaelith's role in cosmic harmonization."
+    },
+    {
+      "from": "event1737026807121_5",
+      "to": "event1737026837812_8",
+      "type": "CAUSES",
+      "description": "The cascading wave of light and harmonic resonance in 'The Nebular Convergence's First Light' caused the shimmering Veil activation and glyph oscillations in 'The Celestial Veil's Awakening,' as both events showcase Kaelith's alignment with ancient mechanisms."
+    }
+  ]
+}
+```
+
+Parsed Response:
+{
+  "connections": [
+    {
+      "from": "event1737026448417_26",
+      "to": "event1737026833453_7",
+      "type": "INFLUENCES",
+      "description": "The harmonic resonance and projected star maps in 'The Nebular Resonance's Birthsong' influenced the cascading light and synchronized glyph activations observed in 'The Nebular Convergence's First Light,' further establishing Kaelith's cosmic connection to ancient Luminara knowledge."
+    },
+    {
+      "from": "event1737026374045_20",
+      "to": "event1737026837812_8",
+      "type": "CAUSES",
+      "description": "The activation of harmonic frequencies and the crystalline cocoon in 'The Cosmic Chrysalis' created the conditions necessary for the Celestial Veil to shimmer and awaken in 'The Celestial Veil's Awakening,' linking Kaelith's emergence to the nebula's latent energy field."
+    },
+    {
+      "from": "event1737026392780_15",
+      "to": "event1737025850206_27",
+      "type": "PARALLELS",
+      "description": "'The Glyph's Shimmering Echo' and 'The Celestial Cradle' both involve harmonic telepathy and glyph activations that project galactic pathways, symbolizing recurring themes of Kaelith's role in uncovering cosmic truths and stabilizing fractured energy patterns."
+    },
+    {
+      "from": "event1737026771630_2",
+      "to": "event1737027407031_23",
+      "type": "ENABLES",
+      "description": "The singularity's harmonic pulses in 'The Celestial Singularity' enabled the nebular energy surge and glyph synchronization seen in 'The Nebular Infusion,' which deepened Kaelith's resonance with the Trivara Nebula."
+    },
+    {
+      "from": "event1737026378808_21",
+      "to": "event1737026485026_30",
+      "type": "INFLUENCES",
+      "description": "The shifting holographic star maps and glyph projections in 'The Glyph's Resonant Awakening' influenced the luminous convergence and harmonic lattice observed in 'The Radiant Convergence,' amplifying Kaelith's connection to ancient knowledge."
+    },
+    {
+      "from": "event1737026841849_9",
+      "to": "event1737026289294_14",
+      "type": "CAUSES",
+      "description": "The Celestial Prism's resonant call in 'The Celestial Prism's Resonant Call' directly catalyzed the radiant energy burst and synchronized projections seen in 'The Nebular Radiance,' connecting ancient mechanisms to Kaelith's emergence."
+    },
+    {
+      "from": "event1737025880878_31",
+      "to": "event1737026218640_8",
+      "type": "ENABLES",
+      "description": "The activation of glyphs and holographic symbols in 'The Glyph's Illumination' enabled the starlight infusion and nebular beam synchronization seen in 'The Celestial Infusion,' further linking Kaelith to cosmic energies."
+    },
+    {
+      "from": "event1737026176260_5",
+      "to": "event1737025790947_17",
+      "type": "PARALLELS",
+      "description": "'The Celestial Glyph's First Light' and 'The Nebular Resonance' both depict harmonic frequencies and glyph activations tied to Kaelith's presence, symbolizing interconnected cosmic responses to their emergence."
+    },
+    {
+      "from": "event1737026473979_28",
+      "to": "event1737025690817_15",
+      "type": "INFLUENCES",
+      "description": "The cascading light pulses and synchronized energy from 'The Nebular Convergence' influenced the alignment and radiant lattice observed in 'The Starlight Convergence,' further reflecting Kaelith's role in cosmic harmonization."
+    },
+    {
+      "from": "event1737026807121_5",
+      "to": "event1737026837812_8",
+      "type": "CAUSES",
+      "description": "The cascading wave of light and harmonic resonance in 'The Nebular Convergence's First Light' caused the shimmering Veil activation and glyph oscillations in 'The Celestial Veil's Awakening,' as both events showcase Kaelith's alignment with ancient mechanisms."
+    }
+  ]
+}
+
+Added 7 new connections
+
+=== NEW CONNECTIONS ATTEMPT 2025-01-16T11:28:07.375Z ===
+
+AI Response:
+{
+  "connections": [
+    {
+      "from": "event1737025674948_16",
+      "to": "event1737025831203_13",
+      "type": "ENHANCES",
+      "description": "The synchronized activation of the Celestial Glyphs during 'The Nebular Radiance' likely amplified the telepathic resonance and map projection in 'The Luminal Key's Awakening,' suggesting a deeper mutual reinforcement of ancient mechanisms tied to Kaelith's emergence."
+    },
+    {
+      "from": "event1737025624505_8",
+      "to": "event1737025831203_12",
+      "type": "CAUSES",
+      "description": "The shared telepathic vision and activation of unknown mechanisms during 'The Luminal Awakening' directly propelled the glyph illumination and star map projection observed in 'The Glyph's Illumination,' solidifying Kaelith's role as a key to ancient knowledge."
+    },
+    {
+      "from": "event1737026872887_12",
+      "to": "event1737026841849_9",
+      "type": "ENHANCES",
+      "description": "The activation of ancient glyphs in 'The Nebular Cradle's Awakening' enhanced the resonance and projection capabilities of the Celestial Prism in 'The Celestial Prism's Resonant Call,' further linking Kaelith to the galaxy's hidden truths."
+    },
+    {
+      "from": "event1737026807121_5",
+      "to": "event1737026872887_12",
+      "type": "CAUSES",
+      "description": "The cascading light ripples and harmonic synchronization during 'The Nebular Convergence's First Light' directly triggered the glyph awakening and energy resonance in 'The Nebular Cradle's Awakening,' emphasizing Kaelith's growing influence on ancient mechanisms."
+    }
+  ]
+}
+
+Parsed Response:
+{
+  "connections": [
+    {
+      "from": "event1737025674948_16",
+      "to": "event1737025831203_13",
+      "type": "ENHANCES",
+      "description": "The synchronized activation of the Celestial Glyphs during 'The Nebular Radiance' likely amplified the telepathic resonance and map projection in 'The Luminal Key's Awakening,' suggesting a deeper mutual reinforcement of ancient mechanisms tied to Kaelith's emergence."
+    },
+    {
+      "from": "event1737025624505_8",
+      "to": "event1737025831203_12",
+      "type": "CAUSES",
+      "description": "The shared telepathic vision and activation of unknown mechanisms during 'The Luminal Awakening' directly propelled the glyph illumination and star map projection observed in 'The Glyph's Illumination,' solidifying Kaelith's role as a key to ancient knowledge."
+    },
+    {
+      "from": "event1737026872887_12",
+      "to": "event1737026841849_9",
+      "type": "ENHANCES",
+      "description": "The activation of ancient glyphs in 'The Nebular Cradle's Awakening' enhanced the resonance and projection capabilities of the Celestial Prism in 'The Celestial Prism's Resonant Call,' further linking Kaelith to the galaxy's hidden truths."
+    },
+    {
+      "from": "event1737026807121_5",
+      "to": "event1737026872887_12",
+      "type": "CAUSES",
+      "description": "The cascading light ripples and harmonic synchronization during 'The Nebular Convergence's First Light' directly triggered the glyph awakening and energy resonance in 'The Nebular Cradle's Awakening,' emphasizing Kaelith's growing influence on ancient mechanisms."
+    }
+  ]
+}
+
+Added 2 new connections
+
+=== NEW CONNECTIONS ATTEMPT 2025-01-16T11:28:32.459Z ===
+
+AI Response:
+```json
+{
+  "connections": [
+    {
+      "from": "event1737026833453_7",
+      "to": "event1737026837812_8",
+      "type": "INFLUENCES",
+      "description": "The cascading light and harmonic resonance during 'The Nebular Convergence's First Light' influenced the activation of the Celestial Veil observed in 'The Celestial Veil's Awakening,' showcasing the interplay between Kaelith's emergence and ancient Luminara mechanisms."
+    },
+    {
+      "from": "event1737026374045_20",
+      "to": "event1737026807121_5",
+      "type": "PARALLELS",
+      "description": "Both 'The Cosmic Chrysalis' and 'The Nebular Convergence's First Light' depict synchronized harmonic energy responses tied to Kaelith's birth, reflecting recurring themes of cosmic alignment and ancient glyph activations."
+    },
+    {
+      "from": "event1737026712922_6",
+      "to": "event1737025880878_31",
+      "type": "ENABLES",
+      "description": "The harmonic resonance and star map projection from 'The Celestial Pulse's Awakening' enabled the glyph illumination and deeper star chart revelations of 'The Glyph's Illumination,' deepening Kaelith's connection to ancient cosmic pathways."
+    },
+    {
+      "from": "event1737026448417_26",
+      "to": "event1737026872887_12",
+      "type": "CAUSES",
+      "description": "The harmonic light and sound waves during 'The Nebular Resonance's Birthsong' caused the activation of dormant glyphs in 'The Nebular Cradle's Awakening,' further solidifying Kaelith's influence on ancient mechanisms."
+    },
+    {
+      "from": "event1737026891738_14",
+      "to": "event1737026378808_21",
+      "type": "ENHANCES",
+      "description": "The synchronized pulse of energy from 'The Luminal Key's First Pulse' enhanced the subsequent glyph rearrangements and projections in 'The Glyph's Resonant Awakening,' amplifying Kaelith's connection to the galaxy's fractured pathways."
+    }
+  ]
+}
+```
+
+Parsed Response:
+{
+  "connections": [
+    {
+      "from": "event1737026833453_7",
+      "to": "event1737026837812_8",
+      "type": "INFLUENCES",
+      "description": "The cascading light and harmonic resonance during 'The Nebular Convergence's First Light' influenced the activation of the Celestial Veil observed in 'The Celestial Veil's Awakening,' showcasing the interplay between Kaelith's emergence and ancient Luminara mechanisms."
+    },
+    {
+      "from": "event1737026374045_20",
+      "to": "event1737026807121_5",
+      "type": "PARALLELS",
+      "description": "Both 'The Cosmic Chrysalis' and 'The Nebular Convergence's First Light' depict synchronized harmonic energy responses tied to Kaelith's birth, reflecting recurring themes of cosmic alignment and ancient glyph activations."
+    },
+    {
+      "from": "event1737026712922_6",
+      "to": "event1737025880878_31",
+      "type": "ENABLES",
+      "description": "The harmonic resonance and star map projection from 'The Celestial Pulse's Awakening' enabled the glyph illumination and deeper star chart revelations of 'The Glyph's Illumination,' deepening Kaelith's connection to ancient cosmic pathways."
+    },
+    {
+      "from": "event1737026448417_26",
+      "to": "event1737026872887_12",
+      "type": "CAUSES",
+      "description": "The harmonic light and sound waves during 'The Nebular Resonance's Birthsong' caused the activation of dormant glyphs in 'The Nebular Cradle's Awakening,' further solidifying Kaelith's influence on ancient mechanisms."
+    },
+    {
+      "from": "event1737026891738_14",
+      "to": "event1737026378808_21",
+      "type": "ENHANCES",
+      "description": "The synchronized pulse of energy from 'The Luminal Key's First Pulse' enhanced the subsequent glyph rearrangements and projections in 'The Glyph's Resonant Awakening,' amplifying Kaelith's connection to the galaxy's fractured pathways."
+    }
+  ]
+}
+
+Added 4 new connections
+
+=== NEW CONNECTIONS ATTEMPT 2025-01-16T11:29:03.036Z ===
+
+AI Response:
+{
+  "connections": [
+    {
+      "from": "event1737026473979_28",
+      "to": "event1737026917574_17",
+      "type": "CAUSES",
+      "description": "'The Nebular Convergence' set the stage for 'The Luminal Path's Revelation' by triggering cascading light pulses and glyph activations that revealed the star maps and telepathic chant. These phenomena directly enabled the elders' interpretation of Kaelith's path toward the galactic beacon."
+    },
+    {
+      "from": "event1737026336916_18",
+      "to": "event1737025880878_31",
+      "type": "ENABLES",
+      "description": "The activation of the 'Luminal Key' in 'The Luminal Key's Awakening' allowed the glyph projections in 'The Glyph's Illumination' to stabilize and reveal coherent star charts, linking Kaelith to ancient Luminara pathways."
+    },
+    {
+      "from": "birth",
+      "to": "event1737026292780_15",
+      "type": "INFLUENCES",
+      "description": "Kaelith's birth triggered the resonance and telepathic vision in 'The Glyph's Shimmering Echo,' directly influencing the unveiling of the fractured map and the elders' interpretation of Kaelith's destined role."
+    },
+    {
+      "from": "event1737026872887_12",
+      "to": "event1737026448417_26",
+      "type": "PARALLELS",
+      "description": "Both 'The Nebular Cradle's Awakening' and 'The Nebular Resonance's Birthsong' involve harmonic resonance and glyph activations tied to Kaelith's synchronization with the nebula. These events reflect recurring themes of their cosmic significance."
+    },
+    {
+      "from": "event1737026213833_7",
+      "to": "event1737025809238_24",
+      "type": "CAUSES",
+      "description": "The cascading resonant light waves in 'The Celestial Resonance' directly caused the harmonic symphony and star map projections in 'The Nebular Harmony,' amplifying Kaelith's influence on revealing ancient galactic truths."
+    },
+    {
+      "from": "event1737026448417_26",
+      "to": "event1737026452464_27",
+      "type": "ENHANCES",
+      "description": "The harmonic resonance and star map projections in 'The Nebular Resonance's Birthsong' enhanced the glyph synchronization and encoded frequencies observed in 'The Glyph's Harmonic Convergence,' deepening Kaelith's connection to ancient mechanisms."
+    },
+    {
+      "from": "event1737026374045_20",
+      "to": "event1737026837812_8",
+      "type": "CAUSES",
+      "description": "The energy cocoon formed during 'The Cosmic Chrysalis' caused the activation of the Celestial Veil in 'The Celestial Veil's Awakening,' as both events involve Kaelith's alignment with the nebula's latent energy fields."
+    },
+    {
+      "from": "event1737026148471_2",
+      "to": "event1737026872887_12",
+      "type": "ENABLES",
+      "description": "The alignment of the stars during 'The Stellar Convergence' enabled the harmonic resonance and glyph activation in 'The Nebular Cradle's Awakening,' further linking Kaelith to the nebula's ancient mechanisms."
+    },
+    {
+      "from": "event1737025804227_23",
+      "to": "event1737026285679_13",
+      "type": "INFLUENCES",
+      "description": "The harmonic symphony observed in 'The Nebular Symphony' influenced the pulsating waves and glyph activations during 'The Nebular Pulse,' as both events reflect the nebula's reaction to Kaelith's emergence."
+    },
+    {
+      "from": "event1737025836205_5",
+      "to": "event1737026378808_21",
+      "type": "PARALLELS",
+      "description": "Both 'The Celestial Infusion' and 'The Glyph's Resonant Awakening' involve harmonic projections and star maps that highlight Kaelith's emerging role as a bridge to galactic knowledge, showing recurring patterns of cosmic alignment."
+    }
+  ]
+}
+
+Parsed Response:
+{
+  "connections": [
+    {
+      "from": "event1737026473979_28",
+      "to": "event1737026917574_17",
+      "type": "CAUSES",
+      "description": "'The Nebular Convergence' set the stage for 'The Luminal Path's Revelation' by triggering cascading light pulses and glyph activations that revealed the star maps and telepathic chant. These phenomena directly enabled the elders' interpretation of Kaelith's path toward the galactic beacon."
+    },
+    {
+      "from": "event1737026336916_18",
+      "to": "event1737025880878_31",
+      "type": "ENABLES",
+      "description": "The activation of the 'Luminal Key' in 'The Luminal Key's Awakening' allowed the glyph projections in 'The Glyph's Illumination' to stabilize and reveal coherent star charts, linking Kaelith to ancient Luminara pathways."
+    },
+    {
+      "from": "birth",
+      "to": "event1737026292780_15",
+      "type": "INFLUENCES",
+      "description": "Kaelith's birth triggered the resonance and telepathic vision in 'The Glyph's Shimmering Echo,' directly influencing the unveiling of the fractured map and the elders' interpretation of Kaelith's destined role."
+    },
+    {
+      "from": "event1737026872887_12",
+      "to": "event1737026448417_26",
+      "type": "PARALLELS",
+      "description": "Both 'The Nebular Cradle's Awakening' and 'The Nebular Resonance's Birthsong' involve harmonic resonance and glyph activations tied to Kaelith's synchronization with the nebula. These events reflect recurring themes of their cosmic significance."
+    },
+    {
+      "from": "event1737026213833_7",
+      "to": "event1737025809238_24",
+      "type": "CAUSES",
+      "description": "The cascading resonant light waves in 'The Celestial Resonance' directly caused the harmonic symphony and star map projections in 'The Nebular Harmony,' amplifying Kaelith's influence on revealing ancient galactic truths."
+    },
+    {
+      "from": "event1737026448417_26",
+      "to": "event1737026452464_27",
+      "type": "ENHANCES",
+      "description": "The harmonic resonance and star map projections in 'The Nebular Resonance's Birthsong' enhanced the glyph synchronization and encoded frequencies observed in 'The Glyph's Harmonic Convergence,' deepening Kaelith's connection to ancient mechanisms."
+    },
+    {
+      "from": "event1737026374045_20",
+      "to": "event1737026837812_8",
+      "type": "CAUSES",
+      "description": "The energy cocoon formed during 'The Cosmic Chrysalis' caused the activation of the Celestial Veil in 'The Celestial Veil's Awakening,' as both events involve Kaelith's alignment with the nebula's latent energy fields."
+    },
+    {
+      "from": "event1737026148471_2",
+      "to": "event1737026872887_12",
+      "type": "ENABLES",
+      "description": "The alignment of the stars during 'The Stellar Convergence' enabled the harmonic resonance and glyph activation in 'The Nebular Cradle's Awakening,' further linking Kaelith to the nebula's ancient mechanisms."
+    },
+    {
+      "from": "event1737025804227_23",
+      "to": "event1737026285679_13",
+      "type": "INFLUENCES",
+      "description": "The harmonic symphony observed in 'The Nebular Symphony' influenced the pulsating waves and glyph activations during 'The Nebular Pulse,' as both events reflect the nebula's reaction to Kaelith's emergence."
+    },
+    {
+      "from": "event1737025836205_5",
+      "to": "event1737026378808_21",
+      "type": "PARALLELS",
+      "description": "Both 'The Celestial Infusion' and 'The Glyph's Resonant Awakening' involve harmonic projections and star maps that highlight Kaelith's emerging role as a bridge to galactic knowledge, showing recurring patterns of cosmic alignment."
+    }
+  ]
+}
+
+Added 6 new connections
+
+=== NEW CONNECTIONS ATTEMPT 2025-01-16T11:29:35.447Z ===
+
+AI Response:
+{
+  "connections": [
+    {
+      "from": "event1737026872887_12",
+      "to": "event1737026374045_20",
+      "type": "CAUSES",
+      "description": "The harmonic resonance and glyph activation within 'The Nebular Cradle's Awakening' set the stage for the radiant cocoon formation and energy synchronization described in 'The Cosmic Chrysalis.' These events collectively highlight the escalating interplay between Kaelith's presence and the nebula's ancient mechanisms."
+    },
+    {
+      "from": "event1737026443421_25",
+      "to": "event1737026887380_13",
+      "type": "ENHANCES",
+      "description": "The cascading energy wave in 'The Celestial Reverberation' amplified the encoded patterns and rhythmic pulses observed in 'The Nebular Beacon's Awakening,' further deepening the connection between Kaelith's emergence and the galactic signaling mechanisms."
+    },
+    {
+      "from": "event1737025809238_24",
+      "to": "event1737026850206_27",
+      "type": "INFLUENCES",
+      "description": "The harmonic symphony and light patterns in 'The Nebular Harmony' influenced the concentrated starlight beam and glyph activations observed in 'The Celestial Cradle,' as both events emphasize Kaelith's role in stabilizing the nebula's energy and unlocking ancient knowledge."
+    },
+    {
+      "from": "event1737026896421_15",
+      "to": "event1737026922732_18",
+      "type": "PARALLELS",
+      "description": "Both 'The Nebular Lattice's Emergence' and 'The Starlight Baptism' depict synchronized harmonic responses and glyph activations triggered by Kaelith's emergence, reflecting recurring themes of cosmic alignment and Kaelith's pivotal role in the Luminara's destiny."
+    },
+    {
+      "from": "event1737025665802_12",
+      "to": "event1737026943049_19",
+      "type": "ENABLES",
+      "description": "The cascading light waves in 'The Trivara Cascade' set the conditions for the harmonic symphony and telepathic resonance observed in 'The Radiant Chorus,' as both events showcase the nebula's response to Kaelith's presence and the projection of ancient pathways."
+    }
+  ]
+}
+
+Parsed Response:
+{
+  "connections": [
+    {
+      "from": "event1737026872887_12",
+      "to": "event1737026374045_20",
+      "type": "CAUSES",
+      "description": "The harmonic resonance and glyph activation within 'The Nebular Cradle's Awakening' set the stage for the radiant cocoon formation and energy synchronization described in 'The Cosmic Chrysalis.' These events collectively highlight the escalating interplay between Kaelith's presence and the nebula's ancient mechanisms."
+    },
+    {
+      "from": "event1737026443421_25",
+      "to": "event1737026887380_13",
+      "type": "ENHANCES",
+      "description": "The cascading energy wave in 'The Celestial Reverberation' amplified the encoded patterns and rhythmic pulses observed in 'The Nebular Beacon's Awakening,' further deepening the connection between Kaelith's emergence and the galactic signaling mechanisms."
+    },
+    {
+      "from": "event1737025809238_24",
+      "to": "event1737026850206_27",
+      "type": "INFLUENCES",
+      "description": "The harmonic symphony and light patterns in 'The Nebular Harmony' influenced the concentrated starlight beam and glyph activations observed in 'The Celestial Cradle,' as both events emphasize Kaelith's role in stabilizing the nebula's energy and unlocking ancient knowledge."
+    },
+    {
+      "from": "event1737026896421_15",
+      "to": "event1737026922732_18",
+      "type": "PARALLELS",
+      "description": "Both 'The Nebular Lattice's Emergence' and 'The Starlight Baptism' depict synchronized harmonic responses and glyph activations triggered by Kaelith's emergence, reflecting recurring themes of cosmic alignment and Kaelith's pivotal role in the Luminara's destiny."
+    },
+    {
+      "from": "event1737025665802_12",
+      "to": "event1737026943049_19",
+      "type": "ENABLES",
+      "description": "The cascading light waves in 'The Trivara Cascade' set the conditions for the harmonic symphony and telepathic resonance observed in 'The Radiant Chorus,' as both events showcase the nebula's response to Kaelith's presence and the projection of ancient pathways."
+    }
+  ]
+}
+
+Added 4 new connections
+
+=== NEW CONNECTIONS ATTEMPT 2025-01-16T11:30:08.649Z ===
+
+AI Response:
+{
+  "connections": [
+    {
+      "from": "event1737026833453_7",
+      "to": "event1737026917574_17",
+      "type": "CAUSES",
+      "description": "The cascading waves of light and the glyph activations in 'The Nebular Convergence's First Light' directly enabled the star maps and telepathic projections revealed in 'The Luminal Path's Revelation,' marking the next step in understanding Kaelith's cosmic connection."
+    },
+    {
+      "from": "event1737026917574_17",
+      "to": "event1737026975453_22",
+      "type": "INFLUENCES",
+      "description": "The star map and telepathic chant in 'The Luminal Path's Revelation' influenced the elders' declaration in 'The Nebular Elders' Declaration,' as the cosmic visions deepened their interpretation of Kaelith's role in the galaxy."
+    },
+    {
+      "from": "event1737026837812_8",
+      "to": "event1737026872887_12",
+      "type": "ENABLES",
+      "description": "The shimmering Veil activation in 'The Celestial Veil's Awakening' catalyzed the harmonic frequencies and glyph projection observed in 'The Nebular Cradle's Awakening,' advancing Kaelith's connection to the nebula's ancient mechanisms."
+    },
+    {
+      "from": "event1737026479994_29",
+      "to": "event1737026775547_3",
+      "type": "CAUSES",
+      "description": "The harmonic synchronization and energy waves in 'The Nebular Genesis' activated the Celestial Prism in 'The Celestial Prism's Awakening,' advancing the nebula's response to Kaelith's emergence."
+    },
+    {
+      "from": "event1737026448417_26",
+      "to": "event1737026922732_18",
+      "type": "INFLUENCES",
+      "description": "The harmonic resonance and cosmic symphony in 'The Nebular Resonance's Birthsong' influenced the projections and telepathic chant in 'The Starlight Baptism,' emphasizing Kaelith's growing connection to galactic harmony."
+    },
+    {
+      "from": "event1737025892780_15",
+      "to": "event1737026152410_3",
+      "type": "PARALLELS",
+      "description": "Both 'The Glyph's Shimmering Echo' and 'The Glyph's Resonant Call' involve telepathic phenomena and projections of ancient maps tied to Kaelith, showcasing parallel manifestations of their cosmic significance."
+    },
+    {
+      "from": "event1737025617460_4",
+      "to": "event1737025661949_10",
+      "type": "ENABLES",
+      "description": "The crystalline shards in 'The Shardfall Prophecy' laid the foundation for the destabilization of cosmic energies observed in 'The Harmonic Collapse,' linking Kaelith's emergence to escalating celestial strains."
+    },
+    {
+      "from": "event1737026812922_6",
+      "to": "event1737026952994_21",
+      "type": "CAUSES",
+      "description": "The rhythmic pulse and holographic projections in 'The Celestial Pulse's Awakening' directly triggered the amplified simulation and telepathic resonance observed in 'The Beacon's Resonant Call,' advancing Kaelith's journey."
+    },
+    {
+      "from": "event1737025719268_18",
+      "to": "event1737025804227_23",
+      "type": "INFLUENCES",
+      "description": "The harmonic resonance of 'The Cosmic Lullaby' influenced the amplified light pulses and sound waves of 'The Nebular Symphony,' reflecting an escalation in the nebula's response to Kaelith's emergence."
+    },
+    {
+      "from": "event1737025764122_20",
+      "to": "event1737025661950_11",
+      "type": "PARALLELS",
+      "description": "Both 'The Nebular Offering' and 'The Nebula's Resurgence' involve cascading energy phenomena and glyph activations tied to Kaelith's synchronization with the nebula, emphasizing recurring themes of ancient energies awakening."
+    }
+  ]
+}
+
+Parsed Response:
+{
+  "connections": [
+    {
+      "from": "event1737026833453_7",
+      "to": "event1737026917574_17",
+      "type": "CAUSES",
+      "description": "The cascading waves of light and the glyph activations in 'The Nebular Convergence's First Light' directly enabled the star maps and telepathic projections revealed in 'The Luminal Path's Revelation,' marking the next step in understanding Kaelith's cosmic connection."
+    },
+    {
+      "from": "event1737026917574_17",
+      "to": "event1737026975453_22",
+      "type": "INFLUENCES",
+      "description": "The star map and telepathic chant in 'The Luminal Path's Revelation' influenced the elders' declaration in 'The Nebular Elders' Declaration,' as the cosmic visions deepened their interpretation of Kaelith's role in the galaxy."
+    },
+    {
+      "from": "event1737026837812_8",
+      "to": "event1737026872887_12",
+      "type": "ENABLES",
+      "description": "The shimmering Veil activation in 'The Celestial Veil's Awakening' catalyzed the harmonic frequencies and glyph projection observed in 'The Nebular Cradle's Awakening,' advancing Kaelith's connection to the nebula's ancient mechanisms."
+    },
+    {
+      "from": "event1737026479994_29",
+      "to": "event1737026775547_3",
+      "type": "CAUSES",
+      "description": "The harmonic synchronization and energy waves in 'The Nebular Genesis' activated the Celestial Prism in 'The Celestial Prism's Awakening,' advancing the nebula's response to Kaelith's emergence."
+    },
+    {
+      "from": "event1737026448417_26",
+      "to": "event1737026922732_18",
+      "type": "INFLUENCES",
+      "description": "The harmonic resonance and cosmic symphony in 'The Nebular Resonance's Birthsong' influenced the projections and telepathic chant in 'The Starlight Baptism,' emphasizing Kaelith's growing connection to galactic harmony."
+    },
+    {
+      "from": "event1737025892780_15",
+      "to": "event1737026152410_3",
+      "type": "PARALLELS",
+      "description": "Both 'The Glyph's Shimmering Echo' and 'The Glyph's Resonant Call' involve telepathic phenomena and projections of ancient maps tied to Kaelith, showcasing parallel manifestations of their cosmic significance."
+    },
+    {
+      "from": "event1737025617460_4",
+      "to": "event1737025661949_10",
+      "type": "ENABLES",
+      "description": "The crystalline shards in 'The Shardfall Prophecy' laid the foundation for the destabilization of cosmic energies observed in 'The Harmonic Collapse,' linking Kaelith's emergence to escalating celestial strains."
+    },
+    {
+      "from": "event1737026812922_6",
+      "to": "event1737026952994_21",
+      "type": "CAUSES",
+      "description": "The rhythmic pulse and holographic projections in 'The Celestial Pulse's Awakening' directly triggered the amplified simulation and telepathic resonance observed in 'The Beacon's Resonant Call,' advancing Kaelith's journey."
+    },
+    {
+      "from": "event1737025719268_18",
+      "to": "event1737025804227_23",
+      "type": "INFLUENCES",
+      "description": "The harmonic resonance of 'The Cosmic Lullaby' influenced the amplified light pulses and sound waves of 'The Nebular Symphony,' reflecting an escalation in the nebula's response to Kaelith's emergence."
+    },
+    {
+      "from": "event1737025764122_20",
+      "to": "event1737025661950_11",
+      "type": "PARALLELS",
+      "description": "Both 'The Nebular Offering' and 'The Nebula's Resurgence' involve cascading energy phenomena and glyph activations tied to Kaelith's synchronization with the nebula, emphasizing recurring themes of ancient energies awakening."
+    }
+  ]
+}
+
+Added 6 new connections
+
+=== NEW CONNECTIONS ATTEMPT 2025-01-16T11:31:09.837Z ===
+
+AI Response:
+{
+  "connections": [
+    {
+      "from": "event1737026378808_21",
+      "to": "event1737026448417_26",
+      "type": "ENHANCES",
+      "description": "The activation of the Triadic Keys and the projection of visions in 'The Glyph's Resonant Awakening' enhanced the telepathic resonance and galactic map projection observed in 'The Nebular Resonance's Birthsong,' further deepening Kaelith's connection to ancient mechanisms and cosmic truths."
+    },
+    {
+      "from": "event1737026837812_8",
+      "to": "event1737026936916_18",
+      "type": "CAUSES",
+      "description": "The activation of the Celestial Veil during 'The Celestial Veil's Awakening' directly caused the harmonic resonance and star map projections in 'The Luminal Key's Awakening,' as both events reflect cascading responses to Kaelith's emergence."
+    },
+    {
+      "from": "event1737026891738_14",
+      "to": "event1737026943049_19",
+      "type": "ENABLES",
+      "description": "The Luminal Key's first pulse in 'The Luminal Key's First Pulse' enabled the harmonic symphony and cascading resonance observed in 'The Radiant Chorus,' amplifying Kaelith's role in initiating cosmic alignment."
+    },
+    {
+      "from": "event1737026407031_23",
+      "to": "event1737026896421_15",
+      "type": "INFLUENCES",
+      "description": "The energy infusion in 'The Nebular Infusion' influenced the activation of the radiant lattice and glyph projections in 'The Nebular Lattice's Emergence,' as both events depict Kaelith's growing synchronization with the nebula."
+    },
+    {
+      "from": "event1737026253088_12",
+      "to": "event1737026378808_21",
+      "type": "CAUSES",
+      "description": "The Harmonic Wave from 'The Nebular Pause's Echo' caused the fluid glyph rearrangements and projections in 'The Glyph's Resonant Awakening,' further advancing Kaelith's connection to galactic pathways."
+    },
+    {
+      "from": "event1737025661950_11",
+      "to": "event1737026872887_12",
+      "type": "PARALLELS",
+      "description": "'The Nebula's Resurgence' and 'The Nebular Cradle's Awakening' both involve the reactivation of dormant glyphs and harmonic resonance linked to Kaelith's emergence, reflecting recurring themes of cosmic awakening."
+    },
+    {
+      "from": "event1737026887380_13",
+      "to": "event1737026952994_21",
+      "type": "ENHANCES",
+      "description": "The rhythmic pulses and encoded patterns in 'The Nebular Beacon's Awakening' enhanced the amplified telepathic simulation and resonance observed in 'The Beacon's Resonant Call,' advancing the elders' understanding of Kaelith's cosmic significance."
+    },
+    {
+      "from": "event1737026176260_5",
+      "to": "event1737026495026_30",
+      "type": "ENABLES",
+      "description": "The luminous glyphs and harmonic resonance during 'The Celestial Glyph's First Light' enabled the intricate lattice formation and radiant projections in 'The Radiant Convergence,' advancing Kaelith's connection to ancient pathways."
+    },
+    {
+      "from": "event1737026443421_25",
+      "to": "event1737025617460_4",
+      "type": "CAUSES",
+      "description": "The cascading wave of energy in 'The Celestial Reverberation' caused the crystalline shard manifestations in 'The Shardfall Prophecy,' marking a physical manifestation of Kaelith's cosmic influence."
+    },
+    {
+      "from": "event1737025769922_21",
+      "to": "event1737026922732_18",
+      "type": "INFLUENCES",
+      "description": "The shimmering light waves in 'The Nebular Shimmer' influenced the harmonic symphony and telepathic projections in 'The Starlight Baptism,' as both events reflect Kaelith's growing role in revealing ancient knowledge."
+    }
+  ]
+}
+
+Parsed Response:
+{
+  "connections": [
+    {
+      "from": "event1737026378808_21",
+      "to": "event1737026448417_26",
+      "type": "ENHANCES",
+      "description": "The activation of the Triadic Keys and the projection of visions in 'The Glyph's Resonant Awakening' enhanced the telepathic resonance and galactic map projection observed in 'The Nebular Resonance's Birthsong,' further deepening Kaelith's connection to ancient mechanisms and cosmic truths."
+    },
+    {
+      "from": "event1737026837812_8",
+      "to": "event1737026936916_18",
+      "type": "CAUSES",
+      "description": "The activation of the Celestial Veil during 'The Celestial Veil's Awakening' directly caused the harmonic resonance and star map projections in 'The Luminal Key's Awakening,' as both events reflect cascading responses to Kaelith's emergence."
+    },
+    {
+      "from": "event1737026891738_14",
+      "to": "event1737026943049_19",
+      "type": "ENABLES",
+      "description": "The Luminal Key's first pulse in 'The Luminal Key's First Pulse' enabled the harmonic symphony and cascading resonance observed in 'The Radiant Chorus,' amplifying Kaelith's role in initiating cosmic alignment."
+    },
+    {
+      "from": "event1737026407031_23",
+      "to": "event1737026896421_15",
+      "type": "INFLUENCES",
+      "description": "The energy infusion in 'The Nebular Infusion' influenced the activation of the radiant lattice and glyph projections in 'The Nebular Lattice's Emergence,' as both events depict Kaelith's growing synchronization with the nebula."
+    },
+    {
+      "from": "event1737026253088_12",
+      "to": "event1737026378808_21",
+      "type": "CAUSES",
+      "description": "The Harmonic Wave from 'The Nebular Pause's Echo' caused the fluid glyph rearrangements and projections in 'The Glyph's Resonant Awakening,' further advancing Kaelith's connection to galactic pathways."
+    },
+    {
+      "from": "event1737025661950_11",
+      "to": "event1737026872887_12",
+      "type": "PARALLELS",
+      "description": "'The Nebula's Resurgence' and 'The Nebular Cradle's Awakening' both involve the reactivation of dormant glyphs and harmonic resonance linked to Kaelith's emergence, reflecting recurring themes of cosmic awakening."
+    },
+    {
+      "from": "event1737026887380_13",
+      "to": "event1737026952994_21",
+      "type": "ENHANCES",
+      "description": "The rhythmic pulses and encoded patterns in 'The Nebular Beacon's Awakening' enhanced the amplified telepathic simulation and resonance observed in 'The Beacon's Resonant Call,' advancing the elders' understanding of Kaelith's cosmic significance."
+    },
+    {
+      "from": "event1737026176260_5",
+      "to": "event1737026495026_30",
+      "type": "ENABLES",
+      "description": "The luminous glyphs and harmonic resonance during 'The Celestial Glyph's First Light' enabled the intricate lattice formation and radiant projections in 'The Radiant Convergence,' advancing Kaelith's connection to ancient pathways."
+    },
+    {
+      "from": "event1737026443421_25",
+      "to": "event1737025617460_4",
+      "type": "CAUSES",
+      "description": "The cascading wave of energy in 'The Celestial Reverberation' caused the crystalline shard manifestations in 'The Shardfall Prophecy,' marking a physical manifestation of Kaelith's cosmic influence."
+    },
+    {
+      "from": "event1737025769922_21",
+      "to": "event1737026922732_18",
+      "type": "INFLUENCES",
+      "description": "The shimmering light waves in 'The Nebular Shimmer' influenced the harmonic symphony and telepathic projections in 'The Starlight Baptism,' as both events reflect Kaelith's growing role in revealing ancient knowledge."
+    }
+  ]
+}
+
+Added 8 new connections
+
+=== NEW CONNECTIONS ATTEMPT 2025-01-16T11:32:03.136Z ===
+
+AI Response:
+```json
+{
+  "connections": [
+    {
+      "from": "event1737026833453_7",
+      "to": "event1737026917574_17",
+      "type": "CAUSES",
+      "description": "The cascading light waves and glyph activations during 'The Nebular Convergence's First Light' directly enabled the star map revelation and telepathic projection observed in 'The Luminal Path's Revelation,' advancing Kaelith's role in uncovering Luminara secrets."
+    },
+    {
+      "from": "event1737026448417_26",
+      "to": "event1737026896421_15",
+      "type": "ENABLES",
+      "description": "The harmonic resonance and telepathic synchronization during 'The Nebular Resonance's Birthsong' enabled the radiant glyph lattice and star map projection in 'The Nebular Lattice's Emergence,' further establishing Kaelith's connection to ancient galactic pathways."
+    },
+    {
+      "from": "event1737026896421_15",
+      "to": "event1737026452464_27",
+      "type": "ENHANCES",
+      "description": "The radiant lattice and glyph activations in 'The Nebular Lattice's Emergence' amplified the harmonic synchronization and encoded glyph patterns observed in 'The Glyph's Harmonic Convergence,' advancing Kaelith's cosmic role."
+    },
+    {
+      "from": "event1737026407031_23",
+      "to": "event1737026378808_21",
+      "type": "INFLUENCES",
+      "description": "The energy infusion and glyph synchronization in 'The Nebular Infusion' influenced the fluid glyph rearrangements and star map projections in 'The Glyph's Resonant Awakening,' demonstrating escalating interplay between Kaelith and Luminara mechanisms."
+    },
+    {
+      "from": "event1737026448417_26",
+      "to": "event1737026479994_29",
+      "type": "PARALLELS",
+      "description": "'The Nebular Resonance's Birthsong' and 'The Nebular Genesis' both involve harmonic resonance and cosmic projections tied to Kaelith's emergence, showcasing recurring themes of nebular synchronization and galactic awakening."
+    },
+    {
+      "from": "event1737026917574_17",
+      "to": "event1737027079106_3",
+      "type": "CAUSES",
+      "description": "The star map revelation and telepathic chant in 'The Luminal Path's Revelation' directly prompted the elders to prepare 'The Expedition's Departure,' solidifying Kaelith's journey to uncover Luminara remnants."
+    },
+    {
+      "from": "event1737026975453_22",
+      "to": "event1737026867724_11",
+      "type": "INFLUENCES",
+      "description": "The elders' shared vision in 'The Nebular Elders' Declaration' influenced the activation of the Luminal Key in 'The Luminal Key's Revelation,' as the declaration reinforced Kaelith's significance and alignment with the glyph's encoded messages."
+    },
+    {
+      "from": "event1737026812922_6",
+      "to": "event1737026952994_21",
+      "type": "CAUSES",
+      "description": "The rhythmic pulse and glyph activations in 'The Celestial Pulse's Awakening' triggered the amplified telepathic projections and beacon simulation in 'The Beacon's Resonant Call,' advancing the elders' understanding of Kaelith's cosmic significance."
+    },
+    {
+      "from": "event1737026448417_26",
+      "to": "event1737026473979_28",
+      "type": "ENABLES",
+      "description": "The harmonic synchronization and glyph resonance in 'The Nebular Resonance's Birthsong' established the conditions for the cascading light waves and projections observed in 'The Nebular Convergence,' further advancing Kaelith's cosmic journey."
+    },
+    {
+      "from": "event1737026833453_7",
+      "to": "event1737026980489_23",
+      "type": "CAUSES",
+      "description": "The cascading harmonic frequencies and glyph activations during 'The Nebular Convergence's First Light' directly caused the emergence of the Key of Eryndor and the harmonic tone in 'The Luminal Cradle's Resonant Key,' solidifying Kaelith's role in uncovering ancient Luminara artifacts."
+    }
+  ]
+}
+```
+
+Parsed Response:
+{
+  "connections": [
+    {
+      "from": "event1737026833453_7",
+      "to": "event1737026917574_17",
+      "type": "CAUSES",
+      "description": "The cascading light waves and glyph activations during 'The Nebular Convergence's First Light' directly enabled the star map revelation and telepathic projection observed in 'The Luminal Path's Revelation,' advancing Kaelith's role in uncovering Luminara secrets."
+    },
+    {
+      "from": "event1737026448417_26",
+      "to": "event1737026896421_15",
+      "type": "ENABLES",
+      "description": "The harmonic resonance and telepathic synchronization during 'The Nebular Resonance's Birthsong' enabled the radiant glyph lattice and star map projection in 'The Nebular Lattice's Emergence,' further establishing Kaelith's connection to ancient galactic pathways."
+    },
+    {
+      "from": "event1737026896421_15",
+      "to": "event1737026452464_27",
+      "type": "ENHANCES",
+      "description": "The radiant lattice and glyph activations in 'The Nebular Lattice's Emergence' amplified the harmonic synchronization and encoded glyph patterns observed in 'The Glyph's Harmonic Convergence,' advancing Kaelith's cosmic role."
+    },
+    {
+      "from": "event1737026407031_23",
+      "to": "event1737026378808_21",
+      "type": "INFLUENCES",
+      "description": "The energy infusion and glyph synchronization in 'The Nebular Infusion' influenced the fluid glyph rearrangements and star map projections in 'The Glyph's Resonant Awakening,' demonstrating escalating interplay between Kaelith and Luminara mechanisms."
+    },
+    {
+      "from": "event1737026448417_26",
+      "to": "event1737026479994_29",
+      "type": "PARALLELS",
+      "description": "'The Nebular Resonance's Birthsong' and 'The Nebular Genesis' both involve harmonic resonance and cosmic projections tied to Kaelith's emergence, showcasing recurring themes of nebular synchronization and galactic awakening."
+    },
+    {
+      "from": "event1737026917574_17",
+      "to": "event1737027079106_3",
+      "type": "CAUSES",
+      "description": "The star map revelation and telepathic chant in 'The Luminal Path's Revelation' directly prompted the elders to prepare 'The Expedition's Departure,' solidifying Kaelith's journey to uncover Luminara remnants."
+    },
+    {
+      "from": "event1737026975453_22",
+      "to": "event1737026867724_11",
+      "type": "INFLUENCES",
+      "description": "The elders' shared vision in 'The Nebular Elders' Declaration' influenced the activation of the Luminal Key in 'The Luminal Key's Revelation,' as the declaration reinforced Kaelith's significance and alignment with the glyph's encoded messages."
+    },
+    {
+      "from": "event1737026812922_6",
+      "to": "event1737026952994_21",
+      "type": "CAUSES",
+      "description": "The rhythmic pulse and glyph activations in 'The Celestial Pulse's Awakening' triggered the amplified telepathic projections and beacon simulation in 'The Beacon's Resonant Call,' advancing the elders' understanding of Kaelith's cosmic significance."
+    },
+    {
+      "from": "event1737026448417_26",
+      "to": "event1737026473979_28",
+      "type": "ENABLES",
+      "description": "The harmonic synchronization and glyph resonance in 'The Nebular Resonance's Birthsong' established the conditions for the cascading light waves and projections observed in 'The Nebular Convergence,' further advancing Kaelith's cosmic journey."
+    },
+    {
+      "from": "event1737026833453_7",
+      "to": "event1737026980489_23",
+      "type": "CAUSES",
+      "description": "The cascading harmonic frequencies and glyph activations during 'The Nebular Convergence's First Light' directly caused the emergence of the Key of Eryndor and the harmonic tone in 'The Luminal Cradle's Resonant Key,' solidifying Kaelith's role in uncovering ancient Luminara artifacts."
+    }
+  ]
+}
+
+Added 5 new connections
+
+=== NEW CONNECTIONS ATTEMPT 2025-01-16T11:33:04.497Z ===
+
+AI Response:
+{
+  "connections": [
+    {
+      "from": "event1737026872887_12",
+      "to": "event1737026336916_18",
+      "type": "CAUSES",
+      "description": "The harmonic resonance and glyph activation in 'The Nebular Cradle's Awakening' caused the emergence of the singular, intricate sigil during 'The Luminal Key's Awakening,' as both events highlight the progression of Kaelith's cosmic connection and the activation of ancient mechanisms."
+    },
+    {
+      "from": "event1737026837812_8",
+      "to": "event1737026452464_27",
+      "type": "ENHANCES",
+      "description": "The shimmering energy field of 'The Celestial Veil's Awakening' enhanced the harmonic synchronization and encoded glyph patterns observed in 'The Glyph's Harmonic Convergence,' as the activated Veil stabilized the nebula's energy and deepened Kaelith's connection to ancient mechanisms."
+    },
+    {
+      "from": "event1737025809238_24",
+      "to": "event1737026917574_17",
+      "type": "INFLUENCES",
+      "description": "The harmonic symphony and star map projections in 'The Nebular Harmony' influenced the telepathic burst and encoded chant shared in 'The Luminal Path's Revelation,' as both events reflect escalating revelations tied to Kaelith's cosmic alignment."
+    },
+    {
+      "from": "event1737026448417_26",
+      "to": "event1737027123149_4",
+      "type": "PARALLELS",
+      "description": "Both 'The Nebular Resonance's Birthsong' and 'The Nebular Radiance Unveiled' involve cascading harmonic light and the projection of ancient paths, symbolizing recurring themes of Kaelith's connection to stabilizing and revealing galactic truths."
+    },
+    {
+      "from": "event1737026378808_21",
+      "to": "event1737025880878_31",
+      "type": "ENABLES",
+      "description": "The activation of the Triadic Keys in 'The Glyph's Resonant Awakening' enabled the holographic star map alignment and Kaelith's subconscious interaction during 'The Glyph's Illumination,' further advancing their cosmic journey."
+    },
+    {
+      "from": "event1737026812922_6",
+      "to": "event1737026952994_21",
+      "type": "CAUSES",
+      "description": "The rhythmic pulse and holographic sphere in 'The Celestial Pulse's Awakening' caused the amplified projection and telepathic resonance seen in 'The Beacon's Resonant Call,' advancing the elders' understanding of Kaelith's destiny."
+    },
+    {
+      "from": "event1737026833453_7",
+      "to": "event1737025764122_20",
+      "type": "ENABLES",
+      "description": "The cascading waves of light and glyph resonance in 'The Nebular Convergence's First Light' enabled the interconnected light lattice and synchronized energy observed during 'The Nebular Offering,' deepening Kaelith's alignment with the nebula's latent forces."
+    },
+    {
+      "from": "event1737026947040_20",
+      "to": "event1737027079106_3",
+      "type": "INFLUENCES",
+      "description": "The activation of the Luminal Spire and its projected map in 'The Luminal Spire's Resonance' influenced the elders' preparation for 'The Expedition's Departure,' as both events highlight Kaelith's growing significance and the galaxy-wide implications of their journey."
+    },
+    {
+      "from": "event1737026479994_29",
+      "to": "event1737026841849_9",
+      "type": "ENHANCES",
+      "description": "The radiant wave of energy and glyph projections in 'The Nebular Genesis' enhanced the resonant call and dynamic star maps observed in 'The Celestial Prism's Resonant Call,' further linking Kaelith to the activation of ancient pathways."
+    },
+    {
+      "from": "event1737026850206_27",
+      "to": "event1737026867724_11",
+      "type": "CAUSES",
+      "description": "The pulsating starlight and glyph activations in 'The Celestial Cradle' directly caused the emergence of the Luminal Key and its encoded messages in 'The Luminal Key's Revelation,' solidifying Kaelith's role in uncovering their species' lost knowledge."
+    }
+  ]
+}
+
+Parsed Response:
+{
+  "connections": [
+    {
+      "from": "event1737026872887_12",
+      "to": "event1737026336916_18",
+      "type": "CAUSES",
+      "description": "The harmonic resonance and glyph activation in 'The Nebular Cradle's Awakening' caused the emergence of the singular, intricate sigil during 'The Luminal Key's Awakening,' as both events highlight the progression of Kaelith's cosmic connection and the activation of ancient mechanisms."
+    },
+    {
+      "from": "event1737026837812_8",
+      "to": "event1737026452464_27",
+      "type": "ENHANCES",
+      "description": "The shimmering energy field of 'The Celestial Veil's Awakening' enhanced the harmonic synchronization and encoded glyph patterns observed in 'The Glyph's Harmonic Convergence,' as the activated Veil stabilized the nebula's energy and deepened Kaelith's connection to ancient mechanisms."
+    },
+    {
+      "from": "event1737025809238_24",
+      "to": "event1737026917574_17",
+      "type": "INFLUENCES",
+      "description": "The harmonic symphony and star map projections in 'The Nebular Harmony' influenced the telepathic burst and encoded chant shared in 'The Luminal Path's Revelation,' as both events reflect escalating revelations tied to Kaelith's cosmic alignment."
+    },
+    {
+      "from": "event1737026448417_26",
+      "to": "event1737027123149_4",
+      "type": "PARALLELS",
+      "description": "Both 'The Nebular Resonance's Birthsong' and 'The Nebular Radiance Unveiled' involve cascading harmonic light and the projection of ancient paths, symbolizing recurring themes of Kaelith's connection to stabilizing and revealing galactic truths."
+    },
+    {
+      "from": "event1737026378808_21",
+      "to": "event1737025880878_31",
+      "type": "ENABLES",
+      "description": "The activation of the Triadic Keys in 'The Glyph's Resonant Awakening' enabled the holographic star map alignment and Kaelith's subconscious interaction during 'The Glyph's Illumination,' further advancing their cosmic journey."
+    },
+    {
+      "from": "event1737026812922_6",
+      "to": "event1737026952994_21",
+      "type": "CAUSES",
+      "description": "The rhythmic pulse and holographic sphere in 'The Celestial Pulse's Awakening' caused the amplified projection and telepathic resonance seen in 'The Beacon's Resonant Call,' advancing the elders' understanding of Kaelith's destiny."
+    },
+    {
+      "from": "event1737026833453_7",
+      "to": "event1737025764122_20",
+      "type": "ENABLES",
+      "description": "The cascading waves of light and glyph resonance in 'The Nebular Convergence's First Light' enabled the interconnected light lattice and synchronized energy observed during 'The Nebular Offering,' deepening Kaelith's alignment with the nebula's latent forces."
+    },
+    {
+      "from": "event1737026947040_20",
+      "to": "event1737027079106_3",
+      "type": "INFLUENCES",
+      "description": "The activation of the Luminal Spire and its projected map in 'The Luminal Spire's Resonance' influenced the elders' preparation for 'The Expedition's Departure,' as both events highlight Kaelith's growing significance and the galaxy-wide implications of their journey."
+    },
+    {
+      "from": "event1737026479994_29",
+      "to": "event1737026841849_9",
+      "type": "ENHANCES",
+      "description": "The radiant wave of energy and glyph projections in 'The Nebular Genesis' enhanced the resonant call and dynamic star maps observed in 'The Celestial Prism's Resonant Call,' further linking Kaelith to the activation of ancient pathways."
+    },
+    {
+      "from": "event1737026850206_27",
+      "to": "event1737026867724_11",
+      "type": "CAUSES",
+      "description": "The pulsating starlight and glyph activations in 'The Celestial Cradle' directly caused the emergence of the Luminal Key and its encoded messages in 'The Luminal Key's Revelation,' solidifying Kaelith's role in uncovering their species' lost knowledge."
+    }
+  ]
+}
+
+Added 8 new connections
+
+=== NEW CONNECTIONS ATTEMPT 2025-01-16T11:34:04.480Z ===
+
+AI Response:
+```json
+{
+  "connections": [
+    {
+      "from": "event1737026833453_7",
+      "to": "event1737026917574_17",
+      "type": "ENHANCES",
+      "description": "The cascading waves of light and glyph resonance during 'The Nebular Convergence's First Light' enhanced the telepathic burst and encoded directive in 'The Luminal Path's Revelation,' amplifying the revelation of the beacon and Kaelith's destined journey."
+    },
+    {
+      "from": "event1737026407031_23",
+      "to": "event1737027184511_7",
+      "type": "CAUSES",
+      "description": "The energy synchronization in 'The Nebular Infusion' caused the lattice-like energy network in 'The Nebular Lattice's First Pulse,' revealing hidden pathways and expanding Kaelith's connection to the nebula."
+    },
+    {
+      "from": "event1737026448417_26",
+      "to": "event1737026841849_9",
+      "type": "ENABLES",
+      "description": "The harmonic frequencies and star map projections during 'The Nebular Resonance's Birthsong' enabled the activation of the Celestial Prism in 'The Celestial Prism's Resonant Call,' linking Kaelith to the galaxy's ancient mechanisms."
+    },
+    {
+      "from": "event1737026872887_12",
+      "to": "event1737027184511_7",
+      "type": "PARALLELS",
+      "description": "'The Nebular Cradle's Awakening' and 'The Nebular Lattice's First Pulse' both involve cascading energy waves and glyph activations tied to Kaelith's emergence, reflecting recurring themes of cosmic alignment and their pivotal role in restoring balance."
+    },
+    {
+      "from": "event1737026887380_13",
+      "to": "event1737027196048_9",
+      "type": "INFLUENCES",
+      "description": "The rhythmic pulses and encoded patterns in 'The Nebular Beacon's Awakening' influenced the central node mapping and cosmic ripple in 'The Beacon's Awakening,' advancing the interpretation of Kaelith's critical role in activating the galactic network."
+    },
+    {
+      "from": "event1737026443421_25",
+      "to": "event1737026887380_13",
+      "type": "ENHANCES",
+      "description": "The cascading wave of energy in 'The Celestial Reverberation' enhanced the encoded signals and rhythmic projections in 'The Nebular Beacon's Awakening,' further linking Kaelith's emergence to the galaxy-wide signaling phenomena."
+    },
+    {
+      "from": "event1737026896421_15",
+      "to": "event1737027188256_5",
+      "type": "CAUSES",
+      "description": "The radiant lattice and synchronized glyphs in 'The Nebular Lattice's Emergence' caused the projection of the Luminal Key in 'The Luminal Key's Emergence,' solidifying Kaelith's connection to unlocking ancient galactic knowledge."
+    },
+    {
+      "from": "event1737026452464_27",
+      "to": "event1737026867724_11",
+      "type": "INFLUENCES",
+      "description": "The harmonic synchronization and reshuffling glyphs in 'The Glyph's Harmonic Convergence' influenced the emergence of the Luminal Key and its telepathic resonance in 'The Luminal Key's Revelation,' deepening Kaelith's role as a bridge to ancient pathways."
+    },
+    {
+      "from": "event1737026218640_8",
+      "to": "event1737026917574_17",
+      "type": "ENHANCES",
+      "description": "The radiant energy beam and glyph activation in 'The Celestial Infusion' enhanced the telepathic burst and star map revelations in 'The Luminal Path's Revelation,' advancing Kaelith's cosmic journey."
+    },
+    {
+      "from": "event1737025665802_12",
+      "to": "event1737027184511_7",
+      "type": "CAUSES",
+      "description": "The cascading light waves and harmonic resonance in 'The Trivara Cascade' caused the glyph lattice activation in 'The Nebular Lattice's First Pulse,' further revealing Kaelith's influence on the nebula's ancient mechanisms."
+    }
+  ]
+}
+```
+
+Parsed Response:
+{
+  "connections": [
+    {
+      "from": "event1737026833453_7",
+      "to": "event1737026917574_17",
+      "type": "ENHANCES",
+      "description": "The cascading waves of light and glyph resonance during 'The Nebular Convergence's First Light' enhanced the telepathic burst and encoded directive in 'The Luminal Path's Revelation,' amplifying the revelation of the beacon and Kaelith's destined journey."
+    },
+    {
+      "from": "event1737026407031_23",
+      "to": "event1737027184511_7",
+      "type": "CAUSES",
+      "description": "The energy synchronization in 'The Nebular Infusion' caused the lattice-like energy network in 'The Nebular Lattice's First Pulse,' revealing hidden pathways and expanding Kaelith's connection to the nebula."
+    },
+    {
+      "from": "event1737026448417_26",
+      "to": "event1737026841849_9",
+      "type": "ENABLES",
+      "description": "The harmonic frequencies and star map projections during 'The Nebular Resonance's Birthsong' enabled the activation of the Celestial Prism in 'The Celestial Prism's Resonant Call,' linking Kaelith to the galaxy's ancient mechanisms."
+    },
+    {
+      "from": "event1737026872887_12",
+      "to": "event1737027184511_7",
+      "type": "PARALLELS",
+      "description": "'The Nebular Cradle's Awakening' and 'The Nebular Lattice's First Pulse' both involve cascading energy waves and glyph activations tied to Kaelith's emergence, reflecting recurring themes of cosmic alignment and their pivotal role in restoring balance."
+    },
+    {
+      "from": "event1737026887380_13",
+      "to": "event1737027196048_9",
+      "type": "INFLUENCES",
+      "description": "The rhythmic pulses and encoded patterns in 'The Nebular Beacon's Awakening' influenced the central node mapping and cosmic ripple in 'The Beacon's Awakening,' advancing the interpretation of Kaelith's critical role in activating the galactic network."
+    },
+    {
+      "from": "event1737026443421_25",
+      "to": "event1737026887380_13",
+      "type": "ENHANCES",
+      "description": "The cascading wave of energy in 'The Celestial Reverberation' enhanced the encoded signals and rhythmic projections in 'The Nebular Beacon's Awakening,' further linking Kaelith's emergence to the galaxy-wide signaling phenomena."
+    },
+    {
+      "from": "event1737026896421_15",
+      "to": "event1737027188256_5",
+      "type": "CAUSES",
+      "description": "The radiant lattice and synchronized glyphs in 'The Nebular Lattice's Emergence' caused the projection of the Luminal Key in 'The Luminal Key's Emergence,' solidifying Kaelith's connection to unlocking ancient galactic knowledge."
+    },
+    {
+      "from": "event1737026452464_27",
+      "to": "event1737026867724_11",
+      "type": "INFLUENCES",
+      "description": "The harmonic synchronization and reshuffling glyphs in 'The Glyph's Harmonic Convergence' influenced the emergence of the Luminal Key and its telepathic resonance in 'The Luminal Key's Revelation,' deepening Kaelith's role as a bridge to ancient pathways."
+    },
+    {
+      "from": "event1737026218640_8",
+      "to": "event1737026917574_17",
+      "type": "ENHANCES",
+      "description": "The radiant energy beam and glyph activation in 'The Celestial Infusion' enhanced the telepathic burst and star map revelations in 'The Luminal Path's Revelation,' advancing Kaelith's cosmic journey."
+    },
+    {
+      "from": "event1737025665802_12",
+      "to": "event1737027184511_7",
+      "type": "CAUSES",
+      "description": "The cascading light waves and harmonic resonance in 'The Trivara Cascade' caused the glyph lattice activation in 'The Nebular Lattice's First Pulse,' further revealing Kaelith's influence on the nebula's ancient mechanisms."
+    }
+  ]
+}
+
+Added 7 new connections
+
+=== NEW CONNECTIONS ATTEMPT 2025-01-16T11:35:09.144Z ===
+
+AI Response:
+```json
+{
+  "connections": [
+    {
+      "from": "event1737026479994_29",
+      "to": "event1737026807121_5",
+      "type": "CAUSES",
+      "description": "The radiant wave of energy and glyph activation during 'The Nebular Genesis' directly caused the cascading light pulses and harmonic resonance observed in 'The Nebular Convergence's First Light,' as both events involve the nebula's reaction to Kaelith's birth and their connection to ancient mechanisms."
+    },
+    {
+      "from": "event1737026374045_20",
+      "to": "event1737027244491_10",
+      "type": "PARALLELS",
+      "description": "Both 'The Cosmic Chrysalis' and 'The Nebular Exaltation' depict synchronized harmonic energy responses tied to Kaelith's birth, reflecting recurring themes of cosmic alignment and ancient glyph activations."
+    },
+    {
+      "from": "event1737027284511_7",
+      "to": "event1737026922732_18",
+      "type": "ENHANCES",
+      "description": "The synchronized pulse of energy from 'The Nebular Lattice's First Pulse' enhanced the harmonic symphony and telepathic resonance observed in 'The Starlight Baptism,' amplifying Kaelith's connection to cosmic alignment."
+    },
+    {
+      "from": "event1737026326892_16",
+      "to": "event1737026176260_5",
+      "type": "CAUSES",
+      "description": "The harmonic resonance and glyph activation of 'The Nebular Awakening' directly caused the luminous glyph projections observed in 'The Celestial Glyph's First Light,' as both events showcase Kaelith's interaction with ancient mechanisms."
+    },
+    {
+      "from": "event1737026448417_26",
+      "to": "event1737026452464_27",
+      "type": "ENABLES",
+      "description": "The harmonic light and sound resonance during 'The Nebular Resonance's Birthsong' enabled the synchronized glyph activations and encoded frequencies observed in 'The Glyph's Harmonic Convergence,' further advancing Kaelith's connection to ancient mechanisms."
+    },
+    {
+      "from": "event1737025804227_23",
+      "to": "event1737025669316_13",
+      "type": "PARALLELS",
+      "description": "Both 'The Nebular Symphony' and 'The Harmonic Convergence' depict harmonic light pulses and sound waves affecting nearby systems, symbolizing Kaelith's role in stabilizing cosmic phenomena."
+    },
+    {
+      "from": "event1737027123149_4",
+      "to": "event1737026218640_8",
+      "type": "CAUSES",
+      "description": "'The Nebular Radiance Unveiled' caused the focused starlight beam and glyph synchronization observed in 'The Celestial Infusion,' as both events reflect the nebula's response to Kaelith's emergence."
+    },
+    {
+      "from": "event1737026917574_17",
+      "to": "event1737027079106_3",
+      "type": "ENABLES",
+      "description": "The telepathic chant and star map revealed during 'The Luminal Path's Revelation' enabled the elders' preparations and Kaelith's participation in 'The Expedition's Departure,' advancing their journey toward the beacon."
+    },
+    {
+      "from": "event1737027249599_11",
+      "to": "event1737027146001_6",
+      "type": "CAUSES",
+      "description": "The cascading glyph patterns and telepathic vision in 'The Glyph's Resonant Pathway' caused the further refinement of star maps and beacon projections observed in 'The Eryndor Beacon's Pulse,' amplifying Kaelith's role in uncovering ancient pathways."
+    },
+    {
+      "from": "event1737027008661_25",
+      "to": "event1737027128256_5",
+      "type": "INFLUENCES",
+      "description": "The glyph projections and encoded pathways in 'The Nebular Illumination' influenced the emergence of the Luminal Key and its telepathic resonance in 'The Luminal Key's Emergence,' expanding Kaelith's role in unlocking galactic mysteries."
+    }
+  ]
+}
+```
+
+Parsed Response:
+{
+  "connections": [
+    {
+      "from": "event1737026479994_29",
+      "to": "event1737026807121_5",
+      "type": "CAUSES",
+      "description": "The radiant wave of energy and glyph activation during 'The Nebular Genesis' directly caused the cascading light pulses and harmonic resonance observed in 'The Nebular Convergence's First Light,' as both events involve the nebula's reaction to Kaelith's birth and their connection to ancient mechanisms."
+    },
+    {
+      "from": "event1737026374045_20",
+      "to": "event1737027244491_10",
+      "type": "PARALLELS",
+      "description": "Both 'The Cosmic Chrysalis' and 'The Nebular Exaltation' depict synchronized harmonic energy responses tied to Kaelith's birth, reflecting recurring themes of cosmic alignment and ancient glyph activations."
+    },
+    {
+      "from": "event1737027284511_7",
+      "to": "event1737026922732_18",
+      "type": "ENHANCES",
+      "description": "The synchronized pulse of energy from 'The Nebular Lattice's First Pulse' enhanced the harmonic symphony and telepathic resonance observed in 'The Starlight Baptism,' amplifying Kaelith's connection to cosmic alignment."
+    },
+    {
+      "from": "event1737026326892_16",
+      "to": "event1737026176260_5",
+      "type": "CAUSES",
+      "description": "The harmonic resonance and glyph activation of 'The Nebular Awakening' directly caused the luminous glyph projections observed in 'The Celestial Glyph's First Light,' as both events showcase Kaelith's interaction with ancient mechanisms."
+    },
+    {
+      "from": "event1737026448417_26",
+      "to": "event1737026452464_27",
+      "type": "ENABLES",
+      "description": "The harmonic light and sound resonance during 'The Nebular Resonance's Birthsong' enabled the synchronized glyph activations and encoded frequencies observed in 'The Glyph's Harmonic Convergence,' further advancing Kaelith's connection to ancient mechanisms."
+    },
+    {
+      "from": "event1737025804227_23",
+      "to": "event1737025669316_13",
+      "type": "PARALLELS",
+      "description": "Both 'The Nebular Symphony' and 'The Harmonic Convergence' depict harmonic light pulses and sound waves affecting nearby systems, symbolizing Kaelith's role in stabilizing cosmic phenomena."
+    },
+    {
+      "from": "event1737027123149_4",
+      "to": "event1737026218640_8",
+      "type": "CAUSES",
+      "description": "'The Nebular Radiance Unveiled' caused the focused starlight beam and glyph synchronization observed in 'The Celestial Infusion,' as both events reflect the nebula's response to Kaelith's emergence."
+    },
+    {
+      "from": "event1737026917574_17",
+      "to": "event1737027079106_3",
+      "type": "ENABLES",
+      "description": "The telepathic chant and star map revealed during 'The Luminal Path's Revelation' enabled the elders' preparations and Kaelith's participation in 'The Expedition's Departure,' advancing their journey toward the beacon."
+    },
+    {
+      "from": "event1737027249599_11",
+      "to": "event1737027146001_6",
+      "type": "CAUSES",
+      "description": "The cascading glyph patterns and telepathic vision in 'The Glyph's Resonant Pathway' caused the further refinement of star maps and beacon projections observed in 'The Eryndor Beacon's Pulse,' amplifying Kaelith's role in uncovering ancient pathways."
+    },
+    {
+      "from": "event1737027008661_25",
+      "to": "event1737027128256_5",
+      "type": "INFLUENCES",
+      "description": "The glyph projections and encoded pathways in 'The Nebular Illumination' influenced the emergence of the Luminal Key and its telepathic resonance in 'The Luminal Key's Emergence,' expanding Kaelith's role in unlocking galactic mysteries."
+    }
+  ]
+}
+
+Added 5 new connections

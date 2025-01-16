@@ -585,7 +585,24 @@ async function evaluateTimeline(iterationNumber, nodes) {
   // Sort nodes chronologically
   nodes.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
   
-  const prompt = `You are evaluating the timeline of ${characterName}. Consider these aspects:
+  // Format timeline data for the prompt
+  const timelineData = nodes.map(node => ({
+    id: node.id,
+    title: node.title,
+    description: node.description,
+    timestamp: node.timestamp,
+    connections: graph.outEdges(node.id).map(edge => ({
+      target: graph.target(edge),
+      type: graph.getEdgeAttribute(edge, 'type'),
+      description: graph.getEdgeAttribute(edge, 'description')
+    }))
+  }));
+
+  const prompt = `You are evaluating the timeline of ${characterName}. Here is the current timeline data:
+
+${JSON.stringify(timelineData, null, 2)}
+
+Consider these aspects:
 
 - Temporal consistency
 - Character development
@@ -596,14 +613,14 @@ async function evaluateTimeline(iterationNumber, nodes) {
 - Plausible consequences
 
 For each aspect, explain the score and list any specific issues found. Start with an overall score (average of all scores) and summary.
-Before the score, summarize the the timeline as a narrative, and add another section that's an entity graph
+Before the score, summarize the timeline as a narrative, and add another section that's an entity graph.
 Format your response in markdown with clear sections for the overall score and each aspect.`;
 
   const completion = await openai.chat.completions.create({
     model: MODEL,
     messages: [{ role: "user", content: prompt }],
     temperature: 0.7,
-    max_tokens: 1000
+    max_tokens: 2000
   });
 
   const content = completion.choices[0].message.content;
