@@ -1,0 +1,96 @@
+{
+  "options": {
+    "type": "mixed",
+    "multi": false,
+    "allowSelfLoops": true
+  },
+  "attributes": {},
+  "nodes": [
+    {
+      "key": "event1",
+      "attributes": {
+        "name": "Raven_X_1999's Origin",
+        "timestamp": "1999-09-09",
+        "description": "The beginning of Raven_X_1999's journey.",
+        "timeline": "main",
+        "expansion_prompt": "What were the early influences that shaped this story?"
+      }
+    },
+    {
+      "key": "event2",
+      "attributes": {
+        "name": "The Dark Code Legacy",
+        "timestamp": "1996-11-13",
+        "description": "Raven_X_1999 grew up in a family that had a deep connection to both ancient Gothic traditions and the burgeoning cyberpunk culture of Neo Tokyo. Their mother, a reputed cyber-occultist, introduced them to the concept of digital necromancy, teaching them how to raise 'dead' code using rituals passed down through generations. Their father, a former systems engineer turned gothic tech-artist, infused their childhood with tales of forgotten systems and the art of blending tech with arcane knowledge. It was during these formative years, in the flickering candlelight of their underground sanctuary and the vibrant glow of neon streets, that Raven_X_1999 began to hone their skills in merging occult algorithms with forbidden technology. The family's secret gatherings, rooted in shadowy digital catacombs, involved hybrid tech-rituals where Raven learned to manipulate code and breathe new life into discarded systems, setting the foundation for their future mastery.",
+        "timeline": "main",
+        "expansion_prompt": "What family traditions shaped Raven_X_1999's early years?"
+      }
+    },
+    {
+      "key": "event3",
+      "attributes": {
+        "name": "Ritual of the Forbidden Codes",
+        "timestamp": "1994-08-24",
+        "description": "During a particularly vibrant summer night of 1994, young Raven_X_1999 participated in a pivotal family tradition known as the 'Ritual of the Forbidden Codes.' This clandestine ceremony took place in the heart of Neo Tokyo's neon-gothic underground, where remnants of ancient Gothic cathedrals met the high-tech innovations of the city. The ritual, a synthesis of Raven's parents' unique backgrounds, was designed to honor the digital ancestors of cyber systems and ask for their guidance in manipulating code. Guided by their mother, Raven learned to summon the spirits of forgotten programs through chant-like coding sequences, typed earnestly on a vintage terminal rigged with holographic interfaces that their father had meticulously crafted. Symbols of arcane mathematics flashed in the luminescent air as Raven's small hands deftly interwove data streams with supernatural invocations. Through this tradition, they learned not only the power of technology as a tool but as a living entity, capable of rebirth and transformation. The ritual effectively taught Raven about respect for the past and the daring innovation required to blend tradition with the future, setting the groundwork for their identity as a digital necromancer.",
+        "timeline": "main",
+        "expansion_prompt": "Which neighborhood characters influenced young Raven_X_1999?"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "key": "geid_211_0",
+      "source": "event1",
+      "target": "event2",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_211_1",
+      "source": "event2",
+      "target": "event3",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Generated connection"
+      }
+    },
+    {
+      "key": "geid_211_2",
+      "source": "event3",
+      "target": "event2",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "The ritualistic practices and learning from the Ritual of the Forbidden Codes informed and reinforced the principles of the Dark Code Legacy, embedding a deeper understanding of digital necromancy and the significance of ancients systems revival into Raven's education."
+      }
+    },
+    {
+      "key": "geid_211_3",
+      "source": "event3",
+      "target": "event1",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "The Ritual of the Forbidden Codes not only provided Raven with a unique skill set in digital necromancy but also instilled a sense of identity and belonging, which was pivotal in their journey that started in 1999. This early exposure to a fusion of technology and spirituality set the course for Raven's unique approach to digital innovation and helped define their origin."
+      }
+    },
+    {
+      "key": "geid_211_4",
+      "source": "event1",
+      "target": "event3",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Raven_X_1999's journey began with foundational experiences gained from the Ritual of the Forbidden Codes, suggesting that the skills and mindset acquired during the ritual continued to play a significant role in the development of their identity and path, even after the formal beginning of their journey in 1999."
+      }
+    },
+    {
+      "key": "geid_211_5",
+      "source": "event2",
+      "target": "event1",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "The Dark Code Legacy set the stage for Raven_X_1999's path by deeply embedding the concepts of digital necromancy and integrating ancient techniques with modern technology, which were critical to their development and identity at the origin of their journey in 1999."
+      }
+    }
+  ]
+}

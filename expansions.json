@@ -1,0 +1,98 @@
+{
+  "CHILDHOOD_MEMORIES": {
+    "name": "Childhood Memories",
+    "templates": [
+      "What was a typical day like for young ${name} during this period?",
+      "Who was ${name}'s favorite teacher at this time, and why?",
+      "What games or activities did ${name} enjoy with friends?",
+      "How did ${name}'s family handle their unique talents and interests?",
+      "What childhood friendship from this time became significant later?",
+      "Which neighborhood characters influenced young ${name}?",
+      "What family traditions shaped ${name}'s early years?"
+    ]
+  },
+  "FRIENDSHIP_STORIES": {
+    "name": "Friendship Development",
+    "templates": [
+      "How did ${name} first meet ${subject}, and what drew them together?",
+      "What shared experience strengthened this friendship?",
+      "Which friend challenged ${name}'s perspectives in important ways?",
+      "What misunderstanding or conflict tested this relationship?",
+      "How did this friendship evolve over time?",
+      "What inside jokes or shared memories defined this friendship?",
+      "How did they support each other through difficult times?"
+    ]
+  },
+  "FAMILY_DYNAMICS": {
+    "name": "Family Relationships",
+    "templates": [
+      "How did ${name}'s relationship with their siblings change during this time?",
+      "What family dinner conversations stood out during this period?",
+      "How did ${name}'s parents adapt to their unique path?",
+      "Which family member provided unexpected support or understanding?",
+      "What family conflict needed resolution?",
+      "How did extended family influence ${name}'s journey?",
+      "What family tradition took on new meaning?"
+    ]
+  },
+  "SCHOOL_LIFE": {
+    "name": "Educational Experiences",
+    "templates": [
+      "What was ${name}'s favorite spot on campus?",
+      "Which study group became more than just academic colleagues?",
+      "What classroom moment changed ${name}'s perspective?",
+      "How did ${name} spend time between classes?",
+      "Which dormitory experiences shaped lasting friendships?",
+      "What extracurricular activity unexpectedly influenced ${name}'s path?",
+      "Who was the most memorable character in ${name}'s class?"
+    ]
+  },
+  "MENTORSHIP_MOMENTS": {
+    "name": "Mentor Relationships",
+    "templates": [
+      "What everyday advice from ${subject} proved unexpectedly important?",
+      "How did this mentorship begin?",
+      "What personal crisis did this mentor help navigate?",
+      "When did the mentorship evolve into friendship?",
+      "What tradition or habit did ${name} adopt from this mentor?",
+      "Which disagreement with a mentor led to growth?",
+      "How did this mentor's family become part of ${name}'s life?"
+    ]
+  },
+  "DAILY_RITUALS": {
+    "name": "Daily Life",
+    "templates": [
+      "What was ${name}'s morning routine during this period?",
+      "Where did ${name} go to find peace or inspiration?",
+      "What local cafe or restaurant became a second home?",
+      "Which regular activities helped maintain friendships?",
+      "What personal habits formed during this time?",
+      "How did ${name} balance different aspects of life?",
+      "What small traditions became important?"
+    ]
+  },
+  "TURNING_POINTS": {
+    "name": "Personal Moments",
+    "templates": [
+      "What seemingly small decision had unexpected importance?",
+      "Which conversation changed ${name}'s direction?",
+      "What mistake led to an important lesson?",
+      "When did ${name} realize something fundamental about themselves?",
+      "What challenge forced personal growth?",
+      "Which chance encounter proved significant?",
+      "What moment of doubt led to clarity?"
+    ]
+  },
+  "COMMUNITY_CONNECTIONS": {
+    "name": "Community Life",
+    "templates": [
+      "Who were the regular characters at ${name}'s favorite spots?",
+      "What local community embraced ${name}?",
+      "How did ${name} contribute to their community?",
+      "Which neighborhood figures became unofficial mentors?",
+      "What community event brought people together?",
+      "How did local places shape ${name}'s routine?",
+      "What community support proved crucial?"
+    ]
+  }
+}

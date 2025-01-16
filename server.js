@@ -3,20 +3,114 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 import fs from 'fs/promises';
+import 'dotenv/config';
 
 // Get __dirname equivalent in ES modules
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 const app = express();
-const port = 8080;
+const port = process.env.PORT || 8080;
+const currentCharacter = process.env.CHARACTER || 'terrence';
 
-// Define specific routes first
-app.get('/memory/:memoryId', async (req, res) => {
+// Serve static files from the static directory
+app.use(express.static(path.join(__dirname, 'static')));
+app.use(express.json());
+
+// Add request logging middleware
+app.use((req, res, next) => {
+    console.log(`[${new Date().toISOString()}] ${req.method} ${req.url}`);
+    next();
+});
+
+// Helper function to load character config
+async function loadCharacterConfig(character) {
+    const configPath = path.join(__dirname, 'output', character, 'config.json');
+    console.log(`[loadCharacterConfig] Reading from ${configPath}`);
     try {
-        const timelineData = JSON.parse(
-            await fs.readFile(path.join(__dirname, 'static', 'timeline_graph.json'), 'utf8')
-        );
+        const configData = await fs.readFile(configPath, 'utf8');
+        console.log('Config data for', character, ':', configData.substring(0, 100) + '...');
+        const config = JSON.parse(configData);
+        const characterInfo = {
+            id: character,
+            name: config.name || character,
+            birthDate: config.birthDate || null,
+            type: config.type || 'unknown'
+        };
+        console.log(`[loadCharacterConfig] Processed ${character}:`, characterInfo);
+        return characterInfo;
+    } catch (error) {
+        console.error(`[loadCharacterConfig] Error loading ${character}:`, error);
+        return null;
+    }
+}
+
+// Helper function to load available characters
+async function loadAvailableCharacters() {
+    const outputDir = path.join(__dirname, 'output');
+    console.log(`[loadAvailableCharacters] Scanning ${outputDir}`);
+    try {
+        const dirs = await fs.readdir(outputDir, { withFileTypes: true });
+        const dirNames = dirs.filter(d => d.isDirectory()).map(d => d.name);
+        console.log(`[loadAvailableCharacters] Found directories:`, dirNames);
+        
+        const characters = [];
+        for (const dirName of dirNames) {
+            const config = await loadCharacterConfig(dirName);
+            if (config) {
+                characters.push(config);
+            }
+        }
+        
+        console.log(`[loadAvailableCharacters] Returning ${characters.length} characters:`, 
+            characters.map(c => `${c.id}(${c.name})`));
+        return characters;
+    } catch (error) {
+        console.error('[loadAvailableCharacters] Error:', error);
+        return [];
+    }
+}
+
+// API endpoints
+app.get('/api/characters', async (req, res) => {
+    console.log('[/api/characters] Request received');
+    try {
+        const characters = await loadAvailableCharacters();
+        console.log('[/api/characters] Sending response:', {
+            count: characters.length,
+            characters: characters.map(c => ({
+                id: c.id,
+                name: c.name,
+                birthDate: c.birthDate,
+                type: c.type
+            }))
+        });
+        res.json(characters);
+    } catch (error) {
+        console.error('[/api/characters] Error:', error);
+        res.status(500).json({ error: 'Failed to load characters' });
+    }
+});
+
+app.get('/api/timeline/:character?', async (req, res) => {
+    const character = req.params.character || currentCharacter;
+    console.log('Loading timeline for character:', character);
+    try {
+        const graphPath = path.join(__dirname, 'output', character, 'timeline_graph.json');
+        const graphData = await fs.readFile(graphPath, 'utf8');
+        res.json(JSON.parse(graphData));
+    } catch (error) {
+        console.error('Error reading timeline graph:', error);
+        res.status(500).json({ error: 'Failed to load timeline graph' });
+    }
+});
+
+app.get('/memory/:character/:memoryId', async (req, res) => {
+    const character = req.params.character;
+    try {
+        const graphPath = path.join(__dirname, 'output', character, 'timeline_graph.json');
+        const timelineData = JSON.parse(await fs.readFile(graphPath, 'utf8'));
+        const characterConfig = await loadCharacterConfig(character);
 
         const memory = timelineData.nodes.find(node => node.key === req.params.memoryId);
 
@@ -26,6 +120,7 @@ app.get('/memory/:memoryId', async (req, res) => {
                 <html>
                 <head>
                     <meta charset="utf-8">
+                    <title>${characterConfig.name} - ${memory.attributes.name}</title>
                     <style>
                         body {
                             margin: 0;
@@ -34,100 +129,18 @@ app.get('/memory/:memoryId', async (req, res) => {
                             font-size: 12px;
                             line-height: 1.4;
                             background: #000;
+                            color: #fff;
+                        }
+                        .memory-meta {
+                            margin-top: 10px;
+                            opacity: 0.7;
                         }
                     </style>
-                    <script>
-                        function replaceWidgetTagWithIframe() {
-                            var divs = document.querySelectorAll("#elevenlabs-audionative-widget");
-
-                            divs.forEach(function (div) {
-                                var width = div.getAttribute("data-width");
-                                var height = div.getAttribute("data-height");
-                                var frameBorder = div.getAttribute("data-frameBorder");
-                                var scrolling = div.getAttribute("data-scrolling");
-                                var publicUserId = div.getAttribute("data-publicUserId");
-                                var small = div.hasAttribute("data-small") ? \`&small=\${div.getAttribute("data-small")}\` : "";
-                                var textColor = '';// div.hasAttribute("data-textColor") ? \`&textColor=\${div.getAttribute("data-textColor")}\` : "";
-                                var backgroundColor = '';//div.hasAttribute("data-backgroundColor") ? \`&backgroundColor=\${div.getAttribute("data-backgroundColor")}\` : "";
-                                var projectId = div.hasAttribute("data-projectId") ? "&projectId=" + div.getAttribute("data-projectId") : "";
-                                var playerUrl = div.hasAttribute("data-playerUrl") ? div.getAttribute("data-playerUrl") : "https://elevenlabs.io/player";
-                                var qa = div.hasAttribute("data-qa") ? \`&qa=\${div.getAttribute("data-qa")}\` : "";
-                                var src = playerUrl + \`?publicUserId=\${publicUserId}\` + \`\${projectId}\${textColor}\${backgroundColor}\${small}\${qa}\`;
-
-                                var iframeTag = document.createElement("iframe");
-                                iframeTag.id = "AudioNativeElevenLabsPlayer";
-                                iframeTag.width = width;
-                                iframeTag.height = height;
-                                iframeTag.style.maxHeight = height + "px";
-                                iframeTag.frameBorder = frameBorder;
-                                iframeTag.scrolling = scrolling;
-                                iframeTag.src = src;
-
-                                div.parentNode.replaceChild(iframeTag, div);
-                            });
-                        }
-
-                        window.addEventListener("load", function () {
-                            console.log("Window load event triggered");
-                            replaceWidgetTagWithIframe();
-                        });
-
-                        window.addEventListener("message", function (event) {
-                            console.log("Received message event:", event.data);
-
-                            if (event.data === "audioNativeUrlRequest") {
-                                console.log("Handling audioNativeUrlRequest");
-                                const frame = document.getElementById("AudioNativeElevenLabsPlayer");
-                                const faviconElements = document.querySelectorAll('link[rel="icon"]');
-                                if (frame && frame.contentWindow) {
-                                    const message = {
-                                        id: "audioNativeUrlResponse",
-                                        url: window.location.href,
-                                        favicons: Array.from(faviconElements).map(element => ({
-                                            href: element.href,
-                                            sizes: Array.from(element.sizes).join(" "),
-                                        })),
-                                    };
-                                    console.log("Sending response:", message);
-                                    frame.contentWindow.postMessage(message, "*");
-                                }
-                            }
-
-                            if (event.data === "audioNativeHideRequest") {
-                                console.log("Handling audioNativeHideRequest");
-                                const frame = document.getElementById("AudioNativeElevenLabsPlayer");
-                                frame.height = 0;
-                            }
-                        });
-
-                        window.addEventListener("beforeunload", function () {
-                            console.log("Window beforeunload event triggered");
-                            const frame = document.getElementById("AudioNativeElevenLabsPlayer");
-                            if (frame) {
-                                frame.remove();
-                            }
-                        });
-
-                        // Initial call
-                        replaceWidgetTagWithIframe();
-                    </script>
                 </head>
                 <body>
-                    <div id="elevenlabs-audionative-widget" 
-                        data-height="90" 
-                        data-width="100%" 
-                        data-frameborder="no" 
-                        data-scrolling="no"
-                        data-autoplay="true"
-                        data-publicuserid="35d355a390902c451dabd06fdfe93f98157eb908052465f5fa2d42adb52472c3" 
-                        data-playerurl="https://elevenlabs.io/player/index.html"
-                        data-textcolor="rgba(255, 255, 255, 0.9)"
-                        data-backgroundcolor="rgba(0, 0, 0, 0.5)">
-                        Loading the <a href="https://elevenlabs.io/text-to-speech" target="_blank" rel="noopener">Elevenlabs Text to Speech</a> AudioNative Player...
-                    </div>
                     <div>
-                        <h3 class="memory-title" style="display: none;">${memory.attributes.name}</h3>
-                        <div class="memory-date" style="display: none;">
+                        <h3 class="memory-title">${memory.attributes.name}</h3>
+                        <div class="memory-date">
                             ${new Date(memory.attributes.timestamp).toLocaleDateString('en-US', {
                                 year: 'numeric',
                                 month: 'long',
@@ -135,7 +148,7 @@ app.get('/memory/:memoryId', async (req, res) => {
                             })}
                         </div>
                         <div class="memory-description">${memory.attributes.description}</div>
-                        <div class="memory-meta" style="display: none;">
+                        <div class="memory-meta">
                             Timeline: ${memory.attributes.timeline || 'main'}
                             ${memory.attributes.type ? ` • Type: ${memory.attributes.type}` : ''}
                         </div>
@@ -153,9 +166,6 @@ app.get('/memory/:memoryId', async (req, res) => {
     }
 });
 
-// Then serve static files
-app.use(express.static('static'));
-
 // Root endpoint can come after static files
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'static', 'index.html'));
@@ -164,4 +174,5 @@ app.get('/', (req, res) => {
 // Start server
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
-}); 
+    console.log(`Current character: ${currentCharacter}`);
+});
