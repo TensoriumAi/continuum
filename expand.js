@@ -19,6 +19,9 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY
 });
 
+// Select Model
+const MODEL = process.env.MODEL || 'gpt-4o-mini-2024-07-18';
+
 // Global variables
 let characterConfig = null;
 let graph = null;
@@ -261,12 +264,30 @@ async function runExpansionLoop(iterations = 10) {
       }
     }
 
+    // Get current state for transformations and connections
+    const currentState = {
+      nodes: graph.nodes().map(node => ({
+        id: node,
+        ...graph.getNodeAttributes(node)
+      }))
+    };
+
+    // Every 5 iterations, look for new connections
+    if (currentIteration % 5 === 0) {
+      await findNewConnections(currentState.nodes);
+    }
+
+    // Every 10 iterations, apply timeline transformation if specified
+    if (currentIteration % 10 === 0 && characterConfig.transformPrompt) {
+      await transformTimeline(currentState.nodes, characterConfig.transformPrompt);
+    }
+
     // Evaluate timeline after processing all nodes in this iteration
     await evaluateTimeline(currentIteration, batchTimestamp);
     
     // Generate narration every 10 iterations
     if (currentIteration % 10 === 0) {
-      await generateNarrativeMarkdown(currentIteration);
+      await generateNarration();
     }
 
     currentIteration++;
@@ -275,67 +296,136 @@ async function runExpansionLoop(iterations = 10) {
   console.log('\nExpansion complete!');
 }
 
-async function generateNarrativeMarkdown(loopCount) {
-  const timestamp = new Date().toISOString();
-  let markdown = `# ${characterConfig.name} Alternate Timeline - Loop ${loopCount}\n\n`;
-  markdown += `Generated on ${timestamp}\n\n`;
+async function addEventToGraph(event) {
+  const eventId = event.id;
+  const characterName = characterConfig.characterName || characterConfig.name;
   
-  const nodes = graph.nodes().map(node => ({
-    id: node,
-    ...graph.getNodeAttributes(node)
-  }));
-
-  nodes.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
-
-  const eventsByYear = {};
-  nodes.forEach(node => {
-    const year = new Date(node.timestamp).getFullYear();
-    if (!eventsByYear[year]) {
-      eventsByYear[year] = [];
-    }
-    eventsByYear[year].push(node);
+  graph.addNode(eventId, {
+    name: event.name,
+    timestamp: event.timestamp,
+    description: event.description,
+    timeline: "main",
+    expansion_prompt: `What were the key moments and details surrounding ${event.name}? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change ${characterName}'s path?`
   });
 
-  markdown += `## Timeline Overview\n\n`;
-
-  Object.keys(eventsByYear).sort().forEach(year => {
-    markdown += `### ${year}\n\n`;
-    eventsByYear[year].forEach(event => {
-      const date = new Date(event.timestamp).toLocaleDateString('en-US', {
-        month: 'long',
-        day: 'numeric'
-      });
-      markdown += `#### ${date} - ${event.name}\n\n`;
-      markdown += `${event.description}\n\n`;
-      
-      const outEdges = graph.outEdges(event.id);
-      if (outEdges.length > 0) {
-        markdown += `*Led to:*\n`;
-        outEdges.forEach(edge => {
-          const targetNode = graph.getNodeAttributes(graph.target(edge));
-          markdown += `- ${targetNode.name}\n`;
-        });
-        markdown += '\n';
-      }
-
-      const inEdges = graph.inEdges(event.id);
-      if (inEdges.length > 0) {
-        markdown += `*Influenced by:*\n`;
-        inEdges.forEach(edge => {
-          const sourceNode = graph.getNodeAttributes(graph.source(edge));
-          markdown += `- ${sourceNode.name}\n`;
-        });
-        markdown += '\n';
-      }
-    });
+  // Add edge from source to new event
+  graph.addEdge(event.connectedTo, eventId, {
+    type: event.connectionType || "sequence",
+    description: event.connectionDescription || `Follows from ${event.connectedTo}`
   });
 
-  const outputBase = `${characterConfig.outputDir}/narrative.loop${loopCount}`;
-  await fs.writeFile(`${outputBase}.md`, markdown);
-  console.log(`\nNarrative saved to ${outputBase}.md`);
+  return eventId;
 }
 
-async function runLoopManager(totalLoops = 100, loopsPerNarrative = 10) {
+async function findNewConnections(nodes) {
+  console.log('\nFinding new connections between nodes...');
+  const characterName = characterConfig.characterName || characterConfig.name;
+  
+  const prompt = `Given these timeline events in ${characterName}'s life, identify any potential NEW connections or relationships between them that aren't already captured. Focus on discovering non-obvious cause-and-effect relationships, thematic links, or parallel developments that might have been missed. Each connection should provide unique insight.
+
+Return the connections in this JSON format:
+  {
+    "connections": [
+      {
+        "from": "event_id_1",
+        "to": "event_id_2",
+        "relationship": "description of how they are connected",
+        "type": "one of: CAUSES, INFLUENCES, PARALLELS, CONTRASTS, ENABLES"
+      }
+    ]
+  }
+  
+Existing events:
+${nodes.map(n => `- ${n.timestamp}: ${n.name} (id: ${n.id})\n${n.description}`).join('\n\n')}
+
+Existing connections:
+${graph.edges().map(e => {
+  const edge = graph.getEdgeAttributes(e);
+  const source = graph.getNodeAttributes(graph.source(e));
+  const target = graph.getNodeAttributes(graph.target(e));
+  return `- ${source.name} -> ${target.name}: ${edge.type}${edge.description ? ` (${edge.description})` : ''}`;
+}).join('\n')}`;
+
+  // VERIFIED MODEL NAME: gpt-4o-2024-11-20
+  const completion = await openai.chat.completions.create({
+    model: MODEL,
+    messages: [{ role: "user", content: prompt }],
+    temperature: 0.7,
+    max_tokens: 1000
+  });
+
+  const content = completion.choices[0].message.content;
+  
+  try {
+    const jsonMatch = content.match(/\{[\s\S]*\}/);
+    if (jsonMatch) {
+      const connections = JSON.parse(jsonMatch[0]);
+      if (connections.connections) {
+        for (const conn of connections.connections) {
+          const fromNode = nodes.find(n => n.id === conn.from);
+          const toNode = nodes.find(n => n.id === conn.to);
+          if (fromNode && toNode) {
+            // Check if edge already exists
+            if (!graph.hasEdge(conn.from, conn.to)) {
+              // Add edge to the graph
+              graph.addEdge(conn.from, conn.to, {
+                type: conn.type || 'INFLUENCES',
+                description: conn.relationship
+              });
+              await saveGraph();
+              console.log(`Added edge: ${fromNode.name} -> ${toNode.name} (${conn.type}: ${conn.relationship})`);
+            } else {
+              console.log(`Edge already exists between ${fromNode.name} and ${toNode.name}`);
+            }
+          }
+        }
+      }
+    }
+  } catch (error) {
+    console.error('Error parsing connections:', error);
+  }
+}
+
+async function transformTimeline(nodes, transformPrompt) {
+  console.log('\nTransforming timeline with prompt:', transformPrompt);
+  const characterName = characterConfig.characterName || characterConfig.name;
+  
+  const prompt = `You are analyzing ${characterName}'s timeline to ${transformPrompt}
+
+Current timeline events:
+${nodes.map(n => `- ${n.timestamp}: ${n.name}\n${n.description}`).join('\n\n')}
+
+Existing connections:
+${graph.edges().map(e => {
+  const edge = graph.getEdgeAttributes(e);
+  const source = graph.getNodeAttributes(graph.source(e));
+  const target = graph.getNodeAttributes(graph.target(e));
+  return `- ${source.name} -> ${target.name}: ${edge.type}${edge.description ? ` (${edge.description})` : ''}`;
+}).join('\n')}
+
+Based on this timeline and the transformation prompt, provide:
+1. Analysis of how well the timeline fulfills the transformation goal
+2. Specific suggestions for new events or connections that would strengthen this aspect
+3. Identification of any events that could be modified or expanded to better serve this purpose
+
+Format your response in markdown with clear sections for analysis, suggestions, and modifications.`;
+
+  const completion = await openai.chat.completions.create({
+    model: MODEL,
+    messages: [{ role: "user", content: prompt }],
+    temperature: 0.7,
+    max_tokens: 1000
+  });
+
+  const content = completion.choices[0].message.content;
+  const transformPath = path.join(characterConfig.outputDir, `transform_${Date.now()}.md`);
+  await fs.writeFile(transformPath, content);
+  console.log(`Saved transformation analysis to ${transformPath}`);
+  
+  return content;
+}
+
+async function runLoopManager(totalLoops = 100, loopsPerNarrative = 1) {
   let currentLoop = 0;
 
   while (currentLoop < totalLoops) {
@@ -344,7 +434,7 @@ async function runLoopManager(totalLoops = 100, loopsPerNarrative = 10) {
     await runExpansionLoop(loopsPerNarrative);
     
     currentLoop += loopsPerNarrative;
-    await generateNarrativeMarkdown(currentLoop);
+    await generateNarration();
     
     console.log(`\nCompleted ${currentLoop}/${totalLoops} total loops`);
     console.log(`\nStarting next set of ${loopsPerNarrative} loops...\n`);
@@ -417,11 +507,11 @@ Evaluate and score each aspect:
 - Plausible consequences
 
 For each aspect, explain the score and list any specific issues found. Start with an overall score (average of all scores) and summary.
-
+Before the score, summarize the the timeline as a narrative, and add another section that's an entity graph
 Format your response in markdown with clear sections for the overall score and each aspect.`;
 
   const completion = await openai.chat.completions.create({
-    model: "gpt-4",
+    model: MODEL,
     messages: [{ role: "user", content: prompt }],
     temperature: 0.7,
     max_tokens: 1000
@@ -450,7 +540,8 @@ async function generateNarration() {
 ## Character Profile
 **Type**: ${characterConfig.type}
 **Birth/Creation**: ${characterConfig.birthDate}
-**Description**: ${characterConfig.physicalDescription}
+**Description**:
+${Object.entries(characterConfig.physicalDescription).map(([key, value]) => `### ${key}\n\n${value}\n`).join('\n\n')}
 **Biology**: ${typeof characterConfig.biology === 'object' ? JSON.stringify(characterConfig.biology) : characterConfig.biology}
 **Technology**: ${typeof characterConfig.technology === 'object' ? JSON.stringify(characterConfig.technology) : characterConfig.technology}
 
@@ -487,7 +578,7 @@ async function expandIteration(iterationNumber, nodeId = null) {
 
     // Get AI completion
     const completion = await openai.chat.completions.create({
-      model: "gpt-4",
+      model: MODEL,
       messages: [{ role: "user", content: prompt }],
       temperature: 0.7,
       max_tokens: 1000
@@ -531,104 +622,6 @@ async function expandIteration(iterationNumber, nodeId = null) {
     console.error('Error during iteration:', error);
     return false;
   }
-}
-
-function addEventToGraph(event) {
-  const eventId = event.id;
-  graph.addNode(eventId, {
-    name: event.name,
-    timestamp: event.timestamp,
-    description: event.description,
-    timeline: "main",
-    expansion_prompt: `What were the key moments and details surrounding ${event.name}? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change ${characterConfig.name}'s path?`
-  });
-
-  // Add edge from source to new event
-  graph.addEdge(event.connectedTo, eventId, {
-    type: event.connectionType || "sequence"
-  });
-
-  return eventId;
-}
-
-async function findNewConnections(nodes) {
-  console.log('\nFinding new connections between nodes...');
-  const prompt = `Given these timeline events, identify any potential NEW connections or relationships between them that aren't already captured. Focus on discovering non-obvious cause-and-effect relationships, thematic links, or parallel developments that might have been missed. Each connection should provide unique insight.
-
-Return the connections in this JSON format:
-  {
-    "connections": [
-      {
-        "from": "event_id_1",
-        "to": "event_id_2",
-        "relationship": "description of how they are connected"
-      }
-    ]
-  }
-  
-Existing events:
-${nodes.map(n => `- ${n.timestamp}: ${n.name} (id: ${n.id})\n${n.description}`).join('\n\n')}
-
-Existing connections:
-${graph.edges().map(e => {
-  const edge = graph.getEdgeAttributes(e);
-  const source = graph.getNodeAttributes(graph.source(e));
-  const target = graph.getNodeAttributes(graph.target(e));
-  return `- ${source.name} -> ${target.name}: ${edge.description}`;
-}).join('\n')}`;
-
-  const completion = await openai.chat.completions.create({
-    model: "gpt-4",
-    messages: [{ role: "user", content: prompt }]
-  });
-
-  const content = completion.choices[0].message.content;
-  console.log('New connections identified:', content);
-  
-  try {
-    const jsonMatch = content.match(/\{[\s\S]*\}/);
-    if (jsonMatch) {
-      const connections = JSON.parse(jsonMatch[0]);
-      if (connections.connections) {
-        for (const conn of connections.connections) {
-          const fromNode = nodes.find(n => n.id === conn.from);
-          const toNode = nodes.find(n => n.id === conn.to);
-          if (fromNode && toNode) {
-            // Check if edge already exists
-            if (!graph.hasEdge(conn.from, conn.to)) {
-              // Add edge to the graph
-              graph.addEdge(conn.from, conn.to, {
-                type: 'CAUSES',
-                description: conn.relationship
-              });
-              await saveGraph();
-              console.log(`Added edge: ${fromNode.name} -> ${toNode.name} (${conn.relationship})`);
-            } else {
-              console.log(`Edge already exists between ${fromNode.name} and ${toNode.name}`);
-            }
-          }
-        }
-      }
-    }
-  } catch (error) {
-    console.error('Error parsing connections:', error);
-  }
-  
-  return content;
-}
-
-async function transformTimeline(nodes, transformPrompt) {
-  console.log('\nTransforming timeline with prompt:', transformPrompt);
-  const prompt = `Current timeline events:\n\n${nodes.map(n => `- ${n.timestamp}: ${n.name}\n${n.description}`).join('\n\n')}\n\nTransformation request: ${transformPrompt}`;
-
-  const completion = await openai.chat.completions.create({
-    model: "gpt-4",
-    messages: [{ role: "user", content: prompt }]
-  });
-
-  const content = completion.choices[0].message.content;
-  console.log('Timeline transformation result:', content);
-  return content;
 }
 
 async function generateExpansionPrompt(nodeKey, nodeAttributes) {

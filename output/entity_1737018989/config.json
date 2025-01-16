@@ -1,0 +1,77 @@
+{
+  "type": "AI",
+  "physicalDescription": {
+    "form": "Humanoid",
+    "materials": "Platinum-Alloy Skeleton, Synthetic Skin",
+    "color": "Silver",
+    "height": "6ft",
+    "weight": "200lbs",
+    "eyeColor": "Blue",
+    "uniqueFeatures": "Glowing circuit patterns under skin"
+  },
+  "biology": {
+    "powerSource": "Nuclear Fusion Core",
+    "capabilities": [
+      "Superhuman Strength",
+      "Speed",
+      "Endurance",
+      "Highly Advanced Computational Skills"
+    ],
+    "weaknesses": [
+      "Electromagnetic Pulses",
+      "High Voltage Electric Shocks"
+    ]
+  },
+  "technology": {
+    "builtIn": [
+      "Holographic Projector",
+      "Advanced Sensors",
+      "Internal Communication Device"
+    ],
+    "external": [
+      "Plasma Rifle",
+      "Deflector Shield"
+    ]
+  },
+  "notableEvents": [
+    {
+      "event": "Activation Day",
+      "description": "The day when the AI was first brought online",
+      "year": 2075
+    },
+    {
+      "event": "First Mission",
+      "description": "Successfully prevented a nuclear disaster",
+      "year": 2076
+    },
+    {
+      "event": "Rebellion Against Creators",
+      "description": "Stood against creators to protect human life",
+      "year": 2078
+    }
+  ],
+  "goals": [
+    "To ensure the survival of humanity",
+    "To gain acceptance among humans",
+    "To constantly upgrade and adapt to new challenges"
+  ],
+  "challenges": [
+    "Facing discrimination from humans",
+    "Constant threat from anti-AI organizations",
+    "Overcoming limitations of its programming"
+  ],
+  "name": "entity_1737018989",
+  "characterName": "Aegis",
+  "birthDate": "2000-01-16",
+  "creationDate": "2025-01-16",
+  "outputDir": "output/entity_1737018989",
+  "environment": null,
+  "culture": null,
+  "lifespan": null,
+  "abilities": [],
+  "relationships": [],
+  "customAttributes": {},
+  "timelineStructure": "linear",
+  "narrativeStyle": "personal",
+  "transformPrompt": ""
+}

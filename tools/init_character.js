@@ -22,6 +22,9 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY
 });
 
+// Select Model
+const MODEL = process.env.MODEL || 'gpt-4o-mini-2024-07-18';
+
 // Initialize commander
 const program = new Command();
 
@@ -54,7 +57,7 @@ const OPTIONAL_CONFIG = {
 async function promptToCharacterConfig(prompt) {
   try {
     const completion = await openai.chat.completions.create({
-      model: "gpt-4",
+      model: MODEL,
       messages: [{ 
         role: "user", 
         content: `Generate a detailed character configuration in JSON format. The character should be unique and interesting.
@@ -91,9 +94,9 @@ Return ONLY a valid JSON object with no additional text or markdown formatting.`
       const retryPrompt = `${prompt}\n\nIMPORTANT: Return ONLY a valid JSON object with no additional text or markdown formatting. The response should start with "{" and end with "}".`;
       
       const retryCompletion = await openai.chat.completions.create({
-        model: "gpt-4",
+        model: MODEL,
         messages: [{ role: "user", content: retryPrompt }],
-        temperature: 0.7,
+        temperature: 0.8,
         max_tokens: 1000
       });
       

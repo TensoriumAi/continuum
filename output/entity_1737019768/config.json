@@ -1,0 +1,68 @@
+{
+  "type": "alien",
+  "physicalDescription": {
+    "height": "6.5 feet",
+    "weight": "200 pounds",
+    "skinColor": "green",
+    "eyeColor": "yellow",
+    "bodyShape": "humanoid",
+    "distinguishingFeatures": [
+      "four arms",
+      "tentacle-like hair",
+      "glowing tattoos"
+    ]
+  },
+  "biology": {
+    "species": "Zorgonian",
+    "nativePlanet": "Zorgon VII",
+    "lifespan": "300 Earth years",
+    "abilities": [
+      "telepathy",
+      "telekinesis",
+      "inter-dimensional travel"
+    ]
+  },
+  "technology": [
+    "Phase-shift armor",
+    "Quantum energy blaster",
+    "Interstellar ship - 'Star Skipper'"
+  ],
+  "notableEvents": [
+    {
+      "title": "Battle of the Nebula Nexus",
+      "description": "Fought bravely and played a key role in the victory of the Zorgonian forces over the invading Klaxxons"
+    },
+    {
+      "title": "Rescue of the Galactic Council",
+      "description": "Single-handedly saved the Galactic Council from a deadly assassination attempt"
+    },
+    {
+      "title": "Quest for the Quantum Crystals",
+      "description": "Recovered the lost Quantum Crystals, thus preventing a universe-wide catastrophe"
+    }
+  ],
+  "goals": [
+    "Maintain peace in the Zorgonian empire",
+    "Protect the universe from cosmic threats",
+    "Understand and master his telekinetic abilities"
+  ],
+  "challenges": [
+    "Constant threats from rival alien races",
+    "Difficulty controlling his powerful telekinetic abilities",
+    "Struggle to balance duty and personal life"
+  ],
+  "name": "entity_1737019768",
+  "characterName": "Zorak Starborn",
+  "birthDate": "2000-01-16",
+  "creationDate": "2025-01-16",
+  "outputDir": "output/entity_1737019768",
+  "environment": null,
+  "culture": null,
+  "lifespan": null,
+  "abilities": [],
+  "relationships": [],
+  "customAttributes": {},
+  "timelineStructure": "linear",
+  "narrativeStyle": "personal",
+  "transformPrompt": ""
+}
