@@ -375,7 +375,13 @@ async function evaluateTimeline(iterationNumber, batchTimestamp) {
     connections.push(`${source} -> ${target} (${attrs.type})`);
   });
 
-  const prompt = `Analyze this timeline for paradoxes, ambiguities, and conflicts:
+  const prompt = `Analyze this timeline for coherence, consistency, and narrative quality. Score each aspect out of 10, where:
+10: Perfect - No issues found
+8-9: Strong - Minor issues that don't impact overall quality
+6-7: Good - Some issues that could be improved
+4-5: Fair - Notable issues that affect quality
+2-3: Poor - Significant issues that need addressing
+0-1: Critical - Major problems that break coherence
 
 Timeline Events (chronological order):
 ${timelineContext}
@@ -383,22 +389,36 @@ ${timelineContext}
 Connections:
 ${connections.join('\n')}
 
-Consider:
-1. Temporal consistency and causality
-2. Character development and relationships
-3. Setting and environmental consistency
-4. Logical progression of events
-5. Internal consistency of facts and details
+Evaluate and score each aspect:
 
-Identify any:
-- Temporal paradoxes
-- Contradicting facts
-- Ambiguous relationships
-- Unclear cause-effect chains
-- Missing context
-- Inconsistent character traits
+1. Temporal Consistency (Score /10):
+- Events flow logically in time
+- No paradoxes or impossible sequences
+- Reasonable time gaps between events
 
-Format your response in markdown with clear sections for each type of issue found.`;
+2. Character Development (Score /10):
+- Growth and change over time
+- Consistent personality traits
+- Believable reactions and decisions
+
+3. Setting Coherence (Score /10):
+- Consistent world details
+- Plausible locations and environments
+- Appropriate technological/cultural context
+
+4. Narrative Flow (Score /10):
+- Clear cause-effect relationships
+- Meaningful connections between events
+- Natural story progression
+
+5. Internal Logic (Score /10):
+- No contradicting facts
+- Consistent rules and limitations
+- Plausible consequences
+
+For each aspect, explain the score and list any specific issues found. Start with an overall score (average of all scores) and summary.
+
+Format your response in markdown with clear sections for the overall score and each aspect.`;
 
   const completion = await openai.chat.completions.create({
     model: "gpt-4",
