@@ -1,0 +1,56 @@
+{
+  "type": "alien",
+  "physicalDescription": {
+    "height": "7 feet",
+    "skinColor": "iridescent teal with a faint bioluminescent glow",
+    "eyeColor": "liquid silver with fractal patterns in the iris",
+    "bodyStructure": "elongated limbs with three jointed fingers and toes, slender and semi-transparent torso revealing faintly glowing organs",
+    "hair": "none, but a series of flexible, antenna-like tendrils on the head that can move independently and emit faint pulses of light",
+    "distinguishingFeatures": "a series of intricate, naturally occurring geometric patterns etched into their skin that shift slowly over time"
+  },
+  "biology": {
+    "speciesName": "Luminara",
+    "diet": "absorbs energy from starlight through photosynthetic cells in their skin",
+    "lifespan": "approximately 500 Earth years",
+    "reproductiveMethod": "asexual budding every 100 years, producing a single offspring",
+    "uniqueAbilities": "telepathic communication through light pulses, enhanced night vision, ability to temporarily phase through solid matter by molecular vibration"
+  },
+  "technology": {
+    "primaryDevice": "Plasmatron Sphere, a hovering device that can generate shields, project holograms, and emit focused energy beams",
+    "wearableTech": "Ephemeral Bracelets, which allow limited manipulation of gravity for levitation and precise movement in low-gravity environments",
+    "transportation": "Stellar Veil, a personal spacecraft that folds space for near-instantaneous travel between points in the galaxy",
+    "everydayItems": "Memory Prism, a crystalline tool that stores memories and can replay them as vivid, interactive holograms"
+  },
+  "notableEvents": [
+    "Discovered a dying star harboring a sentient energy lifeform and forged a symbiotic relationship with it.",
+    "Negotiated peace between two warring galactic factions using their telepathic abilities and holographic projections of shared history.",
+    "Survived a near-fatal encounter with a collapsing black hole, which unlocked their ability to phase through matter.",
+    "Accidentally triggered an ancient alien artifact, resulting in a temporary rift in space-time and the loss of their original homeworld."
+  ],
+  "goals": [
+    "To rebuild their lost homeworld by gathering remnants of their species scattered across the galaxy.",
+    "To uncover the true origin of the ancient artifact that caused the rift in space-time.",
+    "To foster peace and unity among divided civilizations in the galaxy.",
+    "To learn the secrets of the sentient energy lifeform bonded with them and understand its purpose."
+  ],
+  "challenges": [
+    "Constantly hunted by a mysterious group known as the Riftkeepers, who blame them for the destabilization of space-time.",
+    "Struggling with the emotional burden of being one of the last of their kind.",
+    "Their symbiosis with the energy lifeform occasionally causes uncontrollable surges of power, putting themselves and others at risk.",
+    "The shifting patterns on their skin are a sign of an unknown condition that may eventually cause their molecular structure to destabilize."
+  ],
+  "name": "entity_1737025566",
+  "characterName": "Kaelith Xyvar",
+  "birthDate": "2000-01-16",
+  "creationDate": "2025-01-16",
+  "outputDir": "output/entity_1737025566",
+  "environment": null,
+  "culture": null,
+  "lifespan": null,
+  "abilities": [],
+  "relationships": [],
+  "customAttributes": {},
+  "timelineStructure": "linear",
+  "narrativeStyle": "personal",
+  "transformPrompt": ""
+}

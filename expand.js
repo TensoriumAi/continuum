@@ -398,6 +398,14 @@ ${graph.edges().map(e => {
   }
 }
 
+let eventIdCounter = 0;
+
+// Helper function to generate unique event IDs
+function generateEventId() {
+  eventIdCounter++;
+  return `event${Date.now()}_${eventIdCounter}`;
+}
+
 async function transformTimeline(nodes) {
   try {
     // Sort nodes chronologically
@@ -478,13 +486,29 @@ Format your response as JSON:
     // Add new events
     if (response.newEvents) {
       for (const event of response.newEvents) {
-        const eventId = `event${Date.now()}`;
-        graph.addNode(eventId, {
-          name: event.name,
-          timestamp: event.timestamp,
-          description: event.description,
-          timeline: 'main'
+        // Check if event with this name already exists
+        let exists = false;
+        graph.forEachNode((nodeId, attrs) => {
+          if (attrs.name === event.name) {
+            exists = true;
+            console.log(`Event "${event.name}" already exists, skipping...`);
+          }
         });
+
+        if (!exists) {
+          const eventId = generateEventId();
+          try {
+            graph.addNode(eventId, {
+              name: event.name,
+              timestamp: event.timestamp,
+              description: event.description,
+              timeline: 'main'
+            });
+            console.log(`Added new event: ${event.name}`);
+          } catch (error) {
+            console.error(`Error adding event ${event.name}:`, error);
+          }
+        }
       }
     }
 
@@ -503,10 +527,22 @@ Format your response as JSON:
         // Only add edge if both nodes exist
         if (sourceId && targetId) {
           try {
-            graph.addEdge(sourceId, targetId, {
-              type: conn.type.toUpperCase(),
-              description: conn.description
+            // Check if edge already exists
+            let exists = false;
+            graph.forEachEdge((edgeId, attrs, source, target) => {
+              if (source === sourceId && target === targetId && attrs.type === conn.type.toUpperCase()) {
+                exists = true;
+                console.log(`Connection from "${conn.source}" to "${conn.target}" of type ${conn.type} already exists, skipping...`);
+              }
             });
+
+            if (!exists) {
+              graph.addEdge(sourceId, targetId, {
+                type: conn.type.toUpperCase(),
+                description: conn.description
+              });
+              console.log(`Added new connection: ${conn.source} -> ${conn.target} (${conn.type})`);
+            }
           } catch (error) {
             console.log(`Error adding edge from ${conn.source} to ${conn.target}: ${error.message}`);
           }
@@ -767,7 +803,7 @@ Generate a new event that logically follows from this event. The event should:
 
 Return ONLY a JSON object with no markdown formatting or extra text:
 {
-  "id": "event${Date.now()}",
+  "id": "${generateEventId()}",
   "name": "Brief, specific title",
   "timestamp": "YYYY-MM-DD",
   "description": "Detailed description",
@@ -792,13 +828,10 @@ Generate a new foundational event in the character's timeline. The event should:
 
 Return ONLY a JSON object with no markdown formatting or extra text:
 {
-  "id": "event${Date.now()}",
-  "name": "Brief title of the event",
+  "id": "${generateEventId()}",
+  "name": "Event Name",
   "timestamp": "YYYY-MM-DD",
-  "description": "Detailed description of what happened and its impact",
-  "connectedTo": "birth",
-  "connectionType": "sequence",
-  "connectionDescription": "How this event relates to their birth/origin"
+  "description": "Detailed event description"
 }`;
 }
 
