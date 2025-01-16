@@ -3,12 +3,14 @@ import fs from 'fs/promises';
 import OpenAI from 'openai';
 import graphology from 'graphology';
 
-const currentCharacter = process.env.CHARACTER || "terrence";
+const currentCharacter = process.env.CHARACTER || "Naval Ravikant";
 let characterConfig;
 
 // Calculate output directory based on character name
 function getOutputDir(character) {
-  return `./output/${character}`;
+  // Make directory name URI-safe
+  const dirName = encodeURIComponent(character).replace(/%20/g, '-');
+  return `./output/${dirName}`;
 }
 
 async function loadCharacterConfig(character) {

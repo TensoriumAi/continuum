@@ -1,45 +1,45 @@
 {
-  "name": "Raven_X_1999",
-  "type": "augmented_human",
+  "name": "Raven X 1999",
+  "type": "augmented human",
   "birthDate": "1999-09-09",
   "originLocation": null,
   "timelineCutoff": "2030-12-31",
-  "physicalDescription": "tall_figure_in_flowing_black_nanomaterial_clothes_with_glowing_circuit_patterns_and_chrome_bone_implants",
-  "lifespan": "unknown_due_to_experimental_life_extension_tech",
-  "biology": "biotech_enhanced_with_neural_implants_and_dark_matter_infusions",
-  "culture": "cyber_goth_fusion_of_ancient_rituals_and_digital_hacking",
-  "environment": "neon_gothic_underground_clubs_and_digital_catacombs",
-  "technology": "hybrid_of_forbidden_tech_and_occult_algorithms",
+  "physicalDescription": "tall figure in flowing black nanomaterial clothes with glowing circuit patterns and chrome bone implants",
+  "lifespan": "unknown due to experimental life extension tech",
+  "biology": "biotech enhanced with neural implants and dark matter infusions",
+  "culture": "cyber goth fusion of ancient rituals and digital hacking",
+  "environment": "neon gothic underground clubs and digital catacombs",
+  "technology": "hybrid of forbidden tech and occult algorithms",
   "notableEvents": [
-    "First_neural_implant_ritual",
-    "Discovery_of_digital_necromancy",
-    "Creation_of_the_Dark_Net_Coven",
-    "Merging_with_the_ancient_mainframe"
+    "First neural implant ritual",
+    "Discovery of digital necromancy",
+    "Creation of the Dark Net Coven",
+    "Merging with the ancient mainframe"
   ],
   "abilities": [
-    "Digital_necromancy",
-    "Neural_hacking",
-    "Tech_ritual_synthesis",
-    "Dark_code_manipulation"
+    "Digital necromancy",
+    "Neural hacking",
+    "Tech ritual synthesis",
+    "Dark code manipulation"
   ],
   "relationships": [
-    "Mentor:_Ancient_System_Ghost",
-    "Partner:_Synthetic_Soul_Artist",
-    "Rival:_Corporate_Tech_Exorcist"
+    "Mentor: Ancient System Ghost",
+    "Partner: Synthetic Soul Artist",
+    "Rival: Corporate Tech Exorcist"
   ],
   "goals": [
-    "Resurrect_dead_networks",
-    "Unite_gothic_tradition_with_future_tech",
-    "Build_cyber_occult_community",
-    "Achieve_digital_transcendence"
+    "Resurrect dead networks",
+    "Unite gothic tradition with future tech",
+    "Build cyber occult community",
+    "Achieve digital transcendence"
   ],
   "challenges": [
-    "Balancing_human_soul_with_machine_logic",
-    "Avoiding_corporate_tech_hunters",
-    "Managing_dark_code_corruption"
+    "Balancing human soul with machine logic",
+    "Avoiding corporate tech hunters",
+    "Managing dark code corruption"
   ],
   "basePrompt": "You are exploring the life of a cyber goth punk hacker who grew up in the neon-lit underground of Neo Tokyo, merging ancient gothic traditions with bleeding-edge technology. A master of digital necromancy, they raise dead code and forgotten systems to create hybrid tech-rituals.",
-  "narrativeStyle": "dark_tech_poetry",
+  "narrativeStyle": "dark tech poetry",
   "timelineStructure": "spiral",
   "customAttributes": {}
 }

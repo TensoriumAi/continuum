@@ -172,6 +172,8 @@
         let isAnimating = false;
         let selectedNode = null;
         let hoveredNode = null;
+        let currentNodes = new Map(); // Track existing nodes
+        let nodeMeshes = new Map(); // Track node meshes
 
         async function createTimelineGraph(characterId) {
             console.log('Loading timeline for character:', characterId);
@@ -230,6 +232,7 @@
                     mesh.add(sprite);
 
                     scene.add(mesh);
+                    nodeMeshes.set(node.key, mesh);
                     return mesh;
                 });
 
@@ -296,28 +299,162 @@
             }
         }
 
-        function animate() {
-            requestAnimationFrame(animate);
-            
-            TWEEN.update();
-            
-            // Update edge positions
-            edges.forEach(edge => {
-                const source = edge.userData.source;
-                const target = edge.userData.target;
+        async function updateTimelineGraph(characterId) {
+            try {
+                const response = await fetch(`/api/timeline/${characterId}`);
+                const data = await response.json();
                 
-                const points = [source.position, target.position];
-                edge.geometry.setFromPoints(points);
-                edge.geometry.verticesNeedUpdate = true;
+                // Track new and removed nodes
+                const newNodes = new Map();
+                const nodesToRemove = new Map(currentNodes);
+                
+                data.nodes.forEach(node => {
+                    const nodeId = node.key;
+                    newNodes.set(nodeId, node);
+                    
+                    if (currentNodes.has(nodeId)) {
+                        // Existing node - update properties if changed
+                        const existingNode = currentNodes.get(nodeId);
+                        const meshObject = nodeMeshes.get(nodeId);
+                        if (meshObject && JSON.stringify(existingNode) !== JSON.stringify(node)) {
+                            // Animate changes if needed
+                            new TWEEN.Tween(meshObject.position)
+                                .to(getNodePosition(node), 1000)
+                                .easing(TWEEN.Easing.Quadratic.InOut)
+                                .start();
+                        }
+                        nodesToRemove.delete(nodeId);
+                    } else {
+                        // New node - add with animation
+                        const mesh = createNodeMesh(node);
+                        mesh.position.set(0, 0, 0); // Start at center
+                        scene.add(mesh);
+                        nodeMeshes.set(nodeId, mesh);
+                        
+                        // Animate to final position
+                        new TWEEN.Tween(mesh.position)
+                            .to(getNodePosition(node), 1000)
+                            .easing(TWEEN.Easing.Quadratic.InOut)
+                            .start();
+                    }
+                });
+                
+                // Remove nodes that no longer exist
+                nodesToRemove.forEach((node, nodeId) => {
+                    const mesh = nodeMeshes.get(nodeId);
+                    if (mesh) {
+                        // Animate out
+                        new TWEEN.Tween(mesh.position)
+                            .to({ y: -100 }, 1000)
+                            .easing(TWEEN.Easing.Quadratic.In)
+                            .onComplete(() => {
+                                scene.remove(mesh);
+                                nodeMeshes.delete(nodeId);
+                            })
+                            .start();
+                    }
+                });
+                
+                // Update edges
+                updateEdges(data.edges);
+                
+                // Update current nodes map
+                currentNodes = newNodes;
+                
+                // If there's a selected node, keep it selected
+                if (selectedNode) {
+                    const updatedNode = newNodes.get(selectedNode.id);
+                    if (updatedNode) {
+                        showNodeInfo(updatedNode);
+                    }
+                }
+                
+            } catch (error) {
+                console.error('Error updating timeline:', error);
+            }
+        }
+
+        function updateEdges(newEdges) {
+            // Remove existing edges
+            edges.forEach(edge => scene.remove(edge));
+            edges = [];
+            
+            // Create new edges with animation
+            newEdges.forEach(edge => {
+                const sourceMesh = nodeMeshes.get(edge.source);
+                const targetMesh = nodeMeshes.get(edge.target);
+                if (sourceMesh && targetMesh) {
+                    const edgeMesh = createEdgeMesh(sourceMesh.position, targetMesh.position);
+                    scene.add(edgeMesh);
+                    edges.push(edgeMesh);
+                    
+                    // Animate edge opacity
+                    edgeMesh.material.transparent = true;
+                    edgeMesh.material.opacity = 0;
+                    new TWEEN.Tween(edgeMesh.material)
+                        .to({ opacity: 1 }, 1000)
+                        .start();
+                }
+            });
+        }
+
+        function createNodeMesh(node) {
+            const geometry = new THREE.SphereGeometry(2, 32, 32);
+            const material = new THREE.MeshPhongMaterial({ 
+                color: 0x00aaff,
+                emissive: 0x004477,
+                specular: 0x555555,
+                shininess: 30
+            });
+            const mesh = new THREE.Mesh(geometry, material);
+            
+            mesh.userData = {
+                id: node.key,
+                title: node.attributes.name,
+                date: node.attributes.timestamp,
+                description: node.attributes.description,
+                type: 'node'
+            };
+
+            const sprite = new SpriteText(node.attributes.name || node.key);
+            sprite.textHeight = 2;
+            sprite.color = '#ffffff';
+            sprite.backgroundColor = 'rgba(0,0,0,0.5)';
+            sprite.padding = 2;
+            sprite.position.y = 3;
+            mesh.add(sprite);
+
+            return mesh;
+        }
+
+        function createEdgeMesh(source, target) {
+            const points = [source, target];
+            const geometry = new THREE.BufferGeometry().setFromPoints(points);
+            const material = new THREE.LineBasicMaterial({ 
+                color: 0x00aaff,
+                transparent: true,
+                opacity: 0.5,
+                linewidth: 2
             });
 
-            // Update controls
-            if (controls) controls.update();
+            const line = new THREE.Line(geometry, material);
+            return line;
+        }
 
-            // Render
-            if (renderer && scene && camera) {
-                renderer.render(scene, camera);
-            }
+        function getNodePosition(node) {
+            // For now, just return a random position
+            return {
+                x: Math.random() * 200 - 100,
+                y: Math.random() * 200 - 100,
+                z: Math.random() * 200 - 100
+            };
+        }
+
+        function animate() {
+            requestAnimationFrame(animate);
+            TWEEN.update();
+            controls.update();
+            renderer.render(scene, camera);
         }
 
         function cleanupScene() {
@@ -444,6 +581,7 @@
         }
 
         function showNodeInfo(node) {
+            selectedNode = node;
             const panel = document.querySelector('.info-panel');
             const title = document.getElementById('event-title');
             const date = document.getElementById('event-date');
@@ -483,6 +621,7 @@
         }
 
         function hideNodeInfo() {
+            selectedNode = null;
             const panel = document.querySelector('.info-panel');
             panel.style.display = 'none';
         }
@@ -583,10 +722,6 @@
             try {
                 console.log('Fetching characters...');
                 const response = await fetch('/api/characters');
-                console.log('Characters response:', response);
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
                 const characters = await response.json();
                 console.log('Loaded characters:', characters);
                 
@@ -601,26 +736,37 @@
                     option.textContent = char.name;
                     select.appendChild(option);
                 });
-                
-                // Add event listener for character selection
-                select.addEventListener('change', (e) => {
-                    console.log('Character selected:', e.target.value);
-                    const selectedCharacter = characters.find(c => c.id === e.target.value);
-                    if (selectedCharacter) {
-                        currentCharacter = selectedCharacter;
-                        updateCharacterInfo(selectedCharacter);
-                        createTimelineGraph(selectedCharacter.id);
+
+                // Set up character change handler
+                select.addEventListener('change', async (event) => {
+                    const characterId = event.target.value;
+                    if (characterId) {
+                        if (!scene) {
+                            initScene();
+                            animate();
+                        }
+                        await createTimelineGraph(characterId);
+                        updateCharacterInfo(characters.find(c => c.id === characterId));
+                        
+                        // Clear existing auto-refresh
+                        if (window.timelineRefreshInterval) {
+                            clearInterval(window.timelineRefreshInterval);
+                        }
+                        
+                        // Set up new auto-refresh
+                        window.timelineRefreshInterval = setInterval(() => {
+                            console.log('Auto-refreshing timeline...');
+                            updateTimelineGraph(characterId);
+                        }, 10000);
                     }
                 });
-                
-                // Load initial character
+
+                // Load initial character if available
                 if (characters.length > 0) {
-                    console.log('Loading initial character:', characters[0]);
-                    currentCharacter = characters[0];
-                    select.value = currentCharacter.id;
-                    updateCharacterInfo(currentCharacter);
-                    createTimelineGraph(currentCharacter.id);
+                    select.value = characters[0].id;
+                    select.dispatchEvent(new Event('change'));
                 }
+                
             } catch (error) {
                 console.error('Error loading characters:', error);
             }
@@ -639,7 +785,12 @@
         document.addEventListener('DOMContentLoaded', () => {
             console.log('Page loaded, loading characters...');
             loadCharacters();
-            
+            initScene();
+            animate();
+
+            // Event listeners
+            window.addEventListener('resize', onWindowResize);
+
             // Add layout button handlers
             document.getElementById('layout-spiral').addEventListener('click', () => updateLayout('spiral'));
             document.getElementById('layout-sphere').addEventListener('click', () => updateLayout('sphere'));

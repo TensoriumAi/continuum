@@ -2,13 +2,15 @@ import fs from 'fs/promises';
 import path from 'path';
 
 export async function createCharacter(name, config) {
-  const characterSlug = name.toLowerCase().replace(/[^a-z0-9]/g, '_');
-  const outputDir = `./output/${characterSlug}`;
+  // Make directory name URI-safe while keeping display name natural
+  const dirName = encodeURIComponent(name).replace(/%20/g, '-');
+  const outputDir = `./output/${dirName}`;
   const configPath = path.join(outputDir, 'config.json');
 
   // Create character config with expanded properties
   const characterConfig = {
-    name: name,
+    name: name, // Keep original name for display
+    dirName: dirName, // Store URI-safe name for file operations
     // Core attributes
     type: config.type || 'human', // human, alien, ai, mythical, etc.
     birthDate: config.birthDate || null,
