@@ -1,0 +1,72 @@
+{
+  "type": "alien",
+  "physicalDescription": {
+    "height": "7 feet",
+    "skinColor": "Opalescent with an iridescent shimmer that changes depending on lighting",
+    "eyes": "Large, black, and multifaceted like those of an insect",
+    "hair": "Bioluminescent tendrils that emit a soft blue glow, resembling seaweed",
+    "limbs": "Four arms with three elongated, dexterous fingers on each hand",
+    "build": "Ethereal and lanky, with joints that seem hyper-flexible",
+    "distinguishingFeatures": "A series of glowing, bioluminescent patterns that appear to shift along their skin, forming geometric shapes."
+  },
+  "biology": {
+    "speciesName": "Qlithari",
+    "traits": {
+      "primarySense": "Electroreception, allowing them to sense electrical currents and neural activity",
+      "respiratorySystem": "Can extract oxygen from both air and water",
+      "diet": "Omnivorous, but requires trace amounts of rare minerals found in meteorites",
+      "longevity": "Lives approximately 300 Earth years",
+      "regeneration": "Can regrow limbs slowly over the course of several months"
+    }
+  },
+  "technology": {
+    "primaryTool": "Resonance Gauntlets, devices that allow them to manipulate sound waves for both offensive and defensive purposes",
+    "communication": "A crystalline device embedded in their vocal cords that can translate languages in real-time",
+    "transport": "A biomechanical spacecraft named 'Erythra,' which acts as both a vessel and a living entity that bonds with its pilot",
+    "wearableTech": "A skin-tight suit made of adaptive nanomaterial that changes color and density for camouflage or protection"
+  },
+  "notableEvents": [
+    {
+      "year": 2437,
+      "event": "Vaelith discovered a derelict human space station and saved its lone survivor, forging a unique bond with humanity."
+    },
+    {
+      "year": 2451,
+      "event": "During an intergalactic summit, Vaelith exposed a conspiracy by the Vorrex Syndicate, which painted a target on their back."
+    },
+    {
+      "year": 2460,
+      "event": "Their homeworld, Qlithar Prime, was destroyed by a rogue pulsar, leaving Vaelith as one of the last of their kind."
+    },
+    {
+      "year": 2475,
+      "event": "Vaelith uncovered ancient Qlithari relics that hinted at a way to restore their species using genetic memory."
+    }
+  ],
+  "goals": [
+    "Uncover the full potential of the Qlithari relics and restore their species",
+    "Protect the universe from the Vorrex Syndicate's growing influence",
+    "Forge stronger alliances with humanity and other species to prevent future catastrophes",
+    "Find a sense of belonging after the loss of their homeworld"
+  ],
+  "challenges": [
+    "The Vorrex Syndicate constantly hunts them after exposing their conspiracy",
+    "A deep sense of survivor’s guilt after the destruction of Qlithar Prime",
+    "The relics needed to restore the Qlithari are scattered across dangerous and uncharted regions of space",
+    "Their unique biology makes it difficult to find allies who fully understand or relate to them"
+  ],
+  "name": "entity_1737024969",
+  "characterName": "Vaelith Quorran",
+  "birthDate": "2000-01-16",
+  "creationDate": "2025-01-16",
+  "outputDir": "output/entity_1737024969",
+  "environment": null,
+  "culture": null,
+  "lifespan": null,
+  "abilities": [],
+  "relationships": [],
+  "customAttributes": {},
+  "timelineStructure": "linear",
+  "narrativeStyle": "personal",
+  "transformPrompt": ""
+}

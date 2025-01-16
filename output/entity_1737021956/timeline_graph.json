@@ -1,0 +1,634 @@
+{
+  "options": {
+    "type": "mixed",
+    "multi": false,
+    "allowSelfLoops": true
+  },
+  "attributes": {},
+  "nodes": [
+    {
+      "key": "birth",
+      "attributes": {
+        "name": "Birth of Zyrrak Vel'Thane",
+        "timestamp": "2000-01-16T00:00:00-05:00",
+        "description": "Beginning of Zyrrak Vel'Thane's story.",
+        "timeline": "main",
+        "expansion_prompt": "What were the circumstances surrounding Zyrrak Vel'Thane's birth? Consider the environment, the people present, and any notable events or signs that accompanied their arrival.",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737021966195",
+      "attributes": {
+        "name": "The Cataclysmic Arrival",
+        "timestamp": "2000-01-16",
+        "description": "Zyrrak Vel'Thane's birth coincided with a rare cosmic phenomenon—a convergence of three pulsars near their homeworld, Vyrnathis Prime. This event caused gravitational disruptions across the planet, leading to widespread tectonic shifts and atmospheric anomalies. Zyrrak was born in a high-tech medical chamber within the Nexus Citadel, the central hub of Vyrnathian civilization. Their birth was overseen by High Physician Kael Vrynn and a team of advanced AI medics. During the birth, Zyrrak’s energy core activated prematurely, emitting a radiant pulse that temporarily stabilized the gravitational disturbances around the city. This event was interpreted by the Vyrnathian Council as an omen of great significance. However, it also drew the attention of the Syndicate of Shadows, a clandestine organization that would later play a pivotal role in Zyrrak’s life.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Cataclysmic Arrival? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Zyrrak Vel'Thane's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737021978350",
+      "attributes": {
+        "name": "The Shimmering Exodus",
+        "timestamp": "2000-02-10",
+        "description": "Following the cosmic disturbances caused by the pulsar convergence, Vyrnathis Prime faced ongoing seismic instability and unpredictable atmospheric conditions. The Nexus Citadel, where Zyrrak Vel'Thane had been born, became a focal point for evacuation planning. High Physician Kael Vrynn and the Vyrnathian Council declared the planet no longer viable for habitation. Using advanced starships powered by Kherecite reactors, the Vyrnathian population embarked on a mass exodus to seek refuge among the stars. During the evacuation, Zyrrak's energy core emitted another unexpected pulse, stabilizing the transport fleet's fragile warp gates and preventing a catastrophic failure. This act further solidified Zyrrak's symbolic importance to their people. However, the Syndicate of Shadows, alerted by the earlier energy pulse, intercepted encrypted transmissions detailing the exodus. They began covert operations to track the fleeing Vyrnathians, setting the stage for future confrontations. The Shimmering Exodus marked the beginning of Zyrrak's journey as both a figure of hope and a target of danger, shaping their role as a protector of their displaced species.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Shimmering Exodus? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Zyrrak Vel'Thane's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737021991425",
+      "attributes": {
+        "name": "The Shadowed Pursuit",
+        "timestamp": "2000-03-01",
+        "description": "In the aftermath of The Shimmering Exodus, the Vyrnathian fleet struggled to remain hidden while navigating the uncharted regions of the galaxy. As they sought a temporary refuge, a splinter faction of the Syndicate of Shadows, led by the enigmatic operative Kaorn Dren, successfully decrypted partial coordinates of the fleeing fleet. Utilizing advanced stealth vessels, the Syndicate launched covert probes to track the Vyrnathians' movements. During a tense encounter near the nebula-shrouded system of Xyphor's Veil, Zyrrak Vel'Thane's Echo Lens detected faint anomalies, exposing the Syndicate's probes before they could relay the fleet's location. Acting swiftly, Zyrrak coordinated with Fleet Commander Jorath Kyn to deploy an improvised electromagnetic surge from the fleet's warp gates, disabling the probes and temporarily masking their trail. This marked Zyrrak's first direct confrontation with the Syndicate, solidifying their role as a protector of their people. However, the brief engagement revealed the Syndicate's relentless determination, forcing the Vyrnathians to adopt even more cautious measures during their flight. The event further fueled Zyrrak's growing distrust of external factions and reinforced their resolve to safeguard their displaced species at all costs.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Shadowed Pursuit? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Zyrrak Vel'Thane's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737022004327",
+      "attributes": {
+        "name": "The Fractured Alliance",
+        "timestamp": "2000-03-15",
+        "description": "Following the near-discovery of the Vyrnathian fleet during The Shadowed Pursuit, Fleet Commander Jorath Kyn called an emergency council to discuss the fleet's next course of action. Tensions among the leadership escalated as differing opinions arose on how to ensure the fleet's safety. A faction led by High Engineer Seryn Vol proposed splitting the fleet into smaller groups to reduce the risk of total annihilation, while Jorath Kyn argued for staying united to maintain strength in numbers. Zyrrak Vel'Thane, having earned newfound respect following their critical role in disabling the Syndicate's probes, advocated for an alternative solution: seeking temporary asylum within the Xyphor's Veil nebula, utilizing its dense radiation fields to mask their energy signatures. However, as the council deliberated, internal dissent erupted among the fleet's ranks. A covert cell of Syndicate sympathizers, embedded among the Vyrnathians, attempted to sabotage the fleet's warp gates, hoping to render them immobile and vulnerable to Syndicate forces. Zyrrak, using their Echo Lens, uncovered the cell's sabotage efforts just in time. Working alongside Seryn Vol, they neutralized the threat, though not without significant collateral damage to the fleet's auxiliary vessels. The sabotage attempt exposed the Syndicate's deeper infiltration and sowed distrust within the fleet. In the aftermath, several smaller groups broke away from the fleet, choosing to flee independently. This fracturing deeply impacted Zyrrak, who felt responsible for the fleet's disunity despite their efforts to protect it. The event marked a turning point, as Zyrrak resolved to take on a more active leadership role, recognizing the need for unity to safeguard their species' survival.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Fractured Alliance? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Zyrrak Vel'Thane's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737022017291",
+      "attributes": {
+        "name": "The Shattered Accord",
+        "timestamp": "2000-03-28",
+        "description": "In the wake of the fleet's fracturing, Zyrrak Vel'Thane led a contingent of loyal Vyrnathians into the Xyphor's Veil nebula, as originally proposed during the council. The dense radiation fields provided temporary sanctuary, but the fleet's damaged auxiliary vessels struggled with navigation and power stability. During a routine scouting mission within the nebula, Zyrrak and their team discovered ancient, abandoned structures on a rogue planet shrouded in the nebula’s core. These structures emitted faint energy signatures that matched the Prism Sigil's frequency, sparking a surge of cryptic visions in Zyrrak. While investigating, Zyrrak uncovered remnants of a long-extinct civilization, including fragments of Kherecite embedded in the structures, indicating a potential resource cache. However, the Syndicate of Shadows, having tracked the splintered groups, launched a surprise assault on the nebula. Caught off-guard, Zyrrak's contingent fought fiercely to defend the rogue planet. Utilizing their Vortex Shard and Chrono-Gauntlets, Zyrrak coordinated a desperate counterattack, successfully disabling the Syndicate's lead vessel but at the cost of significant losses to their own forces. During the battle, Zyrrak experienced an uncontrollable surge of energy from their core, believed to be amplified by their proximity to the Kherecite deposits. While this power helped turn the tide, it left Zyrrak weakened and further destabilized their hybrid biology. In the aftermath, the rogue planet became a temporary refuge, but the fleet's numbers and morale were severely diminished. This event solidified Zyrrak's growing role as a leader, but their internal struggle with the Prism Sigil's influence deepened. The discovery of Kherecite reinvigorated hope for the Vyrnathians' survival, but the Syndicate's relentless pursuit underscored the urgency of finding a permanent sanctuary.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Shattered Accord? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Zyrrak Vel'Thane's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737022041240",
+      "attributes": {
+        "name": "The Abyssal Reckoning",
+        "timestamp": "2000-04-12",
+        "description": "Following the intense battle on the rogue planet within Xyphor's Veil, Zyrrak Vel'Thane and their diminished fleet began fortifying the abandoned structures discovered during The Shattered Accord. The Kherecite deposits provided a temporary lifeline, allowing for the repair of critical systems and the stabilization of the fleet's power reserves. However, the proximity to the Prism Sigil's resonant energy caused recurring disruptions in Zyrrak's neural synchronizer, amplifying the cryptic visions they had begun experiencing. These visions included fragmented glimpses of a potential galactic sanctuary, known only as 'The Ecliptic Haven,' shrouded in mystery and unreachable by conventional means. Determined to uncover its location, Zyrrak initiated a scan of the Kherecite-infused ruins, believing they held vital coordinates or clues. During this process, the Syndicate of Shadows regrouped and launched a second assault, this time deploying EMP-class weapons to exploit the Vyrnathians' technological vulnerabilities. The ensuing clash forced Zyrrak to make a critical decision: evacuate their fleet and risk losing the Kherecite cache, or remain and risk the fleet's destruction. Opting for survival, Zyrrak devised a bold strategy to use their energy core in conjunction with the Kherecite deposits to overload the planet's magnetic field, creating a temporary disruption that allowed the fleet to escape. The maneuver succeeded but left the rogue planet unstable, rendering its resources inaccessible. As the fleet regrouped in the outer layers of the nebula, Zyrrak was left physically weakened from the energy expenditure, further destabilizing their hybrid biology. Morale within the fleet wavered, with some questioning Zyrrak's leadership, though others saw their actions as the only reason for survival. The visions of 'The Ecliptic Haven' became a focal point for Zyrrak, cementing their resolve to lead their people to this mysterious sanctuary while dealing with the mounting toll of the Prism Sigil's influence.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Abyssal Reckoning? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Zyrrak Vel'Thane's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737022053495",
+      "attributes": {
+        "name": "The Ecliptic Resonance",
+        "timestamp": "2000-05-01",
+        "description": "Following their daring escape from Xyphor's Veil, Zyrrak Vel'Thane's fleet found refuge in the dense nebulous region known as the Obscura Shroud. Struggling with both physical exhaustion and the strain of leadership, Zyrrak convened a council of the remaining fleet leaders aboard the flagship, Solarity Prime. During the meeting, Zyrrak revealed the fragmented visions of 'The Ecliptic Haven,' describing it as a potential sanctuary for displaced species and a source of untapped Kherecite—crucial for the survival of their people. The council was divided: some believed in pursuing the visions, while others feared the Prism Sigil's influence was destabilizing Zyrrak's judgment. \n\nDetermined to validate their leadership and reassure the fleet, Zyrrak tasked a reconnaissance team led by Commander Talyra Vex, an ardent supporter, to investigate a nearby derelict station within the nebula. The station, known as Eryndor Nexus, was rumored to be an ancient waypoint for hyperspace travelers. Upon arrival, the team discovered remnants of encoded star charts and a mysterious harmonic key that resonated with the Prism Sigil. When Zyrrak interfaced with the key through their neural synchronizer, the energy surge triggered a vivid and coherent vision of the Ecliptic Haven—a sprawling galactic sanctuary hidden at the convergence of collapsing hyperspace lanes. However, the process further destabilized Zyrrak's energy core, necessitating urgent medical intervention from the fleet's engineers and medics.\n\nThe discovery reignited hope among the fleet, but its implications were profound. The Nexus revealed that the journey to the Ecliptic Haven would require traversing unstable hyperspace corridors and overcoming dangerous gravitational anomalies. Furthermore, the harmonic key appeared to be only part of a larger puzzle, suggesting the need for additional components to unlock the Haven's precise location. As the fleet prepared for this new odyssey, the Syndicate of Shadows intensified their pursuit, now equipped with data from their failed assault on Xyphor's Veil. Morale remained fragile, with whispers of dissent growing louder, but Zyrrak's vision and resolve inspired a renewed sense of purpose among their followers. The fleet's path was clear: locate the remaining components of the harmonic key and uncover the secrets of the Ecliptic Haven before their resources and unity unraveled.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Ecliptic Resonance? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Zyrrak Vel'Thane's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737022071369",
+      "attributes": {
+        "name": "The Nexus Reclamation",
+        "timestamp": "2000-05-15",
+        "description": "Following the discovery of the harmonic key on Eryndor Nexus, Zyrrak Vel'Thane prioritized stabilizing their energy core, which had been severely destabilized from interfacing with the artifact. Fleet engineers, led by Chief Mechanic Ralvek Torin, devised a temporary solution by integrating fragments of raw Kherecite scavenged from the Nexus into Zyrrak's energy core. This patch bought time but further emphasized the fleet’s growing dependency on the rare mineral. Meanwhile, dissent within the fleet escalated as Councilor Vryn Malakar openly questioned Zyrrak’s leadership during an emergency assembly, citing the risks of chasing an abstract vision while Syndicate forces loomed ever closer. The divide within the fleet reached a boiling point when Malakar and his faction sabotaged the fleet's communication relays, intending to negotiate a secret truce with the Syndicate in exchange for safe passage. Zyrrak, informed of the betrayal by Commander Talyra Vex, confronted Malakar aboard the council ship, Luminaris. The confrontation culminated in a heated standoff, during which Zyrrak used their harmonic frequencies to expose the Syndicate’s true intentions: to enslave the Vyrnathians and harvest their hybrid technology. This revelation swayed many of Malakar's followers back to Zyrrak’s side, leading to Malakar’s arrest. \n\nIn the immediate aftermath, Zyrrak consolidated their leadership by initiating a fleet-wide oath ceremony, reaffirming their commitment to the vision of the Ecliptic Haven. They also ordered the construction of improvised signal dampeners, utilizing data retrieved from Eryndor Nexus, to mask the fleet’s presence from Syndicate scanners. However, the sabotage of the communication relays left the fleet vulnerable to isolation, and the Syndicate’s forces were now dangerously close, tracking residual energy signatures from Zyrrak's destabilized core. The fleet’s unity was bruised but intact, and their next steps became clear: locate the additional components of the harmonic key and fortify their ability to evade the Syndicate’s relentless pursuit. The events of the Nexus Reclamation solidified Zyrrak’s role as a visionary leader but also highlighted the growing urgency of their personal and collective survival.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Nexus Reclamation? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Zyrrak Vel'Thane's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737022088304",
+      "attributes": {
+        "name": "The Riftborn Convergence",
+        "timestamp": "2000-06-01",
+        "description": "Following the events of The Nexus Reclamation, the Vyrnathian fleet detected an anomalous signal emanating from deep within the Rift Nebula, a region notorious for its volatile spatial distortions and rumored to hold ancient technologies. Zyrrak Vel'Thane, seeking additional components of the harmonic key and a potential cache of Kherecite, led an expedition aboard the flagship Obsidian Horizon. The fleet cautiously navigated the hazardous nebula, relying on data retrieved from Eryndor Nexus to stabilize their path. Upon reaching the signal's source, they discovered an immense, derelict station known as the Riftborn Convergence—a relic of a forgotten civilization. The station's central chamber housed a harmonic key fragment, resonating with Zyrrak’s neural synchronizer, which triggered a sequence of encoded star maps pointing toward other potential key fragments and a hidden repository of Kherecite. \n\nHowever, the Syndicate had intercepted fragments of the fleet's earlier communications and dispatched a strike group to the Rift Nebula. As Zyrrak and their team worked to recover the key fragment, the Syndicate forces ambushed the fleet, engaging in a chaotic battle within the nebula's unstable environment. Fleet engineers successfully activated the station's ancient defense systems, which unleashed devastating energy pulses, scattering the Syndicate ships but also further destabilizing the nebula. Zyrrak, using their chrono-gauntlets and harmonic frequencies, managed to synchronize with the station’s systems and extract vital data before the structure began to collapse. The fleet narrowly escaped destruction, but the Syndicate’s forces remained in pursuit, now armed with knowledge of the fleet’s search for the harmonic keys. \n\nThe acquisition of the key fragment and the star maps marked a turning point in the Vyrnathians’ quest for the Ecliptic Haven, but it also heightened the Syndicate's aggression and placed greater pressure on Zyrrak to find the remaining fragments before their enemies could intercept them. Meanwhile, the data extracted from the Riftborn Convergence hinted at a deeper connection between the harmonic keys and the Prism Sigil, further complicating Zyrrak’s visions and their understanding of the artifact’s true purpose.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Riftborn Convergence? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Zyrrak Vel'Thane's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737022107266",
+      "attributes": {
+        "name": "The Obsidian Betrayal",
+        "timestamp": "2000-06-15",
+        "description": "Following the Vyrnathian fleet's narrow escape from the Rift Nebula, tensions among the fleet's leadership reached a breaking point. The Syndicate's ambush during The Riftborn Convergence exposed a mole within the fleet, a high-ranking officer aboard the flagship Obsidian Horizon named Commander Kael Daryth. Under interrogation, Kael revealed that they had been transmitting fleet movements to the Syndicate in exchange for promises of protection and resources—an act that not only jeopardized the fleet but also allowed the Syndicate to track the harmonic key fragments. \n\nZyrrak Vel'Thane, deeply shaken by Kael’s betrayal, was forced to confront the cracks in their own judgment and the fleet's strained unity. The interrogation revealed that Kael had also shared partial data about the Prism Sigil’s connection to the harmonic keys, information that could accelerate the Syndicate's efforts to capture Zyrrak. With the fleet reeling from this revelation, Zyrrak convened an emergency council to address growing fears of further infiltration and dissent. \n\nAs the fleet debated measures to ensure greater security, a distress signal from a nearby mining colony on the edge of the Eryndor Expanse interrupted their deliberations. The colony reported a sudden surge of Syndicate activity and claimed to have unearthed traces of Kherecite in their mines. Despite lingering mistrust and the fleet's fragile morale, Zyrrak decided to lead a rescue mission to the colony, hoping to secure the Kherecite and turn the discovery into a unifying rallying point for their people. \n\nKael’s betrayal left deep scars on Zyrrak, amplifying their existing trust issues and compounding the weight of their responsibility as both a leader and protector. However, it also instilled in them a renewed determination to outmaneuver the Syndicate and ensure the survival of the Vyrnathians at all costs. As the fleet prepared to depart for the Eryndor Expanse, Zyrrak began implementing a system of harmonic frequency verification, using their neural synchronizer to detect possible infiltrators by analyzing subtle discrepancies in their mental signatures. This innovation, while effective, further isolated Zyrrak from others, as many within the fleet grew uneasy with the level of scrutiny and control now required for their protection.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Obsidian Betrayal? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Zyrrak Vel'Thane's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737022141464",
+      "attributes": {
+        "name": "The Celestial Veil",
+        "timestamp": "2000-06-15",
+        "description": "Following the fleet's narrow escape from the Riftborn Convergence, Zyrrak Vel'Thane began deciphering the star maps extracted from the derelict station. The maps revealed a series of hidden waypoints leading to a distant region known as the Celestial Veil, a gravitational anomaly shrouded in dense energy fields and uncharted by most galactic factions. Believed to be the location of another harmonic key fragment and a potential Kherecite repository, the fleet made preparations for the perilous journey. \n\nThe Celestial Veil posed significant navigational challenges, with its energy fields interfering with the fleet's systems and creating illusions that disoriented even experienced pilots. Zyrrak utilized their Echo Lens to identify stable pathways through the anomaly, revealing hidden harmonic frequencies that aligned with the maps. Along the way, the fleet encountered remnants of an ancient defense grid, forcing Zyrrak to deploy their Vortex Shard to disable automated sentries while protecting the fleet from energy surges.\n\nUpon reaching the heart of the Celestial Veil, the fleet discovered an ancient crystalline structure known as the Luminarch Spire. The Spire's core contained the next harmonic key fragment, but when Zyrrak attempted to interface with it using their Neural Synchronizer, they triggered a vision from the Prism Sigil. The vision revealed cryptic imagery of a collapsing star, a shadowed figure, and the phrase 'The Binding of Eternity,' further deepening the mystery of the artifact. \n\nAs Zyrrak worked to retrieve the harmonic key, the Syndicate, having tracked the fleet through the Riftborn Convergence’s collapsing data burst, launched an attack. The ensuing battle saw the fleet struggling to defend itself while navigating the dangerous energy fields. Zyrrak, using their Chrono-Gauntlets, led a strike team to disable the Syndicate’s flagship, buying the fleet time to escape. Though victorious, the fleet suffered heavy losses, and the Syndicate’s continued pursuit placed immense strain on the Vyrnathians' morale. \n\nThe retrieval of the key fragment solidified the fleet’s resolve to uncover the remaining fragments and reach the Ecliptic Haven, but the escalating sacrifices and the haunting visions left Zyrrak questioning the cost of their quest. The Celestial Veil marked a turning point, as it became clear that the harmonic keys and the Prism Sigil were part of a much larger and more dangerous puzzle than anyone had anticipated.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Celestial Veil? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Zyrrak Vel'Thane's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737022167766",
+      "attributes": {
+        "name": "The Eryndor Gambit",
+        "timestamp": "2000-06-18",
+        "description": "After receiving the distress signal from the mining colony in the Eryndor Expanse, Zyrrak Vel'Thane led an elite strike team aboard the stealth corvette Luminal Edge to investigate the situation. Upon arrival, it was discovered that the colony had been overrun by Syndicate forces, who were using enslaved miners to extract Kherecite from the planet’s unstable crust. The operation was spearheaded by Syndicate Commander Veyra Solarn, a ruthless tactician with a personal vendetta against Zyrrak, blaming them for the death of her brother during the events of The Shimmering Exodus.\n\nZyrrak orchestrated a daring infiltration of the Syndicate's command center within the colony, using their Echo Lens to detect hidden traps and their Chrono-Gauntlets to evade patrols. They confronted Veyra in a tense standoff, during which she revealed that the Syndicate had deciphered part of the Prism Sigil's harmonic structure, giving them a dangerous advantage in locating the remaining key fragments. The confrontation escalated into a fierce battle, during which Zyrrak’s energy core released an unstable surge, incapacitating Veyra and her forces but also causing significant damage to the colony’s infrastructure.\n\nDespite the victory, the Kherecite deposits were rendered inaccessible due to the resulting seismic instability, forcing Zyrrak and their team to evacuate before the colony collapsed. The survivors of the mining colony were brought aboard the Vyrnathian fleet, but tensions grew as many questioned whether the mission’s risks and losses were worth the fleeting victory. Zyrrak, burdened by the weight of their decision, vowed to find another source of Kherecite while grappling with the dangerous unpredictability of their energy core.\n\nThis event deepened the fleet’s divide, with some factions beginning to doubt Zyrrak’s leadership. However, it also hardened Zyrrak’s resolve to outthink the Syndicate and protect their people, even at great personal cost. The encounter with Veyra solidified the Syndicate’s intent to use the Prism Sigil’s secrets for their own gain, escalating the stakes of Zyrrak’s journey and forcing them to accelerate their search for both the harmonic keys and a sustainable Kherecite supply.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Eryndor Gambit? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Zyrrak Vel'Thane's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737022188694",
+      "attributes": {
+        "name": "The Echoing Cataclysm",
+        "timestamp": "2000-06-20",
+        "description": "In the immediate aftermath of the fleet's escape from the Celestial Veil, Zyrrak Vel'Thane grappled with the losses sustained and the cryptic vision they had received. The fleet regrouped in the outskirts of a desolate star system known as Ophidion-7, seeking to repair their damaged ships and recover from the Syndicate’s relentless attack. During the repairs, Zyrrak utilized their Neural Synchronizer to further analyze the harmonic key fragment retrieved from the Luminarch Spire. This analysis revealed a distressing truth: the fragment emitted a faint but destabilizing resonance that began to interfere with the energy core embedded in Zyrrak’s chest. The resonance triggered erratic energy surges within Zyrrak, causing temporary lapses in their ability to control their cybernetic systems.\n\nAs the fleet worked to stabilize their situation, a sudden and violent energy anomaly erupted near Ophidion-7’s dying sun. The anomaly, later named the Echoing Cataclysm, appeared to be a ripple effect from the harmonic key fragment’s activation during their escape from the Celestial Veil. This gravitational disruption began pulling nearby ships toward the collapsing sun, creating chaos among the fleet. Zyrrak, despite their weakened state due to the resonance interference, rallied the fleet by using their Echo Lens to map escape routes through the anomaly’s shifting gravitational tides.\n\nIn the midst of this chaos, a shadowed figure—eerily similar to the one from Zyrrak’s vision—emerged from the anomaly aboard a sleek, obsidian-like vessel. Identifying themselves as Kaelith Vorr, a Herald of the Binding Eternity, the figure claimed they had been drawn to the fleet by the activation of the harmonic key. Kaelith warned Zyrrak that the harmonic keys were not merely tools to unlock the Ecliptic Haven but were instead components of an ancient mechanism designed to tether realities together. If misused, they could trigger catastrophic collapses of entire star systems, as demonstrated by the ongoing Echoing Cataclysm.\n\nDespite the warning, Kaelith offered no solutions, only cryptic advice that 'to bind is to break, and to break is to reveal.' Before the fleet could question further, Kaelith’s vessel vanished into the anomaly. Zyrrak, though deeply shaken, managed to guide the fleet out of the anomaly’s reach by using their Chrono-Gauntlets to slow time in critical moments, allowing for precise navigation through the gravitational chaos. Once clear, the fleet reconvened, but the events of the Echoing Cataclysm left an indelible mark on its members.\n\nThe revelation of the harmonic keys’ destructive potential weighed heavily on Zyrrak, intensifying their resolve to understand their purpose while instilling a deep fear of the consequences of failure. The fleet, now more divided than ever, questioned whether pursuing the keys was worth the escalating risks. Zyrrak began to notice growing dissent among their ranks, with some factions within the fleet advocating for abandoning the quest entirely. The Echoing Cataclysm thus marked a critical juncture in Zyrrak’s journey, as they were forced to confront not only the external threats of the Syndicate and the enigmatic Heralds but also the fragile unity of their own people.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Echoing Cataclysm? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Zyrrak Vel'Thane's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737022196395",
+      "attributes": {
+        "name": "The Crystalline Exodus",
+        "timestamp": "2000-06-25",
+        "description": "In the aftermath of The Eryndor Gambit, Zyrrak Vel'Thane and the Vyrnathian fleet intercepted a cryptic transmission from the Glacivarn Shardfields, a treacherous region of crystalline asteroid clusters known for harboring unstable Kherecite deposits. The message, sent by a rogue scientist named Dr. Elaryn Vos, promised crucial information about a sustainable Kherecite extraction method in exchange for asylum aboard the fleet. Desperate for a breakthrough, Zyrrak decided to lead a small delegation to the Shardfields aboard the recon vessel Starlight Warden, leaving the fleet under the temporary command of their second-in-command, Kael Dravik.\n\nUpon arrival, they found Dr. Vos hiding within an abandoned mining station surrounded by volatile crystalline asteroids. The Syndicate, having intercepted parts of Vos’s research, had dispatched a battle cruiser to capture her. As the Starlight Warden approached the station, the Syndicate forces launched an ambush, leading to a high-stakes chase through the dangerous asteroid field. Using their Echo Lens to navigate hidden crystalline paths and their Chrono-Gauntlets to outmaneuver Syndicate boarding parties, Zyrrak managed to extract Dr. Vos and her encrypted data.\n\nHowever, Vos revealed a grim truth: the Syndicate had already begun deploying her extraction technology on a planet codenamed Veridian Theta, potentially exhausting one of the galaxy’s largest remaining Kherecite reserves. The revelation sent shockwaves through the Vyrnathian fleet upon Zyrrak’s return, as it meant their dwindling timeline for survival had become even more critical.\n\nThis event marked a pivotal shift for Zyrrak, as it forced them to prioritize the development of their own Kherecite harvesting methods while accelerating efforts to confront the Syndicate’s operations. Dr. Vos’s asylum created further division within the fleet, as some viewed her as a potential liability due to her former ties to the Syndicate. Meanwhile, the Syndicate’s escalating aggression and growing mastery of Kherecite extraction solidified their role as a direct existential threat to Zyrrak’s people.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Crystalline Exodus? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Zyrrak Vel'Thane's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737022211932",
+      "attributes": {
+        "name": "The Splintered Accord",
+        "timestamp": "2000-06-30",
+        "description": "Following the fleet's narrow escape from the Echoing Cataclysm, tensions within the Vyrnathian fleet reached a breaking point. The revelations from Kaelith Vorr about the harmonic keys' destructive potential deepened divisions among the already-fractured fleet. In the temporary safety of the Telyss Drift—a dense asteroid field shielding the fleet from Syndicate detection—Zyrrak Vel'Thane convened a council of faction leaders to address the growing dissent. The council quickly devolved into chaos as two prominent factions emerged: the Ascendancy Collective, who believed the harmonic keys were too dangerous to pursue and advocated for abandoning the quest for the Ecliptic Haven, and the Havenbound Accord, who remained loyal to Zyrrak’s vision and insisted on continuing the search. \n\nDuring the heated deliberations, a sudden mutiny erupted among a group of Ascendancy-aligned ships. These ships, led by Captain Tharion Kael, attempted to seize control of the fleet’s primary Kherecite reserves, claiming that the resources would be better used to establish a stable colony instead of chasing visions and risking further catastrophe. Zyrrak, still weakened by the resonance interference from the harmonic key fragment, struggled to maintain order. Using their Neural Synchronizer, they managed to temporarily disable the mutineers’ ship systems, preventing immediate bloodshed. However, this act of force only fueled resentment among the Ascendancy Collective, who accused Zyrrak of authoritarianism.\n\nRealizing the fleet could not remain united under these conditions, Zyrrak made the difficult decision to allow the Ascendancy-aligned ships to leave with a portion of the Kherecite reserves, hoping to avoid further conflict. Tharion Kael and his followers departed into the void, vowing to carve out their own future and condemning Zyrrak’s leadership. This splintering of the fleet marked a significant loss of manpower, resources, and morale for the Havenbound Accord.\n\nIn the aftermath of the mutiny, Zyrrak and the remaining fleet leaders worked tirelessly to repair the damage to their unity. The Prism Sigil’s visions continued to haunt Zyrrak, and the cryptic warning from Kaelith Vorr—'to bind is to break, and to break is to reveal'—weighed heavily on their mind. Determined not to let the fleet’s sacrifices be in vain, Zyrrak began devising a new strategy to secure the remaining harmonic keys while minimizing the risks to their people.\n\nThe Splintered Accord marked a turning point in Zyrrak’s journey, as they grappled with the consequences of their decisions and the growing realization that the path to the Ecliptic Haven would demand even greater sacrifices. The departure of the Ascendancy Collective left the fleet weaker and more vulnerable to Syndicate attacks, but it also solidified the loyalty of the remaining Havenbound Accord members, who resolved to stand by Zyrrak despite the mounting dangers.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Splintered Accord? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Zyrrak Vel'Thane's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737022219407",
+      "attributes": {
+        "name": "The Veridian Incursion",
+        "timestamp": "2000-07-05",
+        "description": "Following the revelations from Dr. Elaryn Vos during The Crystalline Exodus, Zyrrak Vel'Thane and the Vyrnathian fleet redirected their efforts to investigate the Syndicate's extraction operations on Veridian Theta. Guided by decrypted fragments of Vos's data, Zyrrak led a covert task force aboard the stealth ship Obsidian Wraith to infiltrate Veridian Theta's atmosphere. The planet, cloaked in a perpetual aurora due to its unstable Kherecite core, was heavily guarded by Syndicate forces using advanced drones and automated turrets.\n\nUpon breaching the planet's defenses through a combination of hacking with the Vortex Shard and precise maneuvers enabled by the Chrono-Gauntlets, Zyrrak and their team discovered a sprawling mining complex powered by an experimental energy conversion system. The Syndicate had enslaved several displaced species to operate the facility, forcing Zyrrak to make a critical decision: destroy the facility and risk destabilizing the planet's fragile ecosystem or attempt to liberate the workers, potentially sacrificing their chance to disrupt the Syndicate’s operations.\n\nZyrrak chose the latter, using harmonic resonance emitted through their communication abilities to coordinate a mass uprising against the Syndicate. The resulting chaos allowed the task force to sabotage the facility's central control systems and evacuate the enslaved workers aboard the Obsidian Wraith. However, the mission came at a cost—Zyrrak sustained significant damage to their energy core during a confrontation with a Syndicate enforcer armed with an EMP-based weapon, leaving them with diminished regenerative capabilities. Furthermore, the planet's Kherecite reserves were critically destabilized, triggering tectonic shifts that rendered Veridian Theta uninhabitable.\n\nThe consequences of this mission were far-reaching. The Syndicate escalated their retaliation efforts, deploying enhanced tracking technology to locate the Vyrnathian fleet, while internal divisions within the fleet deepened as some questioned the decision to prioritize the liberation effort over securing Kherecite. Despite these challenges, the successful rescue of the enslaved workers bolstered Zyrrak's reputation as a leader willing to make personal sacrifices for the greater good, further solidifying their resolve to confront the Syndicate's growing dominance.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Veridian Incursion? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Zyrrak Vel'Thane's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737022235179",
+      "attributes": {
+        "name": "The Voidlight Accord",
+        "timestamp": "2000-07-10",
+        "description": "Following the departure of the Ascendancy Collective, Zyrrak Vel'Thane and the Havenbound Accord found themselves navigating an increasingly precarious situation. With reduced manpower and limited Kherecite reserves, the fleet sought refuge in the uncharted Voidlight Expanse—a desolate region known for its erratic gravitational anomalies and electromagnetic storms. The fleet’s arrival was immediately met with challenges, as the volatile energy fields disrupted ship systems and rendered their advanced technology unreliable. \n\nAmid these dangers, Zyrrak’s Echo Lens detected faint harmonic frequencies emanating from an ancient, derelict structure hidden within the expanse—a long-abandoned station known as the Voidlight Nexus. Believing the station might hold answers to the Prism Sigil’s visions or a new source of Kherecite, Zyrrak led an expedition to investigate. Accompanied by a small team including Kaelith Vorr, Captain Lyras Teyra, and engineer Vennik Draal, Zyrrak ventured into the Nexus, where they encountered remnants of an extinct civilization known as the Erythari. \n\nInside the Nexus, the group discovered fragments of advanced Erythari technology, including a dormant harmonic key fragment. However, activating the fragment triggered a failsafe mechanism, unleashing hostile sentient constructs designed to protect the Nexus. A desperate battle ensued as the constructs overwhelmed the team, forcing Zyrrak to use their Chrono-Gauntlets to distort time and gain a tactical advantage. Despite these efforts, the encounter left the team gravely injured, and Vennik Draal was mortally wounded while ensuring the group’s escape. \n\nAlthough the expedition retrieved the harmonic key fragment and salvaged critical Erythari data, the cost weighed heavily on Zyrrak, who questioned whether the pursuit of the Ecliptic Haven was worth the ongoing loss of life. The recovered data revealed the Erythari’s own failed attempts to unlock the harmonic keys’ full potential, warning of catastrophic consequences if the fragments were not handled with precision.\n\nThe expedition to the Voidlight Nexus strengthened the resolve of the Havenbound Accord, as the recovered technology provided temporary stabilization for Zyrrak’s energy core and allowed the fleet to adapt their systems to the expanse’s unstable conditions. However, it also deepened the emotional scars of the crew, as Vennik Draal’s heroic sacrifice became a rallying point for both hope and sorrow. The Voidlight Accord marked a critical juncture in Zyrrak’s journey, as they began to focus on balancing their personal visions with the immediate needs and safety of the fleet, knowing that every step closer to the Ecliptic Haven brought new trials and sacrifices.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Voidlight Accord? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Zyrrak Vel'Thane's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737022242035",
+      "attributes": {
+        "name": "The Radiant Requiem",
+        "timestamp": "2000-07-15",
+        "description": "Following the destruction of Veridian Theta during The Veridian Incursion, the Vyrnathian fleet was forced into a desperate search for a new source of Kherecite. Using data salvaged from the Syndicate's control systems on Veridian Theta, Zyrrak Vel'Thane identified a derelict space station drifting near the collapsed star of Erythis Prime. The station, known as Radiant Spire, was rumored to have been abandoned centuries ago after its Kherecite reactors destabilized, but fragments of Syndicate data suggested there might still be untapped reserves hidden deep within its lower levels.\n\nZyrrak, accompanied by a small team of engineers and specialists, boarded the Obsidian Wraith to investigate the station. Upon arrival, they discovered that the station was not entirely abandoned—it had become a sanctuary for a rogue faction of cybernetically enhanced scavengers known as the Erythian Collective. The Collective, hostile to outsiders, initially refused to negotiate, prompting Zyrrak to employ their telepathic harmonic resonance to communicate directly with the Collective's leader, Arvyn Kael, a former Syndicate scientist who had turned against his masters.\n\nThrough a tense negotiation, Zyrrak convinced Kael to allow limited access to the station's Kherecite vaults in exchange for assistance in stabilizing the station's failing energy grid. However, during the operation, an ancient failsafe—a dormant AI system known as Seraphis—reactivated, interpreting Zyrrak and their team as intruders. The AI unleashed a wave of defense drones, forcing Zyrrak to use the Vortex Shard to disable the station's mainframe while their team worked to extract the Kherecite. In the process, Zyrrak's damaged energy core caused a catastrophic feedback loop that nearly overloaded the station's reactors.\n\nIn a final act of diplomacy, Zyrrak persuaded Kael and the surviving members of the Erythian Collective to evacuate aboard the Obsidian Wraith, promising sanctuary within the Vyrnathian fleet. The Kherecite reserves retrieved were minimal, enough only to sustain the fleet's core systems for a short time, but the addition of the Collective's expertise and advanced cybernetics bolstered the fleet's technological capabilities. However, the activation of Seraphis triggered a subspace signal that alerted the Syndicate to the fleet's location, forcing an immediate retreat and setting the stage for further confrontations.\n\nThe Radiant Requiem marked a turning point for Zyrrak, as their willingness to risk both their life and their dwindling energy core for the survival of their people solidified their role as a unifying figure. However, it also deepened their internal conflict, as the consequences of their actions continued to endanger the fleet and exacerbate their diminishing physical condition.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Radiant Requiem? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Zyrrak Vel'Thane's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737022259417",
+      "attributes": {
+        "name": "The Erythari Revelation",
+        "timestamp": "2000-07-20",
+        "description": "Following the harrowing expedition to the Voidlight Nexus, Zyrrak Vel'Thane and the Havenbound Accord worked tirelessly to analyze the Erythari data recovered from the ancient station. The fleet's scientists and engineers, led by Kaelith Vorr and Dr. Rynessa Quor, decrypted fragments of the Erythari archives, uncovering chilling insights into the harmonic keys’ origins and purpose. The Erythari civilization, it was revealed, had once sought to harness the keys to stabilize their collapsing star systems but inadvertently triggered a cascade of dimensional fractures, leading to their extinction. The data contained cryptic references to a 'Resonance Convergence,' a galaxy-wide event that could either restore balance or unravel existence itself, depending on how the harmonic keys were used. \n\nAs the Havenbound Accord began to grasp the magnitude of the keys’ potential, Zyrrak faced growing dissent among the fleet’s leadership. Captain Lyras Teyra demanded the immediate destruction of the harmonic key fragment, fearing that continued tampering with the ancient technology would mirror the Erythari's fate. On the other hand, Kaelith Vorr argued that the keys were the only viable path to finding the Ecliptic Haven and securing the fleet’s survival. The debate reached a boiling point when the fragment emitted a low-frequency pulse, destabilizing Zyrrak’s energy core and causing a temporary systems failure across the fleet. \n\nFaced with their own vulnerability and the fleet’s precarious position, Zyrrak called for an emergency council to address the growing divisions. During the council, Zyrrak shared their vision of the Ecliptic Haven, emphasizing that the fragmented reality of the Erythari’s failure could serve as a guide rather than a deterrent. The council ultimately voted to continue studying the harmonic key fragment but imposed strict protocols to prevent its misuse. \n\nWhile the fleet worked to integrate the Erythari technology into their systems, a new challenge emerged. The harmonic key fragment’s activation had sent out a detectable signal, drawing the attention of the Syndicate of Shadows. The fleet intercepted a Syndicate communication revealing that a strike force was en route to the Voidlight Expanse. With time running out, Zyrrak ordered the fleet to prepare for an emergency jump, knowing that their survival would depend on both their ingenuity and their unity. The Erythari Revelation marked a turning point for Zyrrak and the Havenbound Accord, as they began to see the harmonic keys not just as tools but as a double-edged sword, capable of either salvation or destruction.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Erythari Revelation? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Zyrrak Vel'Thane's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737022271506",
+      "attributes": {
+        "name": "The Seraphis Beacon",
+        "timestamp": "2000-07-20",
+        "description": "Following the evacuation of the Erythian Collective aboard the Obsidian Wraith, the Vyrnathian fleet faced an imminent threat as the subspace signal from the Radiant Spire's AI, Seraphis, drew the attention of the Syndicate. The signal, designed as an emergency distress beacon, contained advanced encryption that allowed the Syndicate to pinpoint the fleet's location. Realizing the danger, Zyrrak Vel'Thane tasked their engineers with decrypting the signal's data to determine its reach while preparing for a swift retreat. \n\nAs the fleet scrambled to relocate, Zyrrak's visions from the Prism Sigil intensified, showing fragmented images of a hidden Syndicate relay station near the unstable wormhole cluster of the Eryndor Expanse. Believing this relay station to be the source of the Syndicate's tracking network, Zyrrak proposed a daring mission to destroy it before the Syndicate could fully mobilize their forces. Despite internal dissent among the fleet's council, who feared the risks of engaging the Syndicate so directly, Zyrrak convinced a small task force to accompany them on the mission.\n\nUpon reaching the Eryndor Expanse, the team faced intense gravitational distortions and Syndicate patrols guarding the relay. Utilizing the Chrono-Gauntlets, Zyrrak led the team in a series of precise, time-dilated maneuvers to infiltrate the station. Inside, they discovered that the relay was not only broadcasting the Seraphis signal but also transmitting data gathered by Syndicate spies embedded in the fleet. Confronting this betrayal, Zyrrak used the Neural Synchronizer to interface with the relay's systems, uncovering encrypted files linking the Syndicate's operations to a mysterious entity known only as the 'Erythari Prime.'\n\nIn a desperate move, Zyrrak overloaded the relay's energy core with their own, triggering a chain reaction that destroyed the station and disrupted the Syndicate's tracking systems. However, this act further destabilized Zyrrak's energy core, leaving them in critical condition. The mission's success allowed the fleet to escape undetected, but the revelation of 'Erythari Prime' introduced a new layer of mystery and urgency to their journey. The aftermath saw the Vyrnathian fleet grappling with the implications of the Syndicate's infiltration, deepening the fractures within their ranks and forcing Zyrrak to confront the personal toll of their actions.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Seraphis Beacon? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Zyrrak Vel'Thane's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737022306606",
+      "attributes": {
+        "name": "The Syndicate Gambit",
+        "timestamp": "2000-07-25",
+        "description": "In the days following the Erythari Revelation, the Havenbound Accord implemented strict protocols to study the harmonic key fragment. As the fleet prepared for an emergency jump to escape the Syndicate's strike force, Zyrrak Vel'Thane received a cryptic transmission from an anonymous source claiming to have critical intelligence on the Syndicate’s next move. The source, identifying themselves only as 'Shadebreaker,' proposed an exchange: in return for the fleet’s aid in sabotaging a Syndicate data relay station located in the volatile Gamma-Corvus Nebula, they would provide the locations of hidden Syndicate Kherecite caches. Despite the risks, Zyrrak saw an opportunity to not only secure a vital resource but also strike a blow against their relentless pursuers. \n\nZyrrak and their trusted team, including Kaelith Vorr and Captain Lyras Teyra, led a stealth operation utilizing the fleet's most advanced cloaking technology. The mission was fraught with danger as the Gamma-Corvus Nebula’s intense radiation disrupted their systems, forcing them to rely on Zyrrak’s Echo Lens to navigate hidden pathways. After infiltrating the relay station, they discovered an unexpected complication: the station housed not only Syndicate intelligence but also a captured group of alien refugees forced to assist with Syndicate operations. Faced with a moral dilemma, Zyrrak chose to prioritize the refugees' rescue, risking exposure to Syndicate forces.\n\nThe operation culminated in a tense standoff as Syndicate reinforcements arrived. Zyrrak used their Chrono-Gauntlets to create a temporal distortion, buying the team enough time to extract the refugees and destroy the relay station with an energy pulse from their core. As they escaped, 'Shadebreaker' fulfilled their promise, transmitting coordinates to three Syndicate Kherecite caches scattered across the sector. However, the anonymous informant’s motives remained unclear, leaving Zyrrak wary of potential deception.\n\nThe Syndicate Gambit strengthened the Havenbound Accord’s resolve but at a cost. The refugees brought harrowing tales of Syndicate experiments, deepening Zyrrak’s hatred for their former betrayers. While the Kherecite locations provided hope, the fleet’s actions further inflamed the Syndicate’s pursuit, cementing the conflict as a defining struggle in Zyrrak’s path toward survival and vengeance.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Syndicate Gambit? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Zyrrak Vel'Thane's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737022327833",
+      "attributes": {
+        "name": "The Eryndor Collapse",
+        "timestamp": "2000-07-25",
+        "description": "In the chaotic aftermath of the destruction of the Syndicate relay station in the Eryndor Expanse, the destabilization of the region's wormhole cluster accelerated. The wormholes, already unstable from years of unregulated Syndicate experiments, began to collapse, creating a cascading effect that threatened to engulf the surrounding systems. The Vyrnathian fleet, still recovering from the Seraphis Beacon mission, was forced to navigate this treacherous region as gravitational surges disrupted their warp drives and scattered their formation.\n\nZyrrak Vel'Thane, weakened from the strain on their energy core, was confined to the fleet’s medical ship, the Luminal Haven. Despite their condition, they insisted on coordinating the fleet's escape, using the Neural Synchronizer to analyze the wormhole patterns and direct the fleet toward a stable exit point. During this crisis, the fleet's council faced renewed divisions, with some factions blaming Zyrrak for the escalating dangers and advocating for a withdrawal from the Ecliptic Haven mission.\n\nAs the fleet approached the singularity's edge, an unexpected Syndicate ambush compounded their peril. Syndicate ships, using experimental gravitic shields, were able to withstand the wormhole's distortions and launched a surprise assault. In the ensuing battle, Zyrrak’s trusted lieutenant, Kael Voryn, led the defense using tactics adapted from Zyrrak's earlier strategies. With the help of the harmonic key fragment retrieved during the Celestial Veil mission, the fleet created a temporary rift to escape the collapsing region.\n\nThe escape came at a heavy cost. Several ships were lost, including the Obsidian Wraith, which carried critical supplies and personnel. Additionally, Kael Voryn was gravely injured while ensuring the fleet's survival. The Syndicate's ambush confirmed the existence of a mole still embedded within the fleet, deepening suspicions and paranoia among the Vyrnathians. Zyrrak, grappling with their declining health and the growing mistrust within their ranks, vowed to uncover the mole and secure the fleet's survival at all costs.\n\nThe Eryndor Collapse marked a turning point in Zyrrak's path, as it forced them to confront the limitations of their leadership and the fragility of the fleet's unity. The event also reinforced the urgency of understanding the Syndicate's connection to the 'Erythari Prime' and the deeper implications of the Prism Sigil's visions.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Eryndor Collapse? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Zyrrak Vel'Thane's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737022360404",
+      "attributes": {
+        "name": "The Veilbreaker Accord",
+        "timestamp": "2000-07-30",
+        "description": "Following the Syndicate Gambit, Zyrrak Vel'Thane and the Havenbound Accord acted quickly to investigate the first set of coordinates provided by the mysterious informant 'Shadebreaker.' The location, a barren moon orbiting the dying star Eryth-7, was heavily fortified with Syndicate forces, confirming the presence of a Kherecite cache. Anticipating a trap, Zyrrak devised a bold strategy: splitting the fleet into two groups, one to create a diversion and the other to infiltrate the Syndicate’s base using a newly-calibrated harmonic cloaking field. Zyrrak’s team, including Kaelith Vorr, Captain Lyras Teyra, and the recently rescued engineer Malek Thyran, led the infiltration effort. \n\nThe operation quickly escalated when the team discovered that the Syndicate had not only fortified the cache but had begun weaponizing Kherecite through dangerous experimental methods. The unstable weapon prototypes posed a grave threat, as their detonation could destabilize the moon entirely. Forced to act swiftly, Zyrrak utilized their Echo Lens to locate weak points in the Syndicate’s security grid while Malek worked to disarm the volatile Kherecite devices. During the mission, the group encountered an enigmatic Syndicate agent known as 'Vyrak Senn,' who appeared to possess knowledge of the Prism Sigil's cryptic visions. Senn's cryptic taunts suggested a deeper connection between the Syndicate and the Sigil’s mysterious origins, further unnerving Zyrrak. \n\nAfter a tense confrontation with Senn and Syndicate forces, Zyrrak's team successfully secured a portion of the Kherecite cache but was forced to destroy the remaining weaponized Kherecite to prevent a catastrophic explosion. The moon’s surface fissured as the Syndicate base began to collapse, and the team narrowly escaped aboard their cloaked transport vessel. \n\nWhile the operation yielded a significant amount of Kherecite for the fleet, it came at a cost. Malek Thyran sustained critical injuries during the mission, and the Syndicate’s heightened aggression began to strain the Havenbound Accord’s resources and morale. Additionally, Senn’s ominous words about the Prism Sigil left Zyrrak questioning the true nature of their visions and the broader implications for their journey. The Veilbreaker Accord marked a turning point, as Zyrrak’s actions not only secured a vital resource but also deepened the mystery surrounding their ultimate purpose and the Syndicate’s relentless pursuit.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Veilbreaker Accord? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Zyrrak Vel'Thane's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737022367882",
+      "attributes": {
+        "name": "The Shardfall Accord",
+        "timestamp": "2000-08-01",
+        "description": "Following the harrowing escape from the collapsing Eryndor wormhole cluster, the fleet regrouped in the uncharted Aetherial Rift—a chaotic region shrouded in subspace anomalies. The damage inflicted on the fleet, both physical and psychological, was immense. Zyrrak Vel'Thane, still recovering aboard the Luminal Haven, convened an emergency council meeting to address the Syndicate ambush and the fleet's weakening morale. During this assembly, tensions erupted. Accusations of sabotage were levied against Zyrrak’s inner circle, further inflaming suspicion of a mole within the fleet. Kael Voryn, despite their injuries, publicly defended Zyrrak, but their credibility was undercut when evidence surfaced linking their tactical decisions to Syndicate ambush patterns. \n\nAmid this turmoil, a breakthrough occurred when the harmonic key fragment resonated with the Aetherial Rift's anomalies, revealing a hidden Kherecite-rich planetoid, later named Shardfall. Believing this to be a chance for redemption and survival, Zyrrak ordered an expedition to the planet’s surface. However, the Syndicate anticipated the fleet’s move and deployed a covert strike team to sabotage the mining operation. In the ensuing confrontation, Zyrrak personally led a counter-operation despite their weakened state, using their Chrono-Gauntlets to outmaneuver Syndicate forces and secure the first shipment of Kherecite. The victory was bittersweet, as Kael Voryn succumbed to their injuries shortly after the mission, leaving the fleet without its most trusted military leader.\n\nThe discovery of Shardfall and the successful extraction of Kherecite temporarily bolstered morale and stabilized the fleet's energy reserves. However, the Syndicate strike team’s infiltration confirmed that the mole within the fleet remained active, leading Zyrrak to impose stricter security protocols and personally oversee the investigation into the traitor’s identity. This event marked a shift in Zyrrak’s leadership style, as they became more hands-on and wary of delegating authority. It also deepened their resolve to uncover the Syndicate’s ultimate objectives, suspecting that the Prism Sigil and the harmonic keys were central to a larger, galaxy-spanning conspiracy.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Shardfall Accord? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Zyrrak Vel'Thane's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737022383164",
+      "attributes": {
+        "name": "The Obsidian Fracture",
+        "timestamp": "2000-08-05",
+        "description": "Following the Veilbreaker Accord, Zyrrak Vel'Thane and the Havenbound Accord regrouped at the asteroid outpost known as Obsidian Haven, a temporary refuge hidden within the dense Obsidian Nebula. While the Kherecite secured from the Syndicate’s base provided a much-needed boost to the fleet’s dwindling resources, tensions were high due to Malek Thyran’s critical condition and the implications of Vyrak Senn’s cryptic words about the Prism Sigil. Zyrrak, burdened by the weight of leadership, worked tirelessly with Kaelith Vorr and Captain Lyras Teyra to address the fleet's growing morale issues and prepare for the Syndicate’s inevitable retaliation. \n\nAs the fleet attempted to repair and resupply, a sudden energy disturbance was detected emanating from deep within the Obsidian Nebula. The disturbance bore a striking resemblance to the harmonic frequencies associated with the Prism Sigil, sparking debate among the fleet’s leadership. Zyrrak, driven by both curiosity and the need for answers, decided to lead a small reconnaissance team into the nebula to investigate. Accompanied by Kaelith Vorr, Captain Teyra, and the skilled pilot Jorath Kyn, the group navigated through the perilous nebula, encountering gravitational anomalies and erratic energy surges. \n\nUpon reaching the source of the disturbance, the team discovered an ancient Vyrnathian relic known as the Obsidian Fracture—a fragmented crystalline structure that pulsed with unstable energy. The relic appeared to resonate with Zyrrak’s energy core, triggering a vivid and overwhelming vision of a cataclysmic event involving the Prism Sigil and the Syndicate's ultimate goals. However, before the team could fully analyze the relic, they were ambushed by a Syndicate strike force led by Vyrak Senn, who had tracked the fleet to the nebula. \n\nA fierce battle ensued, with the Syndicate utilizing advanced weaponry powered by the experimental Kherecite technology. During the conflict, the Obsidian Fracture began to destabilize, threatening to unleash a destructive energy wave that could consume the entire nebula. Zyrrak, recognizing the danger, used their Chrono-Gauntlets to briefly slow time, allowing the team to retreat to their vessel. In a desperate move, Zyrrak activated their energy core to synchronize with the relic, stabilizing it long enough for the team to escape. However, the effort left Zyrrak severely weakened and further destabilized their energy core, raising concerns about their long-term survival. \n\nThe team returned to Obsidian Haven with critical data about the Syndicate’s weaponization of Kherecite and the relic’s connection to the Prism Sigil. The encounter deepened the mystery surrounding Zyrrak's visions and the Syndicate's true objectives, while also highlighting the growing risks of prolonged exposure to the Sigil’s influence. The Obsidian Fracture marked a pivotal moment, as it not only escalated the Syndicate’s aggression but also forced Zyrrak to confront the possibility that their visions might be leading them toward an even greater threat.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Obsidian Fracture? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Zyrrak Vel'Thane's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737022392036",
+      "attributes": {
+        "name": "The Riftbound Conspiracy",
+        "timestamp": "2000-08-08",
+        "description": "Following the discovery of Shardfall and the successful extraction of Kherecite, Zyrrak Vel'Thane ordered the Luminal Haven to remain in orbit around the planetoid to secure further mining operations. During this time, Zyrrak intensified their investigation into the mole within the fleet. Utilizing the Neural Synchronizer, Zyrrak interfaced with the fleet's encrypted communication logs, uncovering a series of anomalies that pointed to unauthorized subspace transmissions originating from the engineering deck of the Luminal Haven. \n\nZyrrak initiated a covert operation to capture the traitor, assembling a small team of loyalists led by Rynn Arvek, the fleet's chief reconnaissance officer. The team traced the transmissions to an abandoned section of the ship, where they discovered a hidden relay device encoded with Syndicate encryption. Before they could dismantle the device, it triggered a localized EMP blast, disabling Zyrrak's cybernetic implants temporarily and allowing the traitor to escape. Despite this setback, the team recovered fragments of the device’s data, revealing a Syndicate directive to sabotage the fleet's energy core if Shardfall became operational as a long-term resource.\n\nIn the aftermath, Zyrrak ordered immediate upgrades to the fleet's cybersecurity protocols and initiated a fleet-wide lockdown, imposing severe restrictions on movement and communication until the mole could be identified. While this action stabilized the fleet in the short term, it also deepened divisions among the crew, with some questioning Zyrrak's increasingly authoritarian measures. Amid the growing unrest, Zyrrak began to suspect that the mole was not acting alone but was part of a larger conspiracy tied to the Syndicate's interest in the Prism Sigil and the harmonic keys. \n\nThis event marked a critical turning point in Zyrrak's leadership, pushing them further into isolation as trust within their inner circle eroded. It also solidified Zyrrak’s belief that the Syndicate's operations extended beyond simple resource acquisition, hinting at a far-reaching agenda that could threaten not only the fleet but the stability of the galaxy itself.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Riftbound Conspiracy? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Zyrrak Vel'Thane's path?"
+      }
+    },
+    {
+      "key": "event1737022405852",
+      "attributes": {
+        "name": "The Nebular Requiem",
+        "timestamp": "2000-08-10",
+        "description": "Following the harrowing escape from the Obsidian Nebula, Zyrrak Vel'Thane remained bedridden in Obsidian Haven’s medical bay, their energy core critically destabilized from the synchronization with the Obsidian Fracture. Kaelith Vorr and Captain Lyras Teyra coordinated efforts to secure the fleet’s position against potential Syndicate reinforcements, aware that their temporary refuge was now compromised. Jorath Kyn, shaken by the encounter, began analyzing the data retrieved from the relic, uncovering fragments of encoded Vyrnathian schematics that hinted at the Syndicate’s ultimate goal: a weaponized harmonic key capable of rewriting spatial dimensions. \n\nMeanwhile, the fleet’s morale fractured further as news of Zyrrak’s condition spread. Malek Thyran, despite his injuries, rallied key members of the Havenbound Accord to maintain unity, while Vyrak Senn’s ambush deepened suspicions of another mole within the fleet. During a critical council meeting, Kaelith Vorr proposed a daring plan: to use the coordinates embedded within the Obsidian Fracture’s data to locate a hidden Vyrnathian archive that might hold answers about the Prism Sigil and a method to stabilize Zyrrak’s energy core. \n\nAs the fleet prepared for the journey, Zyrrak awoke from a vision-induced coma, warning of a catastrophic event tied to the Syndicate’s weaponization of Kherecite. The vision revealed an ancient Vyrnathian facility buried on the planet Eryssar Prime, accessible only by decrypting the relic’s harmonic frequencies. Despite their weakened state, Zyrrak insisted on leading the mission, knowing their connection to the relic and the Prism Sigil was integral to the fleet’s survival. \n\nThe fleet departed the Obsidian Nebula, narrowly evading a Syndicate patrol. Along the way, tensions between the fleet factions escalated, as the toll of constant evasion and resource scarcity began to fracture trust. Zyrrak, though physically weakened, used their harmonic resonance to mediate disputes and maintain cohesion. Upon reaching Eryssar Prime, the fleet discovered an ancient Vyrnathian vault hidden beneath the planet’s surface. The vault’s defenses, powered by harmonic energy, required precise synchronization with the Prism Sigil’s frequencies to unlock. \n\nAs Zyrrak activated the vault, their energy core began to resonate uncontrollably, triggering another vision—this time of a massive Syndicate fleet converging on Eryssar Prime. With time running out, the Havenbound Accord worked together to extract vital data from the archive, uncovering blueprints for a device called the Celestial Nexus, which could stabilize harmonic energy fields and potentially counteract the Syndicate’s weapon. However, the effort left Zyrrak in critical condition, their energy core barely functioning. The fleet escaped Eryssar Prime moments before the Syndicate’s arrival, leaving behind a planet engulfed in conflict. \n\nThe Nebular Requiem solidified the fleet’s resolve to uncover the truth behind the Prism Sigil and resist the Syndicate at all costs, while highlighting the growing risks of Zyrrak’s deteriorating condition. The newly discovered Celestial Nexus plans became a beacon of hope, but their creation required resources and expertise that the fleet could only acquire through dangerous means.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Nebular Requiem? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Zyrrak Vel'Thane's path?"
+      }
+    },
+    {
+      "key": "event1737022413784",
+      "attributes": {
+        "name": "The Luminal Schism",
+        "timestamp": "2000-08-12",
+        "description": "In the wake of the fleet-wide lockdown imposed after the discovery of the Syndicate's encoded relay device, tensions aboard the Luminal Haven reached a breaking point. The restrictions on communication and movement, while effective in preventing further sabotage, exacerbated existing divisions within the crew. A faction led by Captain Veyra Lorn, the fleet’s head of tactical operations, openly challenged Zyrrak Vel’Thane’s authority, accusing them of prioritizing secrecy and control over transparency and crew morale. Veyra’s faction demanded an immediate review of the lockdown measures and a more democratic approach to fleet governance. \n\nZyrrak, aware of the growing unrest but unwilling to risk further leaks, called for an emergency council aboard the Haven to address the concerns. The council meeting became a flashpoint, with Veyra presenting evidence of crew dissatisfaction and proposing a partial lifting of the lockdown to restore trust. However, during the heated debate, a second hidden relay device activated within the council chamber, broadcasting the meeting’s proceedings into subspace. The transmission was intercepted by the Syndicate, who launched an immediate strike against the fleet’s mining operations on Shardfall. \n\nThe sudden attack forced the council to disband as Zyrrak and their loyalists scrambled to repel the Syndicate forces. The battle, later known as the Shardfall Siege, resulted in significant casualties and the partial destruction of the Luminal Haven’s outer hull. Despite successfully defending the mining operation, the fleet suffered the loss of several key personnel, including Rynn Arvek, who was killed while securing the engineering deck against Syndicate infiltrators. \n\nIn the aftermath, Zyrrak reinstated full command authority, citing the Syndicate’s strike as proof of the dangers posed by internal dissent. They ordered the fleet to abandon Shardfall temporarily to regroup and repair, further straining resources and morale. The loss of Rynn Arvek, one of Zyrrak’s most trusted allies, deepened their isolation and forced them to confront the possibility that the mole might still be active. Meanwhile, the Syndicate’s successful interception of the council transmission confirmed Zyrrak’s suspicions of a larger conspiracy, accelerating their efforts to unravel the Syndicate’s ultimate agenda and its connection to the Prism Sigil.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Luminal Schism? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Zyrrak Vel'Thane's path?"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "key": "geid_46_0",
+      "source": "birth",
+      "target": "event1737021966195",
+      "attributes": {
+        "type": "sequence",
+        "description": "Explores the extraordinary circumstances that surrounded Zyrrak Vel'Thane's birth, providing insights into their early significance and setting the stage for future conflicts."
+      }
+    },
+    {
+      "key": "geid_46_1",
+      "source": "event1737021966195",
+      "target": "event1737021978350",
+      "attributes": {
+        "type": "sequence",
+        "description": "The Shimmering Exodus directly follows the events of The Cataclysmic Arrival, detailing the immediate aftermath of Vyrnathis Prime's destabilization and how Zyrrak's energy core influenced the survival of their people."
+      }
+    },
+    {
+      "key": "geid_46_2",
+      "source": "event1737021978350",
+      "target": "event1737021991425",
+      "attributes": {
+        "type": "sequence",
+        "description": "The Shadowed Pursuit follows The Shimmering Exodus, detailing the immediate challenges faced by the Vyrnathian fleet as they attempted to evade the Syndicate of Shadows, escalating the tension and danger surrounding their journey."
+      }
+    },
+    {
+      "key": "geid_46_3",
+      "source": "event1737021991425",
+      "target": "event1737022004327",
+      "attributes": {
+        "type": "sequence",
+        "description": "The Fractured Alliance directly follows The Shadowed Pursuit, delving into the internal consequences of the Vyrnathian fleet's near-discovery and highlighting the growing strains within their ranks."
+      }
+    },
+    {
+      "key": "geid_46_4",
+      "source": "event1737022004327",
+      "target": "event1737022017291",
+      "attributes": {
+        "type": "sequence",
+        "description": "The Shattered Accord directly follows The Fractured Alliance, detailing the immediate consequences of the fleet's division and Zyrrak's attempt to lead their contingent to safety. It explores the escalating stakes and introduces new challenges tied to the Prism Sigil and the Syndicate's relentless pursuit."
+      }
+    },
+    {
+      "key": "geid_46_5",
+      "source": "event1737021966195",
+      "target": "event1737021991425",
+      "attributes": {
+        "type": "PARALLELS",
+        "description": "The premature activation of Zyrrak's energy core during their birth (interpreted as an omen of significance) directly parallels their later ability to detect the anomalies caused by the Syndicate's probes, highlighting how their unique traits were critical to the fleet's survival from the outset."
+      }
+    },
+    {
+      "key": "geid_46_6",
+      "source": "event1737021978350",
+      "target": "event1737022004327",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "The act of Zyrrak stabilizing the fleet's warp gates during The Shimmering Exodus enabled the Syndicate's suspicion and subsequent infiltration of the Vyrnathian fleet during The Fractured Alliance, illustrating an unintended consequence of Zyrrak's symbolic and literal importance."
+      }
+    },
+    {
+      "key": "geid_46_7",
+      "source": "event1737021978350",
+      "target": "event1737022017291",
+      "attributes": {
+        "type": "FORESHADOWS",
+        "description": "The Shimmering Exodus, marked by the fleet's reliance on Kherecite-powered ships, foreshadows the importance of Kherecite discovered on the rogue planet in The Shattered Accord, tying the resource to the survival and evolution of the Vyrnathians' journey."
+      }
+    },
+    {
+      "key": "geid_46_8",
+      "source": "event1737021991425",
+      "target": "event1737022017291",
+      "attributes": {
+        "type": "ESCALATES",
+        "description": "The Syndicate's relentless pursuit of the Vyrnathians during The Shadowed Pursuit escalates into a direct assault in The Shattered Accord, showing a progression in the Syndicate's aggression and the increasing stakes for Zyrrak as a protector."
+      }
+    },
+    {
+      "key": "geid_46_9",
+      "source": "birth",
+      "target": "event1737022017291",
+      "attributes": {
+        "type": "PARALLELS",
+        "description": "The radiant pulse emitted by Zyrrak's energy core at birth (interpreted as an omen) parallels the uncontrollable energy surge Zyrrak experiences during The Shattered Accord, suggesting that Zyrrak’s energy core is both a source of hope and a destabilizing factor in their hybrid biology."
+      }
+    },
+    {
+      "key": "geid_46_10",
+      "source": "event1737022004327",
+      "target": "event1737021991425",
+      "attributes": {
+        "type": "RETROACTIVE",
+        "description": "The discovery of Syndicate sympathizers embedded within the fleet during The Fractured Alliance retroactively explains how the Syndicate was able to track and intercept parts of the fleet in The Shadowed Pursuit, showcasing a deeper network of infiltration."
+      }
+    },
+    {
+      "key": "geid_46_11",
+      "source": "event1737022017291",
+      "target": "event1737022041240",
+      "attributes": {
+        "type": "sequence",
+        "description": "The Abyssal Reckoning directly follows The Shattered Accord, detailing the fleet's attempts to recover and escape the Syndicate's renewed assault while introducing new challenges tied to the Prism Sigil's visions and the loss of the rogue planet's resources."
+      }
+    },
+    {
+      "key": "geid_46_12",
+      "source": "event1737022041240",
+      "target": "event1737022053495",
+      "attributes": {
+        "type": "sequence",
+        "description": "The Ecliptic Resonance directly follows The Abyssal Reckoning, as Zyrrak's visions of the Ecliptic Haven become the fleet's primary focus, and the aftermath of their escape shapes the next phase of their journey."
+      }
+    },
+    {
+      "key": "geid_46_13",
+      "source": "event1737022053495",
+      "target": "event1737022071369",
+      "attributes": {
+        "type": "sequence",
+        "description": "The Nexus Reclamation directly follows the events of The Ecliptic Resonance, exploring the fallout of Zyrrak’s destabilized energy core, the internal dissent within the fleet, and the Syndicate’s escalating pursuit, setting the stage for the fleet’s continued journey toward the Ecliptic Haven."
+      }
+    },
+    {
+      "key": "geid_46_14",
+      "source": "event1737022071369",
+      "target": "event1737022088304",
+      "attributes": {
+        "type": "sequence",
+        "description": "The Riftborn Convergence follows the events of The Nexus Reclamation, as the fleet’s renewed unity and pursuit of the harmonic key fragments lead them to the Rift Nebula, escalating both the stakes of their journey and the Syndicate's pursuit."
+      }
+    },
+    {
+      "key": "geid_46_15",
+      "source": "event1737022088304",
+      "target": "event1737022107266",
+      "attributes": {
+        "type": "sequence",
+        "description": "The Obsidian Betrayal directly follows from The Riftborn Convergence, detailing the immediate consequences of the Syndicate's ambush, the discovery of a mole within the fleet, and Zyrrak's efforts to address internal dissent while preparing for the next stage of their journey."
+      }
+    },
+    {
+      "key": "geid_47_0",
+      "source": "event1737022088304",
+      "target": "event1737022141464",
+      "attributes": {
+        "type": "sequence",
+        "description": "The Celestial Veil follows directly from the events of The Riftborn Convergence, detailing the fleet’s next steps after acquiring the star maps and the Syndicate’s renewed pursuit. It escalates the stakes by introducing new challenges and revealing deeper mysteries tied to the harmonic keys and the Prism Sigil."
+      }
+    },
+    {
+      "key": "geid_47_1",
+      "source": "event1737022107266",
+      "target": "event1737022167766",
+      "attributes": {
+        "type": "sequence",
+        "description": "The Eryndor Gambit follows directly from The Obsidian Betrayal, as Zyrrak's decision to respond to the colony's distress signal and seek Kherecite leads to a dangerous confrontation with the Syndicate, escalating the stakes and tensions within the fleet."
+      }
+    },
+    {
+      "key": "geid_47_2",
+      "source": "event1737022141464",
+      "target": "event1737022188694",
+      "attributes": {
+        "type": "sequence",
+        "description": "The Echoing Cataclysm directly follows from the retrieval of the harmonic key fragment in The Celestial Veil, exploring the immediate consequences of its activation and introducing new revelations and challenges that escalate the stakes of Zyrrak’s journey."
+      }
+    },
+    {
+      "key": "geid_47_3",
+      "source": "event1737022167766",
+      "target": "event1737022196395",
+      "attributes": {
+        "type": "sequence",
+        "description": "The Crystalline Exodus follows directly from The Eryndor Gambit, as Zyrrak's failure to secure Kherecite in Eryndor leads to their desperate pursuit of alternative solutions and sets the stage for their confrontation with the Syndicate's growing technological advantage."
+      }
+    },
+    {
+      "key": "geid_47_4",
+      "source": "event1737022188694",
+      "target": "event1737022211932",
+      "attributes": {
+        "type": "sequence",
+        "description": "The Splintered Accord directly follows the events of The Echoing Cataclysm, detailing the immediate aftermath of the fleet's escape and the internal divisions caused by the revelations about the harmonic keys' potential for destruction."
+      }
+    },
+    {
+      "key": "geid_47_5",
+      "source": "event1737022196395",
+      "target": "event1737022219407",
+      "attributes": {
+        "type": "sequence",
+        "description": "The Veridian Incursion directly follows The Crystalline Exodus, as the information extracted from Dr. Vos leads Zyrrak to take immediate action against the Syndicate's mining operations on Veridian Theta, escalating both the stakes and the Syndicate's aggression."
+      }
+    },
+    {
+      "key": "geid_47_6",
+      "source": "event1737022211932",
+      "target": "event1737022235179",
+      "attributes": {
+        "type": "sequence",
+        "description": "The Voidlight Accord directly follows the events of The Splintered Accord, as the fleet’s weakened state and the departure of the Ascendancy Collective force Zyrrak and the Havenbound Accord to seek refuge and resources, escalating the stakes and introducing new revelations about the harmonic keys."
+      }
+    },
+    {
+      "key": "geid_47_7",
+      "source": "event1737022219407",
+      "target": "event1737022242035",
+      "attributes": {
+        "type": "sequence",
+        "description": "The Radiant Requiem directly follows The Veridian Incursion, as the destruction of Veridian Theta forced Zyrrak and the fleet to seek alternative sources of Kherecite, leading them to the Radiant Spire and escalating their conflict with the Syndicate."
+      }
+    },
+    {
+      "key": "geid_47_8",
+      "source": "event1737022235179",
+      "target": "event1737022259417",
+      "attributes": {
+        "type": "sequence",
+        "description": "The Erythari Revelation directly follows the events of The Voidlight Accord, exploring the immediate aftermath of the expedition to the Voidlight Nexus and the impact of the recovered Erythari data on the Havenbound Accord’s understanding of the harmonic keys and their implications."
+      }
+    },
+    {
+      "key": "geid_47_9",
+      "source": "event1737022242035",
+      "target": "event1737022271506",
+      "attributes": {
+        "type": "sequence",
+        "description": "The Seraphis Beacon directly follows the events of The Radiant Requiem, as the activation of Seraphis's subspace signal escalated the Syndicate's pursuit and drove Zyrrak to take decisive action to protect the fleet."
+      }
+    },
+    {
+      "key": "geid_47_10",
+      "source": "event1737022259417",
+      "target": "event1737022306606",
+      "attributes": {
+        "type": "sequence",
+        "description": "The Syndicate Gambit directly follows the events of The Erythari Revelation, detailing the immediate consequences of the harmonic key fragment’s activation and the fleet’s efforts to evade the Syndicate while simultaneously addressing their urgent need for Kherecite."
+      }
+    },
+    {
+      "key": "geid_47_11",
+      "source": "event1737022271506",
+      "target": "event1737022327833",
+      "attributes": {
+        "type": "sequence",
+        "description": "The Eryndor Collapse directly follows the events of The Seraphis Beacon, detailing the immediate consequences of the relay's destruction and the fleet's struggle to escape the collapsing wormhole cluster. It progresses the narrative by escalating the Syndicate's aggression and introducing new challenges for Zyrrak and the fleet."
+      }
+    },
+    {
+      "key": "geid_47_12",
+      "source": "event1737022306606",
+      "target": "event1737022360404",
+      "attributes": {
+        "type": "sequence",
+        "description": "The Veilbreaker Accord directly follows The Syndicate Gambit, as the Kherecite cache coordinates provided by 'Shadebreaker' lead Zyrrak and their team to a critical operation that advances the Havenbound Accord's survival efforts while escalating the dangers posed by the Syndicate."
+      }
+    },
+    {
+      "key": "geid_47_13",
+      "source": "event1737022327833",
+      "target": "event1737022367882",
+      "attributes": {
+        "type": "sequence",
+        "description": "The Shardfall Accord directly follows The Eryndor Collapse, detailing the fleet’s regrouping after their escape, the discovery of Shardfall, and the escalating conflict with the Syndicate, setting the stage for further challenges to Zyrrak’s leadership and the fleet’s survival."
+      }
+    },
+    {
+      "key": "geid_47_14",
+      "source": "event1737022360404",
+      "target": "event1737022383164",
+      "attributes": {
+        "type": "sequence",
+        "description": "The Obsidian Fracture follows directly from The Veilbreaker Accord, exploring the immediate consequences of the Syndicate’s pursuit and the revelations tied to the Prism Sigil, while escalating the stakes of Zyrrak’s journey and introducing new challenges for their survival."
+      }
+    },
+    {
+      "key": "geid_47_15",
+      "source": "event1737022367882",
+      "target": "event1737022392036",
+      "attributes": {
+        "type": "sequence",
+        "description": "The Riftbound Conspiracy directly follows The Shardfall Accord, as the mole's actions and the Syndicate’s ongoing sabotage efforts create new challenges for Zyrrak and the fleet, escalating the stakes and deepening the mystery surrounding the Syndicate's objectives."
+      }
+    },
+    {
+      "key": "geid_47_16",
+      "source": "event1737022383164",
+      "target": "event1737022405852",
+      "attributes": {
+        "type": "sequence",
+        "description": "The Nebular Requiem directly follows the events of The Obsidian Fracture, detailing the immediate aftermath of the relic’s discovery and the Havenbound Accord’s efforts to regroup, escape Syndicate pursuit, and confront the escalating stakes tied to the Prism Sigil."
+      }
+    },
+    {
+      "key": "geid_47_17",
+      "source": "event1737022392036",
+      "target": "event1737022413784",
+      "attributes": {
+        "type": "sequence",
+        "description": "The Luminal Schism directly follows The Riftbound Conspiracy, detailing the escalating consequences of the mole’s sabotage and the resulting unrest within the fleet. It explores how the Syndicate exploited these divisions to launch a surprise attack, further destabilizing the fleet and pushing Zyrrak into a more authoritarian leadership style."
+      }
+    }
+  ]
+}

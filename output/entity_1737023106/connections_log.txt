@@ -1,0 +1,484 @@
+
+=== NEW CONNECTIONS ATTEMPT 2025-01-16T10:26:41.281Z ===
+
+AI Response:
+{
+  "connections": [
+    {
+      "from": "event1737023119867",
+      "to": "event1737023154258",
+      "type": "CAUSES",
+      "description": "The supernova's energy surge during Nyxarith's birth not only infused their body with unique properties but also likely contributed to the latent activation of the Celestara Order's sanctuary systems, which resonated with Nyxarith's cosmic energy signature."
+    },
+    {
+      "from": "event1737023135746",
+      "to": "event1737023174352",
+      "type": "ENABLES",
+      "description": "The fragments of the core sigil left behind during the flight from Astris-Vael limited Nyxarith's cosmic connection, indirectly enabling the sanctuary's energy pulse to act as a signal detectable by the Void Reavers."
+    },
+    {
+      "from": "event1737023154258",
+      "to": "event1737023191787",
+      "type": "PARALLELS",
+      "description": "The activation of the Celestara sanctuary's systems mirrors the reactivation of the Luminara Nexus, both events tied to Nyxarith interfacing with ancient Astronexus technology and uncovering fragments of their heritage."
+    },
+    {
+      "from": "event1737023174352",
+      "to": "event1737023191787",
+      "type": "CONTRASTS",
+      "description": "While the sanctuary's energy pulse unintentionally alerted the Void Reavers, Nyxarith's arrival at the Luminara Nexus marked a deliberate attempt to use the site's gravitational anomalies as a strategic defense against them."
+    },
+    {
+      "from": "event1737023119867",
+      "to": "event1737023191787",
+      "type": "INFLUENCES",
+      "description": "The infusion of quantum properties during Nyxarith's birth directly influenced their ability to interface with the Luminara Nexus core, awakening its latent systems and advancing their understanding of their heritage."
+    }
+  ]
+}
+
+Parsed Response:
+{
+  "connections": [
+    {
+      "from": "event1737023119867",
+      "to": "event1737023154258",
+      "type": "CAUSES",
+      "description": "The supernova's energy surge during Nyxarith's birth not only infused their body with unique properties but also likely contributed to the latent activation of the Celestara Order's sanctuary systems, which resonated with Nyxarith's cosmic energy signature."
+    },
+    {
+      "from": "event1737023135746",
+      "to": "event1737023174352",
+      "type": "ENABLES",
+      "description": "The fragments of the core sigil left behind during the flight from Astris-Vael limited Nyxarith's cosmic connection, indirectly enabling the sanctuary's energy pulse to act as a signal detectable by the Void Reavers."
+    },
+    {
+      "from": "event1737023154258",
+      "to": "event1737023191787",
+      "type": "PARALLELS",
+      "description": "The activation of the Celestara sanctuary's systems mirrors the reactivation of the Luminara Nexus, both events tied to Nyxarith interfacing with ancient Astronexus technology and uncovering fragments of their heritage."
+    },
+    {
+      "from": "event1737023174352",
+      "to": "event1737023191787",
+      "type": "CONTRASTS",
+      "description": "While the sanctuary's energy pulse unintentionally alerted the Void Reavers, Nyxarith's arrival at the Luminara Nexus marked a deliberate attempt to use the site's gravitational anomalies as a strategic defense against them."
+    },
+    {
+      "from": "event1737023119867",
+      "to": "event1737023191787",
+      "type": "INFLUENCES",
+      "description": "The infusion of quantum properties during Nyxarith's birth directly influenced their ability to interface with the Luminara Nexus core, awakening its latent systems and advancing their understanding of their heritage."
+    }
+  ]
+}
+
+Added 4 new connections
+
+=== NEW CONNECTIONS ATTEMPT 2025-01-16T10:28:26.910Z ===
+
+AI Response:
+{
+  "connections": [
+    {
+      "from": "event1737023119867",
+      "to": "event1737023135746",
+      "type": "CAUSES",
+      "description": "The supernova's energy surge that marked Nyxarith's birth directly caused the destabilization of Astris-Vael's surface, necessitating the group's flight to the sanctuary and setting the stage for Nyxarith's survival and journey."
+    },
+    {
+      "from": "event1737023135746",
+      "to": "event1737023154258",
+      "type": "INFLUENCES",
+      "description": "The fragments of the core sigil left behind during the escape from Astris-Vael contributed to the sanctuary's resonance with Nyxarith during the Celestara Awakening, allowing the systems to reactivate in response to their cosmic energy."
+    },
+    {
+      "from": "event1737023191787",
+      "to": "event1737023215407",
+      "type": "ENABLED",
+      "description": "The resonance between Nyxarith and the Luminara Nexus core enabled the group's ability to manipulate the Nexus' gravitational anomalies during the Obsidian Veil Gambit, setting the foundation for their successful defense against the Void Reavers."
+    },
+    {
+      "from": "event1737023215407",
+      "to": "event1737023232611",
+      "type": "CAUSES",
+      "description": "The strain on Nyxarith's cosmic energy during the Obsidian Veil Gambit weakened them significantly, directly impacting their ability to interface with the unstable Starforge systems and escalating the risks during the Starforge Descent."
+    },
+    {
+      "from": "event1737023232611",
+      "to": "event1737023252284",
+      "type": "INFLUENCES",
+      "description": "The data fragments salvaged from the collapsing Starforge influenced the group's path to Eryndor Prime, providing the first concrete leads toward uncovering the Prime Sigil's ultimate purpose."
+    },
+    {
+      "from": "event1737023252284",
+      "to": "event1737023289011",
+      "type": "CONTRASTS",
+      "description": "The incomplete vision of the Prime Sigil on Eryndor Prime contrasts with the more refined projection revealed in the Eclipsed Spire, emphasizing the gradual uncovering of its full significance and purpose throughout Nyxarith's journey."
+    },
+    {
+      "from": "event1737023135746",
+      "to": "event1737023289011",
+      "type": "PARALLELS",
+      "description": "The group's escape from the collapsing Astris-Vael mirrors their retreat from the Eclipsed Spire, both events driven by Nyxarith's cosmic resonance inadvertently destabilizing their surroundings while uncovering critical fragments of their heritage."
+    },
+    {
+      "from": "event1737023174352",
+      "to": "event1737023215407",
+      "type": "INFLUENCES",
+      "description": "The Void Reavers' detection of the sanctuary's energy pulse indirectly influenced the group's strategy during the Obsidian Veil Gambit, as their growing awareness of the Reavers' pursuit shaped their defensive tactics."
+    },
+    {
+      "from": "event1737023270455",
+      "to": "event1737023289011",
+      "type": "ENABLES",
+      "description": "The fragmented coordinates recovered from the shattered pylon enabled the group's journey to the Eclipsed Spire, providing them with a tangible lead to pursue the missing piece of the Prime Sigil."
+    },
+    {
+      "from": "event1737023119867",
+      "to": "event1737023289011",
+      "type": "PARALLELS",
+      "description": "The Stellar Convergence at Nyxarith's birth parallels the cryptic mention of a future Stellar Convergence tied to the Prime Sigil in the Eclipsed Spire, suggesting a thematic connection between Nyxarith's origin and their ultimate destiny."
+    }
+  ]
+}
+
+Parsed Response:
+{
+  "connections": [
+    {
+      "from": "event1737023119867",
+      "to": "event1737023135746",
+      "type": "CAUSES",
+      "description": "The supernova's energy surge that marked Nyxarith's birth directly caused the destabilization of Astris-Vael's surface, necessitating the group's flight to the sanctuary and setting the stage for Nyxarith's survival and journey."
+    },
+    {
+      "from": "event1737023135746",
+      "to": "event1737023154258",
+      "type": "INFLUENCES",
+      "description": "The fragments of the core sigil left behind during the escape from Astris-Vael contributed to the sanctuary's resonance with Nyxarith during the Celestara Awakening, allowing the systems to reactivate in response to their cosmic energy."
+    },
+    {
+      "from": "event1737023191787",
+      "to": "event1737023215407",
+      "type": "ENABLED",
+      "description": "The resonance between Nyxarith and the Luminara Nexus core enabled the group's ability to manipulate the Nexus' gravitational anomalies during the Obsidian Veil Gambit, setting the foundation for their successful defense against the Void Reavers."
+    },
+    {
+      "from": "event1737023215407",
+      "to": "event1737023232611",
+      "type": "CAUSES",
+      "description": "The strain on Nyxarith's cosmic energy during the Obsidian Veil Gambit weakened them significantly, directly impacting their ability to interface with the unstable Starforge systems and escalating the risks during the Starforge Descent."
+    },
+    {
+      "from": "event1737023232611",
+      "to": "event1737023252284",
+      "type": "INFLUENCES",
+      "description": "The data fragments salvaged from the collapsing Starforge influenced the group's path to Eryndor Prime, providing the first concrete leads toward uncovering the Prime Sigil's ultimate purpose."
+    },
+    {
+      "from": "event1737023252284",
+      "to": "event1737023289011",
+      "type": "CONTRASTS",
+      "description": "The incomplete vision of the Prime Sigil on Eryndor Prime contrasts with the more refined projection revealed in the Eclipsed Spire, emphasizing the gradual uncovering of its full significance and purpose throughout Nyxarith's journey."
+    },
+    {
+      "from": "event1737023135746",
+      "to": "event1737023289011",
+      "type": "PARALLELS",
+      "description": "The group's escape from the collapsing Astris-Vael mirrors their retreat from the Eclipsed Spire, both events driven by Nyxarith's cosmic resonance inadvertently destabilizing their surroundings while uncovering critical fragments of their heritage."
+    },
+    {
+      "from": "event1737023174352",
+      "to": "event1737023215407",
+      "type": "INFLUENCES",
+      "description": "The Void Reavers' detection of the sanctuary's energy pulse indirectly influenced the group's strategy during the Obsidian Veil Gambit, as their growing awareness of the Reavers' pursuit shaped their defensive tactics."
+    },
+    {
+      "from": "event1737023270455",
+      "to": "event1737023289011",
+      "type": "ENABLES",
+      "description": "The fragmented coordinates recovered from the shattered pylon enabled the group's journey to the Eclipsed Spire, providing them with a tangible lead to pursue the missing piece of the Prime Sigil."
+    },
+    {
+      "from": "event1737023119867",
+      "to": "event1737023289011",
+      "type": "PARALLELS",
+      "description": "The Stellar Convergence at Nyxarith's birth parallels the cryptic mention of a future Stellar Convergence tied to the Prime Sigil in the Eclipsed Spire, suggesting a thematic connection between Nyxarith's origin and their ultimate destiny."
+    }
+  ]
+}
+
+Added 4 new connections
+
+=== NEW CONNECTIONS ATTEMPT 2025-01-16T10:30:41.002Z ===
+
+AI Response:
+{
+  "connections": [
+    {
+      "from": "event1737023119867",
+      "to": "event1737023289011",
+      "type": "PARALLELS",
+      "description": "The Stellar Convergence at Nyxarith's birth mirrors the cryptic mention of a future Stellar Convergence tied to the Prime Sigil, suggesting a thematic link between Nyxarith's origin and their ultimate destiny as a cosmic stabilizer."
+    },
+    {
+      "from": "event1737023135746",
+      "to": "event1737023215407",
+      "type": "PARALLELS",
+      "description": "The desperate flight from Astris-Vael during Nyxarith’s birth parallels the Obsidian Veil Gambit, as both events involve narrowly escaping a collapsing environment while salvaging fragments critical to Nyxarith's survival and mission."
+    },
+    {
+      "from": "event1737023154258",
+      "to": "event1737023191787",
+      "type": "CONTRASTS",
+      "description": "The activation of the Celestara sanctuary's systems contrasts with the awakening of the Luminara Nexus, highlighting the gradual escalation of Nyxarith’s impact on ancient Astronexus technology and their evolving cosmic resonance."
+    },
+    {
+      "from": "event1737023209011",
+      "to": "event1737023420167",
+      "type": "INFLUENCES",
+      "description": "The Eclipsed Spire's projection of the Prime Sigil's purpose influences the Riftborne's warning about its dual nature, emphasizing the growing stakes and ambiguity surrounding Nyxarith's mission."
+    },
+    {
+      "from": "event1737023191787",
+      "to": "event1737023270455",
+      "type": "CAUSES",
+      "description": "Nyxarith's activation of the Luminara Nexus systems indirectly leads to the discovery and subsequent destruction of the shattered pylon, as their actions continue to draw Void Reaver attention while progressing their mission."
+    },
+    {
+      "from": "event1737023352232",
+      "to": "event1737023374042",
+      "type": "CONTRASTS",
+      "description": "The deliberate activation of the Ecliptica Crucible contrasts with the chaotic traversal of the Erythraen Threshold, highlighting the increasing unpredictability and risk in Nyxarith's journey as they approach the final sigil fragment."
+    },
+    {
+      "from": "event1737023252284",
+      "to": "event1737023289011",
+      "type": "PARALLELS",
+      "description": "The incomplete vision of the Prime Sigil on Eryndor Prime parallels the detailed blueprint revealed in the Eclipsed Spire, showing how Nyxarith's understanding of the sigil evolves as they uncover more fragments."
+    },
+    {
+      "from": "event1737023420167",
+      "to": "event1737023289011",
+      "type": "CAUSES",
+      "description": "The partial Riftborne revelations about the sigil's instability add context to the cryptic warning from the Eclipsed Spire about the Stellar Convergence, tying Nyxarith's decisions directly to the multiverse's fate."
+    },
+    {
+      "from": "event1737023289011",
+      "to": "event1737023330568",
+      "type": "ENABLES",
+      "description": "The cryptic message recovered from the Eclipsed Spire enables the pursuit of the Luminal Accord, connecting the sigil's purpose to the Veyari's ancient treaty and expanding Nyxarith’s alliances."
+    },
+    {
+      "from": "event1737023352232",
+      "to": "event1737023398067",
+      "type": "PARALLELS",
+      "description": "The chaotic instability of the Singularity Rift mirrors the fractal collapse of the Nexus of Fractured Realities, underscoring the destructive consequences of interfacing with ancient Astronexus mechanisms."
+    }
+  ]
+}
+
+Parsed Response:
+{
+  "connections": [
+    {
+      "from": "event1737023119867",
+      "to": "event1737023289011",
+      "type": "PARALLELS",
+      "description": "The Stellar Convergence at Nyxarith's birth mirrors the cryptic mention of a future Stellar Convergence tied to the Prime Sigil, suggesting a thematic link between Nyxarith's origin and their ultimate destiny as a cosmic stabilizer."
+    },
+    {
+      "from": "event1737023135746",
+      "to": "event1737023215407",
+      "type": "PARALLELS",
+      "description": "The desperate flight from Astris-Vael during Nyxarith’s birth parallels the Obsidian Veil Gambit, as both events involve narrowly escaping a collapsing environment while salvaging fragments critical to Nyxarith's survival and mission."
+    },
+    {
+      "from": "event1737023154258",
+      "to": "event1737023191787",
+      "type": "CONTRASTS",
+      "description": "The activation of the Celestara sanctuary's systems contrasts with the awakening of the Luminara Nexus, highlighting the gradual escalation of Nyxarith’s impact on ancient Astronexus technology and their evolving cosmic resonance."
+    },
+    {
+      "from": "event1737023209011",
+      "to": "event1737023420167",
+      "type": "INFLUENCES",
+      "description": "The Eclipsed Spire's projection of the Prime Sigil's purpose influences the Riftborne's warning about its dual nature, emphasizing the growing stakes and ambiguity surrounding Nyxarith's mission."
+    },
+    {
+      "from": "event1737023191787",
+      "to": "event1737023270455",
+      "type": "CAUSES",
+      "description": "Nyxarith's activation of the Luminara Nexus systems indirectly leads to the discovery and subsequent destruction of the shattered pylon, as their actions continue to draw Void Reaver attention while progressing their mission."
+    },
+    {
+      "from": "event1737023352232",
+      "to": "event1737023374042",
+      "type": "CONTRASTS",
+      "description": "The deliberate activation of the Ecliptica Crucible contrasts with the chaotic traversal of the Erythraen Threshold, highlighting the increasing unpredictability and risk in Nyxarith's journey as they approach the final sigil fragment."
+    },
+    {
+      "from": "event1737023252284",
+      "to": "event1737023289011",
+      "type": "PARALLELS",
+      "description": "The incomplete vision of the Prime Sigil on Eryndor Prime parallels the detailed blueprint revealed in the Eclipsed Spire, showing how Nyxarith's understanding of the sigil evolves as they uncover more fragments."
+    },
+    {
+      "from": "event1737023420167",
+      "to": "event1737023289011",
+      "type": "CAUSES",
+      "description": "The partial Riftborne revelations about the sigil's instability add context to the cryptic warning from the Eclipsed Spire about the Stellar Convergence, tying Nyxarith's decisions directly to the multiverse's fate."
+    },
+    {
+      "from": "event1737023289011",
+      "to": "event1737023330568",
+      "type": "ENABLES",
+      "description": "The cryptic message recovered from the Eclipsed Spire enables the pursuit of the Luminal Accord, connecting the sigil's purpose to the Veyari's ancient treaty and expanding Nyxarith’s alliances."
+    },
+    {
+      "from": "event1737023352232",
+      "to": "event1737023398067",
+      "type": "PARALLELS",
+      "description": "The chaotic instability of the Singularity Rift mirrors the fractal collapse of the Nexus of Fractured Realities, underscoring the destructive consequences of interfacing with ancient Astronexus mechanisms."
+    }
+  ]
+}
+
+Added 4 new connections
+
+=== NEW CONNECTIONS ATTEMPT 2025-01-16T10:32:43.346Z ===
+
+AI Response:
+{
+  "connections": [
+    {
+      "from": "event1737023135746",
+      "to": "event1737023289011",
+      "type": "PARALLELS",
+      "description": "The escape from Astris-Vael during the Flight to the Sanctuary mirrors the group's retreat from the collapsing Eclipsed Spire, both involving high-stakes escapes driven by Nyxarith's cosmic resonance inadvertently destabilizing their surroundings while uncovering critical fragments of their heritage."
+    },
+    {
+      "from": "event1737023174352",
+      "to": "event1737023270455",
+      "type": "INFLUENCES",
+      "description": "The Void Reavers' tracking of energy signatures from the sanctuary influenced their ability to locate Nyxarith on Eryndor Prime, escalating the confrontation at the Shattered Pylon."
+    },
+    {
+      "from": "event1737023289011",
+      "to": "event1737023420167",
+      "type": "CAUSES",
+      "description": "The cryptic warning from the Eclipsed Spire about the Stellar Convergence aligns with the Riftborne Convergence's revelations about the sigil's instability, tying Nyxarith's choices to escalating multiversal consequences."
+    },
+    {
+      "from": "event1737023315407",
+      "to": "event1737023505198",
+      "type": "PARALLELS",
+      "description": "The trials faced during the Obsidian Veil Gambit share thematic parallels with the challenges presented by the Warden of the Rogue Moon, as both test Nyxarith's abilities to harmonize their cosmic energy under extreme duress."
+    },
+    {
+      "from": "event1737023480929",
+      "to": "event1737023527810",
+      "type": "INFLUENCES",
+      "description": "The Solvanna's Lament influenced the Celestial Maw's Descent by amplifying the risk of cosmic anomalies being drawn to Nyxarith due to the unstable energy of the completed sigil fragment."
+    },
+    {
+      "from": "event1737023330568",
+      "to": "event1737023374042",
+      "type": "PARALLELS",
+      "description": "The alliance with the Veyari during the Luminal Accord mirrors the guidance of the Erythraen Warden during the Threshold, as both interactions provide Nyxarith with critical insights and warnings about their mission."
+    },
+    {
+      "from": "event1737023191787",
+      "to": "event1737023457784",
+      "type": "CONTRASTS",
+      "description": "The initial discovery of the Luminara Nexus contrasts with the Veyari Nexus Arrival, as the former represents the awakening of dormant Astronexus systems, while the latter highlights the peril of delving into decaying remnants under active Void Reaver threat."
+    },
+    {
+      "from": "event1737023232611",
+      "to": "event1737023480929",
+      "type": "PARALLELS",
+      "description": "The Starforge Descent's narrow escape mirrors the Solvanna's Lament, as both events emphasize the physical toll of Nyxarith's quest and the increasing fragility of their journey's foundation."
+    },
+    {
+      "from": "event1737023420167",
+      "to": "event1737023527810",
+      "type": "CAUSES",
+      "description": "The dimensional instability from the Riftborne Convergence indirectly caused the Celestial Maw to manifest, drawn to the volatile energy released during Nyxarith's trials and connections with the sigil."
+    },
+    {
+      "from": "event1737023505198",
+      "to": "event1737023527810",
+      "type": "ENHANCES",
+      "description": "The Warden of the Rogue Moon's warnings about cosmic entities tied to the sigil enhanced Nyxarith's understanding of the Celestial Maw, framing it as a manifestation of the sigil's destabilizing influence."
+    }
+  ]
+}
+
+Parsed Response:
+{
+  "connections": [
+    {
+      "from": "event1737023135746",
+      "to": "event1737023289011",
+      "type": "PARALLELS",
+      "description": "The escape from Astris-Vael during the Flight to the Sanctuary mirrors the group's retreat from the collapsing Eclipsed Spire, both involving high-stakes escapes driven by Nyxarith's cosmic resonance inadvertently destabilizing their surroundings while uncovering critical fragments of their heritage."
+    },
+    {
+      "from": "event1737023174352",
+      "to": "event1737023270455",
+      "type": "INFLUENCES",
+      "description": "The Void Reavers' tracking of energy signatures from the sanctuary influenced their ability to locate Nyxarith on Eryndor Prime, escalating the confrontation at the Shattered Pylon."
+    },
+    {
+      "from": "event1737023289011",
+      "to": "event1737023420167",
+      "type": "CAUSES",
+      "description": "The cryptic warning from the Eclipsed Spire about the Stellar Convergence aligns with the Riftborne Convergence's revelations about the sigil's instability, tying Nyxarith's choices to escalating multiversal consequences."
+    },
+    {
+      "from": "event1737023315407",
+      "to": "event1737023505198",
+      "type": "PARALLELS",
+      "description": "The trials faced during the Obsidian Veil Gambit share thematic parallels with the challenges presented by the Warden of the Rogue Moon, as both test Nyxarith's abilities to harmonize their cosmic energy under extreme duress."
+    },
+    {
+      "from": "event1737023480929",
+      "to": "event1737023527810",
+      "type": "INFLUENCES",
+      "description": "The Solvanna's Lament influenced the Celestial Maw's Descent by amplifying the risk of cosmic anomalies being drawn to Nyxarith due to the unstable energy of the completed sigil fragment."
+    },
+    {
+      "from": "event1737023330568",
+      "to": "event1737023374042",
+      "type": "PARALLELS",
+      "description": "The alliance with the Veyari during the Luminal Accord mirrors the guidance of the Erythraen Warden during the Threshold, as both interactions provide Nyxarith with critical insights and warnings about their mission."
+    },
+    {
+      "from": "event1737023191787",
+      "to": "event1737023457784",
+      "type": "CONTRASTS",
+      "description": "The initial discovery of the Luminara Nexus contrasts with the Veyari Nexus Arrival, as the former represents the awakening of dormant Astronexus systems, while the latter highlights the peril of delving into decaying remnants under active Void Reaver threat."
+    },
+    {
+      "from": "event1737023232611",
+      "to": "event1737023480929",
+      "type": "PARALLELS",
+      "description": "The Starforge Descent's narrow escape mirrors the Solvanna's Lament, as both events emphasize the physical toll of Nyxarith's quest and the increasing fragility of their journey's foundation."
+    },
+    {
+      "from": "event1737023420167",
+      "to": "event1737023527810",
+      "type": "CAUSES",
+      "description": "The dimensional instability from the Riftborne Convergence indirectly caused the Celestial Maw to manifest, drawn to the volatile energy released during Nyxarith's trials and connections with the sigil."
+    },
+    {
+      "from": "event1737023505198",
+      "to": "event1737023527810",
+      "type": "ENHANCES",
+      "description": "The Warden of the Rogue Moon's warnings about cosmic entities tied to the sigil enhanced Nyxarith's understanding of the Celestial Maw, framing it as a manifestation of the sigil's destabilizing influence."
+    }
+  ]
+}
+
+Added 7 new connections

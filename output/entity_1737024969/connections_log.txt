@@ -1,0 +1,908 @@
+
+=== NEW CONNECTIONS ATTEMPT 2025-01-16T10:56:32.601Z ===
+
+AI Response:
+{
+  "connections": [
+    {
+      "from": "event1737024980223",
+      "to": "birth",
+      "type": "PARALLELS",
+      "description": "Vaelith Quorran's birth and the simultaneous Shattering of Qlithar Prime reflect dual themes of destruction and renewal. While the collapse of the planet marked the end of an era for the Qlithari, Vaelith's survival symbolized a fragile hope for the species' continuation. These opposing forces—loss and rebirth—may have shaped Vaelith's identity and future role as a unifier or rebuilder for their people."
+    },
+    {
+      "from": "event1737024980223",
+      "to": "birth",
+      "type": "CAUSES",
+      "description": "The Shattering of Qlithar Prime directly influenced the circumstances of Vaelith's birth. The survival of Vaelith and their parents was only possible due to their remote location, underscoring how the cataclysmic event ensured that Vaelith's life began amid adversity and resilience, likely imprinting a sense of purpose tied to survival and recovery."
+    }
+  ]
+}
+
+Parsed Response:
+{
+  "connections": [
+    {
+      "from": "event1737024980223",
+      "to": "birth",
+      "type": "PARALLELS",
+      "description": "Vaelith Quorran's birth and the simultaneous Shattering of Qlithar Prime reflect dual themes of destruction and renewal. While the collapse of the planet marked the end of an era for the Qlithari, Vaelith's survival symbolized a fragile hope for the species' continuation. These opposing forces—loss and rebirth—may have shaped Vaelith's identity and future role as a unifier or rebuilder for their people."
+    },
+    {
+      "from": "event1737024980223",
+      "to": "birth",
+      "type": "CAUSES",
+      "description": "The Shattering of Qlithar Prime directly influenced the circumstances of Vaelith's birth. The survival of Vaelith and their parents was only possible due to their remote location, underscoring how the cataclysmic event ensured that Vaelith's life began amid adversity and resilience, likely imprinting a sense of purpose tied to survival and recovery."
+    }
+  ]
+}
+
+Added 1 new connections
+
+=== NEW CONNECTIONS ATTEMPT 2025-01-16T10:56:56.108Z ===
+
+AI Response:
+{
+  "connections": [
+    {
+      "from": "event1737024980223",
+      "to": "event1737024999907",
+      "type": "CAUSES",
+      "description": "The Shattering of Qlithar Prime created the dire circumstances in which Vaelith's birth occurred, leading to the unique conditions that enabled the Resonance Cry to manifest. The environmental instability and proximity to the ancient relics may have contributed to this unprecedented phenomenon."
+    },
+    {
+      "from": "event1737024999907",
+      "to": "event1737024995548",
+      "type": "ENABLES",
+      "description": "The Resonance Cry emitted by Vaelith momentarily stabilized the environment, allowing the survivors to reach the 'Stellar Conflux Key' and activate the escape vessel Erythra. Without this event, the group's survival and subsequent Exodus might not have been possible."
+    },
+    {
+      "from": "event1737024995548",
+      "to": "event1737024995545",
+      "type": "INFLUENCES",
+      "description": "The Exodus from Qlithar Prime and the bond formed with the living vessel Erythra shaped Vaelith's perspective and connection to their heritage, influencing their later quest to rediscover and restore their lost civilization upon finding the Last Qlithari Shard."
+    },
+    {
+      "from": "event1737024999907",
+      "to": "event1737024995545",
+      "type": "PARALLELS",
+      "description": "The Resonance Cry and the discovery of the Last Qlithari Shard both represent key moments in Vaelith's connection to ancient Qlithari relics, hinting at a recurring theme of Vaelith's role as a bridge between the past and the future of their species."
+    },
+    {
+      "from": "event1737024980223",
+      "to": "event1737024995545",
+      "type": "CONTRASTS",
+      "description": "The Shattering of Qlithar Prime symbolizes the complete destruction of the Qlithari civilization, whereas the discovery of the Last Qlithari Shard represents a glimmer of hope and the possibility of restoration, creating a thematic contrast between total loss and potential renewal."
+    }
+  ]
+}
+
+Parsed Response:
+{
+  "connections": [
+    {
+      "from": "event1737024980223",
+      "to": "event1737024999907",
+      "type": "CAUSES",
+      "description": "The Shattering of Qlithar Prime created the dire circumstances in which Vaelith's birth occurred, leading to the unique conditions that enabled the Resonance Cry to manifest. The environmental instability and proximity to the ancient relics may have contributed to this unprecedented phenomenon."
+    },
+    {
+      "from": "event1737024999907",
+      "to": "event1737024995548",
+      "type": "ENABLES",
+      "description": "The Resonance Cry emitted by Vaelith momentarily stabilized the environment, allowing the survivors to reach the 'Stellar Conflux Key' and activate the escape vessel Erythra. Without this event, the group's survival and subsequent Exodus might not have been possible."
+    },
+    {
+      "from": "event1737024995548",
+      "to": "event1737024995545",
+      "type": "INFLUENCES",
+      "description": "The Exodus from Qlithar Prime and the bond formed with the living vessel Erythra shaped Vaelith's perspective and connection to their heritage, influencing their later quest to rediscover and restore their lost civilization upon finding the Last Qlithari Shard."
+    },
+    {
+      "from": "event1737024999907",
+      "to": "event1737024995545",
+      "type": "PARALLELS",
+      "description": "The Resonance Cry and the discovery of the Last Qlithari Shard both represent key moments in Vaelith's connection to ancient Qlithari relics, hinting at a recurring theme of Vaelith's role as a bridge between the past and the future of their species."
+    },
+    {
+      "from": "event1737024980223",
+      "to": "event1737024995545",
+      "type": "CONTRASTS",
+      "description": "The Shattering of Qlithar Prime symbolizes the complete destruction of the Qlithari civilization, whereas the discovery of the Last Qlithari Shard represents a glimmer of hope and the possibility of restoration, creating a thematic contrast between total loss and potential renewal."
+    }
+  ]
+}
+
+Added 5 new connections
+
+=== NEW CONNECTIONS ATTEMPT 2025-01-16T10:57:41.940Z ===
+
+AI Response:
+{
+  "connections": [
+    {
+      "from": "event1737024999907",
+      "to": "event1737025029241",
+      "type": "INFLUENCES",
+      "description": "The Resonance Cry emitted by Vaelith not only stabilized the environment temporarily but also left a lasting imprint on the evacuee ship's systems. This connection suggests that Vaelith's unique harmonic energy had a deeper influence on the ship's biometrics, laying the groundwork for their later integration with Qlithari living technology as seen in 'The Imprint Awakens'."
+    },
+    {
+      "from": "event1737025021567",
+      "to": "event1737025019984",
+      "type": "PARALLELS",
+      "description": "The Collapse of the Qlithari Council and the Fracturing of Erythra both represent pivotal breakdowns in Qlithari structures—one political, the other technological. These events parallel the theme of fragmentation within the Qlithari people and their reliance on Vaelith to either bridge these divisions or stabilize their survival mechanisms."
+    },
+    {
+      "from": "event1737025029241",
+      "to": "event1737024995545",
+      "type": "ENABLES",
+      "description": "The Imprint Awakens event, where Vaelith's energy signature altered the evacuee ship's systems, enabled the survivors to evade their pursuers and maintain their journey. This allowed Vaelith to eventually discover the Last Qlithari Shard, connecting their unique abilities to their ongoing role as a restorer of their species' legacy."
+    },
+    {
+      "from": "event1737024980223",
+      "to": "event1737024995548",
+      "type": "CAUSES",
+      "description": "The Shattering of Qlithar Prime directly caused the conditions that led to the activation of the Stellar Conflux Key and the launch of the biomechanical vessel Erythra. This event initiated the Exodus from Qlithar Prime, establishing the Qlithari diaspora and the survivors' reliance on ancient relics for survival."
+    },
+    {
+      "from": "event1737025019984",
+      "to": "event1737024995545",
+      "type": "INFLUENCES",
+      "description": "The Fracturing of Erythra, where Vaelith's connection to the living vessel intensified, further cemented their bond with Qlithari relics. This deeper understanding of Qlithari technology and heritage influenced Vaelith's motivations and capabilities during their discovery of the Last Qlithari Shard."
+    },
+    {
+      "from": "event1737025029241",
+      "to": "event1737025019984",
+      "type": "PARALLELS",
+      "description": "The Imprint Awakens and the Fracturing of Erythra both highlight instances where Vaelith's unique resonance directly affected Qlithari living technology, showcasing their evolving role as a stabilizing force for their people's survival mechanisms."
+    }
+  ]
+}
+
+Parsed Response:
+{
+  "connections": [
+    {
+      "from": "event1737024999907",
+      "to": "event1737025029241",
+      "type": "INFLUENCES",
+      "description": "The Resonance Cry emitted by Vaelith not only stabilized the environment temporarily but also left a lasting imprint on the evacuee ship's systems. This connection suggests that Vaelith's unique harmonic energy had a deeper influence on the ship's biometrics, laying the groundwork for their later integration with Qlithari living technology as seen in 'The Imprint Awakens'."
+    },
+    {
+      "from": "event1737025021567",
+      "to": "event1737025019984",
+      "type": "PARALLELS",
+      "description": "The Collapse of the Qlithari Council and the Fracturing of Erythra both represent pivotal breakdowns in Qlithari structures—one political, the other technological. These events parallel the theme of fragmentation within the Qlithari people and their reliance on Vaelith to either bridge these divisions or stabilize their survival mechanisms."
+    },
+    {
+      "from": "event1737025029241",
+      "to": "event1737024995545",
+      "type": "ENABLES",
+      "description": "The Imprint Awakens event, where Vaelith's energy signature altered the evacuee ship's systems, enabled the survivors to evade their pursuers and maintain their journey. This allowed Vaelith to eventually discover the Last Qlithari Shard, connecting their unique abilities to their ongoing role as a restorer of their species' legacy."
+    },
+    {
+      "from": "event1737024980223",
+      "to": "event1737024995548",
+      "type": "CAUSES",
+      "description": "The Shattering of Qlithar Prime directly caused the conditions that led to the activation of the Stellar Conflux Key and the launch of the biomechanical vessel Erythra. This event initiated the Exodus from Qlithar Prime, establishing the Qlithari diaspora and the survivors' reliance on ancient relics for survival."
+    },
+    {
+      "from": "event1737025019984",
+      "to": "event1737024995545",
+      "type": "INFLUENCES",
+      "description": "The Fracturing of Erythra, where Vaelith's connection to the living vessel intensified, further cemented their bond with Qlithari relics. This deeper understanding of Qlithari technology and heritage influenced Vaelith's motivations and capabilities during their discovery of the Last Qlithari Shard."
+    },
+    {
+      "from": "event1737025029241",
+      "to": "event1737025019984",
+      "type": "PARALLELS",
+      "description": "The Imprint Awakens and the Fracturing of Erythra both highlight instances where Vaelith's unique resonance directly affected Qlithari living technology, showcasing their evolving role as a stabilizing force for their people's survival mechanisms."
+    }
+  ]
+}
+
+Added 4 new connections
+
+=== NEW CONNECTIONS ATTEMPT 2025-01-16T10:58:31.554Z ===
+
+AI Response:
+{
+  "connections": [
+    {
+      "from": "event1737024999907",
+      "to": "event1737025072756",
+      "type": "PARALLELS",
+      "description": "Both instances of the Resonance Cry describe its extraordinary effect on stabilizing the environment and synchronizing with Qlithari relics, but they focus on slightly different aspects of the event. Together, they reinforce Vaelith's intrinsic link to the relics and their potential as a savior figure for their species."
+    },
+    {
+      "from": "event1737025075905",
+      "to": "event1737025067893",
+      "type": "CAUSES",
+      "description": "The awakening of the Conflux Imprint aboard the evacuee ship directly stems from the activation of the Stellar Conflux Key, as both are triggered by Vaelith's Resonance Cry. The Key’s unlocking provided the escape route, while the Imprint ensured safe navigation."
+    },
+    {
+      "from": "event1737025067893",
+      "to": "event1737025029241",
+      "type": "PARALLELS",
+      "description": "The Descent of the Stellar Conflux Key and the Imprint Awakens both highlight Vaelith's influence on Qlithari technology, showcasing their role in enabling survival and hinting at their growing connection to ancient relics."
+    },
+    {
+      "from": "event1737025021567",
+      "to": "event1737025067893",
+      "type": "CONTRASTS",
+      "description": "The Collapse of the Qlithari Council represents political disunity and failure, whereas the Descent of the Stellar Conflux Key signifies hope and survival through ancient technology, contrasting the Qlithari's cultural fragmentation with their reliance on relics for salvation."
+    },
+    {
+      "from": "event1737025019984",
+      "to": "event1737025067893",
+      "type": "INFLUENCES",
+      "description": "The Fracturing of Erythra builds on the reliance on the Stellar Conflux Key that saved the survivors during the Shattering, as the survivors’ dependence on relics continues into their journey aboard Erythra and shapes Vaelith's responsibilities."
+    },
+    {
+      "from": "event1737024995545",
+      "to": "event1737025067893",
+      "type": "PARALLELS",
+      "description": "The discovery of the Last Qlithari Shard parallels the Descent of the Stellar Conflux Key, as both involve ancient relics providing pivotal moments of salvation or insight, tying Vaelith’s journey back to their heritage and the Qlithari’s reliance on their past."
+    },
+    {
+      "from": "event1737025067892",
+      "to": "event1737025019984",
+      "type": "ENHANCES",
+      "description": "The Binding of the Aetherial Nexus enhances the context of the Fracturing of Erythra by showing how Vaelith’s growing connection to Qlithari technology began earlier, progressively tying their life-force to the survival of their people and technology."
+    },
+    {
+      "from": "event1737025029241",
+      "to": "event1737025019984",
+      "type": "CAUSES",
+      "description": "The Imprint Awakens event, where Vaelith’s resonance integrates with the evacuee ship, sets the stage for the later Fracturing of Erythra by establishing Vaelith’s unique bond with the vessel and its systems, which becomes critical during the crisis."
+    },
+    {
+      "from": "event1737025021567",
+      "to": "event1737025019984",
+      "type": "PARALLELS",
+      "description": "The Collapse of the Qlithari Council and the Fracturing of Erythra both signify breakdowns of essential systems—political and technological—emphasizing recurring themes of fragmentation and the Qlithari’s reliance on Vaelith to stabilize these failures."
+    },
+    {
+      "from": "event1737025029241",
+      "to": "event1737024995548",
+      "type": "ENHANCES",
+      "description": "The Imprint Awakens enhances the Exodus from Qlithar Prime by showing how Vaelith’s resonance shaped the evacuee ship’s systems, ensuring the survivors’ safe escape and hinting at Vaelith’s larger role in the survival of their people."
+    }
+  ]
+}
+
+Parsed Response:
+{
+  "connections": [
+    {
+      "from": "event1737024999907",
+      "to": "event1737025072756",
+      "type": "PARALLELS",
+      "description": "Both instances of the Resonance Cry describe its extraordinary effect on stabilizing the environment and synchronizing with Qlithari relics, but they focus on slightly different aspects of the event. Together, they reinforce Vaelith's intrinsic link to the relics and their potential as a savior figure for their species."
+    },
+    {
+      "from": "event1737025075905",
+      "to": "event1737025067893",
+      "type": "CAUSES",
+      "description": "The awakening of the Conflux Imprint aboard the evacuee ship directly stems from the activation of the Stellar Conflux Key, as both are triggered by Vaelith's Resonance Cry. The Key’s unlocking provided the escape route, while the Imprint ensured safe navigation."
+    },
+    {
+      "from": "event1737025067893",
+      "to": "event1737025029241",
+      "type": "PARALLELS",
+      "description": "The Descent of the Stellar Conflux Key and the Imprint Awakens both highlight Vaelith's influence on Qlithari technology, showcasing their role in enabling survival and hinting at their growing connection to ancient relics."
+    },
+    {
+      "from": "event1737025021567",
+      "to": "event1737025067893",
+      "type": "CONTRASTS",
+      "description": "The Collapse of the Qlithari Council represents political disunity and failure, whereas the Descent of the Stellar Conflux Key signifies hope and survival through ancient technology, contrasting the Qlithari's cultural fragmentation with their reliance on relics for salvation."
+    },
+    {
+      "from": "event1737025019984",
+      "to": "event1737025067893",
+      "type": "INFLUENCES",
+      "description": "The Fracturing of Erythra builds on the reliance on the Stellar Conflux Key that saved the survivors during the Shattering, as the survivors’ dependence on relics continues into their journey aboard Erythra and shapes Vaelith's responsibilities."
+    },
+    {
+      "from": "event1737024995545",
+      "to": "event1737025067893",
+      "type": "PARALLELS",
+      "description": "The discovery of the Last Qlithari Shard parallels the Descent of the Stellar Conflux Key, as both involve ancient relics providing pivotal moments of salvation or insight, tying Vaelith’s journey back to their heritage and the Qlithari’s reliance on their past."
+    },
+    {
+      "from": "event1737025067892",
+      "to": "event1737025019984",
+      "type": "ENHANCES",
+      "description": "The Binding of the Aetherial Nexus enhances the context of the Fracturing of Erythra by showing how Vaelith’s growing connection to Qlithari technology began earlier, progressively tying their life-force to the survival of their people and technology."
+    },
+    {
+      "from": "event1737025029241",
+      "to": "event1737025019984",
+      "type": "CAUSES",
+      "description": "The Imprint Awakens event, where Vaelith’s resonance integrates with the evacuee ship, sets the stage for the later Fracturing of Erythra by establishing Vaelith’s unique bond with the vessel and its systems, which becomes critical during the crisis."
+    },
+    {
+      "from": "event1737025021567",
+      "to": "event1737025019984",
+      "type": "PARALLELS",
+      "description": "The Collapse of the Qlithari Council and the Fracturing of Erythra both signify breakdowns of essential systems—political and technological—emphasizing recurring themes of fragmentation and the Qlithari’s reliance on Vaelith to stabilize these failures."
+    },
+    {
+      "from": "event1737025029241",
+      "to": "event1737024995548",
+      "type": "ENHANCES",
+      "description": "The Imprint Awakens enhances the Exodus from Qlithar Prime by showing how Vaelith’s resonance shaped the evacuee ship’s systems, ensuring the survivors’ safe escape and hinting at Vaelith’s larger role in the survival of their people."
+    }
+  ]
+}
+
+Added 8 new connections
+
+=== NEW CONNECTIONS ATTEMPT 2025-01-16T10:59:19.443Z ===
+
+AI Response:
+{
+  "connections": [
+    {
+      "from": "event1737024980223",
+      "to": "event1737025024723",
+      "type": "CAUSES",
+      "description": "The Shattering of Qlithar Prime created the dire environmental and energetic conditions that amplified the effects of Vaelith Quorran's Resonance Cry, enabling its stabilization properties and its profound impact on the survival of the Qlithari."
+    },
+    {
+      "from": "event1737025029241",
+      "to": "event1737025118666",
+      "type": "PARALLELS",
+      "description": "The Imprint Awakens and the Fall of Aetherion Spire both involve critical interactions with Qlithari relics during moments of crisis, highlighting the dual themes of technological dependency and fragility within the Qlithari's survival narrative."
+    },
+    {
+      "from": "event1737025067893",
+      "to": "event1737025029241",
+      "type": "INFLUENCES",
+      "description": "The activation of the Stellar Conflux Key during the Descent provided the survivors with access to the living vessel Erythra, directly enabling Vaelith's later energy signature imprint on its systems, which ensured their continued survival."
+    },
+    {
+      "from": "event1737025075905",
+      "to": "event1737025067892",
+      "type": "ENHANCES",
+      "description": "The Awakening of the Conflux Imprint aboard the evacuee ship enhances Vaelith's later Binding of the Aetherial Nexus by establishing the recurring theme of their resonance energy synchronizing with ancient relics, progressively tying their life-force to Qlithari technology."
+    },
+    {
+      "from": "event1737025035548",
+      "to": "event1737024995545",
+      "type": "PARALLELS",
+      "description": "The Exodus from Qlithar Prime and the Discovery of the Last Qlithari Shard both represent critical turning points in Vaelith's relationship with Qlithari relics, each marking moments where hope and survival hinge on these ancient artifacts."
+    },
+    {
+      "from": "event1737025021567",
+      "to": "event1737025019984",
+      "type": "PARALLELS",
+      "description": "The Collapse of the Qlithari Council and the Fracturing of Erythra both signify organizational or structural breakdowns in the Qlithari's survival efforts, paralleling themes of fragmentation and reliance on Vaelith's unique capabilities for stabilization."
+    },
+    {
+      "from": "event1737025067893",
+      "to": "event1737025067892",
+      "type": "CAUSES",
+      "description": "The Descent of the Stellar Conflux Key directly enabled the survivors' access to the living vessel Erythra, setting in motion the subsequent events, including Vaelith's binding to the Aetherial Nexus, that further solidified their connection to Qlithari technology."
+    },
+    {
+      "from": "event1737025067892",
+      "to": "event1737025118663",
+      "type": "ENHANCES",
+      "description": "The Binding of the Aetherial Nexus enhances Vaelith's later Fusing of the Aetherial Core by showing an earlier instance of their growing symbiosis with Qlithari technology, deepening the thematic connection between their life-force and the relics."
+    },
+    {
+      "from": "event1737025029241",
+      "to": "event1737025067892",
+      "type": "CAUSES",
+      "description": "The Imprint Awakens aboard the living vessel Erythra laid the groundwork for Vaelith's later Binding of the Aetherial Nexus by reinforcing the idea that their resonance energy was uniquely suited to interact with and activate ancient Qlithari relics."
+    },
+    {
+      "from": "event1737025067893",
+      "to": "event1737025118666",
+      "type": "PARALLELS",
+      "description": "The Descent of the Stellar Conflux Key and the Fall of Aetherion Spire both represent moments of dramatic interaction with ancient Qlithari relics, juxtaposing their potential for salvation with their vulnerability to catastrophic collapse."
+    }
+  ]
+}
+
+Parsed Response:
+{
+  "connections": [
+    {
+      "from": "event1737024980223",
+      "to": "event1737025024723",
+      "type": "CAUSES",
+      "description": "The Shattering of Qlithar Prime created the dire environmental and energetic conditions that amplified the effects of Vaelith Quorran's Resonance Cry, enabling its stabilization properties and its profound impact on the survival of the Qlithari."
+    },
+    {
+      "from": "event1737025029241",
+      "to": "event1737025118666",
+      "type": "PARALLELS",
+      "description": "The Imprint Awakens and the Fall of Aetherion Spire both involve critical interactions with Qlithari relics during moments of crisis, highlighting the dual themes of technological dependency and fragility within the Qlithari's survival narrative."
+    },
+    {
+      "from": "event1737025067893",
+      "to": "event1737025029241",
+      "type": "INFLUENCES",
+      "description": "The activation of the Stellar Conflux Key during the Descent provided the survivors with access to the living vessel Erythra, directly enabling Vaelith's later energy signature imprint on its systems, which ensured their continued survival."
+    },
+    {
+      "from": "event1737025075905",
+      "to": "event1737025067892",
+      "type": "ENHANCES",
+      "description": "The Awakening of the Conflux Imprint aboard the evacuee ship enhances Vaelith's later Binding of the Aetherial Nexus by establishing the recurring theme of their resonance energy synchronizing with ancient relics, progressively tying their life-force to Qlithari technology."
+    },
+    {
+      "from": "event1737025035548",
+      "to": "event1737024995545",
+      "type": "PARALLELS",
+      "description": "The Exodus from Qlithar Prime and the Discovery of the Last Qlithari Shard both represent critical turning points in Vaelith's relationship with Qlithari relics, each marking moments where hope and survival hinge on these ancient artifacts."
+    },
+    {
+      "from": "event1737025021567",
+      "to": "event1737025019984",
+      "type": "PARALLELS",
+      "description": "The Collapse of the Qlithari Council and the Fracturing of Erythra both signify organizational or structural breakdowns in the Qlithari's survival efforts, paralleling themes of fragmentation and reliance on Vaelith's unique capabilities for stabilization."
+    },
+    {
+      "from": "event1737025067893",
+      "to": "event1737025067892",
+      "type": "CAUSES",
+      "description": "The Descent of the Stellar Conflux Key directly enabled the survivors' access to the living vessel Erythra, setting in motion the subsequent events, including Vaelith's binding to the Aetherial Nexus, that further solidified their connection to Qlithari technology."
+    },
+    {
+      "from": "event1737025067892",
+      "to": "event1737025118663",
+      "type": "ENHANCES",
+      "description": "The Binding of the Aetherial Nexus enhances Vaelith's later Fusing of the Aetherial Core by showing an earlier instance of their growing symbiosis with Qlithari technology, deepening the thematic connection between their life-force and the relics."
+    },
+    {
+      "from": "event1737025029241",
+      "to": "event1737025067892",
+      "type": "CAUSES",
+      "description": "The Imprint Awakens aboard the living vessel Erythra laid the groundwork for Vaelith's later Binding of the Aetherial Nexus by reinforcing the idea that their resonance energy was uniquely suited to interact with and activate ancient Qlithari relics."
+    },
+    {
+      "from": "event1737025067893",
+      "to": "event1737025118666",
+      "type": "PARALLELS",
+      "description": "The Descent of the Stellar Conflux Key and the Fall of Aetherion Spire both represent moments of dramatic interaction with ancient Qlithari relics, juxtaposing their potential for salvation with their vulnerability to catastrophic collapse."
+    }
+  ]
+}
+
+Added 7 new connections
+
+=== NEW CONNECTIONS ATTEMPT 2025-01-16T10:59:56.117Z ===
+
+AI Response:
+{
+  "connections": [
+    {
+      "from": "event1737024980223",
+      "to": "event1737025163755",
+      "type": "CAUSES",
+      "description": "The Shattering of Qlithar Prime created the dire circumstances that necessitated the activation of the Stellar Conflux Key, marking the beginning of the Resonance Exodus. The planetary collapse and ensuing chaos set the stage for the Qlithari survivors' desperate evacuation efforts."
+    },
+    {
+      "from": "event1737025168449",
+      "to": "event1737025072756",
+      "type": "PARALLELS",
+      "description": "The Resonance Pulse and the Resonance Cry both involved Vaelith emitting harmonic energy that stabilized critical systems and environments. These events highlight recurring moments where Vaelith's resonance abilities ensured the survival of the Qlithari."
+    },
+    {
+      "from": "event1737025172570",
+      "to": "event1737025067893",
+      "type": "INFLUENCES",
+      "description": "The Glyph's Whisper, which linked Vaelith to Qlithari glyphs and relics, influenced the eventual activation of the Stellar Conflux Key. Vaelith's unique resonance energy was central to both events, connecting the ancient relics to their survival."
+    },
+    {
+      "from": "event1737025163755",
+      "to": "event1737025029241",
+      "type": "ENHANCES",
+      "description": "The Resonance Exodus, facilitated by Vaelith's harmonization with the Stellar Conflux Key, set the stage for the Imprint Awakens event, where their resonance energy further altered the evacuee ship’s systems, ensuring the survivors' safe journey."
+    },
+    {
+      "from": "event1737025163755",
+      "to": "event1737025118663",
+      "type": "CAUSES",
+      "description": "The Resonance Exodus, which established the survivors aboard Erythra, directly led to the eventual Fusing of the Aetherial Core. Vaelith's connection to the living vessel evolved as a result of this initial evacuation."
+    },
+    {
+      "from": "event1737025067893",
+      "to": "event1737025163755",
+      "type": "ENABLES",
+      "description": "The Descent of the Stellar Conflux Key provided the critical mechanism for the Qlithari to initiate the Resonance Exodus, facilitating their escape from the collapsing Qlithar Prime."
+    },
+    {
+      "from": "event1737025168449",
+      "to": "event1737025128115",
+      "type": "CAUSES",
+      "description": "The Resonance Pulse, which stabilized the crumbling environment and synchronized with relics, directly enabled the Imprint’s First Echo by creating the conditions necessary for the evacuee ship to respond to Vaelith's harmonic energy."
+    },
+    {
+      "from": "event1737025163755",
+      "to": "event1737024995548",
+      "type": "SEQUENCE",
+      "description": "The Resonance Exodus preceded the broader Exodus from Qlithar Prime, detailing the specific role of Vaelith and the Stellar Conflux Key before the species-wide evacuation unfolded."
+    },
+    {
+      "from": "event1737024995545",
+      "to": "event1737025067892",
+      "type": "INFLUENCES",
+      "description": "The discovery of the Last Qlithari Shard, which reignited Vaelith’s purpose, was influenced by their earlier binding to the Aetherial Nexus. The Nexus event heightened their awareness of relics and their role as a bridge to their civilization's legacy."
+    },
+    {
+      "from": "event1737025168449",
+      "to": "event1737025029241",
+      "type": "INFLUENCES",
+      "description": "The Resonance Pulse, which revealed Vaelith's unique energy signature, influenced the Imprint Awakens event by establishing their harmonic resonance as a critical factor in interacting with Qlithari relics and technology aboard the evacuee ship."
+    }
+  ]
+}
+
+Parsed Response:
+{
+  "connections": [
+    {
+      "from": "event1737024980223",
+      "to": "event1737025163755",
+      "type": "CAUSES",
+      "description": "The Shattering of Qlithar Prime created the dire circumstances that necessitated the activation of the Stellar Conflux Key, marking the beginning of the Resonance Exodus. The planetary collapse and ensuing chaos set the stage for the Qlithari survivors' desperate evacuation efforts."
+    },
+    {
+      "from": "event1737025168449",
+      "to": "event1737025072756",
+      "type": "PARALLELS",
+      "description": "The Resonance Pulse and the Resonance Cry both involved Vaelith emitting harmonic energy that stabilized critical systems and environments. These events highlight recurring moments where Vaelith's resonance abilities ensured the survival of the Qlithari."
+    },
+    {
+      "from": "event1737025172570",
+      "to": "event1737025067893",
+      "type": "INFLUENCES",
+      "description": "The Glyph's Whisper, which linked Vaelith to Qlithari glyphs and relics, influenced the eventual activation of the Stellar Conflux Key. Vaelith's unique resonance energy was central to both events, connecting the ancient relics to their survival."
+    },
+    {
+      "from": "event1737025163755",
+      "to": "event1737025029241",
+      "type": "ENHANCES",
+      "description": "The Resonance Exodus, facilitated by Vaelith's harmonization with the Stellar Conflux Key, set the stage for the Imprint Awakens event, where their resonance energy further altered the evacuee ship’s systems, ensuring the survivors' safe journey."
+    },
+    {
+      "from": "event1737025163755",
+      "to": "event1737025118663",
+      "type": "CAUSES",
+      "description": "The Resonance Exodus, which established the survivors aboard Erythra, directly led to the eventual Fusing of the Aetherial Core. Vaelith's connection to the living vessel evolved as a result of this initial evacuation."
+    },
+    {
+      "from": "event1737025067893",
+      "to": "event1737025163755",
+      "type": "ENABLES",
+      "description": "The Descent of the Stellar Conflux Key provided the critical mechanism for the Qlithari to initiate the Resonance Exodus, facilitating their escape from the collapsing Qlithar Prime."
+    },
+    {
+      "from": "event1737025168449",
+      "to": "event1737025128115",
+      "type": "CAUSES",
+      "description": "The Resonance Pulse, which stabilized the crumbling environment and synchronized with relics, directly enabled the Imprint’s First Echo by creating the conditions necessary for the evacuee ship to respond to Vaelith's harmonic energy."
+    },
+    {
+      "from": "event1737025163755",
+      "to": "event1737024995548",
+      "type": "SEQUENCE",
+      "description": "The Resonance Exodus preceded the broader Exodus from Qlithar Prime, detailing the specific role of Vaelith and the Stellar Conflux Key before the species-wide evacuation unfolded."
+    },
+    {
+      "from": "event1737024995545",
+      "to": "event1737025067892",
+      "type": "INFLUENCES",
+      "description": "The discovery of the Last Qlithari Shard, which reignited Vaelith’s purpose, was influenced by their earlier binding to the Aetherial Nexus. The Nexus event heightened their awareness of relics and their role as a bridge to their civilization's legacy."
+    },
+    {
+      "from": "event1737025168449",
+      "to": "event1737025029241",
+      "type": "INFLUENCES",
+      "description": "The Resonance Pulse, which revealed Vaelith's unique energy signature, influenced the Imprint Awakens event by establishing their harmonic resonance as a critical factor in interacting with Qlithari relics and technology aboard the evacuee ship."
+    }
+  ]
+}
+
+Added 9 new connections
+
+=== NEW CONNECTIONS ATTEMPT 2025-01-16T11:00:32.808Z ===
+
+AI Response:
+```json
+{
+  "connections": [
+    {
+      "from": "event1737025200759",
+      "to": "event1737025205748",
+      "type": "CAUSES",
+      "description": "The Collapse of the Resonant Spire directly caused the Eruption of the Resonant Glyph, as the spire's harmonic instability triggered a chain reaction that activated the ancient artifact buried within Qlithar Prime's core."
+    },
+    {
+      "from": "event1737024980223",
+      "to": "event1737025163755",
+      "type": "ENHANCES",
+      "description": "The Shattering of Qlithar Prime enhances the significance of the Resonance Exodus by creating the dire conditions under which the Qlithari were forced to flee, emphasizing the urgency and importance of Vaelith's role in enabling the evacuation."
+    },
+    {
+      "from": "event1737025029241",
+      "to": "event1737025200757",
+      "type": "INFLUENCES",
+      "description": "The Imprint Awakens influenced the Shardbond Revelation by establishing Vaelith's deepening connection to Qlithari relics, paving the way for their later vision and growing understanding of their species' lost knowledge."
+    },
+    {
+      "from": "event1737025072756",
+      "to": "event1737025067893",
+      "type": "PARALLELS",
+      "description": "The Resonance Cry and the Descent of the Stellar Conflux Key both represent pivotal moments where Vaelith's resonance abilities interacted with ancient Qlithari relics, paralleling themes of survival and heritage through technological activation."
+    },
+    {
+      "from": "event1737025168449",
+      "to": "event1737025067892",
+      "type": "ENHANCES",
+      "description": "The Resonance Pulse enhances the Binding of the Aetherial Nexus by foreshadowing Vaelith's unique connection to Qlithari relics, demonstrating their harmonic resonance abilities that later become critical in activating and bonding with ancient technology."
+    },
+    {
+      "from": "event1737025128115",
+      "to": "event1737025163753",
+      "type": "CONTRASTS",
+      "description": "The Imprint's First Echo contrasts with the Echoing Void Confrontation by highlighting how Vaelith's resonance abilities can either stabilize or threaten their survival, showcasing the duality of their connection to Qlithari relics."
+    },
+    {
+      "from": "event1737025024723",
+      "to": "event1737025210618",
+      "type": "INFLUENCES",
+      "description": "The Resonance Cry influenced the Glyph's Refrain by initiating the harmonic phenomena that caused the glyphs to rearrange and emit the cryptic melody, further linking Vaelith to the ancient prophecies of their species."
+    },
+    {
+      "from": "event1737025118666",
+      "to": "event1737025075905",
+      "type": "CAUSES",
+      "description": "The Fall of Aetherion Spire caused the Descent of the Stellar Conflux Key by releasing the harmonic energy that activated the ancient artifact, enabling the survivors' escape from Qlithar Prime."
+    },
+    {
+      "from": "event1737025067893",
+      "to": "event1737025072756",
+      "type": "PARALLELS",
+      "description": "The Descent of the Stellar Conflux Key and the Resonance Cry parallel each other as moments where Vaelith's resonance abilities and ancient Qlithari relics aligned to create opportunities for survival amidst destruction."
+    },
+    {
+      "from": "event1737025200757",
+      "to": "event1737024995545",
+      "type": "ENABLES",
+      "description": "The Shardbond Revelation enabled the Discovery of the Last Qlithari Shard by intensifying Vaelith's emotional connection to their heritage and their determination to uncover the mysteries of their civilization's past."
+    }
+  ]
+}
+```
+
+Parsed Response:
+{
+  "connections": [
+    {
+      "from": "event1737025200759",
+      "to": "event1737025205748",
+      "type": "CAUSES",
+      "description": "The Collapse of the Resonant Spire directly caused the Eruption of the Resonant Glyph, as the spire's harmonic instability triggered a chain reaction that activated the ancient artifact buried within Qlithar Prime's core."
+    },
+    {
+      "from": "event1737024980223",
+      "to": "event1737025163755",
+      "type": "ENHANCES",
+      "description": "The Shattering of Qlithar Prime enhances the significance of the Resonance Exodus by creating the dire conditions under which the Qlithari were forced to flee, emphasizing the urgency and importance of Vaelith's role in enabling the evacuation."
+    },
+    {
+      "from": "event1737025029241",
+      "to": "event1737025200757",
+      "type": "INFLUENCES",
+      "description": "The Imprint Awakens influenced the Shardbond Revelation by establishing Vaelith's deepening connection to Qlithari relics, paving the way for their later vision and growing understanding of their species' lost knowledge."
+    },
+    {
+      "from": "event1737025072756",
+      "to": "event1737025067893",
+      "type": "PARALLELS",
+      "description": "The Resonance Cry and the Descent of the Stellar Conflux Key both represent pivotal moments where Vaelith's resonance abilities interacted with ancient Qlithari relics, paralleling themes of survival and heritage through technological activation."
+    },
+    {
+      "from": "event1737025168449",
+      "to": "event1737025067892",
+      "type": "ENHANCES",
+      "description": "The Resonance Pulse enhances the Binding of the Aetherial Nexus by foreshadowing Vaelith's unique connection to Qlithari relics, demonstrating their harmonic resonance abilities that later become critical in activating and bonding with ancient technology."
+    },
+    {
+      "from": "event1737025128115",
+      "to": "event1737025163753",
+      "type": "CONTRASTS",
+      "description": "The Imprint's First Echo contrasts with the Echoing Void Confrontation by highlighting how Vaelith's resonance abilities can either stabilize or threaten their survival, showcasing the duality of their connection to Qlithari relics."
+    },
+    {
+      "from": "event1737025024723",
+      "to": "event1737025210618",
+      "type": "INFLUENCES",
+      "description": "The Resonance Cry influenced the Glyph's Refrain by initiating the harmonic phenomena that caused the glyphs to rearrange and emit the cryptic melody, further linking Vaelith to the ancient prophecies of their species."
+    },
+    {
+      "from": "event1737025118666",
+      "to": "event1737025075905",
+      "type": "CAUSES",
+      "description": "The Fall of Aetherion Spire caused the Descent of the Stellar Conflux Key by releasing the harmonic energy that activated the ancient artifact, enabling the survivors' escape from Qlithar Prime."
+    },
+    {
+      "from": "event1737025067893",
+      "to": "event1737025072756",
+      "type": "PARALLELS",
+      "description": "The Descent of the Stellar Conflux Key and the Resonance Cry parallel each other as moments where Vaelith's resonance abilities and ancient Qlithari relics aligned to create opportunities for survival amidst destruction."
+    },
+    {
+      "from": "event1737025200757",
+      "to": "event1737024995545",
+      "type": "ENABLES",
+      "description": "The Shardbond Revelation enabled the Discovery of the Last Qlithari Shard by intensifying Vaelith's emotional connection to their heritage and their determination to uncover the mysteries of their civilization's past."
+    }
+  ]
+}
+
+Added 9 new connections
+
+=== NEW CONNECTIONS ATTEMPT 2025-01-16T11:01:30.870Z ===
+
+AI Response:
+{
+  "connections": [
+    {
+      "from": "event1737024980223",
+      "to": "event1737025200759",
+      "type": "CAUSES",
+      "description": "The Shattering of Qlithar Prime caused the Collapse of the Resonant Spire as the tectonic instability and massive energy surges from the planet's core destabilized the ancient structure, leading to its destruction."
+    },
+    {
+      "from": "birth",
+      "to": "event1737025247261",
+      "type": "INFLUENCES",
+      "description": "Vaelith's birth synchronized with the Resonant Glyph's harmonic energy, amplifying the Resonant Surge and marking the first indication of their unique connection to Qlithari relics."
+    },
+    {
+      "from": "event1737025205748",
+      "to": "event1737025168449",
+      "type": "INFLUENCES",
+      "description": "The Eruption of the Resonant Glyph influenced the Resonance Pulse by creating the cascading harmonic energy that Vaelith’s resonance subsequently stabilized, saving the survivors in the immediate vicinity."
+    },
+    {
+      "from": "event1737025200759",
+      "to": "event1737025163755",
+      "type": "ENHANCES",
+      "description": "The Collapse of the Resonant Spire enhanced the Resonance Exodus by scattering fragments of glyphs and relics across Qlithar Prime, which amplified the survivors' reliance on Vaelith's resonance abilities and ancient technology to escape."
+    },
+    {
+      "from": "event1737025172570",
+      "to": "event1737025067893",
+      "type": "CAUSES",
+      "description": "The Glyph’s Whisper directly influenced the Descent of the Stellar Conflux Key by embedding Vaelith with a resonance imprint that synchronized perfectly with the activated energy field of the Stellar Conflux Key."
+    },
+    {
+      "from": "event1737025210618",
+      "to": "event1737025075905",
+      "type": "ENHANCES",
+      "description": "The Glyph’s Refrain enhanced the Awakening of the Conflux Imprint by establishing the harmonic connection between Vaelith and the glyphs, which later evolved to influence the evacuee ship’s systems."
+    },
+    {
+      "from": "event1737025237343",
+      "to": "event1737025067892",
+      "type": "CONTRASTS",
+      "description": "The Collapse of the Qlithari Council contrasts with the Binding of the Aetherial Nexus by juxtaposing the disintegration of centralized leadership with Vaelith's increasingly pivotal and unifying role tied to Qlithari relics."
+    },
+    {
+      "from": "event1737025029241",
+      "to": "event1737025163753",
+      "type": "ENABLES",
+      "description": "The Imprint Awakens aboard the evacuee ship enabled Vaelith’s later confrontation with the Echoing Void by progressively deepening their resonance abilities and preparing them to stabilize chaotic energy fields."
+    },
+    {
+      "from": "event1737024995545",
+      "to": "event1737025067892",
+      "type": "ENHANCES",
+      "description": "The Discovery of the Last Qlithari Shard enhanced the Binding of the Aetherial Nexus by providing Vaelith with deeper insights into their connection to Qlithari relics, reinforcing their role as a bridge to their species' legacy."
+    },
+    {
+      "from": "event1737024999907",
+      "to": "event1737025019984",
+      "type": "FORESHADOWS",
+      "description": "The Resonance Cry foreshadowed the Fracturing of Erythra by introducing the critical link between Vaelith’s resonance abilities and the stabilization of Qlithari living technology."
+    },
+    {
+      "from": "event1737025075905",
+      "to": "event1737025118663",
+      "type": "CAUSES",
+      "description": "The Awakening of the Conflux Imprint aboard the evacuee ship caused the Fusing of the Aetherial Core by solidifying Vaelith's resonance signature as a central force in the ship's survival and functionality."
+    },
+    {
+      "from": "event1737025024723",
+      "to": "event1737025168449",
+      "type": "PARALLELS",
+      "description": "The Resonance Cry and the Resonance Pulse are parallel events showcasing Vaelith’s harmonic abilities stabilizing immediate environments and protecting survivors, emphasizing their recurring role as a savior figure."
+    }
+  ]
+}
+
+Parsed Response:
+{
+  "connections": [
+    {
+      "from": "event1737024980223",
+      "to": "event1737025200759",
+      "type": "CAUSES",
+      "description": "The Shattering of Qlithar Prime caused the Collapse of the Resonant Spire as the tectonic instability and massive energy surges from the planet's core destabilized the ancient structure, leading to its destruction."
+    },
+    {
+      "from": "birth",
+      "to": "event1737025247261",
+      "type": "INFLUENCES",
+      "description": "Vaelith's birth synchronized with the Resonant Glyph's harmonic energy, amplifying the Resonant Surge and marking the first indication of their unique connection to Qlithari relics."
+    },
+    {
+      "from": "event1737025205748",
+      "to": "event1737025168449",
+      "type": "INFLUENCES",
+      "description": "The Eruption of the Resonant Glyph influenced the Resonance Pulse by creating the cascading harmonic energy that Vaelith’s resonance subsequently stabilized, saving the survivors in the immediate vicinity."
+    },
+    {
+      "from": "event1737025200759",
+      "to": "event1737025163755",
+      "type": "ENHANCES",
+      "description": "The Collapse of the Resonant Spire enhanced the Resonance Exodus by scattering fragments of glyphs and relics across Qlithar Prime, which amplified the survivors' reliance on Vaelith's resonance abilities and ancient technology to escape."
+    },
+    {
+      "from": "event1737025172570",
+      "to": "event1737025067893",
+      "type": "CAUSES",
+      "description": "The Glyph’s Whisper directly influenced the Descent of the Stellar Conflux Key by embedding Vaelith with a resonance imprint that synchronized perfectly with the activated energy field of the Stellar Conflux Key."
+    },
+    {
+      "from": "event1737025210618",
+      "to": "event1737025075905",
+      "type": "ENHANCES",
+      "description": "The Glyph’s Refrain enhanced the Awakening of the Conflux Imprint by establishing the harmonic connection between Vaelith and the glyphs, which later evolved to influence the evacuee ship’s systems."
+    },
+    {
+      "from": "event1737025237343",
+      "to": "event1737025067892",
+      "type": "CONTRASTS",
+      "description": "The Collapse of the Qlithari Council contrasts with the Binding of the Aetherial Nexus by juxtaposing the disintegration of centralized leadership with Vaelith's increasingly pivotal and unifying role tied to Qlithari relics."
+    },
+    {
+      "from": "event1737025029241",
+      "to": "event1737025163753",
+      "type": "ENABLES",
+      "description": "The Imprint Awakens aboard the evacuee ship enabled Vaelith’s later confrontation with the Echoing Void by progressively deepening their resonance abilities and preparing them to stabilize chaotic energy fields."
+    },
+    {
+      "from": "event1737024995545",
+      "to": "event1737025067892",
+      "type": "ENHANCES",
+      "description": "The Discovery of the Last Qlithari Shard enhanced the Binding of the Aetherial Nexus by providing Vaelith with deeper insights into their connection to Qlithari relics, reinforcing their role as a bridge to their species' legacy."
+    },
+    {
+      "from": "event1737024999907",
+      "to": "event1737025019984",
+      "type": "FORESHADOWS",
+      "description": "The Resonance Cry foreshadowed the Fracturing of Erythra by introducing the critical link between Vaelith’s resonance abilities and the stabilization of Qlithari living technology."
+    },
+    {
+      "from": "event1737025075905",
+      "to": "event1737025118663",
+      "type": "CAUSES",
+      "description": "The Awakening of the Conflux Imprint aboard the evacuee ship caused the Fusing of the Aetherial Core by solidifying Vaelith's resonance signature as a central force in the ship's survival and functionality."
+    },
+    {
+      "from": "event1737025024723",
+      "to": "event1737025168449",
+      "type": "PARALLELS",
+      "description": "The Resonance Cry and the Resonance Pulse are parallel events showcasing Vaelith’s harmonic abilities stabilizing immediate environments and protecting survivors, emphasizing their recurring role as a savior figure."
+    }
+  ]
+}

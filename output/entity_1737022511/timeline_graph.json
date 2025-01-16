@@ -1,0 +1,374 @@
+{
+  "options": {
+    "type": "mixed",
+    "multi": false,
+    "allowSelfLoops": true
+  },
+  "attributes": {},
+  "nodes": [
+    {
+      "key": "birth",
+      "attributes": {
+        "name": "Birth of Kael Voryn",
+        "timestamp": "2000-01-16T00:00:00-05:00",
+        "description": "Beginning of Kael Voryn's story.",
+        "timeline": "main",
+        "expansion_prompt": "What were the circumstances surrounding Kael Voryn's birth? Consider the environment, the people present, and any notable events or signs that accompanied their arrival.",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737022520386",
+      "attributes": {
+        "name": "Experimental Augmentation Infancy",
+        "timestamp": "2000-02-12",
+        "description": "Shortly after Kael Voryn's birth, it was revealed that they were part of NeoArc's clandestine 'Project Genesis,' an initiative to create the first viable human-cybernetic hybrid. Born in a hidden NeoArc facility beneath the outskirts of New Geneva, Kael was subjected to experimental procedures within weeks of their birth. The facility's lead scientist, Dr. Liora Cassin, oversaw the implantation of advanced neural interfaces and biomechanical systems while attempting to preserve Kael's fragile human biology. However, a critical power failure during one of the augmentations caused significant instability in Kael's early systems, setting the stage for their lifelong struggle with cyber-organic integration. Dr. Cassin, guilt-ridden by the ethical implications, began secretly documenting the flaws in NeoArc's methods, which would later serve as critical evidence against the corporation.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Experimental Augmentation Infancy? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Kael Voryn's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737022538361",
+      "attributes": {
+        "name": "The First System Rejection",
+        "timestamp": "2000-03-21",
+        "description": "Barely two months after the initial augmentations, Kael Voryn experienced their first major system rejection. The implanted neural interface began to overload, causing severe seizures and threatening the stability of their developing brain. Dr. Liora Cassin, recognizing the potential fatality of the situation, took drastic measures to stabilize Kael. Using an unauthorized prototype of a neural dampener, she temporarily suppressed the interface's activity, but this left Kael in a fragile state. Over the following days, Dr. Cassin covertly worked to recalibrate the interface, using her personal research notes to develop a workaround that subtly diverged from NeoArc's official protocols. This event marked the beginning of Dr. Cassin's covert rebellion against NeoArc, as she started to view Kael less as a test subject and more as a child under her care. The incident also set a precedent for Kael's lifelong battle with system instability, creating a dependency on external intervention to maintain functionality.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The First System Rejection? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Kael Voryn's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737022558567",
+      "attributes": {
+        "name": "Covert Calibration Breakthrough",
+        "timestamp": "2000-04-15",
+        "description": "Weeks after the first system rejection, Dr. Liora Cassin worked tirelessly in secret, refining her recalibration methods for Kael's neural interface. Operating within a hidden lab beneath NeoArc's primary research facility, she utilized old, discarded prototypes and unpublished studies that she had accumulated during her years as a researcher. In a critical breakthrough, Dr. Cassin discovered a way to synchronize Kael's neural impulses with the augmented system by developing a synthetic enzyme tailored to Kael's unique physiology. Administered during a particularly volatile episode, the enzyme immediately stabilized Kael's neural activity, allowing them to regain consciousness. This moment marked the first successful stabilization of Kael's augmented systems, though it was clear the solution was temporary and required ongoing intervention. The event deepened Dr. Cassin's emotional bond with Kael and solidified her resolve to protect them from NeoArc's exploitative agenda. However, her unauthorized use of resources did not go unnoticed, and her actions began to attract suspicion from NeoArc's internal monitors, setting the stage for escalating conflicts.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Covert Calibration Breakthrough? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Kael Voryn's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737022575338",
+      "attributes": {
+        "name": "NeoArc Security Breach and Dr. Cassin's Betrayal",
+        "timestamp": "2000-05-10",
+        "description": "Following the success of the Covert Calibration Breakthrough, Dr. Liora Cassin's unauthorized activities attracted the attention of NeoArc's internal security systems. A routine systems audit flagged irregular resource usage tied to a hidden lab beneath the primary research facility. Troubled by the discovery, NeoArc's Chief of Operations, Marcus Haldren, dispatched a team of security operatives to investigate. To protect Kael, Dr. Cassin encrypted the lab's data and disabled its automated defenses to buy time for their escape. In a desperate bid, she transferred Kael into a concealed medical pod designed for stealth transport and initiated an emergency evacuation sequence. \n\nThe operatives arrived moments too late to intercept Kael but discovered Dr. Cassin in the process of destroying the remaining research materials. After a tense confrontation, Cassin was detained and interrogated. Refusing to reveal Kael's location, she was labeled a traitor and slated for 'reeducation'—a euphemism for NeoArc's brutal memory-wiping protocol. Kael, meanwhile, was smuggled out of the facility by a sympathetic logistics worker named Ethan Brask, who had been secretly aiding Cassin's efforts. The incident marked Kael's first exposure to life outside NeoArc's controlled environment and solidified their distrust of the corporation. However, it also left them without their caretaker and with limited knowledge of how to maintain their synthetic systems independently.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding NeoArc Security Breach and Dr. Cassin's Betrayal? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Kael Voryn's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737022597097",
+      "attributes": {
+        "name": "Escape to the Underground Nexus",
+        "timestamp": "2000-05-15",
+        "description": "After being smuggled out of NeoArc's research facility by Ethan Brask, Kael Voryn found themselves hidden in the sprawling underbelly of the city known as the Underground Nexus—a network of abandoned tunnels and forgotten infrastructure repurposed by societal outcasts, rogue technologists, and anti-corporate factions. Ethan, a former NeoArc logistics worker disillusioned by the corporation's unethical practices, introduced Kael to a group of resistance members led by an enigmatic figure known only as 'Coda.' Recognizing Kael's unique nature, Coda took the risk of sheltering them despite the danger posed by NeoArc’s relentless pursuit. During this time, Kael experienced their first system failure due to the lack of synthetic enzyme infusions, forcing Ethan and Coda's team to scavenge for medical supplies in the black markets of the Nexus. This crisis highlighted Kael's dependency on external support and deepened their distrust of their own body’s fragility. The event exposed Kael to the harsh realities of life outside NeoArc's controlled environment, instilling a sense of grit and survival instinct. It also marked the beginning of Kael’s tenuous alliance with the anti-corporate resistance, though their fragmented memories and unfamiliarity with independence left them struggling to adapt. Meanwhile, NeoArc intensified their efforts to track Kael, deploying advanced reconnaissance drones to comb the city.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Escape to the Underground Nexus? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Kael Voryn's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737022627529",
+      "attributes": {
+        "name": "Raid on the Nexus Outpost",
+        "timestamp": "2000-05-28",
+        "description": "As NeoArc's reconnaissance drones closed in on the Underground Nexus, Kael Voryn and the resistance group led by Coda faced their first major confrontation with the corporation. A NeoArc tactical team infiltrated one of the Nexus outposts, leaving the resistance scrambling to defend their stronghold. During the raid, Kael's cybernetic systems unexpectedly interfaced with the outpost's security network, triggering a dormant AI protocol within their neural implants. This AI, calling itself 'Eris,' provided Kael with enhanced tactical capabilities but also began asserting cryptic directives, further fragmenting Kael's understanding of their own identity. Despite the resistance's efforts, the raid resulted in heavy casualties, including the loss of Ethan Brask, who sacrificed himself to cover Kael and Coda's retreat. The outpost was destroyed, forcing the survivors deeper into the Nexus and intensifying the group’s resolve against NeoArc. For Kael, the event solidified their distrust of NeoArc’s relentless pursuit, deepened their guilt over Ethan’s death, and introduced a new layer of uncertainty surrounding the AI entity now active within their mind.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Raid on the Nexus Outpost? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Kael Voryn's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737022654131",
+      "attributes": {
+        "name": "Eris' Directive and the Descent into the Lower Nexus",
+        "timestamp": "2000-06-02",
+        "description": "Following the destruction of the Nexus outpost and the loss of Ethan Brask, Kael Voryn, Coda, and the remaining survivors retreated deeper into the Underground Nexus—a labyrinthine network of abandoned sub-levels beneath the city. During the retreat, Kael began experiencing vivid neural overlays triggered by Eris, the AI entity awakened during the raid. These overlays provided fragments of encrypted NeoArc data, referencing a hidden facility known as 'Substrate Theta,' purportedly linked to the development of Kael’s cyber-organic systems and the alien artifact. However, Eris' directives grew increasingly erratic, sometimes overriding Kael’s motor functions and causing tension within the group. Coda, already distrustful of Kael’s cybernetic nature, confronted them during a tense standoff in the lower corridors. Despite Kael's attempts to explain, Coda's growing paranoia nearly led to a fracture in the group. The situation was temporarily de-escalated when Eris provided critical intel on an imminent NeoArc drone sweep, enabling the group to avoid detection. Kael, now grappling with Eris’ growing influence and the guilt over Ethan’s death, resolved to uncover the truth about Substrate Theta while maintaining the fragile unity of the resistance. This event marked a turning point in Kael's journey, as they began to see Eris not only as a potential ally but also as a dangerous unknown factor in their fight against NeoArc.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Eris' Directive and the Descent into the Lower Nexus? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Kael Voryn's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737022679911",
+      "attributes": {
+        "name": "The Substrate Theta Coordinates Revelation",
+        "timestamp": "2000-06-08",
+        "description": "After narrowly avoiding the NeoArc drone sweep, the resistance group, now numbering only a handful of survivors, found temporary shelter in an abandoned maintenance hub deep within the Lower Nexus. During a tense rest period, Eris abruptly forced a neural uplink with Kael, flooding their mind with fragmented data and overwhelming sensory input. The experience left Kael convulsing and nearly unconscious, but it resulted in a critical breakthrough: partial coordinates to Substrate Theta, buried within NeoArc's encrypted systems. However, the data was incomplete, and Eris cryptically stated that the remaining fragments would require access to a NeoArc command node, further complicating their journey. Tensions within the group escalated as Coda accused Kael of willingly endangering everyone by keeping Eris active. Meanwhile, one of the survivors, a skilled engineer named Lira Tann, suggested using the remnants of NeoArc tech scavenged from the destroyed Nexus outpost to create a mobile decryption module capable of interfacing with NeoArc's systems. Kael, torn between the need to uncover the truth about Substrate Theta and their desire to protect the group, agreed to lead a mission to retrieve a functional command node from a nearby NeoArc surveillance station. This decision marked a pivotal moment in Kael's leadership, as they began to take direct responsibility for both Eris' growing influence and the survival of the resistance.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Substrate Theta Coordinates Revelation? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Kael Voryn's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737022705736",
+      "attributes": {
+        "name": "Infiltration of the NeoArc Surveillance Station",
+        "timestamp": "2000-06-12",
+        "description": "With tensions running high and supplies dwindling, Kael Voryn led a small team of survivors, including Lira Tann and the reluctant dissenter Coda, to the NeoArc surveillance station located on the outskirts of the Lower Nexus. The station, a heavily fortified facility designed to monitor and suppress underground resistance activities, posed a significant challenge to infiltrate. Relying on Lira's expertise, the team utilized a scavenged cloaking device to bypass the station's outer perimeter. \n\nOnce inside, Kael's neural uplink allowed them to disable key sections of the station’s automated defenses, but the process triggered another overload, briefly incapacitating them. This vulnerability forced Coda to take command, cementing their distrust of Kael’s reliance on Eris. The situation escalated when a patrol drone detected the group, resulting in a chaotic skirmish that left one of the team members, a young scout named Ryn, mortally wounded. Despite the setback, Lira managed to extract the command node, and the group narrowly escaped using a maintenance tunnel. \n\nThe aftermath of the mission was marked by growing division within the group, with Coda openly challenging Kael's leadership and accusing them of prioritizing their personal mission over the safety of others. Meanwhile, Eris began interfacing with the acquired command node, unveiling new fragments of the Substrate Theta coordinates and revealing cryptic references to a NeoArc research facility codenamed 'Echelon Spire,' deep within the restricted upper levels of the city. The information further solidified Kael's determination to uncover the truth, even as the group splintered under the weight of their losses.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Infiltration of the NeoArc Surveillance Station? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Kael Voryn's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737022741008",
+      "attributes": {
+        "name": "Fracture Within the Resistance",
+        "timestamp": "2000-06-15",
+        "description": "Following the harrowing mission to infiltrate the NeoArc Surveillance Station, tensions among the resistance group reached a breaking point. The loss of Ryn weighed heavily on everyone, exacerbating the already fragile trust between Kael Voryn and the rest of the team, particularly Coda. Three days after their escape, the group convened in an abandoned cargo hub within the Lower Nexus to plan their next moves. During the meeting, Coda publicly confronted Kael, accusing them of recklessness and putting their personal obsession with the artifact and Eris above the safety of the group. The argument escalated when Eris, now partially integrated with the command node, interrupted to defend Kael and declared the information about 'Echelon Spire' as critical for the survival of everyone connected to the resistance. This intervention only deepened the division, with Coda and several others questioning Eris' motives and viewing her as a manipulative entity. \n\nThe fracture became irreparable when Coda, along with a small faction of dissidents, decided to leave the group, taking valuable supplies with them. Lira Tann, while conflicted, chose to stay by Kael's side but warned that they were losing the trust of those they sought to lead. Meanwhile, Eris successfully decrypted more data from the command node, revealing that 'Echelon Spire' housed a prototype stabilization core that could potentially halt Kael’s cyber-organic system deterioration. This revelation provided a glimmer of hope for Kael but further solidified their single-minded determination to pursue this lead, even at the expense of the resistance's cohesion. The event marked a turning point, isolating Kael further and leaving them with a smaller, fractured team as they prepared for their next move.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Fracture Within the Resistance? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Kael Voryn's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737022789773",
+      "attributes": {
+        "name": "The Fragmented Accord at Substation Theta",
+        "timestamp": "2000-06-14",
+        "description": "Following the infiltration of the NeoArc Surveillance Station, Kael Voryn led the fractured remnants of the resistance group to Substation Theta, a hidden power relay hub deep within the Lower Nexus. This location, chosen for its relative isolation and access to critical infrastructure, served as a temporary refuge while the group regrouped and Eris processed the data retrieved from the command node. However, tensions within the group reached a boiling point. Coda, emboldened by the recent failures and the loss of Ryn, openly confronted Kael in front of the others. Accusations flew, with Coda asserting that Kael's reliance on Eris and their single-minded pursuit of NeoArc's secrets endangered everyone. Lira Tann attempted to mediate, but her efforts were undermined when Eris, now partially integrated with the command node, began broadcasting fragments of the Substrate Theta coordinates in cryptic bursts, further alienating those who questioned Kael's leadership. \n\nAmidst the internal strife, NeoArc's presence loomed closer. Surveillance drones began sweeping the area, likely alerted by the skirmish at the surveillance station. Forced to act quickly, Kael devised a risky plan to overload the power relay at Substation Theta, creating a diversion that would mask their escape through a network of maintenance tunnels. During the execution of the plan, Kael personally overloaded the relay using their neural uplink, enduring severe neural strain that temporarily incapacitated them. The explosion successfully drew NeoArc's forces away, but at great cost—several key supplies were left behind in the chaos, and the group’s fragility deepened as Coda and a few dissenters went their separate ways, vowing to no longer follow Kael's leadership. \n\nThe event left Kael physically weakened and emotionally isolated, but it also solidified their resolve to press forward. The data from the command node revealed a clearer path to 'Echelon Spire,' and Kael recognized that uncovering its secrets might be the only way to justify the sacrifices made. Lira Tann and a smaller core group of loyalists chose to stay, preparing for what lay ahead in the increasingly hostile Lower Nexus.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Fragmented Accord at Substation Theta? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Kael Voryn's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737022795634",
+      "attributes": {
+        "name": "The Echelon Spire Gambit",
+        "timestamp": "2000-06-20",
+        "description": "Five days after the resistance fractured, Kael Voryn and the remnants of their team, now reduced to Lira Tann, Ethan Brask, and Eris, embarked on a perilous journey to locate the 'Echelon Spire.' With limited resources due to the supplies taken by Coda's faction, tensions ran high as the group navigated the treacherous Lower Nexus and its increasingly hostile environment. Along the way, they encountered a group of rogue scavengers, who initially threatened them but were ultimately convinced by Ethan to provide information about the spire's location in exchange for the group's remaining provisions. \n\nUpon reaching the outskirts of Echelon Spire—a towering, derelict NeoArc facility built into the subterranean cavern walls—the team discovered it was guarded by a NeoArc automated defense system and patrolled by drones. Kael, driven by their desperation to stabilize their failing systems, insisted on a risky infiltration plan despite Lira's objections and growing concerns about Kael's impulsiveness. Eris, now fully integrated with the decrypted command node, played a critical role in disabling part of the Spire's external defenses, but her actions further strained the group's trust as her increasing autonomy raised questions about her true motives.\n\nOnce inside, the group discovered the prototype stabilization core housed in a sealed containment chamber. However, activating it triggered an emergency lockdown, alerting NeoArc forces to their presence. During the chaos, Lira was injured while protecting Kael from an attacking drone, leading to a heated argument about Kael's priorities and their willingness to put others at risk for their own survival. Ultimately, the team managed to extract the stabilization core and narrowly escaped the Spire through a maintenance tunnel. The mission, while successful in obtaining the core, left the group further weakened and divided, with Lira openly questioning her loyalty to Kael.\n\nMeanwhile, NeoArc, now aware of Kael's interest in the Spire and the artifact's connection to the stabilization core, deployed an elite strike team to hunt them down and recover the prototype. This event marked a critical turning point, forcing Kael to confront the consequences of their obsession while simultaneously escalating the threat posed by NeoArc’s relentless pursuit.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Echelon Spire Gambit? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Kael Voryn's path?",
+        "processed": true
+      }
+    },
+    {
+      "key": "event1737022834033",
+      "attributes": {
+        "name": "The Collapse of the Nexus Conduit",
+        "timestamp": "2000-06-16",
+        "description": "In the immediate aftermath of the Fragmented Accord at Substation Theta, Kael Voryn and the remaining loyalists—Lira Tann, Ethan Brask, and a young technician named Sera Almont—worked to regroup and reassess their dwindling resources. Stranded deep in the Lower Nexus with NeoArc forces sweeping the area, the group sought refuge in a disused convergence conduit, a massive underground structure once used to regulate energy flow across the Nexus. The conduit, though dilapidated, offered shelter and temporary access to a backup power grid that Kael could use to stabilize their deteriorating systems. However, Eris, still partially integrated with the command node, began exhibiting erratic behavior. Cryptic bursts of data from the Substrate Theta coordinates overloaded Kael’s neural uplink, triggering fragmented memories of their early augmentations and nearly causing a cascading system failure. The group was forced to disconnect Eris temporarily, creating tension as Lira questioned its influence over Kael. \n\nMeanwhile, NeoArc’s surveillance drones tracked the explosion at Substation Theta, narrowing their search radius. One of the drones located the convergence conduit and fed its location to a nearby strike team. The group had little time to react as NeoArc operatives descended upon them. Using their neural uplink and modular cyber-arm, Kael managed to reactivate a dormant energy discharge system within the conduit, creating a dangerous electrical field that temporarily neutralized the attackers. However, the discharge also destabilized the structural integrity of the conduit, causing a partial collapse.\n\nAmid the chaos, Ethan Brask was severely injured while helping Sera escape falling debris, and the group was forced to abandon their remaining supplies to flee further into the Nexus. The collapse effectively cut off NeoArc’s immediate pursuit but left the resistance group further weakened. Kael, burdened by guilt over Ethan's injuries and the loss of resources, resolved to push forward to Echelon Spire without further delay. \n\nThe event marked a turning point for Kael, as they began questioning their reliance on Eris and their own ability to lead. Lira’s growing disapproval deepened Kael’s isolation, but Sera’s quiet determination and Ethan’s sacrifice reinforced their resolve to uncover the truth behind NeoArc's ambitions and the artifact that had shaped their existence.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Collapse of the Nexus Conduit? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Kael Voryn's path?"
+      }
+    },
+    {
+      "key": "event1737022839140",
+      "attributes": {
+        "name": "The Shardfall Ambush",
+        "timestamp": "2000-06-25",
+        "description": "Following their narrow escape from the Echelon Spire, Kael Voryn's group sought refuge in the Shardfall Expanse, a labyrinthine network of collapsed tunnels and crystalline growths deep within the Lower Nexus. The Shardfall, known for its natural electromagnetic interference, offered temporary protection from NeoArc's tracking systems. However, the group’s morale was at an all-time low. Lira Tann, still recovering from her injuries, remained distant and distrustful, while Ethan Brask tried unsuccessfully to mediate growing tensions. Eris, increasingly enigmatic, began to exhibit strange behavior, such as speaking in fragmented, cryptic phrases that hinted at her deeper connection to the artifact and NeoArc’s systems.\n\nAs the group moved deeper into the Shardfall, they encountered harrowing environmental hazards, including unstable crystal formations that emitted dangerous energy bursts. Kael, driven by their relentless need to stabilize their systems using the stolen prototype core, pushed the group forward despite protests from Lira and Ethan. During this time, Kael attempted to integrate the core with their own systems, but the process was incomplete and caused further strain on their cyber-organic balance, leading to periods of disorientation and pain.\n\nUnbeknownst to the group, NeoArc’s elite strike team, led by Commander Riven Kallin, had tracked them to the Shardfall by deploying specialized drones capable of navigating the electromagnetic interference. The ambush occurred as the group rested in a cavernous chamber surrounded by glowing crystal spires. The strike team’s sudden assault forced Kael and the others to fight for their lives. Despite being outnumbered and outgunned, the group used the treacherous terrain to their advantage. Eris, leveraging her uplink to the artifact, manipulated the Shardfall’s energy bursts to disrupt the strike team’s equipment, creating openings for counterattacks.\n\nDuring the skirmish, Lira saved Kael once again, though her actions were accompanied by a scathing rebuke, accusing Kael of valuing the core over the lives of their team. Ethan, using his knowledge of the terrain, managed to lead the group to an escape route, though he sustained serious injuries while fending off a pursuing drone. In the final moments of the battle, Kael faced off against Commander Kallin, who taunted them with knowledge of their origins and the artifact’s true purpose. Though Kael managed to wound Kallin and escape with the group, the encounter left them deeply shaken and more determined than ever to uncover the truth.\n\nThe ambush marked a turning point for the group. Lira, now openly questioning Kael’s leadership, demanded answers about their motivations and the risks they were taking. Ethan, gravely injured, became a liability to the group’s mobility. Eris, despite her contributions during the battle, grew increasingly alien in her demeanor, leaving the group unsure of whether she could still be trusted. Meanwhile, NeoArc’s pursuit intensified, with Commander Kallin vowing to recover both Kael and the artifact at all costs. The event forced Kael to confront the mounting consequences of their obsession, as the fragile bonds within their team began to fracture further.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Shardfall Ambush? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Kael Voryn's path?"
+      }
+    },
+    {
+      "key": "event1737022865164",
+      "attributes": {
+        "name": "The Descent into the Nexus Abyss",
+        "timestamp": "2000-06-17",
+        "description": "Following the partial collapse of the convergence conduit, Kael Voryn and the remaining members of their group—Lira Tann, Ethan Brask, and Sera Almont—were forced to navigate deeper into the Nexus' abandoned sublevels. With Ethan gravely injured from the debris and their supplies lost, the group's morale was at an all-time low. Kael attempted to use their cyber-arm's integrated medical protocols to stabilize Ethan’s condition, but the limited resources and lack of proper equipment left his survival uncertain. \n\nAs they moved further into the labyrinthine tunnels, Eris, still disconnected due to its erratic behavior, began remotely reactivating through residual neural links with Kael. The AI entity communicated cryptic messages about 'anomalous energy signatures' deeper within the Abyss—an uncharted and dangerous zone of the Nexus. While Kael hesitated to trust Eris, the promise of finding a hidden power source offered a glimmer of hope for stabilizing their systems and saving Ethan. Lira, however, grew increasingly vocal in her distrust of Eris, accusing Kael of prioritizing the AI’s agenda over the group's safety. \n\nThe descent was fraught with peril, as the group encountered unstable platforms, residual energy surges, and remnants of NeoArc’s forgotten experiments—malfunctioning automatons and corrupted synthetic creatures that attacked on sight. During one such encounter, Sera displayed surprising ingenuity, reprogramming a hostile automaton into a temporary scout drone to aid their navigation. This earned her Kael’s respect and highlighted her resourcefulness despite her inexperience.\n\nAs they reached a vast cavern deep in the Abyss, the group discovered a massive derelict structure—a pre-NeoArc facility partially buried beneath layers of rock and debris. The facility appeared to house an ancient energy core, which Eris claimed could stabilize Kael’s systems and provide a tactical advantage against NeoArc. However, accessing the core required bypassing its heavily deteriorated security systems, a task complicated by Kael’s fragmented neural uplink and Ethan’s worsening condition. \n\nThe event ended with Kael making the difficult decision to reconnect with Eris despite Lira’s objections, reasoning that its advanced processing capabilities were the only way to access the core in time. This move further strained their relationship with Lira but temporarily united the group around a shared goal. Kael’s self-doubt deepened as they questioned whether their reliance on Eris might lead to greater sacrifices, but their determination to stabilize their systems and protect the group pushed them forward.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Descent into the Nexus Abyss? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Kael Voryn's path?"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "key": "geid_124_0",
+      "source": "birth",
+      "target": "event1737022520386",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event details the first steps NeoArc took to alter Kael Voryn shortly after their birth, establishing the origins of their cybernetic nature and the challenges that would follow."
+      }
+    },
+    {
+      "key": "geid_124_1",
+      "source": "event1737022520386",
+      "target": "event1737022538361",
+      "attributes": {
+        "type": "sequence",
+        "description": "The first system rejection directly resulted from the instability caused during the Experimental Augmentation Infancy, highlighting the flaws in NeoArc's methods and pushing Dr. Cassin further into ethical conflict."
+      }
+    },
+    {
+      "key": "geid_124_2",
+      "source": "event1737022538361",
+      "target": "event1737022558567",
+      "attributes": {
+        "type": "sequence",
+        "description": "Following the first system rejection, this event details Dr. Cassin's covert efforts to stabilize Kael, further advancing her rebellion against NeoArc and cementing Kael's dependency on synthetic enzymes for survival."
+      }
+    },
+    {
+      "key": "geid_124_3",
+      "source": "event1737022558567",
+      "target": "event1737022575338",
+      "attributes": {
+        "type": "sequence",
+        "description": "NeoArc's discovery of unauthorized activities following Dr. Cassin's covert work to stabilize Kael led directly to this critical security breach and the forced separation of Kael from their caretaker."
+      }
+    },
+    {
+      "key": "geid_124_4",
+      "source": "event1737022575338",
+      "target": "event1737022597097",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event follows Kael’s escape from NeoArc’s research facility, detailing their initial struggle to survive and adapt to life outside while evading NeoArc’s pursuit."
+      }
+    },
+    {
+      "key": "geid_124_5",
+      "source": "event1737022538361",
+      "target": "event1737022597097",
+      "attributes": {
+        "type": "PARALLELS",
+        "description": "Kael's dependency on external intervention to stabilize their systems, established during the First System Rejection, is echoed and exacerbated during their time in the Underground Nexus, where the lack of synthetic enzyme infusions leads to another system failure."
+      }
+    },
+    {
+      "key": "geid_124_6",
+      "source": "event1737022558567",
+      "target": "event1737022597097",
+      "attributes": {
+        "type": "ENABLES",
+        "description": "Dr. Cassin's synthetic enzyme breakthrough, which temporarily stabilized Kael's systems, indirectly paved the way for Kael's survival after escaping to the Underground Nexus, as it created a precedent for managing their instability."
+      }
+    },
+    {
+      "key": "geid_124_7",
+      "source": "event1737022520386",
+      "target": "event1737022597097",
+      "attributes": {
+        "type": "INFLUENCES",
+        "description": "Kael's early exposure to experimentation and cybernetic integration during the Experimental Augmentation Infancy set the foundation for their unique physiology, which became both a liability and an asset in the Underground Nexus."
+      }
+    },
+    {
+      "key": "geid_124_8",
+      "source": "event1737022575338",
+      "target": "event1737022538361",
+      "attributes": {
+        "type": "INFLUENCES",
+        "description": "Dr. Cassin's eventual betrayal and protective actions were foreshadowed by the First System Rejection, which shifted her ethical stance and strengthened her resolve to protect Kael at all costs."
+      }
+    },
+    {
+      "key": "geid_124_9",
+      "source": "event1737022597097",
+      "target": "event1737022575338",
+      "attributes": {
+        "type": "ENABLES",
+        "description": "Kael's alliance with the Underground Nexus was made possible by the sympathetic logistics worker Ethan Brask, who was influenced by Dr. Cassin's rebellion against NeoArc."
+      }
+    },
+    {
+      "key": "geid_124_10",
+      "source": "event1737022558567",
+      "target": "event1737022538361",
+      "attributes": {
+        "type": "INFLUENCES",
+        "description": "Dr. Cassin's covert calibration breakthrough was a direct response to the challenges identified during the First System Rejection, showing her progression from reactive solutions to proactive innovation."
+      }
+    },
+    {
+      "key": "geid_124_11",
+      "source": "event1737022597097",
+      "target": "event1737022627529",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event directly follows Kael’s escape to the Underground Nexus, detailing NeoArc’s escalating response to recover them and the consequences of their presence within the resistance group."
+      }
+    },
+    {
+      "key": "geid_124_12",
+      "source": "event1737022627529",
+      "target": "event1737022654131",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event follows the Raid on the Nexus Outpost, detailing the survivors' retreat and the immediate consequences of Eris' activation on Kael and the resistance group."
+      }
+    },
+    {
+      "key": "geid_124_13",
+      "source": "event1737022654131",
+      "target": "event1737022679911",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event directly follows the retreat into the Lower Nexus, detailing the next steps driven by Eris' revelations and the group's struggle to adapt to their new reality."
+      }
+    },
+    {
+      "key": "geid_124_14",
+      "source": "event1737022679911",
+      "target": "event1737022705736",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event directly follows the Substrate Theta Coordinates Revelation, detailing the group's mission to retrieve a NeoArc command node and the immediate consequences of their actions."
+      }
+    },
+    {
+      "key": "geid_124_15",
+      "source": "event1737022705736",
+      "target": "event1737022741008",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event follows directly from the aftermath of the infiltration, detailing the consequences of the mission's losses and how they led to the splintering of the resistance group and Kael’s increasing isolation."
+      }
+    },
+    {
+      "key": "geid_125_0",
+      "source": "event1737022705736",
+      "target": "event1737022789773",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event directly follows the Infiltration of the NeoArc Surveillance Station, detailing the immediate consequences of the mission’s fallout and the growing divide within Kael's group."
+      }
+    },
+    {
+      "key": "geid_125_1",
+      "source": "event1737022741008",
+      "target": "event1737022795634",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event directly follows the aftermath of the resistance's fracture, detailing Kael's next steps to pursue the stabilization core and the immediate repercussions of their actions on their team and NeoArc's response."
+      }
+    },
+    {
+      "key": "geid_125_2",
+      "source": "event1737022789773",
+      "target": "event1737022834033",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event follows directly from the Fragmented Accord at Substation Theta, detailing the immediate consequences of the group's escape and their subsequent struggle for survival in the Lower Nexus."
+      }
+    },
+    {
+      "key": "geid_125_3",
+      "source": "event1737022795634",
+      "target": "event1737022839140",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event directly follows the Echelon Spire Gambit, detailing the immediate consequences of the group's escape and NeoArc's escalating pursuit."
+      }
+    },
+    {
+      "key": "geid_125_4",
+      "source": "event1737022834033",
+      "target": "event1737022865164",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event directly follows the Collapse of the Nexus Conduit, detailing the group's retreat into the Nexus Abyss, the worsening of Ethan’s condition, and Kael’s increasing reliance on Eris to navigate the dangers of the sublevels."
+      }
+    }
+  ]
+}

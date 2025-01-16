@@ -1,0 +1,501 @@
+
+=== EXPANSION ATTEMPT 2025-01-16T09:57:21.290Z ===
+
+Node ID: birth
+Node Attributes: {
+  "name": "Birth of Kaelith Solivara",
+  "timestamp": "2000-01-16T00:00:00-05:00",
+  "description": "Beginning of Kaelith Solivara's story.",
+  "timeline": "main",
+  "expansion_prompt": "What were the circumstances surrounding Kaelith Solivara's birth? Consider the environment, the people present, and any notable events or signs that accompanied their arrival."
+}
+
+Expansion Prompt:
+You are expanding the timeline for Kaelith Solivara. 
+Character Context:
+Name: Kaelith Solivara
+Type: alien
+Birth/Creation: 2000-01-16
+Description: [object Object]
+Biology: {"speciesName":"Luminex","diet":"absorbs nutrients from starlight and organic compounds in gaseous form","reproduction":"asexual mitosis every 200 years","lifespan":"approximately 1,000 years","abilities":{"communication":"telepathic, capable of transmitting emotions and visuals","regeneration":"can heal injuries by absorbing light energy","defense":"emits a blinding flash of light when threatened"}}
+Technology: {"primaryTool":"Stellar Gauntlet, a multi-functional device worn on one arm capable of manipulating gravity, creating energy shields, and storing star energy","transportation":"Aurora Glide, a small, light-powered craft capable of interstellar travel","otherDevices":["Holo-Spire, a portable device that projects 3D holograms for communication and data storage","Chrono-Binder, a bracelet that allows limited time manipulation (up to 30 seconds backward)"]}
+Notable Events: Discovered a dying star and successfully stabilized it, saving an entire planetary system., First contact with humanity led to an accidental cultural exchange, where they adopted Earth music as a form of emotional expression., Exiled from their homeworld after opposing the council's decision to abandon a neighboring species to extinction., Rescued a sentient AI drifting in the void and formed a lifelong bond with it.
+Goals: Restore their reputation and return to their homeworld., Establish a universal alliance among intelligent life to prevent interstellar conflicts., Unlock the secrets of ancient Luminex artifacts scattered across the galaxy.
+Challenges: Viewed with suspicion by other species due to their exile., Constantly pursued by bounty hunters hired by a rival Luminex faction., Limited star energy reserves in regions far from suns, reducing their abilities.
+
+Timeline Context (chronological order):
+- [birth] 2000-01-16T00:00:00-05:00: Birth of Kaelith Solivara
+
+Existing Connections:
+
+
+Current Event to Expand:
+Name: Birth of Kaelith Solivara
+Node Key: birth
+Time: 2000-01-16T00:00:00-05:00
+Description: Beginning of Kaelith Solivara's story.
+Expansion Prompt: What were the circumstances surrounding Kaelith Solivara's birth? Consider the environment, the people present, and any notable events or signs that accompanied their arrival.
+
+Generate a new event that logically follows from this event. The event should:
+1. Be temporally consistent (happen after 2000-01-16T00:00:00-05:00)
+2. Not contradict known history or character traits
+3. Provide rich detail about what happened
+4. Include specific names, places, and consequences
+5. Maintain consistency with the character's established timeline
+
+Return ONLY a JSON object in this exact format (no other text):
+{
+  "id": "event1737021441291",
+  "name": "Brief, specific title",
+  "timestamp": "YYYY-MM-DD",
+  "description": "Detailed description",
+  "connectedTo": "birth",
+  "connectionType": "sequence"
+}
+
+AI Response:
+```json
+{
+  "id": "event1737021441291",
+  "name": "The Celestial Convergence",
+  "timestamp": "2000-01-16",
+  "description": "Kaelith Solivara's birth coincided with a rare cosmic event known as the Celestial Convergence, where five major stars of the Luminex home system aligned in perfect harmony, creating a surge of radiant energy that bathed their crystalline homeworld, Lumora. This energy catalyzed Kaelith's emergence during their species' mitotic birthing process. The event was witnessed by the Luminex Elder Council, who regarded the birth as an omen of great importance due to the rarity of such alignments. The convergence also caused a temporary amplification of telepathic abilities across the planet, allowing every Luminex to momentarily sense the emotions of others, fostering a brief but profound unity. The Elder Council named Kaelith's birthplace Solis Spire, a sacred location where the convergence was most vividly felt, marking it as a site of pilgrimage. This event established high expectations for Kaelith's future, shaping perceptions of their destiny from the moment of their birth.",
+  "connectedTo": "birth",
+  "connectionType": "sequence"
+}
+```
+
+Error parsing event: SyntaxError: Unexpected token '`', "```json
+{
+"... is not valid JSON
+
+=== EXPANSION ATTEMPT 2025-01-16T09:57:38.321Z ===
+
+Node ID: birth
+Node Attributes: {
+  "name": "Birth of Kaelith Solivara",
+  "timestamp": "2000-01-16T00:00:00-05:00",
+  "description": "Beginning of Kaelith Solivara's story.",
+  "timeline": "main",
+  "expansion_prompt": "What were the circumstances surrounding Kaelith Solivara's birth? Consider the environment, the people present, and any notable events or signs that accompanied their arrival."
+}
+
+Expansion Prompt:
+You are expanding the timeline for Kaelith Solivara. 
+Character Context:
+Name: Kaelith Solivara
+Type: alien
+Birth/Creation: 2000-01-16
+Description: [object Object]
+Biology: {"speciesName":"Luminex","diet":"absorbs nutrients from starlight and organic compounds in gaseous form","reproduction":"asexual mitosis every 200 years","lifespan":"approximately 1,000 years","abilities":{"communication":"telepathic, capable of transmitting emotions and visuals","regeneration":"can heal injuries by absorbing light energy","defense":"emits a blinding flash of light when threatened"}}
+Technology: {"primaryTool":"Stellar Gauntlet, a multi-functional device worn on one arm capable of manipulating gravity, creating energy shields, and storing star energy","transportation":"Aurora Glide, a small, light-powered craft capable of interstellar travel","otherDevices":["Holo-Spire, a portable device that projects 3D holograms for communication and data storage","Chrono-Binder, a bracelet that allows limited time manipulation (up to 30 seconds backward)"]}
+Notable Events: Discovered a dying star and successfully stabilized it, saving an entire planetary system., First contact with humanity led to an accidental cultural exchange, where they adopted Earth music as a form of emotional expression., Exiled from their homeworld after opposing the council's decision to abandon a neighboring species to extinction., Rescued a sentient AI drifting in the void and formed a lifelong bond with it.
+Goals: Restore their reputation and return to their homeworld., Establish a universal alliance among intelligent life to prevent interstellar conflicts., Unlock the secrets of ancient Luminex artifacts scattered across the galaxy.
+Challenges: Viewed with suspicion by other species due to their exile., Constantly pursued by bounty hunters hired by a rival Luminex faction., Limited star energy reserves in regions far from suns, reducing their abilities.
+
+Timeline Context (chronological order):
+- [birth] 2000-01-16T00:00:00-05:00: Birth of Kaelith Solivara
+
+Existing Connections:
+
+
+Current Event to Expand:
+Name: Birth of Kaelith Solivara
+Node Key: birth
+Time: 2000-01-16T00:00:00-05:00
+Description: Beginning of Kaelith Solivara's story.
+Expansion Prompt: What were the circumstances surrounding Kaelith Solivara's birth? Consider the environment, the people present, and any notable events or signs that accompanied their arrival.
+
+Generate a new event that logically follows from this event. The event should:
+1. Be temporally consistent (happen after 2000-01-16T00:00:00-05:00)
+2. Not contradict known history or character traits
+3. Provide rich detail about what happened
+4. Include specific names, places, and consequences
+5. Maintain consistency with the character's established timeline
+
+Return ONLY a JSON object in this exact format (no other text):
+{
+  "id": "event1737021458322",
+  "name": "Brief, specific title",
+  "timestamp": "YYYY-MM-DD",
+  "description": "Detailed description",
+  "connectedTo": "birth",
+  "connectionType": "sequence"
+}
+
+AI Response:
+```json
+{
+  "id": "event1737021458322",
+  "name": "Luminous Convergence Ceremony",
+  "timestamp": "2000-01-16",
+  "description": "Kaelith Solivara's birth took place during the rare celestial event known as the 'Luminous Convergence,' where three stars aligned perfectly, bathing the Luminex homeworld of Illuminae Prime in an intense, radiant glow. This phenomenon occurs only once every 1,000 years and is believed to signify great change or destiny among the Luminex. As Kaelith emerged through their species' unique mitotic birthing process, the Council of Enkindlers—spiritual leaders of the Luminex—gathered to witness the event. During the process, a sudden and unprecedented surge of light energy erupted from Kaelith, temporarily blinding those present and leaving intricate luminous patterns etched into the chamber walls. These patterns were later interpreted as ancient Luminex runes symbolizing 'Unity' and 'Rebirth.' The Council deemed Kaelith a being of potential great importance, though some viewed the event with suspicion, seeing it as a disruption of balance. This marked the beginning of their complex relationship with their homeworld's leadership.",
+  "connectedTo": "birth",
+  "connectionType": "sequence"
+}
+```
+
+Error parsing event: SyntaxError: Unexpected token '`', "```json
+{
+"... is not valid JSON
+
+=== EXPANSION ATTEMPT 2025-01-16T09:57:55.231Z ===
+
+Node ID: birth
+Node Attributes: {
+  "name": "Birth of Kaelith Solivara",
+  "timestamp": "2000-01-16T00:00:00-05:00",
+  "description": "Beginning of Kaelith Solivara's story.",
+  "timeline": "main",
+  "expansion_prompt": "What were the circumstances surrounding Kaelith Solivara's birth? Consider the environment, the people present, and any notable events or signs that accompanied their arrival."
+}
+
+Expansion Prompt:
+You are expanding the timeline for Kaelith Solivara. 
+Character Context:
+Name: Kaelith Solivara
+Type: alien
+Birth/Creation: 2000-01-16
+Description: [object Object]
+Biology: {"speciesName":"Luminex","diet":"absorbs nutrients from starlight and organic compounds in gaseous form","reproduction":"asexual mitosis every 200 years","lifespan":"approximately 1,000 years","abilities":{"communication":"telepathic, capable of transmitting emotions and visuals","regeneration":"can heal injuries by absorbing light energy","defense":"emits a blinding flash of light when threatened"}}
+Technology: {"primaryTool":"Stellar Gauntlet, a multi-functional device worn on one arm capable of manipulating gravity, creating energy shields, and storing star energy","transportation":"Aurora Glide, a small, light-powered craft capable of interstellar travel","otherDevices":["Holo-Spire, a portable device that projects 3D holograms for communication and data storage","Chrono-Binder, a bracelet that allows limited time manipulation (up to 30 seconds backward)"]}
+Notable Events: Discovered a dying star and successfully stabilized it, saving an entire planetary system., First contact with humanity led to an accidental cultural exchange, where they adopted Earth music as a form of emotional expression., Exiled from their homeworld after opposing the council's decision to abandon a neighboring species to extinction., Rescued a sentient AI drifting in the void and formed a lifelong bond with it.
+Goals: Restore their reputation and return to their homeworld., Establish a universal alliance among intelligent life to prevent interstellar conflicts., Unlock the secrets of ancient Luminex artifacts scattered across the galaxy.
+Challenges: Viewed with suspicion by other species due to their exile., Constantly pursued by bounty hunters hired by a rival Luminex faction., Limited star energy reserves in regions far from suns, reducing their abilities.
+
+Timeline Context (chronological order):
+- [birth] 2000-01-16T00:00:00-05:00: Birth of Kaelith Solivara
+
+Existing Connections:
+
+
+Current Event to Expand:
+Name: Birth of Kaelith Solivara
+Node Key: birth
+Time: 2000-01-16T00:00:00-05:00
+Description: Beginning of Kaelith Solivara's story.
+Expansion Prompt: What were the circumstances surrounding Kaelith Solivara's birth? Consider the environment, the people present, and any notable events or signs that accompanied their arrival.
+
+Generate a new event that logically follows from this event. The event should:
+1. Be temporally consistent (happen after 2000-01-16T00:00:00-05:00)
+2. Not contradict known history or character traits
+3. Provide rich detail about what happened
+4. Include specific names, places, and consequences
+5. Maintain consistency with the character's established timeline
+
+Return ONLY a JSON object in this exact format (no other text):
+{
+  "id": "event1737021475232",
+  "name": "Brief, specific title",
+  "timestamp": "YYYY-MM-DD",
+  "description": "Detailed description",
+  "connectedTo": "birth",
+  "connectionType": "sequence"
+}
+
+AI Response:
+```json
+{
+  "id": "event1737021475232",
+  "name": "Celestial Convergence at Kaelith's Birth",
+  "timestamp": "2000-01-16",
+  "description": "Kaelith Solivara was born during a rare celestial event known as the Trinary Convergence, where three luminous stars aligned perfectly, bathing their homeworld, Luminara Prime, in cascading waves of multicolored starlight. This phenomenon is considered a sacred occurrence among the Luminex, symbolizing renewal and cosmic harmony. Kaelith's emergence from the communal Radiance Chamber—a crystalline structure that channels starlight to nurture new life—was marked by an unusual surge of energy that caused the chamber to emit an unprecedented golden glow. Elders present, including Councilor Zyphar and Luminary Archivist Veyonna, interpreted this as a powerful omen, suggesting that Kaelith was destined for a significant role in the galaxy. However, whispers of unease followed, as some believed the event might also herald disruption to the status quo. Despite the mixed reception, Kaelith's birth was celebrated widely, and the Radiance Chamber was preserved as a historic site.",
+  "connectedTo": "birth",
+  "connectionType": "sequence"
+}
+```
+
+Error parsing event: SyntaxError: Unexpected token '`', "```json
+{
+"... is not valid JSON
+
+=== EXPANSION ATTEMPT 2025-01-16T09:58:10.904Z ===
+
+Node ID: birth
+Node Attributes: {
+  "name": "Birth of Kaelith Solivara",
+  "timestamp": "2000-01-16T00:00:00-05:00",
+  "description": "Beginning of Kaelith Solivara's story.",
+  "timeline": "main",
+  "expansion_prompt": "What were the circumstances surrounding Kaelith Solivara's birth? Consider the environment, the people present, and any notable events or signs that accompanied their arrival."
+}
+
+Expansion Prompt:
+You are expanding the timeline for Kaelith Solivara. 
+Character Context:
+Name: Kaelith Solivara
+Type: alien
+Birth/Creation: 2000-01-16
+Description: [object Object]
+Biology: {"speciesName":"Luminex","diet":"absorbs nutrients from starlight and organic compounds in gaseous form","reproduction":"asexual mitosis every 200 years","lifespan":"approximately 1,000 years","abilities":{"communication":"telepathic, capable of transmitting emotions and visuals","regeneration":"can heal injuries by absorbing light energy","defense":"emits a blinding flash of light when threatened"}}
+Technology: {"primaryTool":"Stellar Gauntlet, a multi-functional device worn on one arm capable of manipulating gravity, creating energy shields, and storing star energy","transportation":"Aurora Glide, a small, light-powered craft capable of interstellar travel","otherDevices":["Holo-Spire, a portable device that projects 3D holograms for communication and data storage","Chrono-Binder, a bracelet that allows limited time manipulation (up to 30 seconds backward)"]}
+Notable Events: Discovered a dying star and successfully stabilized it, saving an entire planetary system., First contact with humanity led to an accidental cultural exchange, where they adopted Earth music as a form of emotional expression., Exiled from their homeworld after opposing the council's decision to abandon a neighboring species to extinction., Rescued a sentient AI drifting in the void and formed a lifelong bond with it.
+Goals: Restore their reputation and return to their homeworld., Establish a universal alliance among intelligent life to prevent interstellar conflicts., Unlock the secrets of ancient Luminex artifacts scattered across the galaxy.
+Challenges: Viewed with suspicion by other species due to their exile., Constantly pursued by bounty hunters hired by a rival Luminex faction., Limited star energy reserves in regions far from suns, reducing their abilities.
+
+Timeline Context (chronological order):
+- [birth] 2000-01-16T00:00:00-05:00: Birth of Kaelith Solivara
+
+Existing Connections:
+
+
+Current Event to Expand:
+Name: Birth of Kaelith Solivara
+Node Key: birth
+Time: 2000-01-16T00:00:00-05:00
+Description: Beginning of Kaelith Solivara's story.
+Expansion Prompt: What were the circumstances surrounding Kaelith Solivara's birth? Consider the environment, the people present, and any notable events or signs that accompanied their arrival.
+
+Generate a new event that logically follows from this event. The event should:
+1. Be temporally consistent (happen after 2000-01-16T00:00:00-05:00)
+2. Not contradict known history or character traits
+3. Provide rich detail about what happened
+4. Include specific names, places, and consequences
+5. Maintain consistency with the character's established timeline
+
+Return ONLY a JSON object in this exact format (no other text):
+{
+  "id": "event1737021490906",
+  "name": "Brief, specific title",
+  "timestamp": "YYYY-MM-DD",
+  "description": "Detailed description",
+  "connectedTo": "birth",
+  "connectionType": "sequence"
+}
+
+AI Response:
+```json
+{
+  "id": "event1737021490906",
+  "name": "Celestial Convergence at Kaelith's Birth",
+  "timestamp": "2000-01-16",
+  "description": "Kaelith Solivara was born during a rare celestial event known as the Triad Convergence, where three neighboring stars aligned perfectly, amplifying the starlight across their homeworld, Luminara Prime. This phenomenon occurs once every 10,000 years and is considered a sacred sign among the Luminex. Kaelith emerged from their progenitor in a chamber filled with refracted starlight, their bioluminescent form glowing brighter than usual for a newborn. The event was witnessed by the Luminary Council, who interpreted it as an omen of immense potential. However, some within the council feared that such a birth could disrupt the fragile balance of power among the Luminex. This tension marked the beginning of Kaelith's complicated relationship with their society.",
+  "connectedTo": "birth",
+  "connectionType": "sequence"
+}
+```
+
+Error parsing event: SyntaxError: Unexpected token '`', "```json
+{
+"... is not valid JSON
+
+=== EXPANSION ATTEMPT 2025-01-16T09:58:24.117Z ===
+
+Node ID: birth
+Node Attributes: {
+  "name": "Birth of Kaelith Solivara",
+  "timestamp": "2000-01-16T00:00:00-05:00",
+  "description": "Beginning of Kaelith Solivara's story.",
+  "timeline": "main",
+  "expansion_prompt": "What were the circumstances surrounding Kaelith Solivara's birth? Consider the environment, the people present, and any notable events or signs that accompanied their arrival."
+}
+
+Expansion Prompt:
+You are expanding the timeline for Kaelith Solivara. 
+Character Context:
+Name: Kaelith Solivara
+Type: alien
+Birth/Creation: 2000-01-16
+Description: [object Object]
+Biology: {"speciesName":"Luminex","diet":"absorbs nutrients from starlight and organic compounds in gaseous form","reproduction":"asexual mitosis every 200 years","lifespan":"approximately 1,000 years","abilities":{"communication":"telepathic, capable of transmitting emotions and visuals","regeneration":"can heal injuries by absorbing light energy","defense":"emits a blinding flash of light when threatened"}}
+Technology: {"primaryTool":"Stellar Gauntlet, a multi-functional device worn on one arm capable of manipulating gravity, creating energy shields, and storing star energy","transportation":"Aurora Glide, a small, light-powered craft capable of interstellar travel","otherDevices":["Holo-Spire, a portable device that projects 3D holograms for communication and data storage","Chrono-Binder, a bracelet that allows limited time manipulation (up to 30 seconds backward)"]}
+Notable Events: Discovered a dying star and successfully stabilized it, saving an entire planetary system., First contact with humanity led to an accidental cultural exchange, where they adopted Earth music as a form of emotional expression., Exiled from their homeworld after opposing the council's decision to abandon a neighboring species to extinction., Rescued a sentient AI drifting in the void and formed a lifelong bond with it.
+Goals: Restore their reputation and return to their homeworld., Establish a universal alliance among intelligent life to prevent interstellar conflicts., Unlock the secrets of ancient Luminex artifacts scattered across the galaxy.
+Challenges: Viewed with suspicion by other species due to their exile., Constantly pursued by bounty hunters hired by a rival Luminex faction., Limited star energy reserves in regions far from suns, reducing their abilities.
+
+Timeline Context (chronological order):
+- [birth] 2000-01-16T00:00:00-05:00: Birth of Kaelith Solivara
+
+Existing Connections:
+
+
+Current Event to Expand:
+Name: Birth of Kaelith Solivara
+Node Key: birth
+Time: 2000-01-16T00:00:00-05:00
+Description: Beginning of Kaelith Solivara's story.
+Expansion Prompt: What were the circumstances surrounding Kaelith Solivara's birth? Consider the environment, the people present, and any notable events or signs that accompanied their arrival.
+
+Generate a new event that logically follows from this event. The event should:
+1. Be temporally consistent (happen after 2000-01-16T00:00:00-05:00)
+2. Not contradict known history or character traits
+3. Provide rich detail about what happened
+4. Include specific names, places, and consequences
+5. Maintain consistency with the character's established timeline
+
+Return ONLY a JSON object in this exact format (no other text):
+{
+  "id": "event1737021504117",
+  "name": "Brief, specific title",
+  "timestamp": "YYYY-MM-DD",
+  "description": "Detailed description",
+  "connectedTo": "birth",
+  "connectionType": "sequence"
+}
+
+AI Response:
+```json
+{
+  "id": "event1737021504117",
+  "name": "The Luminous Convergence",
+  "timestamp": "2000-01-17",
+  "description": "Kaelith Solivara's birth took place in the Celestara Chamber, a sacred birthing sanctuary located on the Luminex homeworld of Auralis Prime. The chamber, constructed entirely of crystalline structures that refracted starlight, was said to amplify the life force of newborns. On the night of their birth, an unprecedented celestial event occurred: three distant stars aligned perfectly, causing the chamber to be bathed in a radiant, multicolored glow. Elders of the Luminex Council, including High Seer Valorin, interpreted this event as a rare omen, marking Kaelith as someone destined for extraordinary importance. The newborn's first moments were marked by an unusually intense brightness emanating from their core, briefly overpowering the chamber's protective light filters. This event was recorded in the Luminex archives as the 'Luminous Convergence,' and it sparked quiet debates among the council about Kaelith's potential future. The convergence also attracted the attention of a rival council faction, setting the stage for future political challenges.",
+  "connectedTo": "birth",
+  "connectionType": "sequence"
+}
+```
+
+Error parsing event: SyntaxError: Unexpected token '`', "```json
+{
+"... is not valid JSON
+
+=== EXPANSION ATTEMPT 2025-01-16T09:58:40.994Z ===
+
+Node ID: birth
+Node Attributes: {
+  "name": "Birth of Kaelith Solivara",
+  "timestamp": "2000-01-16T00:00:00-05:00",
+  "description": "Beginning of Kaelith Solivara's story.",
+  "timeline": "main",
+  "expansion_prompt": "What were the circumstances surrounding Kaelith Solivara's birth? Consider the environment, the people present, and any notable events or signs that accompanied their arrival."
+}
+
+Expansion Prompt:
+You are expanding the timeline for Kaelith Solivara. 
+Character Context:
+Name: Kaelith Solivara
+Type: alien
+Birth/Creation: 2000-01-16
+Description: [object Object]
+Biology: {"speciesName":"Luminex","diet":"absorbs nutrients from starlight and organic compounds in gaseous form","reproduction":"asexual mitosis every 200 years","lifespan":"approximately 1,000 years","abilities":{"communication":"telepathic, capable of transmitting emotions and visuals","regeneration":"can heal injuries by absorbing light energy","defense":"emits a blinding flash of light when threatened"}}
+Technology: {"primaryTool":"Stellar Gauntlet, a multi-functional device worn on one arm capable of manipulating gravity, creating energy shields, and storing star energy","transportation":"Aurora Glide, a small, light-powered craft capable of interstellar travel","otherDevices":["Holo-Spire, a portable device that projects 3D holograms for communication and data storage","Chrono-Binder, a bracelet that allows limited time manipulation (up to 30 seconds backward)"]}
+Notable Events: Discovered a dying star and successfully stabilized it, saving an entire planetary system., First contact with humanity led to an accidental cultural exchange, where they adopted Earth music as a form of emotional expression., Exiled from their homeworld after opposing the council's decision to abandon a neighboring species to extinction., Rescued a sentient AI drifting in the void and formed a lifelong bond with it.
+Goals: Restore their reputation and return to their homeworld., Establish a universal alliance among intelligent life to prevent interstellar conflicts., Unlock the secrets of ancient Luminex artifacts scattered across the galaxy.
+Challenges: Viewed with suspicion by other species due to their exile., Constantly pursued by bounty hunters hired by a rival Luminex faction., Limited star energy reserves in regions far from suns, reducing their abilities.
+
+Timeline Context (chronological order):
+- [birth] 2000-01-16T00:00:00-05:00: Birth of Kaelith Solivara
+
+Existing Connections:
+
+
+Current Event to Expand:
+Name: Birth of Kaelith Solivara
+Node Key: birth
+Time: 2000-01-16T00:00:00-05:00
+Description: Beginning of Kaelith Solivara's story.
+Expansion Prompt: What were the circumstances surrounding Kaelith Solivara's birth? Consider the environment, the people present, and any notable events or signs that accompanied their arrival.
+
+Generate a new event that logically follows from this event. The event should:
+1. Be temporally consistent (happen after 2000-01-16T00:00:00-05:00)
+2. Not contradict known history or character traits
+3. Provide rich detail about what happened
+4. Include specific names, places, and consequences
+5. Maintain consistency with the character's established timeline
+
+Return ONLY a JSON object in this exact format (no other text):
+{
+  "id": "event1737021520995",
+  "name": "Brief, specific title",
+  "timestamp": "YYYY-MM-DD",
+  "description": "Detailed description",
+  "connectedTo": "birth",
+  "connectionType": "sequence"
+}
+
+AI Response:
+{
+  "id": "event1737021520995",
+  "name": "Starlight Baptism",
+  "timestamp": "2000-01-17",
+  "description": "Kaelith Solivara was born during an exceptionally rare celestial event known as the Luminara Convergence, where three neighboring stars aligned perfectly to cast an intense and harmonious cascade of light onto their homeworld, Luminara Prime. This convergence, believed by the Luminex to signify great cosmic significance, enveloped Kaelith's birthing chamber in radiant starlight for several hours, imbuing their crystalline body with a unique, prismatic glow that set them apart from others of their kind. Witnessing this moment were the Luminex High Attuners, a group of esteemed elders who oversee the spiritual and scientific milestones of their species. The High Attuners interpreted the event as an omen of great destiny, recording it in the Celestial Codex. The convergence also caused a brief surge in the planet's energy fields, temporarily enhancing the natural abilities of all Luminex present. Kaelith's birth was celebrated across the planet, though whispers among the more skeptical factions questioned whether such an event might bring both great achievements and great trials.",
+  "connectedTo": "birth",
+  "connectionType": "sequence"
+}
+
+Parsed Event:
+{
+  "id": "event1737021520995",
+  "name": "Starlight Baptism",
+  "timestamp": "2000-01-17",
+  "description": "Kaelith Solivara was born during an exceptionally rare celestial event known as the Luminara Convergence, where three neighboring stars aligned perfectly to cast an intense and harmonious cascade of light onto their homeworld, Luminara Prime. This convergence, believed by the Luminex to signify great cosmic significance, enveloped Kaelith's birthing chamber in radiant starlight for several hours, imbuing their crystalline body with a unique, prismatic glow that set them apart from others of their kind. Witnessing this moment were the Luminex High Attuners, a group of esteemed elders who oversee the spiritual and scientific milestones of their species. The High Attuners interpreted the event as an omen of great destiny, recording it in the Celestial Codex. The convergence also caused a brief surge in the planet's energy fields, temporarily enhancing the natural abilities of all Luminex present. Kaelith's birth was celebrated across the planet, though whispers among the more skeptical factions questioned whether such an event might bring both great achievements and great trials.",
+  "connectedTo": "birth",
+  "connectionType": "sequence"
+}
+
+Added Event to Graph: event1737021520995
+
+=== EXPANSION ATTEMPT 2025-01-16T09:58:58.292Z ===
+
+Node ID: event1737021520995
+Node Attributes: {
+  "name": "Starlight Baptism",
+  "timestamp": "2000-01-17",
+  "description": "Kaelith Solivara was born during an exceptionally rare celestial event known as the Luminara Convergence, where three neighboring stars aligned perfectly to cast an intense and harmonious cascade of light onto their homeworld, Luminara Prime. This convergence, believed by the Luminex to signify great cosmic significance, enveloped Kaelith's birthing chamber in radiant starlight for several hours, imbuing their crystalline body with a unique, prismatic glow that set them apart from others of their kind. Witnessing this moment were the Luminex High Attuners, a group of esteemed elders who oversee the spiritual and scientific milestones of their species. The High Attuners interpreted the event as an omen of great destiny, recording it in the Celestial Codex. The convergence also caused a brief surge in the planet's energy fields, temporarily enhancing the natural abilities of all Luminex present. Kaelith's birth was celebrated across the planet, though whispers among the more skeptical factions questioned whether such an event might bring both great achievements and great trials.",
+  "timeline": "main",
+  "expansion_prompt": "What were the key moments and details surrounding Starlight Baptism? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737021432's path?"
+}
+
+Expansion Prompt:
+You are expanding the timeline for Kaelith Solivara. 
+Character Context:
+Name: Kaelith Solivara
+Type: alien
+Birth/Creation: 2000-01-16
+Description: [object Object]
+Biology: {"speciesName":"Luminex","diet":"absorbs nutrients from starlight and organic compounds in gaseous form","reproduction":"asexual mitosis every 200 years","lifespan":"approximately 1,000 years","abilities":{"communication":"telepathic, capable of transmitting emotions and visuals","regeneration":"can heal injuries by absorbing light energy","defense":"emits a blinding flash of light when threatened"}}
+Technology: {"primaryTool":"Stellar Gauntlet, a multi-functional device worn on one arm capable of manipulating gravity, creating energy shields, and storing star energy","transportation":"Aurora Glide, a small, light-powered craft capable of interstellar travel","otherDevices":["Holo-Spire, a portable device that projects 3D holograms for communication and data storage","Chrono-Binder, a bracelet that allows limited time manipulation (up to 30 seconds backward)"]}
+Notable Events: Discovered a dying star and successfully stabilized it, saving an entire planetary system., First contact with humanity led to an accidental cultural exchange, where they adopted Earth music as a form of emotional expression., Exiled from their homeworld after opposing the council's decision to abandon a neighboring species to extinction., Rescued a sentient AI drifting in the void and formed a lifelong bond with it.
+Goals: Restore their reputation and return to their homeworld., Establish a universal alliance among intelligent life to prevent interstellar conflicts., Unlock the secrets of ancient Luminex artifacts scattered across the galaxy.
+Challenges: Viewed with suspicion by other species due to their exile., Constantly pursued by bounty hunters hired by a rival Luminex faction., Limited star energy reserves in regions far from suns, reducing their abilities.
+
+Timeline Context (chronological order):
+- [birth] 2000-01-16T00:00:00-05:00: Birth of Kaelith Solivara
+- [event1737021520995] 2000-01-17: Starlight Baptism
+
+Existing Connections:
+birth -> event1737021520995 (sequence)
+
+Current Event to Expand:
+Name: Starlight Baptism
+Node Key: event1737021520995
+Time: 2000-01-17
+Description: Kaelith Solivara was born during an exceptionally rare celestial event known as the Luminara Convergence, where three neighboring stars aligned perfectly to cast an intense and harmonious cascade of light onto their homeworld, Luminara Prime. This convergence, believed by the Luminex to signify great cosmic significance, enveloped Kaelith's birthing chamber in radiant starlight for several hours, imbuing their crystalline body with a unique, prismatic glow that set them apart from others of their kind. Witnessing this moment were the Luminex High Attuners, a group of esteemed elders who oversee the spiritual and scientific milestones of their species. The High Attuners interpreted the event as an omen of great destiny, recording it in the Celestial Codex. The convergence also caused a brief surge in the planet's energy fields, temporarily enhancing the natural abilities of all Luminex present. Kaelith's birth was celebrated across the planet, though whispers among the more skeptical factions questioned whether such an event might bring both great achievements and great trials.
+Expansion Prompt: What were the key moments and details surrounding Starlight Baptism? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change entity_1737021432's path?
+
+Generate a new event that logically follows from this event. The event should:
+1. Be temporally consistent (happen after 2000-01-17)
+2. Not contradict known history or character traits
+3. Provide rich detail about what happened
+4. Include specific names, places, and consequences
+5. Maintain consistency with the character's established timeline
+
+Return ONLY a JSON object in this exact format (no other text):
+{
+  "id": "event1737021538293",
+  "name": "Brief, specific title",
+  "timestamp": "YYYY-MM-DD",
+  "description": "Detailed description",
+  "connectedTo": "event1737021520995",
+  "connectionType": "sequence"
+}
+
+AI Response:
+{
+  "id": "event1737021538293",
+  "name": "Crystal Song Awakening",
+  "timestamp": "2000-01-18",
+  "description": "The day after Kaelith's Starlight Baptism, their unique prismatic glow began to emit faint harmonic vibrations, a phenomenon previously unheard of among the Luminex. Intrigued and slightly alarmed, the High Attuners initiated an immediate examination within the Celestial Observatory, the most sacred chamber of Luminara Prime. Under the careful analysis of High Attuner Xyrelis and their team, it was discovered that the vibrations resonated with the energy frequencies of the aligned stars from the Luminara Convergence. When exposed to concentrated starlight, Kaelith's crystalline body produced a symphonic soundscape, which the High Attuners referred to as the 'Crystal Song.' The phenomenon was recorded and encrypted within the Celestial Codex, theorized to be a cosmic language awaiting translation. This revelation elevated Kaelith's status even further, marking them as a potential harbinger of interstellar change. However, it also fostered division—some Luminex viewed the Crystal Song as a divine gift, while others feared it as an omen of upheaval. Kaelith, too young to comprehend the gravity of this event, remained unaware of how this moment would shape their identity and the expectations placed upon them in the future.",
+  "connectedTo": "event1737021520995",
+  "connectionType": "sequence"
+}
+
+Parsed Event:
+{
+  "id": "event1737021538293",
+  "name": "Crystal Song Awakening",
+  "timestamp": "2000-01-18",
+  "description": "The day after Kaelith's Starlight Baptism, their unique prismatic glow began to emit faint harmonic vibrations, a phenomenon previously unheard of among the Luminex. Intrigued and slightly alarmed, the High Attuners initiated an immediate examination within the Celestial Observatory, the most sacred chamber of Luminara Prime. Under the careful analysis of High Attuner Xyrelis and their team, it was discovered that the vibrations resonated with the energy frequencies of the aligned stars from the Luminara Convergence. When exposed to concentrated starlight, Kaelith's crystalline body produced a symphonic soundscape, which the High Attuners referred to as the 'Crystal Song.' The phenomenon was recorded and encrypted within the Celestial Codex, theorized to be a cosmic language awaiting translation. This revelation elevated Kaelith's status even further, marking them as a potential harbinger of interstellar change. However, it also fostered division—some Luminex viewed the Crystal Song as a divine gift, while others feared it as an omen of upheaval. Kaelith, too young to comprehend the gravity of this event, remained unaware of how this moment would shape their identity and the expectations placed upon them in the future.",
+  "connectedTo": "event1737021520995",
+  "connectionType": "sequence"
+}

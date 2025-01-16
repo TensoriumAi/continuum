@@ -226,74 +226,56 @@ function getUnprocessedNodes() {
   return nodes.sort(() => Math.random() - 0.5);
 }
 
-async function runExpansionLoop(iterations = 10) {
-  await loadCharacter(currentCharacter);
-  
-  let successfulIterations = 0;
-  let currentIteration = 1;
-  const batchTimestamp = Date.now();
-
-  while (currentIteration <= iterations) {
-    console.log(`\n=== EXPANSION LOOP ${currentIteration}/${iterations} (${successfulIterations} successful) ===`);
-
-    // Get unprocessed expansion prompts
-    const unprocessedNodes = [];
-    graph.forEachNode((nodeId, attrs) => {
-      if (attrs.expansion_prompt && !attrs.processed) {
-        unprocessedNodes.push(nodeId);
-      }
-    });
-
-    if (unprocessedNodes.length === 0) {
-      console.log('No more unprocessed expansion prompts.');
-      break;
-    }
-
-    console.log(`Found ${unprocessedNodes.length} unprocessed expansion prompts\n`);
-
-    // Process each unprocessed node
-    for (const nodeId of unprocessedNodes) {
-      const nodeAttrs = graph.getNodeAttributes(nodeId);
-      console.log(`Processing expansion prompt for: ${nodeAttrs.name}`);
-      console.log(`Prompt: ${nodeAttrs.expansion_prompt}\n`);
-
-      if (await expandIteration(currentIteration, nodeId)) {
-        successfulIterations++;
-        nodeAttrs.processed = true;
-        console.log(`Successfully expanded node: ${nodeId}\n`);
-      }
-    }
-
-    // Get current state for transformations and connections
-    const currentState = {
-      nodes: graph.nodes().map(node => ({
-        id: node,
-        ...graph.getNodeAttributes(node)
-      }))
-    };
-
-    // Every 5 iterations, look for new connections
-    if (currentIteration % 5 === 0) {
+async function runExpansionLoop(currentIteration, totalLoops, loopsPerNarrative) {
+  try {
+    // Get current state
+    const currentState = getCurrentState();
+    
+    // Find new connections every 5 iterations
+    if (currentIteration % 5 === 0 && currentState.nodes.length > 1) {
       await findNewConnections(currentState.nodes);
     }
+    
+    // Transform timeline every 10 iterations
+    if (currentIteration % 10 === 0 && currentState.nodes.length > 1) {
+      await transformTimeline(currentState.nodes);
+    }
 
-    // Every 10 iterations, apply timeline transformation if specified
-    if (currentIteration % 10 === 0 && characterConfig.transformPrompt) {
-      await transformTimeline(currentState.nodes, characterConfig.transformPrompt);
+    // Expand each node
+    let expandedCount = 0;
+    for (const node of currentState.nodes) {
+      // Skip nodes that have been expanded too many times
+      if (node.expansions >= 3) continue;
+      
+      // Attempt expansion
+      const expanded = await expandIteration(currentIteration, node.id);
+      if (expanded) {
+        expandedCount++;
+        node.expansions = (node.expansions || 0) + 1;
+      }
+      
+      // Break if we've expanded enough nodes this iteration
+      if (expandedCount >= 3) break;
+    }
+    
+    // If no existing nodes were expanded, try creating a new root event
+    if (expandedCount === 0) {
+      await expandIteration(currentIteration);
     }
 
     // Evaluate timeline after processing all nodes in this iteration
-    await evaluateTimeline(currentIteration, batchTimestamp);
+    await evaluateTimeline(currentIteration, currentState.nodes);
     
     // Generate narration every 10 iterations
-    if (currentIteration % 10 === 0) {
+    if (currentIteration % loopsPerNarrative === 0) {
       await generateNarration();
     }
 
-    currentIteration++;
+    return true;
+  } catch (error) {
+    console.error('Error during iteration:', error);
+    return false;
   }
-
-  console.log('\nExpansion complete!');
 }
 
 async function addEventToGraph(event) {
@@ -321,21 +303,21 @@ async function findNewConnections(nodes) {
   console.log('\nFinding new connections between nodes...');
   const characterName = characterConfig.characterName || characterConfig.name;
   
-  const prompt = `Given these timeline events in ${characterName}'s life, identify any potential NEW connections or relationships between them that aren't already captured. Focus on discovering non-obvious cause-and-effect relationships, thematic links, or parallel developments that might have been missed. Each connection should provide unique insight.
+  const prompt = `Given these timeline events in ${characterName}'s life, identify any potential NEW connections or relationships between them that aren't already captured. Focus on discovering non-obvious cause-and-effect relationships, thematic links, or parallel developments that might have been missed.
 
-Return the connections in this JSON format:
-  {
-    "connections": [
-      {
-        "from": "event_id_1",
-        "to": "event_id_2",
-        "relationship": "description of how they are connected",
-        "type": "one of: CAUSES, INFLUENCES, PARALLELS, CONTRASTS, ENABLES"
-      }
-    ]
-  }
+Return ONLY a JSON object with no markdown formatting or extra text:
+{
+  "connections": [
+    {
+      "from": "event_id_1",
+      "to": "event_id_2",
+      "type": "one of: CAUSES, INFLUENCES, PARALLELS, CONTRASTS, ENABLES",
+      "description": "Detailed description of how these events are connected"
+    }
+  ]
+}
   
-Existing events:
+Timeline events:
 ${nodes.map(n => `- ${n.timestamp}: ${n.name} (id: ${n.id})\n${n.description}`).join('\n\n')}
 
 Existing connections:
@@ -346,83 +328,200 @@ ${graph.edges().map(e => {
   return `- ${source.name} -> ${target.name}: ${edge.type}${edge.description ? ` (${edge.description})` : ''}`;
 }).join('\n')}`;
 
-  // VERIFIED MODEL NAME: gpt-4o-2024-11-20
   const completion = await openai.chat.completions.create({
     model: MODEL,
     messages: [{ role: "user", content: prompt }],
     temperature: 0.7,
-    max_tokens: 1000
+    max_tokens: 5000
   });
 
   const content = completion.choices[0].message.content;
+  const logPath = path.join(characterConfig.outputDir, 'connections_log.txt');
+  await fs.appendFile(logPath, `\n=== NEW CONNECTIONS ATTEMPT ${new Date().toISOString()} ===\n`);
+  await fs.appendFile(logPath, `\nAI Response:\n${content}\n`);
   
   try {
-    const jsonMatch = content.match(/\{[\s\S]*\}/);
-    if (jsonMatch) {
-      const connections = JSON.parse(jsonMatch[0]);
-      if (connections.connections) {
-        for (const conn of connections.connections) {
-          const fromNode = nodes.find(n => n.id === conn.from);
-          const toNode = nodes.find(n => n.id === conn.to);
-          if (fromNode && toNode) {
-            // Check if edge already exists
-            if (!graph.hasEdge(conn.from, conn.to)) {
-              // Add edge to the graph
-              graph.addEdge(conn.from, conn.to, {
-                type: conn.type || 'INFLUENCES',
-                description: conn.relationship
-              });
-              await saveGraph();
-              console.log(`Added edge: ${fromNode.name} -> ${toNode.name} (${conn.type}: ${conn.relationship})`);
-            } else {
-              console.log(`Edge already exists between ${fromNode.name} and ${toNode.name}`);
-            }
-          }
-        }
+    // Clean and parse the JSON response
+    const cleanedContent = cleanJsonResponse(content);
+    const parsed = JSON.parse(cleanedContent);
+    await fs.appendFile(logPath, `\nParsed Response:\n${JSON.stringify(parsed, null, 2)}\n`);
+
+    if (!parsed.connections || !Array.isArray(parsed.connections)) {
+      throw new Error('Response missing connections array');
+    }
+
+    let addedConnections = 0;
+    for (const conn of parsed.connections) {
+      // Validate connection object
+      if (!conn.from || !conn.to || !conn.type || !conn.description) {
+        console.log('Skipping invalid connection:', conn);
+        continue;
+      }
+
+      // Validate node IDs exist
+      const fromNode = nodes.find(n => n.id === conn.from);
+      const toNode = nodes.find(n => n.id === conn.to);
+      if (!fromNode || !toNode) {
+        console.log('Skipping connection with invalid node IDs:', conn);
+        continue;
+      }
+
+      // Validate connection type
+      const validTypes = ['CAUSES', 'INFLUENCES', 'PARALLELS', 'CONTRASTS', 'ENABLES'];
+      const connectionType = conn.type.toUpperCase();
+      if (!validTypes.includes(connectionType)) {
+        console.log('Invalid connection type, defaulting to INFLUENCES:', conn);
+        conn.type = 'INFLUENCES';
+      }
+
+      // Check if edge already exists
+      if (!graph.hasEdge(conn.from, conn.to)) {
+        // Add edge to the graph
+        graph.addEdge(conn.from, conn.to, {
+          type: connectionType,
+          description: conn.description
+        });
+        await saveGraph();
+        console.log(`Added edge: ${fromNode.name} -> ${toNode.name} (${connectionType}: ${conn.description})`);
+        addedConnections++;
+      } else {
+        console.log(`Edge already exists between ${fromNode.name} and ${toNode.name}`);
       }
     }
+
+    await fs.appendFile(logPath, `\nAdded ${addedConnections} new connections\n`);
+    return addedConnections > 0;
   } catch (error) {
     console.error('Error parsing connections:', error);
+    await fs.appendFile(logPath, `\nError parsing connections: ${error}\n${error.stack}\n`);
+    return false;
   }
 }
 
-async function transformTimeline(nodes, transformPrompt) {
-  console.log('\nTransforming timeline with prompt:', transformPrompt);
-  const characterName = characterConfig.characterName || characterConfig.name;
-  
-  const prompt = `You are analyzing ${characterName}'s timeline to ${transformPrompt}
+async function transformTimeline(nodes) {
+  try {
+    // Sort nodes chronologically
+    const timelineNodes = nodes.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
+    
+    // Find time gaps between events
+    const timeGaps = [];
+    for (let i = 0; i < timelineNodes.length - 1; i++) {
+      const current = new Date(timelineNodes[i].timestamp);
+      const next = new Date(timelineNodes[i + 1].timestamp);
+      const gap = next - current;
+      
+      // If gap is more than a week, record it
+      if (gap > 7 * 24 * 60 * 60 * 1000) {
+        timeGaps.push({
+          start: timelineNodes[i],
+          end: timelineNodes[i + 1],
+          duration: gap
+        });
+      }
+    }
 
-Current timeline events:
-${nodes.map(n => `- ${n.timestamp}: ${n.name}\n${n.description}`).join('\n\n')}
+    // If no significant gaps found, return
+    if (timeGaps.length === 0) {
+      console.log('No significant time gaps found for transformation');
+      return;
+    }
 
-Existing connections:
-${graph.edges().map(e => {
-  const edge = graph.getEdgeAttributes(e);
-  const source = graph.getNodeAttributes(graph.source(e));
-  const target = graph.getNodeAttributes(graph.target(e));
-  return `- ${source.name} -> ${target.name}: ${edge.type}${edge.description ? ` (${edge.description})` : ''}`;
+    const characterName = characterConfig.characterName || characterConfig.name;
+    const prompt = `You are analyzing ${characterName}'s timeline to find new connections and potential events.
+
+Current timeline events (chronological order):
+${timelineNodes.map(n => `- ${n.timestamp}: ${n.name}`).join('\n')}
+
+Available time gaps for new event:
+${timeGaps.map(gap => {
+  const startDate = new Date(gap.start.timestamp);
+  const endDate = new Date(gap.end.timestamp);
+  return `- Between "${gap.start.name}" and "${gap.end.name}" (${startDate.toLocaleDateString()} to ${endDate.toLocaleDateString()})`;
 }).join('\n')}
 
-Based on this timeline and the transformation prompt, provide:
-1. Analysis of how well the timeline fulfills the transformation goal
-2. Specific suggestions for new events or connections that would strengthen this aspect
-3. Identification of any events that could be modified or expanded to better serve this purpose
+Suggest new connections between events and potential new events that could fill these gaps. Consider:
+1. Cause and effect relationships
+2. Character development
+3. Plot progression
+4. World-building
+5. Thematic resonance
 
-Format your response in markdown with clear sections for analysis, suggestions, and modifications.`;
+Format your response as JSON:
+{
+  "connections": [
+    {
+      "source": "Source Event Name",
+      "target": "Target Event Name",
+      "type": "CAUSES|ENABLES|INFLUENCES|PARALLELS|CONTRASTS",
+      "description": "Brief explanation of the connection"
+    }
+  ],
+  "newEvents": [
+    {
+      "name": "Event Name",
+      "timestamp": "YYYY-MM-DD",
+      "description": "Detailed event description"
+    }
+  ]
+}`;
 
-  const completion = await openai.chat.completions.create({
-    model: MODEL,
-    messages: [{ role: "user", content: prompt }],
-    temperature: 0.7,
-    max_tokens: 1000
-  });
+    const completion = await openai.chat.completions.create({
+      model: MODEL,
+      messages: [{ role: "user", content: prompt }],
+      temperature: 0.7,
+      max_tokens: 1000
+    });
 
-  const content = completion.choices[0].message.content;
-  const transformPath = path.join(characterConfig.outputDir, `transform_${Date.now()}.md`);
-  await fs.writeFile(transformPath, content);
-  console.log(`Saved transformation analysis to ${transformPath}`);
-  
-  return content;
+    const cleanedResponse = cleanJsonResponse(completion.choices[0].message.content);
+    const response = JSON.parse(cleanedResponse);
+
+    // Add new events
+    if (response.newEvents) {
+      for (const event of response.newEvents) {
+        const eventId = `event${Date.now()}`;
+        graph.addNode(eventId, {
+          name: event.name,
+          timestamp: event.timestamp,
+          description: event.description,
+          timeline: 'main'
+        });
+      }
+    }
+
+    // Add new connections
+    if (response.connections) {
+      for (const conn of response.connections) {
+        // Find node IDs for source and target
+        let sourceId = null;
+        let targetId = null;
+        
+        graph.forEachNode((nodeId, attrs) => {
+          if (attrs.name === conn.source) sourceId = nodeId;
+          if (attrs.name === conn.target) targetId = nodeId;
+        });
+
+        // Only add edge if both nodes exist
+        if (sourceId && targetId) {
+          try {
+            graph.addEdge(sourceId, targetId, {
+              type: conn.type.toUpperCase(),
+              description: conn.description
+            });
+          } catch (error) {
+            console.log(`Error adding edge from ${conn.source} to ${conn.target}: ${error.message}`);
+          }
+        } else {
+          console.log(`Could not find nodes for connection: ${conn.source} -> ${conn.target}`);
+        }
+      }
+    }
+
+    await saveGraph();
+    return true;
+  } catch (error) {
+    console.error('Error in timeline transformation:', error);
+    return false;
+  }
 }
 
 async function runLoopManager(totalLoops = 100, loopsPerNarrative = 1) {
@@ -431,7 +530,7 @@ async function runLoopManager(totalLoops = 100, loopsPerNarrative = 1) {
   while (currentLoop < totalLoops) {
     console.log(`\n=== Starting Loop Set ${Math.floor(currentLoop / loopsPerNarrative) + 1} ===\n`);
     
-    await runExpansionLoop(loopsPerNarrative);
+    await runExpansionLoop(currentLoop, totalLoops, loopsPerNarrative);
     
     currentLoop += loopsPerNarrative;
     await generateNarration();
@@ -443,67 +542,21 @@ async function runLoopManager(totalLoops = 100, loopsPerNarrative = 1) {
   }
 }
 
-async function evaluateTimeline(iterationNumber, batchTimestamp) {
-  const timelineNodes = [];
-  graph.forEachNode((node, attrs) => {
-    timelineNodes.push({
-      key: node,
-      name: attrs.name,
-      timestamp: attrs.timestamp,
-      description: attrs.description
-    });
-  });
+async function evaluateTimeline(iterationNumber, nodes) {
+  console.log('\nEvaluating timeline...');
+  const characterName = characterConfig.characterName || characterConfig.name;
+
+  // Sort nodes chronologically
+  nodes.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
   
-  timelineNodes.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
+  const prompt = `You are evaluating the timeline of ${characterName}. Consider these aspects:
 
-  const timelineContext = timelineNodes.map(node => 
-    `## ${node.name}\n**Time**: ${node.timestamp}\n\n${node.description}\n`
-  ).join('\n\n');
-
-  const connections = [];
-  graph.forEachEdge((edge, attrs, source, target) => {
-    connections.push(`${source} -> ${target} (${attrs.type})`);
-  });
-
-  const prompt = `Analyze this timeline for coherence, consistency, and narrative quality. Score each aspect out of 10, where:
-10: Perfect - No issues found
-8-9: Strong - Minor issues that don't impact overall quality
-6-7: Good - Some issues that could be improved
-4-5: Fair - Notable issues that affect quality
-2-3: Poor - Significant issues that need addressing
-0-1: Critical - Major problems that break coherence
-
-Timeline Events (chronological order):
-${timelineContext}
-
-Connections:
-${connections.join('\n')}
-
-Evaluate and score each aspect:
-
-1. Temporal Consistency (Score /10):
-- Events flow logically in time
-- No paradoxes or impossible sequences
-- Reasonable time gaps between events
-
-2. Character Development (Score /10):
-- Growth and change over time
-- Consistent personality traits
-- Believable reactions and decisions
-
-3. Setting Coherence (Score /10):
-- Consistent world details
-- Plausible locations and environments
-- Appropriate technological/cultural context
-
-4. Narrative Flow (Score /10):
-- Clear cause-effect relationships
-- Meaningful connections between events
-- Natural story progression
-
-5. Internal Logic (Score /10):
-- No contradicting facts
-- Consistent rules and limitations
+- Temporal consistency
+- Character development
+- Plot coherence
+- World-building
+- Thematic depth
+- Narrative flow
 - Plausible consequences
 
 For each aspect, explain the score and list any specific issues found. Start with an overall score (average of all scores) and summary.
@@ -517,9 +570,14 @@ Format your response in markdown with clear sections for the overall score and e
     max_tokens: 1000
   });
 
-  const evaluation = completion.choices[0].message.content;
-  const evalPath = path.join(characterConfig.outputDir, `eval_iteration${iterationNumber}_${batchTimestamp}.md`);
-  await fs.writeFile(evalPath, evaluation);
+  const content = completion.choices[0].message.content;
+  
+  // Use the initial timestamp for all eval files in this iteration
+  const timestamp = characterConfig.startTime || Date.now();
+  const evalPath = path.join(characterConfig.outputDir, `eval_iteration${String(iterationNumber).padStart(2, '0')}_${timestamp}.md`);
+  
+  await fs.writeFile(evalPath, content);
+  console.log(`Saved evaluation to ${evalPath}`);
 }
 
 async function generateNarration() {
@@ -557,7 +615,7 @@ ${timelineNodes.map(node =>
   `### ${node.name}\n**Time**: ${node.timestamp}\n\n${node.description}\n`
 ).join('\n\n')}`;
 
-  const narrationPath = path.join(characterConfig.outputDir, 'narration.md');
+  const narrationPath = path.join(characterConfig.outputDir, 'narrative.md');
   await fs.writeFile(narrationPath, narration);
 }
 
@@ -588,23 +646,28 @@ async function expandIteration(iterationNumber, nodeId = null) {
     await fs.appendFile(logPath, `\nAI Response:\n${response}\n`);
 
     try {
-      const parsedEvent = JSON.parse(response);
+      // Clean up the response before parsing
+      const cleanedResponse = cleanJsonResponse(response);
+      const parsedEvent = JSON.parse(cleanedResponse);
       await fs.appendFile(logPath, `\nParsed Event:\n${JSON.stringify(parsedEvent, null, 2)}\n`);
 
       // Add event to graph
       const eventId = parsedEvent.id;
+      const characterName = characterConfig.characterName || characterConfig.name;
+      
       graph.addNode(eventId, {
         name: parsedEvent.name,
         timestamp: parsedEvent.timestamp,
         description: parsedEvent.description,
         timeline: "main",
-        expansion_prompt: `What were the key moments and details surrounding ${parsedEvent.name}? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change ${characterConfig.name}'s path?`
+        expansion_prompt: `What were the key moments and details surrounding ${parsedEvent.name}? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change ${characterName}'s path?`
       });
 
       // Add edge to graph
-      if (parsedEvent.connectedTo && parsedEvent.connectionType) {
+      if (parsedEvent.connectedTo) {
         graph.addEdge(parsedEvent.connectedTo, eventId, {
-          type: parsedEvent.connectionType
+          type: parsedEvent.connectionType || "sequence",
+          description: parsedEvent.connectionDescription || `Follows from ${parsedEvent.connectedTo}`
         });
       }
 
@@ -615,13 +678,29 @@ async function expandIteration(iterationNumber, nodeId = null) {
       
       return true;
     } catch (parseError) {
-      await fs.appendFile(logPath, `\nError parsing event: ${parseError}\n`);
+      await fs.appendFile(logPath, `\nError parsing event: ${parseError}\n${parseError.stack}\n`);
       return false;
     }
   } catch (error) {
     console.error('Error during iteration:', error);
     return false;
   }
+}
+
+// Utility function to clean up JSON responses
+function cleanJsonResponse(response) {
+  // Remove markdown code block syntax
+  let cleaned = response.replace(/^```(?:json)?\s*/, '').replace(/\s*```$/, '');
+  
+  // Remove any leading/trailing whitespace
+  cleaned = cleaned.trim();
+  
+  // Ensure it starts with { and ends with }
+  if (!cleaned.startsWith('{') || !cleaned.endsWith('}')) {
+    throw new Error('Response is not a valid JSON object');
+  }
+  
+  return cleaned;
 }
 
 async function generateExpansionPrompt(nodeKey, nodeAttributes) {
@@ -657,7 +736,9 @@ ${timelineNodes.map(node => `- [${node.key}] ${node.timestamp}: ${node.name}`).j
   // Get connections context
   const connections = [];
   graph.forEachEdge((edge, attrs, source, target) => {
-    connections.push(`${source} -> ${target} (${attrs.type})`);
+    const sourceNode = graph.getNodeAttributes(source);
+    const targetNode = graph.getNodeAttributes(target);
+    connections.push(`${sourceNode.name} -> ${targetNode.name} (${attrs.type}${attrs.description ? `: ${attrs.description}` : ''})`);
   });
 
   const connectionsContext = `\nExisting Connections:
@@ -684,14 +765,15 @@ Generate a new event that logically follows from this event. The event should:
 4. Include specific names, places, and consequences
 5. Maintain consistency with the character's established timeline
 
-Return ONLY a JSON object in this exact format (no other text):
+Return ONLY a JSON object with no markdown formatting or extra text:
 {
   "id": "event${Date.now()}",
   "name": "Brief, specific title",
   "timestamp": "YYYY-MM-DD",
   "description": "Detailed description",
   "connectedTo": "${nodeKey}",
-  "connectionType": "sequence"
+  "connectionType": "sequence",
+  "connectionDescription": "How this event follows from or relates to the previous event"
 }`;
   }
 
@@ -708,14 +790,15 @@ Generate a new foundational event in the character's timeline. The event should:
 4. Include specific names, places, and consequences
 5. Help establish the character's background
 
-Return ONLY a JSON object in this exact format (no other text):
+Return ONLY a JSON object with no markdown formatting or extra text:
 {
   "id": "event${Date.now()}",
-  "name": "Brief, specific title",
+  "name": "Brief title of the event",
   "timestamp": "YYYY-MM-DD",
-  "description": "Detailed description",
+  "description": "Detailed description of what happened and its impact",
   "connectedTo": "birth",
-  "connectionType": "sequence"
+  "connectionType": "sequence",
+  "connectionDescription": "How this event relates to their birth/origin"
 }`;
 }
 

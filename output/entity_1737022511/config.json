@@ -1,0 +1,70 @@
+{
+  "type": "cybernetic hybrid",
+  "physicalDescription": {
+    "height": "6'2\"",
+    "weight": "210 lbs",
+    "skinColor": "Pale with a faint metallic sheen",
+    "eyes": "One organic green eye, the other a glowing blue cybernetic implant with a rotating iris",
+    "hair": "Black, short, and streaked with silver filaments",
+    "distinguishingFeatures": "A lattice of glowing bio-circuits visible beneath the skin on the forearms and neck, an intricate barcode tattoo on the right wrist",
+    "limbs": "Left arm is fully cybernetic, crafted from a sleek titanium alloy with retractable tools embedded in the forearm"
+  },
+  "biology": {
+    "species": "Homo Synthetica",
+    "traits": [
+      "Enhanced reflexes and strength due to neural-augmented musculature",
+      "Requires a bi-weekly infusion of synthetic enzymes to regulate the fusion of organic and artificial systems",
+      "Immune to most diseases but susceptible to electromagnetic disruptions"
+    ]
+  },
+  "technology": {
+    "primaryTool": "A modular cyber-arm containing a multi-tool, plasma cutter, and hacking interface",
+    "wearable": "A headband-like neural uplink device allowing connection to the vast Dataweb",
+    "device": "A small orb-shaped drone companion equipped with reconnaissance sensors and a low-power energy shield projector",
+    "weapon": "A collapsible energy blade stored in the cyber-arm"
+  },
+  "notableEvents": [
+    {
+      "year": 2134,
+      "description": "Lost their left arm and part of their neural cortex in a sabotage explosion at the orbital shipyard where they worked."
+    },
+    {
+      "year": 2136,
+      "description": "Underwent experimental cybernetic augmentation in a secretive program funded by the NeoArc Corporation."
+    },
+    {
+      "year": 2140,
+      "description": "Became a fugitive after exposing NeoArc's illegal experimentation on human test subjects."
+    },
+    {
+      "year": 2145,
+      "description": "Discovered an ancient alien artifact buried beneath the ruins of Old Tokyo, connecting them to an enigmatic AI entity."
+    }
+  ],
+  "goals": [
+    "Uncover the origins and purpose of the alien artifact.",
+    "Expose the full extent of NeoArc's corruption and bring them to justice.",
+    "Find a way to stabilize their deteriorating cyber-organic systems.",
+    "Establish a safe haven for others like them—cybernetic outcasts persecuted by society."
+  ],
+  "challenges": [
+    "Constantly hunted by NeoArc's elite mercenaries and bounty hunters.",
+    "Struggles with fragmented memories due to neural implant overloads.",
+    "Faces discrimination and fear from both humans and synthetics.",
+    "The AI entity connected to the artifact has its own unclear motives, creating a tenuous alliance."
+  ],
+  "name": "entity_1737022511",
+  "characterName": "Kael Voryn",
+  "birthDate": "2000-01-16",
+  "creationDate": "2025-01-16",
+  "outputDir": "output/entity_1737022511",
+  "environment": null,
+  "culture": null,
+  "lifespan": null,
+  "abilities": [],
+  "relationships": [],
+  "customAttributes": {},
+  "timelineStructure": "linear",
+  "narrativeStyle": "personal",
+  "transformPrompt": ""
+}

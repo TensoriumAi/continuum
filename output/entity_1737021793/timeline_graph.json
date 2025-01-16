@@ -1,0 +1,21 @@
+{
+  "options": {
+    "type": "mixed",
+    "multi": false,
+    "allowSelfLoops": true
+  },
+  "attributes": {},
+  "nodes": [
+    {
+      "key": "birth",
+      "attributes": {
+        "name": "Birth of Zarvok T'Quen",
+        "timestamp": "2000-01-16T00:00:00-05:00",
+        "description": "Beginning of Zarvok T'Quen's story.",
+        "timeline": "main",
+        "expansion_prompt": "What were the circumstances surrounding Zarvok T'Quen's birth? Consider the environment, the people present, and any notable events or signs that accompanied their arrival."
+      }
+    }
+  ],
+  "edges": []
+}

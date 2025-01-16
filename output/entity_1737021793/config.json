@@ -1,0 +1,77 @@
+{
+  "type": "alien",
+  "physicalDescription": {
+    "height": "7 feet",
+    "skinColor": "Iridescent teal with shimmering gold undertones",
+    "eyeColor": "Obsidian black with faint luminescent rings",
+    "build": "Lanky with elongated limbs and segmented exoskeletal plates",
+    "distinctFeatures": [
+      "Four slender antennae that pulse with bioluminescent light",
+      "Six-fingered hands with semi-translucent, flexible digits",
+      "A crest-like protrusion running from the crown of their head to mid-back"
+    ],
+    "voice": "Resonant and layered, as though multiple tones speak in unison"
+  },
+  "biology": {
+    "speciesName": "Quervalian",
+    "homePlanet": "Vyralys Prime, a planet covered in crystalline forests and vast oceans of liquid nitrogen",
+    "lifespan": "Approximately 400 Earth years",
+    "diet": "Mineral-based sustenance absorbed through osmosis",
+    "uniqueAbilities": [
+      "Electrostatic manipulation, allowing them to generate and control electrical currents",
+      "Hyper-adaptive vision capable of seeing across multiple spectrums",
+      "A secondary brain cluster used for advanced multitasking and pattern recognition"
+    ],
+    "weaknesses": [
+      "Susceptible to extreme dehydration, requiring constant exposure to humid environments",
+      "Sensitive to certain sound frequencies that can disorient or incapacitate them"
+    ]
+  },
+  "technology": {
+    "signatureDevice": "A symbiotic wrist-mounted device called the 'Synflux Core,' which amplifies their electrostatic abilities and acts as a translator for over 10,000 languages",
+    "tools": [
+      "Crystalline data shards for storing and accessing vast amounts of information",
+      "An energy shield generator embedded in their exoskeleton for personal defense",
+      "Micro-drone swarms used for reconnaissance and minor repairs"
+    ],
+    "transport": "A personal starcraft named 'Eclipse Harbinger,' powered by a fusion of dark matter and solar energy"
+  },
+  "notableEvents": [
+    {
+      "eventName": "The Shattering of Vyralys",
+      "description": "Witnessed the catastrophic fragmentation of their home planet due to a rogue black hole's gravitational pull, forcing their species into diaspora."
+    },
+    {
+      "eventName": "The Sparx Accord",
+      "description": "Brokered peace between three warring galactic factions through a daring diplomatic maneuver involving their electrostatic manipulation abilities."
+    },
+    {
+      "eventName": "The Eclipse Betrayal",
+      "description": "Survived an assassination attempt by a former ally, leaving them with a deep scar along their left side and a lingering mistrust of others."
+    }
+  ],
+  "goals": [
+    "To locate and reunite the scattered remnants of the Quervalian people",
+    "To restore the lost archives of Vyralys Prime, which contained the collective knowledge of their species",
+    "To uncover the truth behind the mysterious disappearance of their mentor, Eldara Veyl"
+  ],
+  "challenges": [
+    "Struggling with the loneliness of being one of the last Quervalians in the galaxy",
+    "Evading bounty hunters hired by those who see their abilities as a threat",
+    "Navigating a galaxy increasingly hostile to refugees and outsiders"
+  ],
+  "name": "entity_1737021793",
+  "characterName": "Zarvok T'Quen",
+  "birthDate": "2000-01-16",
+  "creationDate": "2025-01-16",
+  "outputDir": "output/entity_1737021793",
+  "environment": null,
+  "culture": null,
+  "lifespan": null,
+  "abilities": [],
+  "relationships": [],
+  "customAttributes": {},
+  "timelineStructure": "linear",
+  "narrativeStyle": "personal",
+  "transformPrompt": ""
+}

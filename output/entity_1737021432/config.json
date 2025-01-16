@@ -1,0 +1,60 @@
+{
+  "type": "alien",
+  "physicalDescription": {
+    "height": "7 feet",
+    "skinColor": "iridescent blue with shifting golden patterns",
+    "eyes": "large, multi-faceted, resembling a prism",
+    "limbs": "four arms and two legs, each with elongated, flexible digits",
+    "hair": "none, but bioluminescent tendrils cascade from the back of its head",
+    "distinctiveFeatures": "a crystalline exoskeleton that refracts light, giving a shimmering aura"
+  },
+  "biology": {
+    "speciesName": "Luminex",
+    "diet": "absorbs nutrients from starlight and organic compounds in gaseous form",
+    "reproduction": "asexual mitosis every 200 years",
+    "lifespan": "approximately 1,000 years",
+    "abilities": {
+      "communication": "telepathic, capable of transmitting emotions and visuals",
+      "regeneration": "can heal injuries by absorbing light energy",
+      "defense": "emits a blinding flash of light when threatened"
+    }
+  },
+  "technology": {
+    "primaryTool": "Stellar Gauntlet, a multi-functional device worn on one arm capable of manipulating gravity, creating energy shields, and storing star energy",
+    "transportation": "Aurora Glide, a small, light-powered craft capable of interstellar travel",
+    "otherDevices": [
+      "Holo-Spire, a portable device that projects 3D holograms for communication and data storage",
+      "Chrono-Binder, a bracelet that allows limited time manipulation (up to 30 seconds backward)"
+    ]
+  },
+  "notableEvents": [
+    "Discovered a dying star and successfully stabilized it, saving an entire planetary system.",
+    "First contact with humanity led to an accidental cultural exchange, where they adopted Earth music as a form of emotional expression.",
+    "Exiled from their homeworld after opposing the council's decision to abandon a neighboring species to extinction.",
+    "Rescued a sentient AI drifting in the void and formed a lifelong bond with it."
+  ],
+  "goals": [
+    "Restore their reputation and return to their homeworld.",
+    "Establish a universal alliance among intelligent life to prevent interstellar conflicts.",
+    "Unlock the secrets of ancient Luminex artifacts scattered across the galaxy."
+  ],
+  "challenges": [
+    "Viewed with suspicion by other species due to their exile.",
+    "Constantly pursued by bounty hunters hired by a rival Luminex faction.",
+    "Limited star energy reserves in regions far from suns, reducing their abilities."
+  ],
+  "name": "entity_1737021432",
+  "characterName": "Kaelith Solivara",
+  "birthDate": "2000-01-16",
+  "creationDate": "2025-01-16",
+  "outputDir": "output/entity_1737021432",
+  "environment": null,
+  "culture": null,
+  "lifespan": null,
+  "abilities": [],
+  "relationships": [],
+  "customAttributes": {},
+  "timelineStructure": "linear",
+  "narrativeStyle": "personal",
+  "transformPrompt": ""
+}

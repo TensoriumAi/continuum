@@ -1,0 +1,78 @@
+{
+  "type": "cybernetic alien",
+  "physicalDescription": {
+    "height": "7 feet",
+    "skin": "Iridescent metallic scales that shift between blue and silver depending on the light",
+    "eyes": "Large, almond-shaped with glowing amber irises and no pupils",
+    "limbs": "Four arms, each ending in three slender, claw-like fingers with a faint bioluminescent glow",
+    "head": "Elongated with intricate, fractal-like patterns etched into the surface",
+    "movement": "Fluid, almost serpentine, aided by retractable hover-discs embedded in their legs"
+  },
+  "biology": {
+    "species": "Vyrnathian",
+    "traits": {
+      "intelligence": "Advanced computational thinking; can process complex data at incredible speeds",
+      "regeneration": "Capable of repairing minor injuries within minutes through nanite-infused blood",
+      "longevity": "Naturally lives for over 800 years due to a hybrid organic-synthetic physiology",
+      "communication": "Emits harmonic frequencies that can resonate directly with neural synapses for telepathic-like communication"
+    },
+    "weaknesses": {
+      "sensitivity": "Severe vulnerability to electromagnetic pulses (EMPs)",
+      "biological dependency": "Requires a rare mineral called Kherecite to maintain their hybrid biology"
+    }
+  },
+  "technology": {
+    "tools": [
+      {
+        "name": "Vortex Shard",
+        "description": "A crystalline, multi-purpose device capable of generating energy shields, hacking networks, and slicing through dense materials"
+      },
+      {
+        "name": "Chrono-Gauntlets",
+        "description": "Wrist-mounted devices enabling brief bursts of time dilation for evasion or rapid maneuvers"
+      },
+      {
+        "name": "Echo Lens",
+        "description": "A head-mounted holographic visor that analyzes environments and reveals hidden frequencies or dimensions"
+      }
+    ],
+    "attachments": {
+      "cybernetic implants": [
+        "Neural Synchronizer: Enhances cognitive function and allows connection to external data streams",
+        "Energy Core: Embedded in their chest, it powers their cybernetic systems and can release an energy pulse in emergencies"
+      ]
+    }
+  },
+  "notableEvents": [
+    "Discovered a dying star system and used their energy core to stabilize one of its planets, earning the gratitude of its inhabitants.",
+    "Betrayed by their closest companion who sold them out to a galactic syndicate, leading to the loss of their original homeworld.",
+    "Led a successful rebellion against a machine-overlord faction, solidifying their reputation as both a strategist and a warrior.",
+    "Encountered a mysterious artifact called the Prism Sigil, which granted them knowledge of hyperspace travel but left them with cryptic visions."
+  ],
+  "goals": [
+    "Locate a sustainable source of Kherecite to ensure their survival and the survival of their species.",
+    "Unravel the meaning behind the cryptic visions granted by the Prism Sigil.",
+    "Establish a neutral haven for displaced species across the galaxy.",
+    "Avenge the betrayal that led to the destruction of their homeworld."
+  ],
+  "challenges": [
+    "The constant search for Kherecite as it becomes increasingly rare in the galaxy.",
+    "Ongoing hunts by bounty hunters hired by the galactic syndicate they escaped from.",
+    "Struggling with the emotional scars and trust issues from their past betrayal.",
+    "The mysterious but escalating side effects of prolonged exposure to the Prism Sigil."
+  ],
+  "name": "entity_1737021956",
+  "characterName": "Zyrrak Vel'Thane",
+  "birthDate": "2000-01-16",
+  "creationDate": "2025-01-16",
+  "outputDir": "output/entity_1737021956",
+  "environment": null,
+  "culture": null,
+  "lifespan": null,
+  "abilities": [],
+  "relationships": [],
+  "customAttributes": {},
+  "timelineStructure": "linear",
+  "narrativeStyle": "personal",
+  "transformPrompt": ""
+}
