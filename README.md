@@ -1,12 +1,8 @@
 # Continuum Engine
 
-> An experimental narrative engine for exploring alternate timelines through AI-driven story generation
-
-Continuum is a system for generating and exploring alternate histories through two main modes: Timeline Expansion and Character Initialization. It uses AI to create coherent narratives that maintain temporal and causal consistency while allowing for divergent possibilities.
-
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Node Version](https://img.shields.io/badge/node-%3E%3D%2016.0.0-brightgreen)
-![Stage](https://img.shields.io/badge/stage-experimental-orange)
+| Overview | Visualization |
+|----------|---------------|
+| > An experimental narrative engine for exploring alternate timelines through AI-driven story generation<br><br>Continuum is a system for generating and exploring alternate histories through two main modes: Timeline Expansion and Character Initialization. It uses AI to create coherent narratives that maintain temporal and causal consistency while allowing for divergent possibilities.<br><br>![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Node Version](https://img.shields.io/badge/node-%3E%3D%2016.0.0-brightgreen) ![Stage](https://img.shields.io/badge/stage-experimental-orange) | ![Continuum Visualization](continuum-viz.gif) |
 
 ## Core Concepts
 
@@ -96,6 +92,44 @@ This mode generates a narrative graph for a given character, exploring their tim
 ### Character Initialization
 
 This mode creates new characters, either through simple or rich creation methods.
+
+## Running the Engine
+
+### Starting the Server
+
+You can start the server in two ways:
+
+1. Using npm with a specific character:
+```bash
+CHARACTER=naval-ravikant npm start
+```
+
+2. Using the default character:
+```bash
+npm start
+```
+
+The default character can be configured in your `.env` file.
+
+### Running Expansion Studies
+
+You can run expansion studies in two ways:
+
+1. Direct node execution with a specific character:
+```bash
+node expand.js "Naval Ravikant"
+```
+
+2. Using npm with environment variable:
+```bash
+CHARACTER="Naval Ravikant" npm run expand
+```
+
+The expansion process will:
+- Load the character's configuration
+- Initialize their narrative graph
+- Run iterative expansion cycles
+- Generate narrations at configured intervals
 
 ## Example Characters
 
