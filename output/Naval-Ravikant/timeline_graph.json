@@ -255,6 +255,56 @@
         "timeline": "main",
         "expansion_prompt": "What games or activities did Naval Ravikant enjoy with friends?"
       }
+    },
+    {
+      "key": "event1737107051609_0",
+      "attributes": {
+        "name": "The First Steps",
+        "timestamp": "1975-01-01",
+        "description": "A formative event where Naval takes his first steps in a local park, symbolizing the beginning of his journey of discovery and curiosity about the world around him.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737107051610_0",
+      "attributes": {
+        "name": "Voices of the Elders",
+        "timestamp": "1977-08-01",
+        "description": "A community gathering where Naval listens to the stories of local elders, which influences his understanding of tradition and cultural heritage.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737107051614_0",
+      "attributes": {
+        "name": "Foundations of Community Engagement",
+        "timestamp": "1975-06-01",
+        "description": "In the small town of Evergreen Valley, just months after Naval's birth, a community garden initiative was launched by local families, including the Green and Patel households. This garden served as a space for families to cultivate their own crops while sharing knowledge about sustainable practices. The event was organized by Mrs. Green, who invited neighbors to contribute seeds and expertise, thus fostering a sense of collaboration. It became a gathering point for community members to exchange stories about traditional farming methods, enhancing Naval's early understanding of biodiversity and the importance of community in agriculture. The initiative sparked a movement that encouraged families to adopt organic practices, ultimately influencing the values Naval would carry into his future endeavors in regenerative agriculture.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Foundations of Community Engagement? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Naval Ravikant's path?",
+        "templateType": "COMMUNITY_CONNECTIONS"
+      }
+    },
+    {
+      "key": "event1737107060867_0",
+      "attributes": {
+        "name": "The Garden of Curiosity",
+        "timestamp": "1978-08-01",
+        "description": "At the age of four, Naval's fascination with the environment blossomed into a hands-on exploration project with Mrs. Green and Mr. Patel. They collaborated to create a small community garden, aptly named 'The Garden of Curiosity'. This garden served as a living classroom where Mrs. Green taught children about the virtues of crop rotation, demonstrating how rotating beans, corn, and squash could enrich the soil. Mr. Patel introduced them to the intricacies of pollination, showing how bees transported pollen among the flowers and explaining the critical role of biodiversity. Together, they nurtured a diverse array of plants, including vibrant heirloom tomatoes and fragrant herbs, cultivating not only the soil but also a deep sense of community and environmental stewardship among the neighborhood children. This experience solidified Naval's appreciation for collaborative learning and sustainable practices, as he witnessed firsthand the interdependence of plants and pollinators and the joy of working together towards a common goal.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Garden of Curiosity? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Naval Ravikant's path?",
+        "templateType": "CHILDHOOD_MEMORIES"
+      }
+    },
+    {
+      "key": "event1737107066614_0",
+      "attributes": {
+        "name": "The Unexpected Frost",
+        "timestamp": "1978-10-15",
+        "description": "A few weeks after receiving the pouch of mixed seeds from Grandma West, Naval eagerly prepared a small plot in his backyard to plant them. He meticulously arranged the seeds according to the companion planting principles he learned from her, mixing varieties to promote growth and resilience. However, in his excitement, Naval overlooked the late-season frost warning. One chilly morning, he awoke to find his newly sprouted seedlings coated in a layer of frost, their tender leaves wilting under the icy touch. Disheartened, Naval sat beside his garden, reflecting on the loss. Grandma West, noticing his disappointment, visited him later that day. She encouraged him to see this setback as an opportunity to learn about timing and adaptation in gardening. Together, they examined the remains of his initial crops and discussed how certain plants could thrive despite adversity. This experience taught Naval the importance of patience and observing seasonal changes, lessons that would shape his future endeavors in regenerative agriculture.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Unexpected Frost? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Naval Ravikant's path?"
+      }
     }
   ],
   "edges": [
@@ -1939,6 +1989,78 @@
       "attributes": {
         "type": "CAUSES",
         "description": "The balance between practical chores and cultural storytelling in 'Exploring Tradition and Nature' emerges again in 'The Hearthside Chronicles', where Naval's daily explorations provided practical experiences and observations that enriched the storytelling sessions around the hearth, emphasizing how his growing understanding of natural and cultural cycles informed and was informed by familial narratives."
+      }
+    },
+    {
+      "key": "geid_149_0",
+      "source": "event1",
+      "target": "event6",
+      "attributes": {
+        "type": "ENABLES",
+        "description": "Naval's origin set the stage for a life rich in exploration and learning, which would enable the blending of tradition and nature seen in his daily life."
+      }
+    },
+    {
+      "key": "geid_149_1",
+      "source": "event2",
+      "target": "event19",
+      "attributes": {
+        "type": "INFLUENCES",
+        "description": "The early influences from neighborhood characters like Mrs. Green and Mr. Patel shaped Naval's understanding of ecological practices, which Professor Elena Verma later helped to frame within a scientific context."
+      }
+    },
+    {
+      "key": "geid_149_2",
+      "source": "event4",
+      "target": "event25",
+      "attributes": {
+        "type": "ENABLES",
+        "description": "Naval's daily explorations and engagement with nature in 'A Day in the Life of Young Naval' set a strong foundation for the collaborative culinary adventures in 'The Culinary Guild', connecting practical experiences with culinary creativity."
+      }
+    },
+    {
+      "key": "geid_149_3",
+      "source": "event7",
+      "target": "event22",
+      "attributes": {
+        "type": "INFLUENCES",
+        "description": "Naval's experiences in 'The Cycle of Discovery', where he learns from the natural world, influence the traditions celebrated during 'Traditions at Harvest Time', as both highlight the cyclical relationship between personal growth and agricultural practices."
+      }
+    },
+    {
+      "key": "geid_149_4",
+      "source": "event12",
+      "target": "event20",
+      "attributes": {
+        "type": "ENABLES",
+        "description": "The interplay of family talents nurtured in 'The Interplay of Talents' enables the collaborative spirit seen in 'The Circle of Curiosity', emphasizing a culture of shared learning and exploration among peers."
+      }
+    },
+    {
+      "key": "geid_149_7",
+      "source": "event1",
+      "target": "event1737107051614_0",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event follows from Naval's origin, illustrating how the community around him began to emphasize collaboration and sustainable practices, shaping his foundational beliefs in the importance of community support for agricultural innovation."
+      }
+    },
+    {
+      "key": "geid_149_8",
+      "source": "event2",
+      "target": "event1737107060867_0",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event follows from Naval's explorations in 'Childhood Exploration and Influences', where his early curiosity led to a collaborative project with Mrs. Green and Mr. Patel, fostering his understanding of agriculture and community engagement."
+      }
+    },
+    {
+      "key": "geid_149_9",
+      "source": "event3",
+      "target": "event1737107066614_0",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event follows from 'The Tale of the Wandering Seeds', where Naval's initial excitement about planting the seeds leads to a valuable lesson about the importance of environmental awareness and adaptability in gardening."
       }
     }
   ]

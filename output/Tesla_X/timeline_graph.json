@@ -1,0 +1,220 @@
+{
+  "options": {
+    "type": "mixed",
+    "multi": false,
+    "allowSelfLoops": true
+  },
+  "attributes": {},
+  "nodes": [
+    {
+      "key": "birth",
+      "attributes": {
+        "name": "Birth of Dr. Aiden Quasar",
+        "timestamp": "1990-01-01T00:00:00-05:00",
+        "description": "Beginning of Dr. Aiden Quasar's story.",
+        "timeline": "main",
+        "expansion_prompt": "What were the circumstances surrounding Dr. Aiden Quasar's birth? Consider the environment, the people present, and any notable events or signs that accompanied their arrival."
+      }
+    },
+    {
+      "key": "event1737107582529_0",
+      "attributes": {
+        "name": "Discovery of Quantum Club",
+        "timestamp": "2005-09-01",
+        "description": "During his first year at the Massachusetts Institute of Technology, Aiden stumbled upon a student-run organization called the Quantum Club. Intrigued by the discussions surrounding advanced quantum theories and their applications, he decided to join. The club provided a platform for students to experiment with quantum concepts and collaborate on projects. Aiden quickly took a leadership role, organizing workshops on quantum computing and hosting guest lectures from renowned physicists. This experience not only honed his skills but also sparked his passion for quantum communication technologies, laying the groundwork for his future breakthroughs. The connections he made here would later prove invaluable in his research endeavors, particularly when he developed the first stable quantum entanglement communication system.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Discovery of Quantum Club? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Dr. Aiden Quasar's path?",
+        "templateType": "SCHOOL_LIFE"
+      }
+    },
+    {
+      "key": "event1737107626703_0",
+      "attributes": {
+        "name": "First Encounter with Science",
+        "timestamp": "1995-03-15",
+        "description": "At the age of five, Aiden attends a science fair where he first sees a demonstration of a simple physics experiment, igniting his passion for understanding the fundamental laws of nature.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737107626704_0",
+      "attributes": {
+        "name": "Mentorship by Dr. Helen Astra",
+        "timestamp": "2003-06-01",
+        "description": "During a summer internship, Aiden meets Dr. Helen Astra, a prominent physicist, who becomes a mentor and influences his research interests in quantum mechanics.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737107626706_0",
+      "attributes": {
+        "name": "Guidance from Mrs. Quasar on Curiosity",
+        "timestamp": "1995-05-15",
+        "description": "At the age of five, Dr. Aiden Quasar's mother, Mrs. Elara Quasar, recognized her son's burgeoning curiosity about the world around him. One afternoon, she took him to the local science museum, where they spent hours exploring interactive exhibits on physics and astronomy. During this visit, she emphasized the importance of asking questions and seeking answers, telling him, 'Curiosity is the key to unlocking the universe's secrets.' This advice resonated deeply with Aiden, laying the groundwork for his future pursuits in science. The experience sparked a passion for inquiry that would shape his academic journey and influence his groundbreaking work in quantum mechanics.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Guidance from Mrs. Quasar on Curiosity? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Dr. Aiden Quasar's path?",
+        "templateType": "MENTORSHIP_MOMENTS"
+      }
+    },
+    {
+      "key": "event1737107642036_0",
+      "attributes": {
+        "name": "Formation of the Quantum Collaborators Network",
+        "timestamp": "2006-03-15",
+        "description": "In the spring of 2006, inspired by the collaborative spirit of the Quantum Club, Aiden initiated the Quantum Collaborators Network (QCN), a more formalized group aimed at fostering interdisciplinary partnerships across MIT. The network brought together students from various fields—physics, computer science, engineering, and even philosophy—to explore the implications of quantum mechanics on technology and society. Aiden organized monthly seminars where members could present their research, share ideas, and collaborate on projects. Notable figures such as Professor Elara Voss and Dr. Marcus Feynman became frequent guest speakers, enriching discussions around quantum ethics and the potential societal impacts of quantum technologies. The network grew rapidly, attracting students who would later become key contributors to Aiden's future research, including his work on quantum communication technologies. This event marked a significant expansion of Aiden's social and academic circles, laying the groundwork for pivotal collaborations in his later career.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Formation of the Quantum Collaborators Network? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Dr. Aiden Quasar's path?"
+      }
+    },
+    {
+      "key": "event1737107694566_0",
+      "attributes": {
+        "name": "Early Science Fair Participation",
+        "timestamp": "1994-06-01",
+        "description": "At the age of 4, Dr. Aiden Quasar participates in his first science fair, showcasing his simple experiment on plant growth, which ignites his passion for scientific inquiry.",
+        "timeline": "main"
+      }
+    },
+    {
+      "key": "event1737107694568_0",
+      "attributes": {
+        "name": "First Spark of Curiosity",
+        "timestamp": "1991-05-15",
+        "description": "At just over a year old, Aiden's father, a physicist, brought home a small, interactive toy that demonstrated basic principles of magnetism. As Aiden watched the colorful balls dance and stick to the magnet, his eyes widened in wonder. This moment marked the first time he exhibited a focused interest in how things worked, reaching out to touch the toy, attempting to mimic the movements he observed. His father noted the intensity of Aiden's gaze and the way he instinctively moved closer to the source of the magnetic field, sensing a unique connection to the forces behind the phenomena. This early experience laid the groundwork for Aiden's lifelong passion for science and exploration, igniting a spark of curiosity that would define his future pursuits in quantum mechanics.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding First Spark of Curiosity? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Dr. Aiden Quasar's path?"
+      }
+    },
+    {
+      "key": "event1737107699892_0",
+      "attributes": {
+        "name": "The Spark of Inspiration",
+        "timestamp": "1995-04-20",
+        "description": "After witnessing the captivating physics experiment at the science fair, Aiden becomes increasingly fascinated with the physical laws governing the universe. He approaches his kindergarten teacher, Ms. Roberts, with a barrage of questions about gravity, motion, and energy. Recognizing his enthusiasm, she introduces him to a local science club that meets weekly at the community center. This new environment allows Aiden to engage with peers who share his curiosity, further igniting his passion for science. During one of the sessions, a guest speaker, Dr. Lena Patel, a local physicist, presents a hands-on demonstration of magnetism. Aiden's eyes widen with excitement as he interacts with the materials, leading to a pivotal moment of realization about the tangible nature of scientific principles. This experience solidifies his desire to explore the laws of physics more deeply, setting him on a path toward his future studies in quantum mechanics.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding The Spark of Inspiration? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Dr. Aiden Quasar's path?"
+      }
+    },
+    {
+      "key": "event1737107705553_0",
+      "attributes": {
+        "name": "Encounter with Jamie Lin",
+        "timestamp": "1995-10-10",
+        "description": "Aiden met Jamie Lin at a weekend science workshop held at the local community center, where young science enthusiasts gathered to explore various topics. Jamie, a spirited and inquisitive girl with a penchant for chemistry, challenged Aiden's understanding of scientific principles by questioning the foundations of his favorite theories. During a hands-on experiment involving chemical reactions, Jamie asked him, 'Why do you think the universe is just about physics? What if chemistry leads us to even deeper secrets?' This question sparked a lively debate between them, fostering a friendship built on mutual curiosity and a desire to explore the interconnectedness of science. Their discussions often extended beyond the workshop, encouraging Aiden to think outside the confines of quantum mechanics and embrace a broader scientific perspective. This friendship would later influence Aiden's collaborative approach to scientific research, emphasizing the importance of interdisciplinary dialogue in his pursuits.",
+        "timeline": "main",
+        "expansion_prompt": "What were the key moments and details surrounding Encounter with Jamie Lin? Consider the lead-up to this event, the people involved, and its immediate aftermath. How did this event change Dr. Aiden Quasar's path?",
+        "templateType": "FRIENDSHIP_STORIES"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "key": "geid_48_0",
+      "source": "birth",
+      "target": "event1737107582529_0",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event follows Aiden's birth by illustrating his early academic environment and the extracurricular activities that shaped his future pursuits in quantum mechanics."
+      }
+    },
+    {
+      "key": "geid_48_2",
+      "source": "birth",
+      "target": "event1737107626703_0",
+      "attributes": {
+        "type": "INFLUENCES",
+        "description": "Dr. Quasar's early exposure to science and curiosity about the universe begins at a young age, influencing his eventual path toward quantum physics."
+      }
+    },
+    {
+      "key": "geid_48_3",
+      "source": "event1737107626703_0",
+      "target": "event1737107582529_0",
+      "attributes": {
+        "type": "CAUSES",
+        "description": "Dr. Quasar's childhood fascination with science leads him to explore new frontiers, culminating in the establishment of the Quantum Club in his academic career."
+      }
+    },
+    {
+      "key": "geid_48_4",
+      "source": "birth",
+      "target": "event1737107626706_0",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event follows Aiden's birth by highlighting the early nurturing of his inquisitive nature through his mother's guidance, setting the stage for his future scientific endeavors."
+      }
+    },
+    {
+      "key": "geid_48_5",
+      "source": "event1737107582529_0",
+      "target": "event1737107642036_0",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event follows Aiden's involvement in the Quantum Club, as it expands his community engagement and fosters deeper collaborations among students interested in quantum mechanics."
+      }
+    },
+    {
+      "key": "geid_48_6",
+      "source": "event1737107626706_0",
+      "target": "event1737107626704_0",
+      "attributes": {
+        "type": "INFLUENCES",
+        "description": "Mrs. Quasar's emphasis on curiosity and inquiry shapes Aiden's approach to mentorship with Dr. Astra, making him more receptive to guidance in his scientific journey."
+      }
+    },
+    {
+      "key": "geid_48_7",
+      "source": "event1737107626704_0",
+      "target": "event1737107582529_0",
+      "attributes": {
+        "type": "ENABLES",
+        "description": "Dr. Astra's mentorship provides Aiden with the foundational knowledge and confidence necessary to actively participate in the Quantum Club, enhancing his leadership and organizational skills."
+      }
+    },
+    {
+      "key": "geid_48_8",
+      "source": "event1737107642036_0",
+      "target": "event1737107626704_0",
+      "attributes": {
+        "type": "PARALLELS",
+        "description": "The formation of the Quantum Collaborators Network mirrors Aiden's earlier experience with mentorship, as both events highlight the importance of community and collaboration in scientific exploration."
+      }
+    },
+    {
+      "key": "geid_48_10",
+      "source": "event1737107626703_0",
+      "target": "event1737107626706_0",
+      "attributes": {
+        "type": "INFLUENCES",
+        "description": "Dr. Quasar's initial encounter with science sparks his curiosity, prompting Mrs. Quasar to provide her guidance, fostering his interest."
+      }
+    },
+    {
+      "key": "geid_48_14",
+      "source": "birth",
+      "target": "event1737107694568_0",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event follows Aiden's birth by illustrating a significant early encounter that ignites his curiosity about the physical world, setting the stage for his future scientific endeavors."
+      }
+    },
+    {
+      "key": "geid_48_15",
+      "source": "event1737107626703_0",
+      "target": "event1737107699892_0",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event follows Aiden's first encounter with science, as it deepens his engagement with scientific concepts and leads him to seek out opportunities to learn and explore further."
+      }
+    },
+    {
+      "key": "geid_48_16",
+      "source": "event1737107626706_0",
+      "target": "event1737107705553_0",
+      "attributes": {
+        "type": "sequence",
+        "description": "This event follows Aiden's early experience with his mother's guidance on curiosity, as it marks the beginning of his collaborative friendships that would shape his scientific journey."
+      }
+    }
+  ]
+}

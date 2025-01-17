@@ -1,3 +1,6 @@
+console.log('Starting expand.js...');
+console.log('Command line args:', process.argv);
+
 import OpenAI from 'openai';
 import path from 'path';
 import * as fs from 'fs/promises';
@@ -9,6 +12,12 @@ import dotenv from 'dotenv';
 
 // Load environment variables
 dotenv.config();
+
+console.log('Environment:', {
+  OPENAI_API_KEY: process.env.OPENAI_API_KEY ? 'Set' : 'Not set',
+  MODEL: process.env.MODEL || 'default',
+  CHARACTER: process.env.CHARACTER || 'default'
+});
 
 // Fix __dirname in ES modules
 const __filename = fileURLToPath(import.meta.url);
@@ -37,14 +46,20 @@ function getOutputDir(character) {
 }
 
 async function loadCharacterConfig(character) {
+  console.log('Loading character config for:', character);
   const configPath = `${getOutputDir(character)}/config.json`;
+  console.log('Config path:', configPath);
   try {
+    console.log('Reading config file...');
     const configData = await fs.readFile(configPath, 'utf8');
+    console.log('Config data loaded, parsing JSON...');
     const config = JSON.parse(configData);
     // Add calculated output directory
     config.outputDir = getOutputDir(character);
+    console.log('Config loaded successfully:', config.name);
     return config;
   } catch (error) {
+    console.error(`Error loading character config for ${character}:`, error);
     if (error.code === 'ENOENT') {
       throw new Error(`Character configuration not found: ${configPath}`);
     }
@@ -92,12 +107,15 @@ async function loadExpansionTemplates() {
 
 async function initialize() {
   try {
+    console.log('Starting initialization...');
     // Load character configuration
     characterConfig = await loadCharacterConfig(currentCharacter);
     console.log(`Loaded configuration for character: ${characterConfig.name}`);
     
     // Load and process expansion templates
+    console.log('Loading expansion templates...');
     await loadExpansionTemplates();
+    console.log('Loaded expansion templates');
     
     // Set file paths after config is loaded
     GRAPH_FILE = `${characterConfig.outputDir}/timeline_graph.json`;
@@ -105,11 +123,25 @@ async function initialize() {
     NARRATIVE_FILE = `${characterConfig.outputDir}/narrative.json`;
     NARRATIVE_MD_FILE = `${characterConfig.outputDir}/narrative.md`;
     
+    console.log('Set file paths:', {
+      GRAPH_FILE,
+      TIMELINE_CUTOFF_DATE,
+      NARRATIVE_FILE,
+      NARRATIVE_MD_FILE
+    });
+    
     // Ensure output directories exist
     await fs.mkdir(characterConfig.outputDir, { recursive: true });
+    console.log('Created output directory:', characterConfig.outputDir);
     
     // Initialize graph
-    await loadCharacter(currentCharacter);
+    console.log('Initializing character graph...');
+    const success = await loadCharacter(currentCharacter);
+    console.log('Character graph initialization:', success ? 'success' : 'failed');
+    
+    if (!success) {
+      throw new Error('Failed to initialize character graph');
+    }
   } catch (error) {
     console.error('Initialization failed:', error);
     process.exit(1);
@@ -998,7 +1030,11 @@ Return ONLY a JSON object with no markdown formatting or extra text:
 }
 
 // Start expansion when run directly
-if (import.meta.url === `file://${process.argv[1]}`) {
+const isRunDirectly = process.argv[1].endsWith('expand.js');
+console.log('Is running directly:', isRunDirectly);
+
+if (isRunDirectly) {
+  console.log('Running directly...');
   const characterId = process.argv[2];
   if (!characterId) {
     console.error('Please provide a character ID');

@@ -1,0 +1,54 @@
+{
+  "type": "human",
+  "physicalDescription": {
+    "height": "5ft 11in",
+    "hairColor": "Dark brown with scattered silver strands",
+    "eyeColor": "Emerald green",
+    "build": "Slim, with an unassuming posture",
+    "distinguishingFeatures": "A small scar on the left cheek and perpetually furrowed brows as if deep in thought"
+  },
+  "biology": {
+    "species": "Homo sapiens",
+    "averageLifespan": "79 years",
+    "intellect": "Genius-level cognitive abilities with a specialization in quantum mechanics and computational systems",
+    "physicalAbilities": "Normal human strength and endurance, exceptional hand-eye coordination"
+  },
+  "technology": {
+    "primaryDevice": "Custom-built quantum computer with entanglement communication interface",
+    "wearableTech": "A smartwatch with augmented reality capabilities for data visualization",
+    "experimentalGadgets": [
+      "Portable quantum entanglement communicator",
+      "Holographic data projection lenses"
+    ]
+  },
+  "notableEvents": [
+    "Graduated summa cum laude from MIT with a PhD in Quantum Computing",
+    "Developed the first stable quantum entanglement communication system",
+    "Established contact with an alternate version of themselves in a parallel universe",
+    "Founded the Institute for Multiverse Research"
+  ],
+  "goals": [
+    "To establish a reliable communication network across multiple universes",
+    "To understand the fundamental principles governing parallel universes",
+    "To write a comprehensive guide on quantum entanglement communication technology"
+  ],
+  "challenges": [
+    "Overcoming the skepticism of the scientific community",
+    "Ensuring the ethical use of multiverse communication",
+    "Navigating the complexities of interacting with alternate realities"
+  ],
+  "name": "Tesla_X",
+  "characterName": "Dr. Aiden Quasar",
+  "birthDate": "1990-01-01",
+  "creationDate": "2025-01-17",
+  "outputDir": "/Users/shannoncode/repo/_Public AI/continuum/output/Tesla_X",
+  "environment": null,
+  "culture": null,
+  "lifespan": null,
+  "abilities": [],
+  "relationships": [],
+  "customAttributes": {},
+  "timelineStructure": "linear",
+  "narrativeStyle": "personal",
+  "transformPrompt": ""
+}

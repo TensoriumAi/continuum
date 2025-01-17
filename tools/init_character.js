@@ -10,20 +10,33 @@ import { dirname } from 'path';
 import graphology from 'graphology';
 import dotenv from 'dotenv';
 
+console.log('Starting init_character.js...');
+console.log('Loading environment variables...');
+
 // Load environment variables
 dotenv.config();
 
-// Fix __dirname in ES modules
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
+console.log('Environment loaded:', {
+  OPENAI_API_KEY: process.env.OPENAI_API_KEY ? 'Set' : 'Not set',
+  MODEL: process.env.MODEL || 'default'
+});
 
 // Initialize OpenAI
+console.log('Initializing OpenAI client...');
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY
 });
 
 // Select Model
-const MODEL = process.env.MODEL || 'gpt-4o-mini-2024-07-18';
+const MODEL = process.env.MODEL || 'gpt-4-1106-preview';
+console.log('Using model:', MODEL);
+
+// Fix __dirname in ES modules
+console.log('Setting up ES module paths...');
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+console.log('__dirname:', __dirname);
+console.log('__filename:', __filename);
 
 // Initialize commander
 const program = new Command();
@@ -56,11 +69,15 @@ const OPTIONAL_CONFIG = {
 
 async function promptToCharacterConfig(prompt) {
   try {
-    const completion = await openai.chat.completions.create({
-      model: MODEL,
-      messages: [{ 
-        role: "user", 
-        content: `Generate a detailed character configuration in JSON format. The character should be unique and interesting.
+    console.log('Requesting character configuration from OpenAI...');
+    console.log('Using prompt:', prompt);
+    
+    try {
+      const completion = await openai.chat.completions.create({
+        model: MODEL,
+        messages: [{ 
+          role: "user", 
+          content: `Generate a detailed character configuration in JSON format. The character should be unique and interesting.
 The configuration must include:
 - type (e.g., human, AI, alien, etc.)
 - physicalDescription (detailed physical appearance)
@@ -74,36 +91,55 @@ The configuration must include:
 ${prompt}
 
 Return ONLY a valid JSON object with no additional text or markdown formatting.`
-      }],
-      temperature: 0.7,
-      max_tokens: 1000
-    });
-
-    const response = completion.choices[0].message.content;
-    
-    // Clean up response - remove any assistant prefix or markdown
-    const cleanedResponse = response.replace(/^\[Assistant\]:\s*/i, '')
-                                  .replace(/^```json\s*/, '')
-                                  .replace(/\s*```$/, '');
-    
-    try {
-      return JSON.parse(cleanedResponse);
-    } catch (parseError) {
-      console.error('Failed to parse initial response, retrying with different prompt...');
-      // Retry with more explicit prompt
-      const retryPrompt = `${prompt}\n\nIMPORTANT: Return ONLY a valid JSON object with no additional text or markdown formatting. The response should start with "{" and end with "}".`;
-      
-      const retryCompletion = await openai.chat.completions.create({
-        model: MODEL,
-        messages: [{ role: "user", content: retryPrompt }],
-        temperature: 0.8,
+        }],
+        temperature: 0.7,
         max_tokens: 1000
       });
+
+      console.log('Received response from OpenAI');
+      const response = completion.choices[0].message.content;
+      console.log('Raw response:', response);
       
-      const retryResponse = retryCompletion.choices[0].message.content;
-      return JSON.parse(retryResponse);
+      // Clean up response - remove any assistant prefix or markdown
+      const cleanedResponse = response.replace(/^\[Assistant\]:\s*/i, '')
+                                    .replace(/^```json\s*/, '')
+                                    .replace(/\s*```$/, '');
+      console.log('Cleaned response:', cleanedResponse);
+      
+      try {
+        console.log('Parsing response...');
+        return JSON.parse(cleanedResponse);
+      } catch (parseError) {
+        console.error('Failed to parse initial response:', parseError.message);
+        console.log('Raw response:', cleanedResponse);
+        console.log('Retrying with different prompt...');
+        
+        // Retry with more explicit prompt
+        const retryPrompt = `${prompt}\n\nIMPORTANT: Return ONLY a valid JSON object with no additional text or markdown formatting. The response should start with "{" and end with "}".`;
+        
+        console.log('Sending retry request to OpenAI...');
+        const retryCompletion = await openai.chat.completions.create({
+          model: MODEL,
+          messages: [{ role: "user", content: retryPrompt }],
+          temperature: 0.8,
+          max_tokens: 1000
+        });
+        
+        console.log('Received retry response from OpenAI');
+        const retryResponse = retryCompletion.choices[0].message.content;
+        console.log('Raw retry response:', retryResponse);
+        return JSON.parse(retryResponse);
+      }
+    } catch (apiError) {
+      console.error('OpenAI API Error:', apiError);
+      if (apiError.response) {
+        console.error('API Response:', apiError.response.data);
+      }
+      throw apiError;
     }
   } catch (error) {
+    console.error('Failed to generate character config:', error);
+    console.error('Stack trace:', error.stack);
     throw new Error(`Failed to generate character config: ${error.message}`);
   }
 }
@@ -111,8 +147,19 @@ Return ONLY a valid JSON object with no additional text or markdown formatting.`
 async function initCharacter(options) {
   try {
     // Check if character already exists
-    const outputDir = path.join('./output', encodeURIComponent(options.name).replace(/%20/g, '-'));
+    const baseDir = path.resolve(__dirname, '..');
+    console.log('Base directory:', baseDir);
+    
+    // Create output directory if it doesn't exist
+    const outputBaseDir = path.join(baseDir, 'output');
+    console.log('Creating output directory if needed:', outputBaseDir);
+    await fs.mkdir(outputBaseDir, { recursive: true });
+    
+    const outputDir = path.join(outputBaseDir, encodeURIComponent(options.name).replace(/%20/g, '-'));
     const configPath = path.join(outputDir, 'config.json');
+    
+    console.log('Output directory:', outputDir);
+    console.log('Config path:', configPath);
     
     if (existsSync(configPath)) {
       console.error(`Character ${options.name} already exists at ${outputDir}`);
@@ -189,34 +236,57 @@ async function initCharacter(options) {
 }
 
 async function main() {
-  program
-    .name('init-character')
-    .description('Initialize a new character with timeline configuration')
-    .requiredOption('-n, --name <name>', 'Character name')
-    .requiredOption('-p, --prompt <prompt>', 'Base prompt for character generation')
-    .requiredOption('-b, --birth-date <date>', 'Character birth date (YYYY-MM-DD)')
-    .requiredOption('-c, --creation-date <date>', 'Character creation date (YYYY-MM-DD)');
-
-  program.parse();
-  const options = program.opts();
-
   try {
-    const result = await initCharacter({
+    program
+      .name('init-character')
+      .description('Initialize a new character with timeline configuration')
+      .requiredOption('-n, --name <n>', 'Character name')
+      .requiredOption('-p, --prompt <prompt>', 'Base prompt for character generation')
+      .requiredOption('-b, --birth-date <date>', 'Character birth date (YYYY-MM-DD)')
+      .requiredOption('-c, --creation-date <date>', 'Character creation date (YYYY-MM-DD)');
+
+    program.parse();
+    const options = program.opts();
+
+    console.log('Starting character initialization...');
+    console.log('Using model:', MODEL);
+    console.log('Options:', {
       name: options.name,
-      prompt: options.prompt,
       birthDate: options.birthDate,
-      creationDate: options.creationDate
+      creationDate: options.creationDate,
+      prompt: options.prompt
     });
-    process.exit(result);
+
+    try {
+      const result = await initCharacter({
+        name: options.name,
+        prompt: options.prompt,
+        birthDate: options.birthDate,
+        creationDate: options.creationDate
+      });
+      process.exit(result);
+    } catch (error) {
+      console.error('Character initialization failed:', error);
+      console.error('Stack trace:', error.stack);
+      process.exit(1);
+    }
   } catch (error) {
-    console.error('Error:', error.message);
+    console.error('Program setup failed:', error);
+    console.error('Stack trace:', error.stack);
     process.exit(1);
   }
 }
 
-if (import.meta.url === `file://${process.argv[1]}`) {
+if (import.meta.url.startsWith('file:')) {
+  console.log('Running script directly');
+  console.log('import.meta.url:', import.meta.url);
+  console.log('process.argv[1]:', process.argv[1]);
+  
   main().catch(error => {
     console.error('Error:', error.message);
+    console.error('Stack trace:', error.stack);
     process.exit(1);
   });
+} else {
+  console.log('Script imported as module');
 }

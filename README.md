@@ -93,6 +93,31 @@ This mode generates a narrative graph for a given character, exploring their tim
 
 This mode creates new characters, either through simple or rich creation methods.
 
+## Creating and Expanding Characters
+
+You can create and expand a new character in several ways:
+
+1. Create a character first, then expand:
+```bash
+# First create the character
+npm run new-character -- --name "Alan Turing" --base-prompt "Alan Turing as a modern-day quantum computing pioneer"
+
+# Then expand their timeline
+npm run expand -- "Alan Turing"
+```
+
+2. Create and expand in one step (automated):
+```bash
+# This will create a unique character and immediately start expansion
+npm run create-and-expand
+```
+
+This will:
+- Generate a unique character ID based on timestamp
+- Create a character with rich background and traits
+- Automatically begin the expansion process
+- Save results in the output directory
+
 ## Running the Engine
 
 ### Starting the Server
@@ -113,23 +138,35 @@ The default character can be configured in your `.env` file.
 
 ### Running Expansion Studies
 
-You can run expansion studies in two ways:
+The expansion process can be run in several ways:
 
-1. Direct node execution with a specific character:
+1. Direct execution with a character name:
 ```bash
 node expand.js "Naval Ravikant"
 ```
 
-2. Using npm with environment variable:
+2. Using npm with a specific character:
+```bash
+npm run expand -- "Naval Ravikant"
+```
+
+3. Using environment variable:
 ```bash
 CHARACTER="Naval Ravikant" npm run expand
 ```
 
 The expansion process will:
-- Load the character's configuration
-- Initialize their narrative graph
-- Run iterative expansion cycles
-- Generate narrations at configured intervals
+- Run 100 expansion loops by default
+- Generate narrations every 10 loops
+- Save results in `./output/[character-name]/`
+- Create a narrative graph of events and connections
+
+#### Configuration
+
+You can customize the expansion process through environment variables:
+- `CHARACTER`: Default character to expand
+- `MODEL`: OpenAI model to use (default: gpt-4o-mini-2024-07-18)
+- `OPENAI_API_KEY`: Your OpenAI API key
 
 ## Example Characters
 
